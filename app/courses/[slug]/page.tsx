@@ -11,6 +11,7 @@ import {
 import { COURSE_CATEGORIES } from "@/lib/courses";
 import { getCoursePageContent } from "@/lib/coursePages";
 import CTABand from "@/components/CTABand";
+import AllCoursesSidebar from "@/components/AllCoursesSidebar";
 
 export const dynamicParams = false;
 
@@ -354,6 +355,9 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
                   Group discounts available · Prices negotiable per group size
                 </p>
               </div>
+
+              {/* all courses list — like the client's original site */}
+              <AllCoursesSidebar current={course.name} />
 
               <div className="rounded-2xl bg-navy p-6 text-cream">
                 <h2 className="font-display text-lg text-white">Why train with REH?</h2>
