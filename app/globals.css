@@ -1,26 +1,99 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f5f0ec;
+  --foreground: #252423;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-work-sans);
+  --font-display: var(--font-lustria);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@theme {
+  /* REH palette — scraped from rehtraining.co.za + logo (2026-08) */
+  --color-ink: #1a1918; /* deepest near-black */
+  --color-charcoal: #252423; /* site primary dark */
+  --color-navy: #14252b; /* logo-derived deep slate */
+  --color-cream: #f5f0ec; /* site light bg */
+  --color-paper: #fffdfb; /* card white with warm tint */
+  --color-sand: #7a4820; /* site warm brown accent */
+  --color-sand-light: #9c6a3d;
+  --color-brand: #e21c14; /* logo red — CTA */
+  --color-brand-dark: #b0100a;
+  --color-brand-soft: #fdecea; /* red tint bg */
+  --color-line: #e4ddd5; /* hairline on cream */
+  --color-line-dark: #3a3734; /* hairline on dark */
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-work-sans), system-ui, sans-serif;
+}
+
+/* ---- custom utilities ---- */
+
+/* Diagonal hazard stripe accent (safety motif) */
+.hazard-stripes {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    var(--color-charcoal) 0 14px,
+    var(--color-brand) 14px 28px
+  );
+}
+
+.hazard-stripes-red {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    #1a1918 0 14px,
+    #e21c14 14px 28px
+  );
+}
+
+/* Subtle grid texture for dark hero */
+.hero-grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.045) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+.hero-grid-light {
+  background-image:
+    linear-gradient(rgba(37, 36, 35, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(37, 36, 35, 0.05) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+/* Display font helper */
+.font-display {
+  font-family: var(--font-lustria), Georgia, serif;
+}
+
+/* Smooth scroll + focus */
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: var(--color-brand);
+  color: #fff;
+}
+
+/* Scrollbar subtle (optional polish) */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-cream);
+}
+::-webkit-scrollbar-thumb {
+  background: #c9bfb4;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a99c8e;
 }
