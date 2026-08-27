@@ -29,14 +29,14 @@ export default function CoursesPage() {
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a
-                href="https://wa.me/27615807967?text=Hi%20REH%20Safety%20Training!%20I%27d%20like%20a%20quote."
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex min-h-12 items-center justify-center gap-2 rounded-xl bg-brand px-6 py-3 text-sm font-bold text-white shadow-lg shadow-brand/25 transition-colors hover:bg-brand-dark"
+                href="mailto:info@rehtraining.co.za?subject=Training%20Quotation%20Request"
+                className="inline-flexdata-booking
+ min-h-12 items-center justify-center gap-2 rounded-xl bg-brand px-6 py-3 text-sm font-bold text-white shadow-lg shadow-brand/25 transition-colors hover:bg-brand-dark"
               >
-                <svg className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Z" />
-                </svg>
+                <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <rect x="3" y="5" width="18" height="14" rx="2" />
+                <path d="M3 7l9 6 9-6" />
+              </svg>
                 Request a Quote
               </a>
               <span className="inline-flex min-h-12 items-center rounded-xl border border-white/15 bg-white/5 px-5 text-sm text-cream/85">

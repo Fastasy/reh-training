@@ -127,7 +127,7 @@ export default function CourseSelect({ value, onChange, exclude = [] }: Props) {
         <div className="absolute left-0 right-0 top-full z-20 mt-1.5 max-h-64 overflow-y-auto rounded-xl border border-line bg-paper shadow-xl shadow-charcoal/15">
           {options.length === 0 ? (
             <p className="px-4 py-3 text-sm text-charcoal/50">
-              No courses match &quot;{query}&quot;. Message us on WhatsApp if you can&apos;t find it.
+              No courses match &quot;{query}&quot;. Email us at info@rehtraining.co.za if you can&apos;t find it.
             </p>
           ) : (
             <ul role="listbox" aria-label="Courses">

@@ -4,7 +4,7 @@ import QuoteForm from "@/components/QuoteForm";
 export const metadata: Metadata = {
   title: "Contact Us — Request a Quote",
   description:
-    "Contact REH Safety Training for quotes and bookings: WhatsApp 061 580 7967, call 010 746 6954, or visit our Midrand or Durban training centres.",
+    "Contact REH Safety Training for quotes and bookings: email info@rehtraining.co.za, call 010 746 6954, or visit our Midrand or Durban training centres.",
   alternates: { canonical: "/contact" },
 };
 
@@ -37,7 +37,7 @@ export default function ContactPage() {
             </h1>
             <p className="mt-4 text-lg leading-relaxed text-cream/80">
               Submit your details and one of our training advisors will contact you to assist with
-              information or bookings — fast, on WhatsApp.
+              information or bookings — fast, via email.
             </p>
           </div>
         </div>
@@ -136,7 +136,7 @@ export default function ContactPage() {
                   </li>
                 </ul>
                 <p className="mt-4 text-xs text-cream/60">
-                  Hours are indicative — book via WhatsApp for your exact slot.
+                  Hours are indicative — book via email for your exact slot.
                 </p>
               </div>
             </div>

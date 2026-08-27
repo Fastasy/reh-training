@@ -1,226 +1,226 @@
 [
-  {
-    "name": "Plumbing General Skills",
-    "audience": [
-      "People who are new to plumbing and want an entry-level skill",
-      "General workers and handymen who work with water systems on site",
-      "Maintenance teams that want a broader practical skills base",
-      "Anyone considering a career path into formal plumbing qualifications"
-    ],
-    "faqs": [
-      {
-        "q": "How much does the Plumbing General Skills course cost?",
-        "a": "Pricing depends on group size and delivery mode, so the best way to get an exact quote is to message us on WhatsApp at 061 580 7967. The course runs as daily classes with no waiting period, so you can start as soon as you book. Prices are negotiable for group bookings, and we can deliver at your premises if you have a group to train."
-      },
-      {
-        "q": "How long does the course take?",
-        "a": "The full programme runs over 4 to 6 weeks and combines theory with hands-on practical training. The theory phase takes 8 days and covers plumbing principles, tools, materials, and reading basic diagrams. After that you move into practical work. Daily classes mean you do not have to wait for a set intake date before you start."
-      },
-      {
-        "q": "Do I need experience before I can do this course?",
-        "a": "No. This is an entry-level programme at NQF Level 2, designed for people with little or no plumbing background. You start with plumbing principles, tools, and basic legislation, then build up to installing and maintaining fittings like toilets, basins, and showers. If you already work in maintenance, the course also works as a refresher and skills top-up."
-      },
-      {
-        "q": "Can you train at our site in Johannesburg or Durban?",
-        "a": "Yes. We offer on-site training at client premises, plus centre-based classes in Midrand and Durban. The Midrand centre is at 14 Douglas Road, Glen Austin, and the Durban centre is at 62 Lilian Ngoyi Street, Windermere. For group bookings, on-site delivery is often the most practical option. Call 010 746 6954 or WhatsApp 061 580 7967 to arrange it."
-      }
-    ]
-  },
-  {
-    "name": "Plumbing Safety & Legal Compliance",
-    "description": "This course covers the health and safety rules that apply to plumbing work in South Africa. It explains the duties of employers and employees under the OHS Act, the basics of COIDA, and how to work safely with tools, pressure systems, excavations, and hot water installations. Learners come away knowing how to identify hazards, follow safe work procedures, and keep the paperwork that proves the work was done properly.",
-    "outcomes": [
-      "Explain the health and safety legislation that applies to plumbing work in South Africa",
-      "Identify common hazards on plumbing sites and apply safe work procedures",
-      "Understand the duties of employers and employees under the OHS Act",
-      "Explain the basics of COIDA and how it applies to workers on site",
-      "Work safely with tools, pressure systems, and excavations, and document the work correctly"
-    ],
-    "audience": [
-      "Plumbers and plumbing apprentices who need a safety foundation",
-      "Maintenance staff and handymen who work with water systems",
-      "Site supervisors who manage plumbing teams",
-      "Contractors who must show clients that their teams work to legal requirements"
-    ],
-    "faqs": [
-      {
-        "q": "What safety legislation does this course cover?",
-        "a": "The course covers the health and safety rules that apply to plumbing work, including the OHS Act and the basics of COIDA. It looks at the duties of employers and employees, hazard identification, and safe work procedures for tools, pressure systems, and excavations. Certificates are issued in line with SAQA-aligned unit standards where applicable."
-      },
-      {
-        "q": "Do I need to be a qualified plumber to attend?",
-        "a": "No. The course suits anyone who works with or around plumbing systems, including apprentices, maintenance staff, handymen, and site supervisors. If you manage a plumbing team, the course helps you make sure your people work safely and understand their legal duties. New plumbers benefit too, because it builds the safety habits that should be in place from day one."
-      },
-      {
-        "q": "How much does the course cost?",
-        "a": "Pricing depends on group size and delivery mode, so we quote per booking. Message us on WhatsApp at 061 580 7967 with the number of delegates and your location, and we will come back with a price. Daily classes run with no waiting period, and prices are negotiable for group bookings."
-      },
-      {
-        "q": "Can you present this course at our workplace?",
-        "a": "Yes. We deliver on-site at client premises, online, and at our centres. If you have a group of staff, on-site training is usually the most convenient option because there is no travel time. Our centres are in Midrand at 14 Douglas Road, Glen Austin, and in Durban at 62 Lilian Ngoyi Street, Windermere. Call 010 746 6954 or WhatsApp 061 580 7967 to book."
-      }
-    ]
-  },
-  {
-    "name": "Cold Water Plumbing Systems",
-    "audience": [
-      "Plumbers installing or maintaining cold water supply lines",
-      "Maintenance technicians who service water systems in buildings",
-      "Contractors who need a SAQA-aligned unit standard certificate for their teams",
-      "Anyone working toward formal plumbing qualifications"
-    ],
-    "faqs": [
-      {
-        "q": "How much does the Cold Water Plumbing Systems course cost?",
-        "a": "The course costs R6,000 per delegate and runs over 4 days. Training happens in daily classes with no waiting period, so you can start as soon as you book. Prices are negotiable for group bookings, and we can run the training at your premises if you have a team to train. WhatsApp 061 580 7967 for a group quote."
-      },
-      {
-        "q": "What certificate do I get?",
-        "a": "You receive a certificate issued in line with the SAQA-aligned unit standard 244507, Install, maintain and test cold water supply systems, at NQF Level 4. The certificate shows that you have completed training and can install, test, and maintain cold water supply systems to the standard described in the unit standard."
-      },
-      {
-        "q": "Do I need experience to do this course?",
-        "a": "Some plumbing background helps, because this is an NQF Level 4 programme that moves through installation, testing, and commissioning. If you are new to plumbing, it is better to start with an entry-level course and come back to this one once you have hands-on experience. If you are unsure, message us on WhatsApp and we can advise."
-      },
-      {
-        "q": "What does the course cover?",
-        "a": "The course covers the principles of cold water supply systems, pipe sizing, material selection, valves, fittings, meters, and backflow prevention. You will practise installing systems, testing pressure, finding faults, and doing routine maintenance. It also covers interpreting drawings and the documentation and handover procedures that clients expect. System isolation and shutdown procedures are covered as well, so you know how to work on a system safely."
-      }
-    ]
-  },
-  {
-    "name": "Hot Water Systems (Geysers & Boilers)",
-    "audience": [
-      "Plumbers who install or service geysers and hot water pipework",
-      "Maintenance teams responsible for hot water systems in buildings",
-      "Contractors working on renovations and new installations",
-      "Technicians who want a SAQA-aligned unit standard for hot water systems"
-    ],
-    "faqs": [
-      {
-        "q": "How much does the Hot Water Systems course cost?",
-        "a": "The course costs R6,000 per delegate and runs over 5 days. Training happens in daily classes with no waiting period, so you can start as soon as you book. Group bookings are negotiable, and we can deliver on-site at your premises. WhatsApp 061 580 7967 to book or to ask for a group price."
-      },
-      {
-        "q": "What does the course cover?",
-        "a": "The course covers hot water supply systems, including geysers and boilers, from principles and system types through to installation, testing, and commissioning. You will work with pipework, fittings, insulation, pressure control, and temperature regulation, and learn fault finding and routine servicing. It also covers shutdown and isolation procedures and the documentation needed for handover."
-      },
-      {
-        "q": "Do I need to be qualified before I do this course?",
-        "a": "This is an NQF Level 4 programme, so some plumbing experience is expected. You should be comfortable with basic plumbing work before you start, because the course moves quickly through installation and testing of hot water systems. If you are new to plumbing, start with a general skills course first. Not sure where you fit? WhatsApp us and we will point you in the right direction."
-      },
-      {
-        "q": "What certificate will I receive?",
-        "a": "You receive a certificate issued in line with the SAQA-aligned unit standard 244496, Install, maintain and test hot water supply systems, at NQF Level 4. It shows that you have completed training in installing, maintaining, and testing hot water supply systems. For booking details, call 010 746 6954 or WhatsApp 061 580 7967."
-      }
-    ]
-  },
-  {
-    "name": "Drainage & Rainwater Systems Installation",
-    "audience": [
-      "Plumbers and drain layers working on below-ground drainage",
-      "Construction teams installing stormwater and rainwater systems",
-      "Maintenance contractors who service drainage and gutter systems",
-      "Contractors who need accredited certificates for their site teams"
-    ],
-    "faqs": [
-      {
-        "q": "How much does the Drainage & Rainwater course cost?",
-        "a": "The course costs R6,000 per delegate and runs over 5 days. It covers two unit standards: 244498, Install, maintain and test below ground drainage systems, and 244495, Install, maintain and test rainwater systems. Daily classes run with no waiting period, and group bookings are negotiable. WhatsApp 061 580 7967 for a quote."
-      },
-      {
-        "q": "Is this course accredited?",
-        "a": "Yes. It is an accredited plumbing skills course at NQF Level 4, covering two SAQA unit standards, one for below-ground drainage systems and one for rainwater systems. Certificates are issued in line with these unit standards. You can book by calling 010 746 6954 or emailing info@rehtraining.co.za. Group bookings can be arranged at your premises, and prices are negotiable."
-      },
-      {
-        "q": "What will I be able to do after the course?",
-        "a": "After the course you will be able to install, test, and maintain below-ground drainage systems and rainwater systems. That includes excavation and trenching, pipe laying with correct gradients and jointing, inspection chambers and gullies, gutters and downpipes, and testing and commissioning. The practical focus means you leave ready to apply it on site."
-      },
-      {
-        "q": "Can you train at our site?",
-        "a": "Yes. We offer on-site training at client premises, online, and centre-based classes. Our centres are in Midrand, 14 Douglas Road, Glen Austin, and Durban, 62 Lilian Ngoyi Street, Windermere. For a construction team, on-site delivery saves travel time and lets you train around your schedule. Contact us on 010 746 6954 or WhatsApp 061 580 7967."
-      }
-    ]
-  },
-  {
-    "name": "Solar Water Heating Course",
-    "audience": [
-      "Plumbers moving into solar water heating installations",
-      "Technicians who service solar geyser systems",
-      "Contractors working on renewable energy and solar installations",
-      "Installers who need a SAQA-aligned unit standard for solar water heating"
-    ],
-    "faqs": [
-      {
-        "q": "How much does the Solar Water Heating course cost?",
-        "a": "The course costs R4 500 per delegate and runs over 3 days. Daily classes run with no waiting period, so you can start as soon as you book. Prices are negotiable for group bookings, and we can deliver on-site at your premises. WhatsApp 061 580 7967 to book or to ask about a group rate."
-      },
-      {
-        "q": "What does the course cover?",
-        "a": "The course covers solar water heating systems from principles through to installation and maintenance. You will learn about system types and components, site assessment, mounting solar collectors and storage tanks, plumbing connections, insulation, commissioning, and testing. It also covers fault finding, routine servicing, and safe work practices for working on roofs and with hot water systems."
-      },
-      {
-        "q": "Do I need plumbing experience?",
-        "a": "This is an NQF Level 4 programme, so plumbing experience is recommended. Solar installations connect to existing hot and cold water supply, so you need to be comfortable with pipework and fittings before you start. If you are new to plumbing, complete a general plumbing course first. WhatsApp us on 061 580 7967 if you are not sure where to start."
-      },
-      {
-        "q": "What certificate do I get?",
-        "a": "You receive a certificate issued in line with the SAQA-aligned unit standard 244499, Install and maintain solar water heating systems, at NQF Level 4. It confirms that you have completed training in installing and maintaining solar water heating systems. For bookings, call 010 746 6954 or email info@rehtraining.co.za. Daily classes mean you can book at short notice."
-      }
-    ]
-  },
-  {
-    "name": "Pipe Laying & Jointing",
-    "audience": [
-      "Construction workers and pipe layers on civil projects",
-      "Site teams installing stormwater and underground pipelines",
-      "General workers moving into specialised pipe laying roles",
-      "Contractors who need accredited civil construction certificates"
-    ],
-    "faqs": [
-      {
-        "q": "How much does the Pipe Laying & Jointing course cost?",
-        "a": "The course costs R6,000 per delegate and runs over 5 days. It is an accredited civil construction skills course covering unit standard 12903, Install storm water pipelines, at NQF Level 2. Daily classes run with no waiting period, and group prices are negotiable. WhatsApp 061 580 7967 to book, or email info@rehtraining.co.za if you prefer to book in writing."
-      },
-      {
-        "q": "Do I need experience to do this course?",
-        "a": "No, this course is set at NQF Level 2, so it suits workers who are new to pipe laying as well as those already on construction sites. You will learn to interpret drawings, prepare excavation sites, install stormwater pipes, and use the correct jointing methods for concrete, steel, and plastic pipes. If you already work on site, it formalises the skills you use daily."
-      },
-      {
-        "q": "What will I learn on the course?",
-        "a": "The course covers stormwater and underground pipeline systems, reading construction drawings, excavation techniques, trenching safety, and ground support. You will practise jointing concrete, steel, and plastic pipes, test pipelines for alignment and leaks, and learn backfilling and compaction methods. It also covers culverts, manholes, site housekeeping, and environmental considerations. Safety on the trench is a running theme through the practical work."
-      },
-      {
-        "q": "Can you train at our site in Johannesburg or Durban?",
-        "a": "Yes. We deliver on-site at client premises, online, and at our centres in Midrand and Durban. For construction teams, on-site training is usually the best fit because you can train where the work happens. Call 010 746 6954 or WhatsApp 061 580 7967 to arrange a date, and we will quote for your group."
-      }
-    ]
-  },
-  {
-    "name": "Leak Detection & Basic Maintenance",
-    "audience": [
-      "Plumbers who want to move into fault-finding and repair work",
-      "Maintenance technicians who deal with leaks, blockages, and pressure problems",
-      "Property and facilities managers who maintain water systems",
-      "Contractors who need specialised plumbing repair skills on their teams"
-    ],
-    "faqs": [
-      {
-        "q": "How much does the Leak Detection course cost?",
-        "a": "The course costs R6,000 per delegate and runs over 5 days. It covers unit standard 244494, Perform specialised fault-finding and repairs to plumbing systems, at NQF Level 4. Daily classes run with no waiting period, and group bookings are negotiable. WhatsApp 061 580 7967 for a quote or to book."
-      },
-      {
-        "q": "What does the course cover?",
-        "a": "The course covers systematic fault-finding on hot and cold water systems, drainage, and waste systems. You will learn diagnostic and testing methods for leaks, blockages, pressure, and flow problems, plus repair techniques for pipes, fittings, valves, and fixtures. It also covers replacement of worn components, recommissioning, and preventive maintenance strategies."
-      },
-      {
-        "q": "Who should attend this course?",
-        "a": "The course suits plumbers and maintenance technicians who already have plumbing basics and want to specialise in fault-finding and repairs. It is also useful for property managers who oversee water systems. Because it is an NQF Level 4 programme, some hands-on plumbing experience is expected. Not sure if it fits? Message us on WhatsApp 061 580 7967 and we will advise."
-      },
-      {
-        "q": "Where is the training held?",
-        "a": "Training is available at our centres in Midrand, 14 Douglas Road, Glen Austin, and Durban, 62 Lilian Ngoyi Street, Windermere, or on-site at your premises for group bookings. Theory can be done online where it applies. Classes run daily with no waiting period. Call 010 746 6954 or WhatsApp 061 580 7967 to book."
-      }
-    ]
-  }
+ {
+  "name": "Plumbing General Skills",
+  "audience": [
+   "People who are new to plumbing and want an entry-level skill",
+   "General workers and handymen who work with water systems on site",
+   "Maintenance teams that want a broader practical skills base",
+   "Anyone considering a career path into formal plumbing qualifications"
+  ],
+  "faqs": [
+   {
+    "q": "How much does the Plumbing General Skills course cost?",
+    "a": "Pricing depends on group size and delivery mode, so the best way to get an exact quote is to email us at info@rehtraining.co.za. The course runs as daily classes with no waiting period, so you can start as soon as you book. Prices are negotiable for group bookings, and we can deliver at your premises if you have a group to train."
+   },
+   {
+    "q": "How long does the course take?",
+    "a": "The full programme runs over 4 to 6 weeks and combines theory with hands-on practical training. The theory phase takes 8 days and covers plumbing principles, tools, materials, and reading basic diagrams. After that you move into practical work. Daily classes mean you do not have to wait for a set intake date before you start."
+   },
+   {
+    "q": "Do I need experience before I can do this course?",
+    "a": "No. This is an entry-level programme at NQF Level 2, designed for people with little or no plumbing background. You start with plumbing principles, tools, and basic legislation, then build up to installing and maintaining fittings like toilets, basins, and showers. If you already work in maintenance, the course also works as a refresher and skills top-up."
+   },
+   {
+    "q": "Can you train at our site in Johannesburg or Durban?",
+    "a": "Yes. We offer on-site training at client premises, plus centre-based classes in Midrand and Durban. The Midrand centre is at 14 Douglas Road, Glen Austin, and the Durban centre is at 62 Lilian Ngoyi Street, Windermere. For group bookings, on-site delivery is often the most practical option. Call 010 746 6954 or email info@rehtraining.co.za to arrange it."
+   }
+  ]
+ },
+ {
+  "name": "Plumbing Safety & Legal Compliance",
+  "description": "This course covers the health and safety rules that apply to plumbing work in South Africa. It explains the duties of employers and employees under the OHS Act, the basics of COIDA, and how to work safely with tools, pressure systems, excavations, and hot water installations. Learners come away knowing how to identify hazards, follow safe work procedures, and keep the paperwork that proves the work was done properly.",
+  "outcomes": [
+   "Explain the health and safety legislation that applies to plumbing work in South Africa",
+   "Identify common hazards on plumbing sites and apply safe work procedures",
+   "Understand the duties of employers and employees under the OHS Act",
+   "Explain the basics of COIDA and how it applies to workers on site",
+   "Work safely with tools, pressure systems, and excavations, and document the work correctly"
+  ],
+  "audience": [
+   "Plumbers and plumbing apprentices who need a safety foundation",
+   "Maintenance staff and handymen who work with water systems",
+   "Site supervisors who manage plumbing teams",
+   "Contractors who must show clients that their teams work to legal requirements"
+  ],
+  "faqs": [
+   {
+    "q": "What safety legislation does this course cover?",
+    "a": "The course covers the health and safety rules that apply to plumbing work, including the OHS Act and the basics of COIDA. It looks at the duties of employers and employees, hazard identification, and safe work procedures for tools, pressure systems, and excavations. Certificates are issued in line with SAQA-aligned unit standards where applicable."
+   },
+   {
+    "q": "Do I need to be a qualified plumber to attend?",
+    "a": "No. The course suits anyone who works with or around plumbing systems, including apprentices, maintenance staff, handymen, and site supervisors. If you manage a plumbing team, the course helps you make sure your people work safely and understand their legal duties. New plumbers benefit too, because it builds the safety habits that should be in place from day one."
+   },
+   {
+    "q": "How much does the course cost?",
+    "a": "Pricing depends on group size and delivery mode, so we quote per booking. Email us at info@rehtraining.co.za with the number of delegates and your location, and we will come back with a price. Daily classes run with no waiting period, and prices are negotiable for group bookings."
+   },
+   {
+    "q": "Can you present this course at our workplace?",
+    "a": "Yes. We deliver on-site at client premises, online, and at our centres. If you have a group of staff, on-site training is usually the most convenient option because there is no travel time. Our centres are in Midrand at 14 Douglas Road, Glen Austin, and in Durban at 62 Lilian Ngoyi Street, Windermere. Call 010 746 6954 or email info@rehtraining.co.za to book."
+   }
+  ]
+ },
+ {
+  "name": "Cold Water Plumbing Systems",
+  "audience": [
+   "Plumbers installing or maintaining cold water supply lines",
+   "Maintenance technicians who service water systems in buildings",
+   "Contractors who need a SAQA-aligned unit standard certificate for their teams",
+   "Anyone working toward formal plumbing qualifications"
+  ],
+  "faqs": [
+   {
+    "q": "How much does the Cold Water Plumbing Systems course cost?",
+    "a": "The course costs R6,000 per delegate and runs over 4 days. Training happens in daily classes with no waiting period, so you can start as soon as you book. Prices are negotiable for group bookings, and we can run the training at your premises if you have a team to train. Email info@rehtraining.co.za for a group quote."
+   },
+   {
+    "q": "What certificate do I get?",
+    "a": "You receive a certificate issued in line with the SAQA-aligned unit standard 244507, Install, maintain and test cold water supply systems, at NQF Level 4. The certificate shows that you have completed training and can install, test, and maintain cold water supply systems to the standard described in the unit standard."
+   },
+   {
+    "q": "Do I need experience to do this course?",
+    "a": "Some plumbing background helps, because this is an NQF Level 4 programme that moves through installation, testing, and commissioning. If you are new to plumbing, it is better to start with an entry-level course and come back to this one once you have hands-on experience. If you are unsure, email us and we can advise."
+   },
+   {
+    "q": "What does the course cover?",
+    "a": "The course covers the principles of cold water supply systems, pipe sizing, material selection, valves, fittings, meters, and backflow prevention. You will practise installing systems, testing pressure, finding faults, and doing routine maintenance. It also covers interpreting drawings and the documentation and handover procedures that clients expect. System isolation and shutdown procedures are covered as well, so you know how to work on a system safely."
+   }
+  ]
+ },
+ {
+  "name": "Hot Water Systems (Geysers & Boilers)",
+  "audience": [
+   "Plumbers who install or service geysers and hot water pipework",
+   "Maintenance teams responsible for hot water systems in buildings",
+   "Contractors working on renovations and new installations",
+   "Technicians who want a SAQA-aligned unit standard for hot water systems"
+  ],
+  "faqs": [
+   {
+    "q": "How much does the Hot Water Systems course cost?",
+    "a": "The course costs R6,000 per delegate and runs over 5 days. Training happens in daily classes with no waiting period, so you can start as soon as you book. Group bookings are negotiable, and we can deliver on-site at your premises. Email info@rehtraining.co.za to book or to ask for a group price."
+   },
+   {
+    "q": "What does the course cover?",
+    "a": "The course covers hot water supply systems, including geysers and boilers, from principles and system types through to installation, testing, and commissioning. You will work with pipework, fittings, insulation, pressure control, and temperature regulation, and learn fault finding and routine servicing. It also covers shutdown and isolation procedures and the documentation needed for handover."
+   },
+   {
+    "q": "Do I need to be qualified before I do this course?",
+    "a": "This is an NQF Level 4 programme, so some plumbing experience is expected. You should be comfortable with basic plumbing work before you start, because the course moves quickly through installation and testing of hot water systems. If you are new to plumbing, start with a general skills course first. Not sure where you fit? email us and we will point you in the right direction."
+   },
+   {
+    "q": "What certificate will I receive?",
+    "a": "You receive a certificate issued in line with the SAQA-aligned unit standard 244496, Install, maintain and test hot water supply systems, at NQF Level 4. It shows that you have completed training in installing, maintaining, and testing hot water supply systems. For booking details, call 010 746 6954 or email info@rehtraining.co.za."
+   }
+  ]
+ },
+ {
+  "name": "Drainage & Rainwater Systems Installation",
+  "audience": [
+   "Plumbers and drain layers working on below-ground drainage",
+   "Construction teams installing stormwater and rainwater systems",
+   "Maintenance contractors who service drainage and gutter systems",
+   "Contractors who need accredited certificates for their site teams"
+  ],
+  "faqs": [
+   {
+    "q": "How much does the Drainage & Rainwater course cost?",
+    "a": "The course costs R6,000 per delegate and runs over 5 days. It covers two unit standards: 244498, Install, maintain and test below ground drainage systems, and 244495, Install, maintain and test rainwater systems. Daily classes run with no waiting period, and group bookings are negotiable. Email info@rehtraining.co.za for a quote."
+   },
+   {
+    "q": "Is this course accredited?",
+    "a": "Yes. It is an accredited plumbing skills course at NQF Level 4, covering two SAQA unit standards, one for below-ground drainage systems and one for rainwater systems. Certificates are issued in line with these unit standards. You can book by calling 010 746 6954 or emailing info@rehtraining.co.za. Group bookings can be arranged at your premises, and prices are negotiable."
+   },
+   {
+    "q": "What will I be able to do after the course?",
+    "a": "After the course you will be able to install, test, and maintain below-ground drainage systems and rainwater systems. That includes excavation and trenching, pipe laying with correct gradients and jointing, inspection chambers and gullies, gutters and downpipes, and testing and commissioning. The practical focus means you leave ready to apply it on site."
+   },
+   {
+    "q": "Can you train at our site?",
+    "a": "Yes. We offer on-site training at client premises, online, and centre-based classes. Our centres are in Midrand, 14 Douglas Road, Glen Austin, and Durban, 62 Lilian Ngoyi Street, Windermere. For a construction team, on-site delivery saves travel time and lets you train around your schedule. Contact us on 010 746 6954 or email info@rehtraining.co.za."
+   }
+  ]
+ },
+ {
+  "name": "Solar Water Heating Course",
+  "audience": [
+   "Plumbers moving into solar water heating installations",
+   "Technicians who service solar geyser systems",
+   "Contractors working on renewable energy and solar installations",
+   "Installers who need a SAQA-aligned unit standard for solar water heating"
+  ],
+  "faqs": [
+   {
+    "q": "How much does the Solar Water Heating course cost?",
+    "a": "The course costs R4 500 per delegate and runs over 3 days. Daily classes run with no waiting period, so you can start as soon as you book. Prices are negotiable for group bookings, and we can deliver on-site at your premises. Email info@rehtraining.co.za to book or to ask about a group rate."
+   },
+   {
+    "q": "What does the course cover?",
+    "a": "The course covers solar water heating systems from principles through to installation and maintenance. You will learn about system types and components, site assessment, mounting solar collectors and storage tanks, plumbing connections, insulation, commissioning, and testing. It also covers fault finding, routine servicing, and safe work practices for working on roofs and with hot water systems."
+   },
+   {
+    "q": "Do I need plumbing experience?",
+    "a": "This is an NQF Level 4 programme, so plumbing experience is recommended. Solar installations connect to existing hot and cold water supply, so you need to be comfortable with pipework and fittings before you start. If you are new to plumbing, complete a general plumbing course first. Email us at info@rehtraining.co.za if you are not sure where to start."
+   },
+   {
+    "q": "What certificate do I get?",
+    "a": "You receive a certificate issued in line with the SAQA-aligned unit standard 244499, Install and maintain solar water heating systems, at NQF Level 4. It confirms that you have completed training in installing and maintaining solar water heating systems. For bookings, call 010 746 6954 or email info@rehtraining.co.za. Daily classes mean you can book at short notice."
+   }
+  ]
+ },
+ {
+  "name": "Pipe Laying & Jointing",
+  "audience": [
+   "Construction workers and pipe layers on civil projects",
+   "Site teams installing stormwater and underground pipelines",
+   "General workers moving into specialised pipe laying roles",
+   "Contractors who need accredited civil construction certificates"
+  ],
+  "faqs": [
+   {
+    "q": "How much does the Pipe Laying & Jointing course cost?",
+    "a": "The course costs R6,000 per delegate and runs over 5 days. It is an accredited civil construction skills course covering unit standard 12903, Install storm water pipelines, at NQF Level 2. Daily classes run with no waiting period, and group prices are negotiable. Email info@rehtraining.co.za to book, or email info@rehtraining.co.za if you prefer to book in writing."
+   },
+   {
+    "q": "Do I need experience to do this course?",
+    "a": "No, this course is set at NQF Level 2, so it suits workers who are new to pipe laying as well as those already on construction sites. You will learn to interpret drawings, prepare excavation sites, install stormwater pipes, and use the correct jointing methods for concrete, steel, and plastic pipes. If you already work on site, it formalises the skills you use daily."
+   },
+   {
+    "q": "What will I learn on the course?",
+    "a": "The course covers stormwater and underground pipeline systems, reading construction drawings, excavation techniques, trenching safety, and ground support. You will practise jointing concrete, steel, and plastic pipes, test pipelines for alignment and leaks, and learn backfilling and compaction methods. It also covers culverts, manholes, site housekeeping, and environmental considerations. Safety on the trench is a running theme through the practical work."
+   },
+   {
+    "q": "Can you train at our site in Johannesburg or Durban?",
+    "a": "Yes. We deliver on-site at client premises, online, and at our centres in Midrand and Durban. For construction teams, on-site training is usually the best fit because you can train where the work happens. Call 010 746 6954 or email info@rehtraining.co.za to arrange a date, and we will quote for your group."
+   }
+  ]
+ },
+ {
+  "name": "Leak Detection & Basic Maintenance",
+  "audience": [
+   "Plumbers who want to move into fault-finding and repair work",
+   "Maintenance technicians who deal with leaks, blockages, and pressure problems",
+   "Property and facilities managers who maintain water systems",
+   "Contractors who need specialised plumbing repair skills on their teams"
+  ],
+  "faqs": [
+   {
+    "q": "How much does the Leak Detection course cost?",
+    "a": "The course costs R6,000 per delegate and runs over 5 days. It covers unit standard 244494, Perform specialised fault-finding and repairs to plumbing systems, at NQF Level 4. Daily classes run with no waiting period, and group bookings are negotiable. Email info@rehtraining.co.za for a quote or to book."
+   },
+   {
+    "q": "What does the course cover?",
+    "a": "The course covers systematic fault-finding on hot and cold water systems, drainage, and waste systems. You will learn diagnostic and testing methods for leaks, blockages, pressure, and flow problems, plus repair techniques for pipes, fittings, valves, and fixtures. It also covers replacement of worn components, recommissioning, and preventive maintenance strategies."
+   },
+   {
+    "q": "Who should attend this course?",
+    "a": "The course suits plumbers and maintenance technicians who already have plumbing basics and want to specialise in fault-finding and repairs. It is also useful for property managers who oversee water systems. Because it is an NQF Level 4 programme, some hands-on plumbing experience is expected. Not sure if it fits? email us 061 580 7967 and we will advise."
+   },
+   {
+    "q": "Where is the training held?",
+    "a": "Training is available at our centres in Midrand, 14 Douglas Road, Glen Austin, and Durban, 62 Lilian Ngoyi Street, Windermere, or on-site at your premises for group bookings. Theory can be done online where it applies. Classes run daily with no waiting period. Call 010 746 6954 or email info@rehtraining.co.za to book."
+   }
+  ]
+ }
 ]

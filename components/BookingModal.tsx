@@ -10,8 +10,7 @@ import {
   type ReactNode,
 } from "react";
 import CourseSelect from "./CourseSelect";
-
-const WHATSAPP_NUMBER = "27615807967";
+import { REH_EMAIL } from "@/lib/courses";
 
 type BookingContextType = {
   openBooking: (course?: string) => void;
@@ -34,15 +33,8 @@ const TIMELINE_OPTIONS = [
 
 const EMPTY_ROW: CourseRow = { course: "", count: "" };
 
-function extractCourseFromUrl(href: string): string | null {
-  try {
-    const url = new URL(href);
-    const text = url.searchParams.get("text") || "";
-    const m = text.match(/quote for the (.+?) course\.?$/i);
-    return m ? m[1].trim() : null;
-  } catch {
-    return null;
-  }
+function extractCourseFromElement(link: HTMLAnchorElement): string | null {
+  return link.getAttribute("data-course");
 }
 
 export function BookingProvider({ children }: { children: ReactNode }) {
@@ -73,17 +65,15 @@ export function BookingProvider({ children }: { children: ReactNode }) {
     setOpen(true);
   }, []);
 
-  // global interceptor: any a[href*="wa.me"] opens the modal instead
+  // global interceptor: any booking CTA (a[data-booking]) opens the modal instead
   useEffect(() => {
     const handler = (e: MouseEvent) => {
       if (e.metaKey || e.ctrlKey || e.button === 1) return; // let new-tab/middle-click through
       const target = e.target as HTMLElement;
-      const link = target.closest('a[href*="wa.me"]') as HTMLAnchorElement | null;
+      const link = target.closest('a[data-booking]') as HTMLAnchorElement | null;
       if (!link) return;
       e.preventDefault();
-      const fromData = link.getAttribute("data-course");
-      const course = fromData || extractCourseFromUrl(link.href);
-      openBooking(course ?? undefined);
+      openBooking(extractCourseFromElement(link) ?? undefined);
     };
     document.addEventListener("click", handler);
     return () => document.removeEventListener("click", handler);
@@ -141,8 +131,11 @@ export function BookingProvider({ children }: { children: ReactNode }) {
       .map((r) => `${r.course.trim()}${r.count.trim() ? ` - ${r.count.trim()}` : ""}`)
       .join(", ");
 
-    const lines = [
-      "Hi REH Safety Training! I'd like a booking quotation.",
+    const subject = `Training Quotation Request - ${company.trim() || courseList || "New enquiry"}`;
+    const body = [
+      "Hi REH Safety Training,",
+      "",
+      "Please send a quotation for the following training:",
       "",
       `Contact Person: ${contactPerson.trim()}`,
       `Name: ${firstName.trim()} ${lastName.trim()}`,
@@ -151,13 +144,22 @@ export function BookingProvider({ children }: { children: ReactNode }) {
       `Company: ${company.trim()}`,
       `Company Location: ${companyLocation.trim()}`,
       `Courses Required: ${courseList}`,
-      fileName ? `Training Matrix: ${fileName} (I'll send it in this chat)` : "Training Matrix: to follow",
+      fileName
+        ? `Training Matrix: ${fileName} (attached to this email)`
+        : "Training Matrix: to follow",
       `Training Location: ${trainingLocation.trim()}`,
       `When: ${timeline}`,
-    ];
+      "",
+      "Thank you,",
+      `${firstName.trim()} ${lastName.trim()}`,
+      company.trim() ? company.trim() : "",
+    ]
+      .filter((l) => l !== "")
+      .join("\n");
 
-    const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(lines.join("\n"))}`;
-    window.open(url, "_blank");
+    const url = `mailto:${REH_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.dispatchEvent(new CustomEvent("reh:quote", { detail: url }));
+    window.location.href = url;
     setSent(true);
     setSubmitting(false);
   };
@@ -189,7 +191,8 @@ export function BookingProvider({ children }: { children: ReactNode }) {
             <div>
               <h2 className="font-display text-xl text-charcoal">Request a Booking Quotation</h2>
               <p className="text-xs text-charcoal/60">
-                We&apos;ll open WhatsApp with your details pre-filled. A training advisor replies fast.
+                We&apos;ll open your email app with your details pre-filled to{" "}
+                <span className="font-semibold text-charcoal">{REH_EMAIL}</span>. A training advisor replies fast.
               </p>
             </div>
             <button
@@ -212,19 +215,18 @@ export function BookingProvider({ children }: { children: ReactNode }) {
                   <path d="M20 6L9 17l-5-5" />
                 </svg>
               </div>
-              <h3 className="mt-4 font-display text-xl text-charcoal">WhatsApp should be opening now</h3>
+              <h3 className="mt-4 font-display text-xl text-charcoal">Your email app should be opening now</h3>
               <p className="mt-2 text-sm text-charcoal/70">
-                If nothing happened, message us directly on{" "}
+                Attach your training matrix if you have one, then hit send. If your email app
+                didn&apos;t open, email{" "}
                 <a
-                  href={`https://wa.me/${WHATSAPP_NUMBER}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href={`mailto:${REH_EMAIL}?subject=Training%20Quotation%20Request`}
                   onClick={(e) => e.stopPropagation()}
                   className="font-semibold text-brand"
                 >
-                  061 580 7967
+                  {REH_EMAIL}
                 </a>{" "}
-                and send your details there.
+                directly with your details.
               </p>
               <button
                 type="button"
@@ -418,10 +420,11 @@ export function BookingProvider({ children }: { children: ReactNode }) {
                 disabled={submitting}
                 className="flex min-h-13 w-full items-center justify-center gap-2 rounded-xl bg-brand px-6 py-3.5 text-base font-bold text-white shadow-lg shadow-brand/25 transition-colors hover:bg-brand-dark disabled:opacity-60"
               >
-                <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Z" />
+                <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <rect x="3" y="5" width="18" height="14" rx="2" />
+                  <path d="M3 7l9 6 9-6" />
                 </svg>
-                Send Quotation Request on WhatsApp
+                Send Quotation Request via Email
               </button>
               <p className="text-center text-xs text-charcoal/50">
                 Prefer to talk? Call{" "}

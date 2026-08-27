@@ -1,588 +1,588 @@
 [
-  {
-    "name": "Basic Health & Safety",
-    "description": "An entry-level introduction to health and safety at work. The course covers the basics of the Occupational Health and Safety Act, common workplace hazards, safe work practices, personal protective equipment, housekeeping and emergency procedures. Learners come away knowing how to spot unsafe conditions, protect themselves and others, and report hazards or incidents correctly. It suits new employees, general workers and anyone who needs a practical grounding in workplace safety. On completion, learners receive a certificate in line with SAQA-aligned training.",
-    "outcomes": [
-      "Explain the basic purpose of the Occupational Health and Safety Act and the duties of employers and employees",
-      "Identify common workplace hazards and unsafe conditions",
-      "Apply safe work practices and use personal protective equipment correctly",
-      "Respond to emergencies and report hazards or incidents",
-      "Maintain good housekeeping in the work area"
-    ],
-    "audience": [
-      "New employees and general workers",
-      "Anyone who needs a practical grounding in workplace safety",
-      "Small business owners and their staff"
-    ],
-    "faqs": [
-      {
-        "q": "How much does Basic Health & Safety training cost?",
-        "a": "The course costs R650 per learner and runs for one day. Prices are negotiable for group bookings. Training is available online, at your premises or at our centres in Midrand and Durban. Daily classes mean you can start without a waiting period. WhatsApp us on 061 580 7967 to book or ask about group rates."
-      },
-      {
-        "q": "Do I need any experience to do this course?",
-        "a": "No. Basic Health & Safety is an entry-level course and no previous safety training or experience is required. It is designed for new employees, general workers and anyone who needs a practical grounding in workplace safety. You just need to be able to follow the course material. Classes run daily, so you can book and start without delay."
-      },
-      {
-        "q": "Can you train at our site?",
-        "a": "Yes. We offer on-site training at client premises anywhere in South Africa, as well as online and centre-based training at our Midrand and Durban centres. On-site delivery is popular with companies that want to train a full team at once, and it makes group pricing easier to negotiate. WhatsApp us on 061 580 7967 with your location and team size for a quote."
-      },
-      {
-        "q": "Do I get a certificate after the course?",
-        "a": "Yes, you receive a certificate when you complete the course. Certificates are issued in line with SAQA-aligned unit standards where applicable. The certificate serves as proof that the learner has completed basic workplace health and safety training and can be kept on file for compliance purposes. To book, call 010 746 6954, email info@rehtraining.co.za or WhatsApp 061 580 7967."
-      }
-    ]
-  },
-  {
-    "name": "Health & Safety Representative (SHE Rep)",
-    "audience": [
-      "Appointed or nominated SHE Representatives",
-      "Supervisors and team leaders",
-      "Health and safety committee members"
-    ],
-    "faqs": [
-      {
-        "q": "How much does the SHE Rep course cost?",
-        "a": "The Health and Safety Representative course costs R600 per learner and runs for one day. Prices are negotiable for group bookings. Training is available online, on site at your premises, or at our centres in Midrand and Durban, with daily classes and no waiting period. WhatsApp 061 580 7967 to book."
-      },
-      {
-        "q": "What unit standard is this course aligned to?",
-        "a": "The course is aligned to unit standard 259622, Describe the functions of the workplace health and safety representative, at NQF level 2. It covers the legal duties of SHE reps, workplace inspections, hazard reporting, incident participation and committee work. Learners receive a certificate in line with SAQA-aligned unit standards. WhatsApp 061 580 7967 for dates."
-      },
-      {
-        "q": "Who must attend this course?",
-        "a": "The OHS Act requires employers to appoint health and safety representatives for the workplace. This course is for those appointed or nominated representatives, as well as supervisors and team leaders who support them, and members of health and safety committees. It is also useful for anyone preparing to take on the role. Classes run daily."
-      },
-      {
-        "q": "Do I need experience before I can do this course?",
-        "a": "No previous safety training is required. The course is designed for people newly appointed or nominated as SHE representatives, so it starts with the basics: the legal role, rights and duties of a representative. One day of training gives you what you need to start conducting inspections and reporting hazards. Book online, on site or at our centres."
-      }
-    ]
-  },
-  {
-    "name": "Health & Safety for Supervisors",
-    "description": "Health and safety for supervisors focuses on the legal and practical duties of people who oversee others at work. The course covers the OHS Act and its regulations, the supervisor's responsibilities, hazard identification, basic risk assessment, safe work procedures, toolbox talks, incident reporting and the supervisor's role in enforcing safety on site. Supervisors leave ready to manage safety in their teams, correct unsafe behaviour, and deal with hazards before they cause harm. On completion, learners receive a certificate issued in line with SAQA-aligned training.",
-    "outcomes": [
-      "Explain the supervisor's legal duties under the OHS Act",
-      "Identify hazards and apply basic risk assessment in the work area",
-      "Enforce safe work procedures and correct unsafe behaviour",
-      "Conduct toolbox talks and communicate safety requirements",
-      "Report incidents and follow up on corrective actions"
-    ],
-    "audience": [
-      "Supervisors, team leaders and foremen",
-      "Newly promoted supervisors",
-      "Anyone who directs the work of others"
-    ],
-    "faqs": [
-      {
-        "q": "How much does the Health & Safety for Supervisors course cost?",
-        "a": "The course costs R700 per learner and runs for one day. Group bookings are negotiable, and daily classes mean no waiting period. You can attend online, at our centres in Midrand or Durban, or we can train at your premises. WhatsApp 061 580 7967 to book or to get a group quote."
-      },
-      {
-        "q": "What is the difference between this and the SHE Rep course?",
-        "a": "The SHE Rep course prepares elected or appointed representatives for their statutory role, while this course is aimed at supervisors who manage people and work. Supervisors need to enforce safety, correct unsafe behaviour and run day-to-day safety in their teams. Both are one-day courses, and many companies send their supervisors for both. WhatsApp us on 061 580 7967 if you are unsure which suits your team."
-      },
-      {
-        "q": "Do I need experience before I can do this course?",
-        "a": "You do not need formal safety training, but some workplace or supervisory experience helps. The course builds on what supervisors already know about their work and adds the legal and practical safety duties that come with the role. If you are new to supervision, the course is still suitable. It runs over one day with daily classes available."
-      },
-      {
-        "q": "Can you train at our site?",
-        "a": "Yes. We bring the training to your premises anywhere in South Africa, which is a popular option for companies with several supervisors to train. Online and centre-based options are also available at our Midrand and Durban centres. Group pricing is negotiable. WhatsApp 061 580 7967 with your location and number of delegates for a quote."
-      }
-    ]
-  },
-  {
-    "name": "Occupational Health & Safety (OHS) Act",
-    "audience": [
-      "Employers and business owners",
-      "Managers, supervisors and team leaders",
-      "Health and safety representatives and officers"
-    ],
-    "faqs": [
-      {
-        "q": "How much does the OHS Act course cost?",
-        "a": "The OHS Act course costs R650 per learner and runs for one day. Group bookings are negotiable. You can attend online, on site at your premises, or at our centres in Midrand and Durban. Daily classes mean there is no waiting period. WhatsApp 061 580 7967 to book or request a group quote."
-      },
-      {
-        "q": "What does the course cover?",
-        "a": "The course explains the purpose and structure of the Occupational Health and Safety Act, the duties of employers and employees, hazard identification and risk control, SHE representatives and committees, incident reporting, and the consequences of non-compliance. It is accredited legislative compliance training, aligned to SAQA requirements, and ends with a certificate for each learner."
-      },
-      {
-        "q": "Do I need experience to attend?",
-        "a": "No. The course is designed for anyone who needs to understand the OHS Act, from new employees to managers and business owners. It starts with the basics and builds to practical application, so delegates from any background can follow it. It runs over one day, and daily classes mean you can book for the same day."
-      },
-      {
-        "q": "Can you train at our site in Johannesburg or Durban?",
-        "a": "Yes. We offer on-site training at client premises anywhere in South Africa, plus online and centre-based options at our centres in Midrand, 14 Douglas Road in Glen Austin, and Durban at 62 Lilian Ngoyi Street in Windermere. Group pricing is negotiable. Daily classes run with no waiting period. WhatsApp 061 580 7967 for a quote."
-      }
-    ]
-  },
-  {
-    "name": "OHS Act Advanced Legislation",
-    "audience": [
-      "Safety officers and managers who need deeper legislative knowledge",
-      "Compliance and HR managers",
-      "Anyone who completed the basic OHS Act course"
-    ],
-    "faqs": [
-      {
-        "q": "How much does the advanced OHS Act course cost?",
-        "a": "Pricing depends on group size and delivery mode, so we quote per booking. The course runs for one day and builds on basic OHS Act knowledge, covering compliance requirements, control measures, recordkeeping and employer training duties. Training is online, on site or at our Midrand and Durban centres. WhatsApp 061 580 7967 for a quote."
-      },
-      {
-        "q": "What is the difference between this and the basic OHS Act course?",
-        "a": "The basic course introduces the Act and its main duties. The advanced course goes deeper: legal compliance requirements, identifying deviations from safety plans, monitoring control measures, recordkeeping, and the employer's obligations around training and communication. It is post-basic knowledge for people who manage compliance, not an introduction. Daily classes are available."
-      },
-      {
-        "q": "Who should attend?",
-        "a": "The course suits safety officers, managers, compliance staff and anyone responsible for making sure an organisation meets its legal obligations under the OHS Act. It is also a good next step for people who completed our basic OHS Act course and now handle compliance in their jobs. No formal qualification is required to attend."
-      },
-      {
-        "q": "Do I get a certificate?",
-        "a": "Yes, each learner receives a certificate on completion, issued in line with SAQA-aligned unit standards where applicable. The course is accredited legislative compliance training, so the certificate is appropriate for your training records and audits. It also counts as documented evidence of legislative training for your organisation. For dates and quotes, WhatsApp 061 580 7967 or email info@rehtraining.co.za."
-      }
-    ]
-  },
-  {
-    "name": "Risk Assessment (HIRA)",
-    "audience": [
-      "Safety officers and SHE representatives",
-      "Supervisors and managers",
-      "Anyone required to conduct risk assessments at work"
-    ],
-    "faqs": [
-      {
-        "q": "How much does the Risk Assessment (HIRA) course cost?",
-        "a": "The course costs R700 per learner and runs for one day. Group bookings are negotiable. We train online, on site at your premises, or at our centres in Midrand and Durban. Daily classes mean you can start without a waiting period. WhatsApp 061 580 7967 to book or ask about group rates."
-      },
-      {
-        "q": "What unit standard is this course aligned to?",
-        "a": "Risk Assessment (HIRA) is aligned to unit standard 242811, Conduct a risk assessment, at NQF level 4. The course covers hazard identification, risk analysis and evaluation, risk rating, the hierarchy of controls, and documenting and reviewing risk assessments. Learners receive a certificate in line with SAQA-aligned unit standards, and the skills apply in any industry."
-      },
-      {
-        "q": "Do I need experience before I can do this course?",
-        "a": "Some workplace experience helps, but no formal safety qualification is needed. The course teaches a step-by-step method for identifying hazards, rating risks and choosing controls, so it suits SHE reps, supervisors and safety officers alike. It is practical: delegates practise conducting and documenting a risk assessment during the one-day course."
-      },
-      {
-        "q": "Who should do risk assessment training?",
-        "a": "Anyone who carries out or reviews risk assessments at work: safety officers, SHE representatives, supervisors, managers and business owners. Under the OHS Act, employers must identify hazards and assess risks, so the people appointed to do that work need this skill. It is also a building block for further safety training."
-      }
-    ]
-  },
-  {
-    "name": "Apply Health & Safety to a Work Area",
-    "description": "This course teaches workers to apply health and safety rules in their own work area. It covers legal requirements, hazard identification, safety signs, housekeeping, safe handling of materials, emergency procedures and incident reporting. The focus is practical: learners assess their own workplace, spot hazards, and take the right steps to keep it safe. It suits operators, artisans, stores staff and general workers. The course is aligned to unit standard 9964, and certificates are issued in line with SAQA-aligned requirements.",
-    "outcomes": [
-      "Explain the health and safety requirements that apply to a work area",
-      "Identify hazards and take corrective action within the worker's authority",
-      "Apply safe housekeeping, storage and handling practices",
-      "Follow emergency procedures and report incidents correctly",
-      "Maintain personal safety and use PPE where required"
-    ],
-    "audience": [
-      "General workers, operators and artisans",
-      "Stores and warehouse staff",
-      "Anyone working in a designated work area"
-    ],
-    "faqs": [
-      {
-        "q": "How much does this course cost?",
-        "a": "Apply Health & Safety to a Work Area costs R700 per learner for a one-day course. Group bookings are negotiable, and daily classes mean you can start right away. We train online, at our Midrand and Durban centres, or on site at your premises. WhatsApp 061 580 7967 to book or request a group quote."
-      },
-      {
-        "q": "What unit standard does this course cover?",
-        "a": "The course is aligned to unit standard 9964, Apply health and safety to a work area. It is also one of the modules inside our Traffic Safety Officer programme and the Safety Officer Skills Programme. Learners who complete it receive a certificate in line with SAQA-aligned unit standards. Contact us on 010 746 6954 or WhatsApp 061 580 7967 for dates."
-      },
-      {
-        "q": "Do I need experience before I can do this course?",
-        "a": "No. The course is designed for workers at any level, including those new to health and safety. You do not need previous safety training. The practical approach means you learn by looking at your own work area and the hazards around you. Classes run daily and the course takes one day."
-      },
-      {
-        "q": "Can you train at our premises?",
-        "a": "Yes, on-site training at your premises is available anywhere in South Africa, and it works well when you want a full team trained together. Online and centre-based options are available too, at our centres in Midrand and Durban. Group prices are negotiable. WhatsApp us on 061 580 7967 with your details for a quote."
-      }
-    ]
-  },
-  {
-    "name": "Accident & Incident Investigation",
-    "audience": [
-      "Safety officers and SHE representatives",
-      "Supervisors and managers who investigate incidents",
-      "HR and compliance staff"
-    ],
-    "faqs": [
-      {
-        "q": "How much does the Accident & Incident Investigation course cost?",
-        "a": "The course costs R700 per learner and runs for one day. Prices are negotiable for group bookings. Training is available online, on site at your premises, or at our centres in Midrand and Durban, with daily classes and no waiting period. WhatsApp 061 580 7967 to book. You can also call 010 746 6954."
-      },
-      {
-        "q": "What unit standard is this aligned to?",
-        "a": "The course is aligned to unit standard 244288, Investigate incidents, at NQF level 4. It covers incident classification, reporting timelines, evidence collection, witness interviews, root cause analysis and corrective actions. Learners who complete it receive a certificate in line with SAQA-aligned unit standards. The method works for any workplace that records incidents, from factories to construction sites."
-      },
-      {
-        "q": "Who should attend incident investigation training?",
-        "a": "Anyone who investigates accidents, incidents or near misses at work should attend: safety officers, SHE reps, supervisors, managers and HR or compliance staff. The course gives you a structured method so findings hold up and corrective actions actually prevent repeat incidents. It runs over one day with daily classes, and group bookings are negotiable."
-      },
-      {
-        "q": "Do I need experience before I can do this course?",
-        "a": "No formal safety training is required, though some exposure to the workplace helps. The course takes you through the process step by step: securing the scene, collecting evidence, interviewing witnesses, finding root causes and writing the report. Delegates practise on realistic scenarios during the day. Certificates are issued on completion."
-      }
-    ]
-  },
-  {
-    "name": "Legal Liability & Compliance Training",
-    "audience": [
-      "Employers and business owners",
-      "Managers and supervisors",
-      "Safety officers and compliance staff"
-    ],
-    "faqs": [
-      {
-        "q": "How much does Legal Liability & Compliance Training cost?",
-        "a": "The course costs R700 per learner and runs for one day. Group bookings are negotiable. You can attend online, on site at your premises, or at our centres in Midrand and Durban, and daily classes mean no waiting period. WhatsApp 061 580 7967 to book or request a group quote."
-      },
-      {
-        "q": "What does legal liability training cover?",
-        "a": "The course explains criminal, civil and vicarious liability in the workplace, negligence, breach of duty of care, and the consequences of non-compliance with safety legislation. It is aligned to unit standard 259615 at NQF level 4. Delegates learn how to reduce legal exposure through compliance and proper supervision. A certificate is issued on completion."
-      },
-      {
-        "q": "Who should attend this course?",
-        "a": "Employers, business owners, managers, supervisors and compliance staff. In South Africa, company directors and employers can be held personally liable for safety failures, so the people in charge need to understand where liability sits and how to manage it. The course is practical and uses workplace examples throughout. Classes run daily."
-      },
-      {
-        "q": "Do I need experience to attend?",
-        "a": "No previous safety training is needed. The course starts by explaining what legal liability means, then works through employer and employee duties, types of liability, and the practical steps that reduce exposure. It suits owners and managers who want a clear picture of their obligations, as well as safety staff. One day, daily classes."
-      }
-    ]
-  },
-  {
-    "name": "COIDA (Compensation for Occupational Injuries & Diseases Act)",
-    "audience": [
-      "Employers and business owners",
-      "HR and payroll staff",
-      "Safety officers and supervisors"
-    ],
-    "faqs": [
-      {
-        "q": "How much does the COIDA course cost?",
-        "a": "The COIDA course costs R650 per learner and runs for one day. Group bookings are negotiable. Training is available online, at our centres in Midrand and Durban, or on site at your premises, with daily classes and no waiting period. WhatsApp 061 580 7967 to book or ask about group rates."
-      },
-      {
-        "q": "What does the COIDA course cover?",
-        "a": "The course explains the Compensation for Occupational Injuries and Diseases Act: employer registration and assessments, reporting workplace injuries and diseases, the claims process, return to work, and the consequences of non-compliance. It is aligned to unit standard 259638 at NQF level 3. It is presented in plain language with South African examples. Delegates receive a certificate on completion."
-      },
-      {
-        "q": "Who should attend COIDA training?",
-        "a": "Employers, business owners, HR and payroll staff, safety officers and supervisors. COIDA affects every employer in South Africa, so the people who register the company, report injuries or manage claims should understand how it works. The course covers the practical steps, from reporting an injury to managing the claim and the employee's return to work."
-      },
-      {
-        "q": "Do I need experience before I can do this course?",
-        "a": "No. The course is designed for people who handle COIDA matters without a legal background. It explains the Act in plain language and walks through the reporting and claims steps so you can apply them directly in your workplace. It runs over one day, with daily classes available and group rates negotiable."
-      }
-    ]
-  },
-  {
-    "name": "OHS Supervisor",
-    "audience": [
-      "Safety supervisors and foremen",
-      "Team leaders with safety responsibilities",
-      "Anyone appointed to supervise safety at work"
-    ],
-    "faqs": [
-      {
-        "q": "How much does the OHS Supervisor course cost?",
-        "a": "The course costs R700 per learner and runs for one day. Prices are negotiable for group bookings. We train online, on site at your premises, or at our centres in Midrand and Durban, with daily classes and no waiting period. WhatsApp 061 580 7967 to book or request a group quote."
-      },
-      {
-        "q": "What does the OHS Supervisor course cover?",
-        "a": "The course covers the legal framework for supervising safety, the duties of a safety supervisor, hazard identification and risk assessment, monitoring safe work procedures, contractor compliance, inspections, incident investigation and safety documentation. It is SAQA-aligned training at NQF level 4. It is a practical course for people who supervise others. Each learner receives a certificate on completion."
-      },
-      {
-        "q": "Who should attend?",
-        "a": "Supervisors, foremen, team leaders and anyone appointed to supervise health and safety in the workplace. If you direct the work of others, you need to know how to enforce safe procedures and respond when things go wrong. This one-day course builds those skills, and daily classes mean you can book anytime."
-      },
-      {
-        "q": "Do I need experience before I can do this course?",
-        "a": "Some supervisory or workplace experience helps, but no formal safety qualification is required. The course gives you the legal and practical tools to supervise safety: assessing risks, monitoring compliance, investigating incidents and keeping records. It is a good step up from basic health and safety training, and daily classes mean you can start anytime."
-      }
-    ]
-  },
-  {
-    "name": "OHS Management & Leadership",
-    "description": "OHS Management & Leadership is for people who lead health and safety at an organisational level. The course covers safety management systems, the role of leadership in building a safety culture, the legal duties of management, policy and procedure development, performance monitoring, and managing contractors and audits. Learners come away able to set direction for safety in their organisation, support their safety team and show commitment from the top. It suits managers, directors, business owners and safety professionals moving into leadership. Certificates are issued in line with SAQA-aligned training.",
-    "outcomes": [
-      "Explain the legal duties of management under health and safety legislation",
-      "Develop and drive a safety policy and management system",
-      "Build a positive safety culture through leadership",
-      "Monitor safety performance and review control measures",
-      "Manage contractors, audits and continuous improvement"
-    ],
-    "audience": [
-      "Managers, directors and business owners",
-      "Safety officers moving into management roles",
-      "HR and operations managers with safety responsibilities"
-    ],
-    "faqs": [
-      {
-        "q": "How much does the OHS Management & Leadership course cost?",
-        "a": "Pricing depends on group size and delivery mode, so we quote per booking. The course runs for one day and is available online, at our Midrand or Durban centres, or on site at your premises. Daily classes mean no waiting period. WhatsApp us on 061 580 7967 for a quote."
-      },
-      {
-        "q": "Who should attend this course?",
-        "a": "The course is aimed at managers, directors, business owners and senior safety personnel who lead health and safety in their organisation. It suits people who already have a basic understanding of OHS and now need to manage safety systems, build culture and meet their legal duties from a management position. No formal qualification is required to attend."
-      },
-      {
-        "q": "How is this different from the OHS Supervisor course?",
-        "a": "The OHS Supervisor course focuses on supervising safety in a specific work area, while OHS Management & Leadership covers the organisation-wide role of management: policy, systems, culture and legal accountability at a higher level. Many delegates do the supervisor course first and move on to this one. Contact us to discuss which level fits your role."
-      },
-      {
-        "q": "Do I get a certificate?",
-        "a": "Yes, you receive a certificate on completion, issued in line with SAQA-aligned unit standards where applicable. The certificate confirms you have completed management and leadership training in occupational health and safety, which supports your organisation's training records. Bookings are open for online, on-site and centre-based delivery. For dates and quotes, WhatsApp 061 580 7967 or email info@rehtraining.co.za."
-      }
-    ]
-  },
-  {
-    "name": "Construction Supervisor Course",
-    "audience": [
-      "Construction site supervisors",
-      "Foremen and team leaders on construction sites",
-      "Contractors and small builders"
-    ],
-    "faqs": [
-      {
-        "q": "How much does the Construction Supervisor Course cost?",
-        "a": "Pricing depends on group size and delivery mode, so we quote per booking. The course runs for one day and covers supervision of a construction site, including planning, quality, safety and contractor management. Training is available online, on site or at our Midrand and Durban centres. WhatsApp 061 580 7967 for a quote."
-      },
-      {
-        "q": "What unit standard does this course align to?",
-        "a": "The course is aligned to unit standard 13964, Supervise a construction site, at NQF level 4. It covers the supervisor's role, legal and safety requirements on site, planning and coordinating work, monitoring quality and progress, supervising contractors, and site documentation. Learners receive a certificate in line with SAQA-aligned unit standards."
-      },
-      {
-        "q": "Who should attend this course?",
-        "a": "Construction site supervisors, foremen, team leaders, contractors and small builders who manage people on site. If you are responsible for getting work done safely and to standard, this course gives you the planning, leadership and compliance skills to do it. Daily classes mean you can start without waiting, and group bookings are negotiable."
-      },
-      {
-        "q": "Can you train at our construction site?",
-        "a": "Yes. On-site training at your premises is available anywhere in South Africa, which suits construction teams that cannot leave site. Online and centre-based options are also available at our Midrand and Durban centres. Group pricing is negotiable. WhatsApp 061 580 7967 with your location and team size for a quote."
-      }
-    ]
-  },
-  {
-    "name": "Temporary Works Supervisor Course",
-    "audience": [
-      "Temporary works supervisors on construction sites",
-      "Site managers and engineers involved in temporary works",
-      "Anyone assisting a Temporary Works Co-ordinator (TWC)"
-    ],
-    "faqs": [
-      {
-        "q": "How much does the Temporary Works Supervisor Course cost?",
-        "a": "Pricing depends on group size and delivery mode, so we quote per booking. The one-day course covers supervising and checking temporary works, permit systems, and the duties of the Temporary Works Supervisor, based on BS 5975. Training is online, on site or at our Midrand and Durban centres. WhatsApp 061 580 7967 for a quote."
-      },
-      {
-        "q": "What is this course based on?",
-        "a": "The course follows the CITB Site Safety Plus standard and BS 5975, the British standard for temporary works. It covers the roles of the Temporary Works Supervisor and Co-ordinator, the 4Cs of communication, coordination, cooperation and competency, risk management, and supervision of temporary works on site. The certificate is valid for five years."
-      },
-      {
-        "q": "Who should attend?",
-        "a": "The course is for people appointed as Temporary Works Supervisors, and for site managers, engineers and foremen involved in temporary works such as formwork, falsework, shoring and propping. It also suits anyone who assists a Temporary Works Co-ordinator with delegated duties. Daily classes are available, so you can book without waiting."
-      },
-      {
-        "q": "Can you train at our site?",
-        "a": "Yes. On-site training at your premises is available anywhere in South Africa, and it works well for construction teams. Online and centre-based options are also offered at our Midrand and Durban centres. Group pricing is negotiable. Daily classes also mean no waiting period. WhatsApp 061 580 7967 with your details and team size for a quote."
-      }
-    ]
-  },
-  {
-    "name": "General Machinery Regulations (GMRs)",
-    "audience": [
-      "Machinery supervisors and competent persons",
-      "Plant managers and maintenance staff",
-      "Safety officers in manufacturing, mining and construction"
-    ],
-    "faqs": [
-      {
-        "q": "How much does the General Machinery Regulations course cost?",
-        "a": "Pricing depends on group size and delivery mode, so we quote per booking. The one-day course covers the OHS Act requirements for the safe use, supervision and management of plant and machinery, including the General Machinery Regulations. Training is online, on site or at our centres. WhatsApp 061 580 7967 for a quote."
-      },
-      {
-        "q": "Who needs GMR training?",
-        "a": "The GMRs apply to anyone who supervises, operates or manages plant and machinery, and to the people appointed as competent persons and machinery supervisors under the regulations. It is relevant in manufacturing, mining, construction and any workplace with machinery. The course explains the legal responsibilities and the appointment process for these roles."
-      },
-      {
-        "q": "What does the course cover?",
-        "a": "The course covers the OHS Act and the General Machinery Regulations, the duties of competent persons and their assistants, responsibilities of manufacturers, designers, erectors and installers, risk assessments, safe operating procedures, permit systems and lock-out procedures. Delegates leave knowing what the regulations require and how to apply them day to day."
-      },
-      {
-        "q": "Do I need experience to attend?",
-        "a": "The course is aimed at people already working with plant and machinery, so some workplace experience helps, but no formal safety qualification is required. It gives you the legal framework behind machinery supervision, appointment and safe operation. Classes run daily and the course takes one day. Bookings are open, so you can start as soon as you are ready."
-      }
-    ]
-  },
-  {
-    "name": "Safe Stacking & Storage",
-    "audience": [
-      "Warehouse and stores personnel",
-      "General workers who handle materials",
-      "Team leaders in stores and distribution"
-    ],
-    "faqs": [
-      {
-        "q": "How much does Safe Stacking & Storage training cost?",
-        "a": "The course costs R650 per learner and runs for one day. Group bookings are negotiable. Training is available online, on site at your premises, or at our centres in Midrand and Durban, with daily classes and no waiting period. WhatsApp 061 580 7967 to book or ask about group rates."
-      },
-      {
-        "q": "What unit standard is this aligned to?",
-        "a": "Safe Stacking & Storage is aligned to unit standard 259601, Demonstrate knowledge of safe stacking and storage, at NQF level 2. The course covers stacking principles, load stability, height limits, safe storage of different materials, housekeeping and inspection of storage areas. Learners receive a certificate in line with SAQA-aligned unit standards."
-      },
-      {
-        "q": "Who should attend?",
-        "a": "Warehouse and stores personnel, general workers who handle or stack materials, and team leaders in stores, distribution and logistics. The training helps prevent collapses, falling objects and the injuries they cause, and it covers the housekeeping side of keeping a storage area safe. One day, with daily classes and no waiting period."
-      },
-      {
-        "q": "Do I need experience before I can do this course?",
-        "a": "No. The course is designed for workers at any level, including people new to warehouse or stores work. It is practical and covers the basics: safe stacking principles, weight distribution, height limits and inspecting stacked materials. You receive a certificate on completion, issued in line with SAQA-aligned unit standards. Group bookings are negotiable."
-      }
-    ]
-  },
-  {
-    "name": "Construction Housekeeping",
-    "audience": [
-      "Construction workers",
-      "Site supervisors and foremen",
-      "Anyone responsible for site tidiness"
-    ],
-    "faqs": [
-      {
-        "q": "How much does the Construction Housekeeping course cost?",
-        "a": "Pricing depends on group size and delivery mode, so we quote per booking. The one-day course covers keeping a construction site clean and safe: storing tools and materials, waste disposal, preventing slips and trips, and maintaining access routes and exits. Training is online, on site or at our centres. WhatsApp 061 580 7967 for a quote."
-      },
-      {
-        "q": "What unit standard does it align to?",
-        "a": "The course is aligned to unit standard 116231, Maintain a clean and safe construction site, at NQF level 2. It covers housekeeping hazards, safe storage, waste management, preventing slips, trips and falls, and housekeeping inspections. The training is practical and site-focused. Learners receive a certificate in line with SAQA-aligned unit standards on completion."
-      },
-      {
-        "q": "Why is housekeeping training important on a site?",
-        "a": "Poor housekeeping is one of the biggest causes of slips, trips and falls on construction sites, and it can block access routes and fire exits in an emergency. Training workers to keep the site tidy, store materials safely and dispose of waste properly reduces injuries and keeps the site compliant. It is a short, practical one-day course."
-      },
-      {
-        "q": "Can you train at our site?",
-        "a": "Yes. On-site training at your premises is available anywhere in South Africa and suits construction teams that want the training delivered where they work. Online and centre-based options are also available at our Midrand and Durban centres. Group pricing is negotiable. Daily classes mean you can book without waiting. WhatsApp 061 580 7967 for a quote."
-      }
-    ]
-  },
-  {
-    "name": "Emergency Evacuation Training",
-    "description": "Emergency Evacuation Training prepares employees to respond when a building or site must be cleared quickly. The course covers fire and emergency scenarios, evacuation procedures, assembly points, the duties of marshals and wardens, roll call and headcounts, emergency equipment, and the employer's duty to plan for emergencies. Learners practise planning and taking part in an evacuation so they act calmly and correctly under pressure. It suits all staff, as well as the people appointed to manage evacuations. Certificates are issued in line with SAQA-aligned training.",
-    "outcomes": [
-      "Explain the legal requirements for emergency planning and evacuation",
-      "Identify fire and emergency risks in the workplace",
-      "Carry out the duties of an evacuation marshal or warden",
-      "Follow evacuation procedures and manage roll calls",
-      "Use emergency equipment and direct people to assembly points"
-    ],
-    "audience": [
-      "All employees",
-      "Fire marshals and evacuation wardens",
-      "Building managers and supervisors"
-    ],
-    "faqs": [
-      {
-        "q": "How much does Emergency Evacuation Training cost?",
-        "a": "The course costs R650 per learner and runs for one day. Group bookings are negotiable. We train online, on site at your premises, or at our centres in Midrand and Durban. Daily classes mean you can book and start without waiting. WhatsApp 061 580 7967 to book or ask about group rates."
-      },
-      {
-        "q": "Who should attend evacuation training?",
-        "a": "Every employee benefits, but the course is essential for the people appointed to manage evacuations, such as fire marshals, wardens and floor monitors. It is also useful for building managers and supervisors who must account for staff during an emergency. The training is practical, so delegates practise the steps of an evacuation rather than just hearing about them."
-      },
-      {
-        "q": "Do we need evacuation training by law?",
-        "a": "Yes, employers in South Africa have duties under the OHS Act to plan for emergencies and to prepare employees to respond, including fire and evacuation arrangements. Training your staff and appointing people to manage evacuations helps you meet those duties. This one-day course covers the practical side of planning and running an evacuation."
-      },
-      {
-        "q": "Can you train at our site?",
-        "a": "Yes. On-site training is a good fit for evacuation courses because your team can practise in the actual building, using your exits, assembly points and procedures. We also offer online and centre-based training at our Midrand and Durban centres. Group pricing is negotiable. WhatsApp 061 580 7967 with your premises details for a quote."
-      }
-    ]
-  },
-  {
-    "name": "Flagman (Stop & Go)",
-    "audience": [
-      "Flagmen and traffic controllers",
-      "Road construction and maintenance workers",
-      "Anyone assigned to stop-and-go traffic duty"
-    ],
-    "faqs": [
-      {
-        "q": "How much does the Flagman (Stop & Go) course cost?",
-        "a": "The course costs R700 per learner and runs for one day. Group bookings are negotiable. We train online, on site at your premises, or at our centres in Midrand and Durban, with daily classes and no waiting period. WhatsApp 061 580 7967 to book or request a group quote. You can also call 010 746 6954."
-      },
-      {
-        "q": "What unit standard is this aligned to?",
-        "a": "The course is aligned to unit standard 242974, Apply flagging procedures to control traffic, at NQF level 2. It covers traffic control plans, correct hand signals, flagging equipment and PPE, managing vehicles and pedestrians, and personal safety on the road. Learners receive a certificate in line with SAQA-aligned unit standards."
-      },
-      {
-        "q": "Who should attend flagman training?",
-        "a": "Anyone assigned to stop-and-go traffic control: flagmen, traffic controllers and road construction or maintenance workers. The work is dangerous, so proper training in hand signals, positioning and awareness is essential. The course also covers emergency situations and how to respond. It is also useful for site supervisors who manage traffic control teams. One day, with daily classes."
-      },
-      {
-        "q": "Do I need experience before I can do this course?",
-        "a": "No previous traffic control experience is required. The course starts with the role of the flagman and the hazards of traffic control areas, then teaches the correct procedures and hand signals. Delegates practise the signals and controls during the day and receive a certificate on completion. Classes run daily and group rates are negotiable."
-      }
-    ]
-  },
-  {
-    "name": "Safety Officer Skills Programme",
-    "audience": [
-      "Aspiring safety officers",
-      "SHE representatives and safety assistants",
-      "Anyone working towards the National Certificate in Health and Safety"
-    ],
-    "faqs": [
-      {
-        "q": "How much does the Safety Officer Skills Programme cost?",
-        "a": "The programme costs R7,900 per learner and runs over 10 days, with daily classes and no waiting period. Group bookings are negotiable. Delivery options include classroom, hybrid or correspondence, and training is available at our Midrand and Durban centres. You can also arrange on-site training for your team. WhatsApp 061 580 7967 for dates or a group quote."
-      },
-      {
-        "q": "What qualification does this programme lead to?",
-        "a": "The Safety Officer Skills Programme is a 41-credit skills programme, a part qualification aligned to the National Certificate in Health and Safety. It includes modules on health and safety legislation, incident investigation, safety inspections, environmental initiatives and workplace communication. Each learner receives a certificate on completion, in line with SAQA-aligned training."
-      },
-      {
-        "q": "Who should attend this programme?",
-        "a": "The programme suits aspiring safety officers, SHE representatives, safety assistants and anyone building a career in occupational health and safety. It is also a practical route for companies that want a dedicated safety person on site. Over the 10 days, delegates build the skills to apply OHS principles across different workplaces."
-      },
-      {
-        "q": "Do I need experience before I can do this programme?",
-        "a": "No formal safety qualification is required. The programme starts with the fundamentals, including applying health and safety to a work area, then builds to legislation, investigations and inspections. It includes communication modules, so basic literacy and numeracy are needed to complete the assessments. The programme runs over 10 days with daily classes. WhatsApp 061 580 7967 to book."
-      }
-    ]
-  },
-  {
-    "name": "Traffic Safety Officer",
-    "audience": [
-      "Traffic safety officers and traffic controllers",
-      "Road construction and maintenance workers",
-      "Anyone working in roadwork zones"
-    ],
-    "faqs": [
-      {
-        "q": "How much does the Traffic Safety Officer course cost?",
-        "a": "The course costs R2,800 per learner and runs over three days. Group bookings are negotiable. Training is available online, on site at your premises, or at our centres in Midrand and Durban, with daily classes and no waiting period. WhatsApp 061 580 7967 to book or ask about group rates."
-      },
-      {
-        "q": "What does the course cover?",
-        "a": "The course covers legislative requirements, health and safety in roadwork areas, hazard identification, reading traffic accommodation and construction drawings, erecting temporary traffic control equipment, and implementing roadside safety measures. It includes unit standards 14558, 9964, 14580 and 14561. The training is practical, with hands-on work over the three days. Delegates receive a certificate in line with SAQA-aligned unit standards."
-      },
-      {
-        "q": "Do I need experience before I can do this course?",
-        "a": "You need basic literacy and numeracy, and you must be medically fit to work in roadside and construction environments. No previous traffic control experience is required. The three-day course teaches the practical skills for the job, from reading drawings to erecting traffic control equipment and managing roadside safety. It is also the entry route for people starting in traffic control."
-      },
-      {
-        "q": "Can you train at our site?",
-        "a": "Yes. On-site training at your premises is available anywhere in South Africa, which suits road construction and maintenance teams. Online and centre-based options are also offered at our Midrand and Durban centres. Group pricing is negotiable. Daily classes mean you can book without a waiting period. WhatsApp 061 580 7967 with your location and team size for a quote."
-      }
-    ]
-  }
+ {
+  "name": "Basic Health & Safety",
+  "description": "An entry-level introduction to health and safety at work. The course covers the basics of the Occupational Health and Safety Act, common workplace hazards, safe work practices, personal protective equipment, housekeeping and emergency procedures. Learners come away knowing how to spot unsafe conditions, protect themselves and others, and report hazards or incidents correctly. It suits new employees, general workers and anyone who needs a practical grounding in workplace safety. On completion, learners receive a certificate in line with SAQA-aligned training.",
+  "outcomes": [
+   "Explain the basic purpose of the Occupational Health and Safety Act and the duties of employers and employees",
+   "Identify common workplace hazards and unsafe conditions",
+   "Apply safe work practices and use personal protective equipment correctly",
+   "Respond to emergencies and report hazards or incidents",
+   "Maintain good housekeeping in the work area"
+  ],
+  "audience": [
+   "New employees and general workers",
+   "Anyone who needs a practical grounding in workplace safety",
+   "Small business owners and their staff"
+  ],
+  "faqs": [
+   {
+    "q": "How much does Basic Health & Safety training cost?",
+    "a": "The course costs R650 per learner and runs for one day. Prices are negotiable for group bookings. Training is available online, at your premises or at our centres in Midrand and Durban. Daily classes mean you can start without a waiting period. Email us at info@rehtraining.co.za to book or ask about group rates."
+   },
+   {
+    "q": "Do I need any experience to do this course?",
+    "a": "No. Basic Health & Safety is an entry-level course and no previous safety training or experience is required. It is designed for new employees, general workers and anyone who needs a practical grounding in workplace safety. You just need to be able to follow the course material. Classes run daily, so you can book and start without delay."
+   },
+   {
+    "q": "Can you train at our site?",
+    "a": "Yes. We offer on-site training at client premises anywhere in South Africa, as well as online and centre-based training at our Midrand and Durban centres. On-site delivery is popular with companies that want to train a full team at once, and it makes group pricing easier to negotiate. Email us at info@rehtraining.co.za with your location and team size for a quote."
+   },
+   {
+    "q": "Do I get a certificate after the course?",
+    "a": "Yes, you receive a certificate when you complete the course. Certificates are issued in line with SAQA-aligned unit standards where applicable. The certificate serves as proof that the learner has completed basic workplace health and safety training and can be kept on file for compliance purposes. To book, call 010 746 6954, email info@rehtraining.co.za."
+   }
+  ]
+ },
+ {
+  "name": "Health & Safety Representative (SHE Rep)",
+  "audience": [
+   "Appointed or nominated SHE Representatives",
+   "Supervisors and team leaders",
+   "Health and safety committee members"
+  ],
+  "faqs": [
+   {
+    "q": "How much does the SHE Rep course cost?",
+    "a": "The Health and Safety Representative course costs R600 per learner and runs for one day. Prices are negotiable for group bookings. Training is available online, on site at your premises, or at our centres in Midrand and Durban, with daily classes and no waiting period. Email info@rehtraining.co.za to book."
+   },
+   {
+    "q": "What unit standard is this course aligned to?",
+    "a": "The course is aligned to unit standard 259622, Describe the functions of the workplace health and safety representative, at NQF level 2. It covers the legal duties of SHE reps, workplace inspections, hazard reporting, incident participation and committee work. Learners receive a certificate in line with SAQA-aligned unit standards. Email info@rehtraining.co.za for dates."
+   },
+   {
+    "q": "Who must attend this course?",
+    "a": "The OHS Act requires employers to appoint health and safety representatives for the workplace. This course is for those appointed or nominated representatives, as well as supervisors and team leaders who support them, and members of health and safety committees. It is also useful for anyone preparing to take on the role. Classes run daily."
+   },
+   {
+    "q": "Do I need experience before I can do this course?",
+    "a": "No previous safety training is required. The course is designed for people newly appointed or nominated as SHE representatives, so it starts with the basics: the legal role, rights and duties of a representative. One day of training gives you what you need to start conducting inspections and reporting hazards. Book online, on site or at our centres."
+   }
+  ]
+ },
+ {
+  "name": "Health & Safety for Supervisors",
+  "description": "Health and safety for supervisors focuses on the legal and practical duties of people who oversee others at work. The course covers the OHS Act and its regulations, the supervisor's responsibilities, hazard identification, basic risk assessment, safe work procedures, toolbox talks, incident reporting and the supervisor's role in enforcing safety on site. Supervisors leave ready to manage safety in their teams, correct unsafe behaviour, and deal with hazards before they cause harm. On completion, learners receive a certificate issued in line with SAQA-aligned training.",
+  "outcomes": [
+   "Explain the supervisor's legal duties under the OHS Act",
+   "Identify hazards and apply basic risk assessment in the work area",
+   "Enforce safe work procedures and correct unsafe behaviour",
+   "Conduct toolbox talks and communicate safety requirements",
+   "Report incidents and follow up on corrective actions"
+  ],
+  "audience": [
+   "Supervisors, team leaders and foremen",
+   "Newly promoted supervisors",
+   "Anyone who directs the work of others"
+  ],
+  "faqs": [
+   {
+    "q": "How much does the Health & Safety for Supervisors course cost?",
+    "a": "The course costs R700 per learner and runs for one day. Group bookings are negotiable, and daily classes mean no waiting period. You can attend online, at our centres in Midrand or Durban, or we can train at your premises. Email info@rehtraining.co.za to book or to get a group quote."
+   },
+   {
+    "q": "What is the difference between this and the SHE Rep course?",
+    "a": "The SHE Rep course prepares elected or appointed representatives for their statutory role, while this course is aimed at supervisors who manage people and work. Supervisors need to enforce safety, correct unsafe behaviour and run day-to-day safety in their teams. Both are one-day courses, and many companies send their supervisors for both. Email us at info@rehtraining.co.za if you are unsure which suits your team."
+   },
+   {
+    "q": "Do I need experience before I can do this course?",
+    "a": "You do not need formal safety training, but some workplace or supervisory experience helps. The course builds on what supervisors already know about their work and adds the legal and practical safety duties that come with the role. If you are new to supervision, the course is still suitable. It runs over one day with daily classes available."
+   },
+   {
+    "q": "Can you train at our site?",
+    "a": "Yes. We bring the training to your premises anywhere in South Africa, which is a popular option for companies with several supervisors to train. Online and centre-based options are also available at our Midrand and Durban centres. Group pricing is negotiable. Email info@rehtraining.co.za with your location and number of delegates for a quote."
+   }
+  ]
+ },
+ {
+  "name": "Occupational Health & Safety (OHS) Act",
+  "audience": [
+   "Employers and business owners",
+   "Managers, supervisors and team leaders",
+   "Health and safety representatives and officers"
+  ],
+  "faqs": [
+   {
+    "q": "How much does the OHS Act course cost?",
+    "a": "The OHS Act course costs R650 per learner and runs for one day. Group bookings are negotiable. You can attend online, on site at your premises, or at our centres in Midrand and Durban. Daily classes mean there is no waiting period. Email info@rehtraining.co.za to book or request a group quote."
+   },
+   {
+    "q": "What does the course cover?",
+    "a": "The course explains the purpose and structure of the Occupational Health and Safety Act, the duties of employers and employees, hazard identification and risk control, SHE representatives and committees, incident reporting, and the consequences of non-compliance. It is accredited legislative compliance training, aligned to SAQA requirements, and ends with a certificate for each learner."
+   },
+   {
+    "q": "Do I need experience to attend?",
+    "a": "No. The course is designed for anyone who needs to understand the OHS Act, from new employees to managers and business owners. It starts with the basics and builds to practical application, so delegates from any background can follow it. It runs over one day, and daily classes mean you can book for the same day."
+   },
+   {
+    "q": "Can you train at our site in Johannesburg or Durban?",
+    "a": "Yes. We offer on-site training at client premises anywhere in South Africa, plus online and centre-based options at our centres in Midrand, 14 Douglas Road in Glen Austin, and Durban at 62 Lilian Ngoyi Street in Windermere. Group pricing is negotiable. Daily classes run with no waiting period. Email info@rehtraining.co.za for a quote."
+   }
+  ]
+ },
+ {
+  "name": "OHS Act Advanced Legislation",
+  "audience": [
+   "Safety officers and managers who need deeper legislative knowledge",
+   "Compliance and HR managers",
+   "Anyone who completed the basic OHS Act course"
+  ],
+  "faqs": [
+   {
+    "q": "How much does the advanced OHS Act course cost?",
+    "a": "Pricing depends on group size and delivery mode, so we quote per booking. The course runs for one day and builds on basic OHS Act knowledge, covering compliance requirements, control measures, recordkeeping and employer training duties. Training is online, on site or at our Midrand and Durban centres. Email info@rehtraining.co.za for a quote."
+   },
+   {
+    "q": "What is the difference between this and the basic OHS Act course?",
+    "a": "The basic course introduces the Act and its main duties. The advanced course goes deeper: legal compliance requirements, identifying deviations from safety plans, monitoring control measures, recordkeeping, and the employer's obligations around training and communication. It is post-basic knowledge for people who manage compliance, not an introduction. Daily classes are available."
+   },
+   {
+    "q": "Who should attend?",
+    "a": "The course suits safety officers, managers, compliance staff and anyone responsible for making sure an organisation meets its legal obligations under the OHS Act. It is also a good next step for people who completed our basic OHS Act course and now handle compliance in their jobs. No formal qualification is required to attend."
+   },
+   {
+    "q": "Do I get a certificate?",
+    "a": "Yes, each learner receives a certificate on completion, issued in line with SAQA-aligned unit standards where applicable. The course is accredited legislative compliance training, so the certificate is appropriate for your training records and audits. It also counts as documented evidence of legislative training for your organisation. For dates and quotes, email info@rehtraining.co.za."
+   }
+  ]
+ },
+ {
+  "name": "Risk Assessment (HIRA)",
+  "audience": [
+   "Safety officers and SHE representatives",
+   "Supervisors and managers",
+   "Anyone required to conduct risk assessments at work"
+  ],
+  "faqs": [
+   {
+    "q": "How much does the Risk Assessment (HIRA) course cost?",
+    "a": "The course costs R700 per learner and runs for one day. Group bookings are negotiable. We train online, on site at your premises, or at our centres in Midrand and Durban. Daily classes mean you can start without a waiting period. Email info@rehtraining.co.za to book or ask about group rates."
+   },
+   {
+    "q": "What unit standard is this course aligned to?",
+    "a": "Risk Assessment (HIRA) is aligned to unit standard 242811, Conduct a risk assessment, at NQF level 4. The course covers hazard identification, risk analysis and evaluation, risk rating, the hierarchy of controls, and documenting and reviewing risk assessments. Learners receive a certificate in line with SAQA-aligned unit standards, and the skills apply in any industry."
+   },
+   {
+    "q": "Do I need experience before I can do this course?",
+    "a": "Some workplace experience helps, but no formal safety qualification is needed. The course teaches a step-by-step method for identifying hazards, rating risks and choosing controls, so it suits SHE reps, supervisors and safety officers alike. It is practical: delegates practise conducting and documenting a risk assessment during the one-day course."
+   },
+   {
+    "q": "Who should do risk assessment training?",
+    "a": "Anyone who carries out or reviews risk assessments at work: safety officers, SHE representatives, supervisors, managers and business owners. Under the OHS Act, employers must identify hazards and assess risks, so the people appointed to do that work need this skill. It is also a building block for further safety training."
+   }
+  ]
+ },
+ {
+  "name": "Apply Health & Safety to a Work Area",
+  "description": "This course teaches workers to apply health and safety rules in their own work area. It covers legal requirements, hazard identification, safety signs, housekeeping, safe handling of materials, emergency procedures and incident reporting. The focus is practical: learners assess their own workplace, spot hazards, and take the right steps to keep it safe. It suits operators, artisans, stores staff and general workers. The course is aligned to unit standard 9964, and certificates are issued in line with SAQA-aligned requirements.",
+  "outcomes": [
+   "Explain the health and safety requirements that apply to a work area",
+   "Identify hazards and take corrective action within the worker's authority",
+   "Apply safe housekeeping, storage and handling practices",
+   "Follow emergency procedures and report incidents correctly",
+   "Maintain personal safety and use PPE where required"
+  ],
+  "audience": [
+   "General workers, operators and artisans",
+   "Stores and warehouse staff",
+   "Anyone working in a designated work area"
+  ],
+  "faqs": [
+   {
+    "q": "How much does this course cost?",
+    "a": "Apply Health & Safety to a Work Area costs R700 per learner for a one-day course. Group bookings are negotiable, and daily classes mean you can start right away. We train online, at our Midrand and Durban centres, or on site at your premises. Email info@rehtraining.co.za to book or request a group quote."
+   },
+   {
+    "q": "What unit standard does this course cover?",
+    "a": "The course is aligned to unit standard 9964, Apply health and safety to a work area. It is also one of the modules inside our Traffic Safety Officer programme and the Safety Officer Skills Programme. Learners who complete it receive a certificate in line with SAQA-aligned unit standards. Contact us on 010 746 6954 or email info@rehtraining.co.za for dates."
+   },
+   {
+    "q": "Do I need experience before I can do this course?",
+    "a": "No. The course is designed for workers at any level, including those new to health and safety. You do not need previous safety training. The practical approach means you learn by looking at your own work area and the hazards around you. Classes run daily and the course takes one day."
+   },
+   {
+    "q": "Can you train at our premises?",
+    "a": "Yes, on-site training at your premises is available anywhere in South Africa, and it works well when you want a full team trained together. Online and centre-based options are available too, at our centres in Midrand and Durban. Group prices are negotiable. Email us at info@rehtraining.co.za with your details for a quote."
+   }
+  ]
+ },
+ {
+  "name": "Accident & Incident Investigation",
+  "audience": [
+   "Safety officers and SHE representatives",
+   "Supervisors and managers who investigate incidents",
+   "HR and compliance staff"
+  ],
+  "faqs": [
+   {
+    "q": "How much does the Accident & Incident Investigation course cost?",
+    "a": "The course costs R700 per learner and runs for one day. Prices are negotiable for group bookings. Training is available online, on site at your premises, or at our centres in Midrand and Durban, with daily classes and no waiting period. Email info@rehtraining.co.za to book. You can also call 010 746 6954."
+   },
+   {
+    "q": "What unit standard is this aligned to?",
+    "a": "The course is aligned to unit standard 244288, Investigate incidents, at NQF level 4. It covers incident classification, reporting timelines, evidence collection, witness interviews, root cause analysis and corrective actions. Learners who complete it receive a certificate in line with SAQA-aligned unit standards. The method works for any workplace that records incidents, from factories to construction sites."
+   },
+   {
+    "q": "Who should attend incident investigation training?",
+    "a": "Anyone who investigates accidents, incidents or near misses at work should attend: safety officers, SHE reps, supervisors, managers and HR or compliance staff. The course gives you a structured method so findings hold up and corrective actions actually prevent repeat incidents. It runs over one day with daily classes, and group bookings are negotiable."
+   },
+   {
+    "q": "Do I need experience before I can do this course?",
+    "a": "No formal safety training is required, though some exposure to the workplace helps. The course takes you through the process step by step: securing the scene, collecting evidence, interviewing witnesses, finding root causes and writing the report. Delegates practise on realistic scenarios during the day. Certificates are issued on completion."
+   }
+  ]
+ },
+ {
+  "name": "Legal Liability & Compliance Training",
+  "audience": [
+   "Employers and business owners",
+   "Managers and supervisors",
+   "Safety officers and compliance staff"
+  ],
+  "faqs": [
+   {
+    "q": "How much does Legal Liability & Compliance Training cost?",
+    "a": "The course costs R700 per learner and runs for one day. Group bookings are negotiable. You can attend online, on site at your premises, or at our centres in Midrand and Durban, and daily classes mean no waiting period. Email info@rehtraining.co.za to book or request a group quote."
+   },
+   {
+    "q": "What does legal liability training cover?",
+    "a": "The course explains criminal, civil and vicarious liability in the workplace, negligence, breach of duty of care, and the consequences of non-compliance with safety legislation. It is aligned to unit standard 259615 at NQF level 4. Delegates learn how to reduce legal exposure through compliance and proper supervision. A certificate is issued on completion."
+   },
+   {
+    "q": "Who should attend this course?",
+    "a": "Employers, business owners, managers, supervisors and compliance staff. In South Africa, company directors and employers can be held personally liable for safety failures, so the people in charge need to understand where liability sits and how to manage it. The course is practical and uses workplace examples throughout. Classes run daily."
+   },
+   {
+    "q": "Do I need experience to attend?",
+    "a": "No previous safety training is needed. The course starts by explaining what legal liability means, then works through employer and employee duties, types of liability, and the practical steps that reduce exposure. It suits owners and managers who want a clear picture of their obligations, as well as safety staff. One day, daily classes."
+   }
+  ]
+ },
+ {
+  "name": "COIDA (Compensation for Occupational Injuries & Diseases Act)",
+  "audience": [
+   "Employers and business owners",
+   "HR and payroll staff",
+   "Safety officers and supervisors"
+  ],
+  "faqs": [
+   {
+    "q": "How much does the COIDA course cost?",
+    "a": "The COIDA course costs R650 per learner and runs for one day. Group bookings are negotiable. Training is available online, at our centres in Midrand and Durban, or on site at your premises, with daily classes and no waiting period. Email info@rehtraining.co.za to book or ask about group rates."
+   },
+   {
+    "q": "What does the COIDA course cover?",
+    "a": "The course explains the Compensation for Occupational Injuries and Diseases Act: employer registration and assessments, reporting workplace injuries and diseases, the claims process, return to work, and the consequences of non-compliance. It is aligned to unit standard 259638 at NQF level 3. It is presented in plain language with South African examples. Delegates receive a certificate on completion."
+   },
+   {
+    "q": "Who should attend COIDA training?",
+    "a": "Employers, business owners, HR and payroll staff, safety officers and supervisors. COIDA affects every employer in South Africa, so the people who register the company, report injuries or manage claims should understand how it works. The course covers the practical steps, from reporting an injury to managing the claim and the employee's return to work."
+   },
+   {
+    "q": "Do I need experience before I can do this course?",
+    "a": "No. The course is designed for people who handle COIDA matters without a legal background. It explains the Act in plain language and walks through the reporting and claims steps so you can apply them directly in your workplace. It runs over one day, with daily classes available and group rates negotiable."
+   }
+  ]
+ },
+ {
+  "name": "OHS Supervisor",
+  "audience": [
+   "Safety supervisors and foremen",
+   "Team leaders with safety responsibilities",
+   "Anyone appointed to supervise safety at work"
+  ],
+  "faqs": [
+   {
+    "q": "How much does the OHS Supervisor course cost?",
+    "a": "The course costs R700 per learner and runs for one day. Prices are negotiable for group bookings. We train online, on site at your premises, or at our centres in Midrand and Durban, with daily classes and no waiting period. Email info@rehtraining.co.za to book or request a group quote."
+   },
+   {
+    "q": "What does the OHS Supervisor course cover?",
+    "a": "The course covers the legal framework for supervising safety, the duties of a safety supervisor, hazard identification and risk assessment, monitoring safe work procedures, contractor compliance, inspections, incident investigation and safety documentation. It is SAQA-aligned training at NQF level 4. It is a practical course for people who supervise others. Each learner receives a certificate on completion."
+   },
+   {
+    "q": "Who should attend?",
+    "a": "Supervisors, foremen, team leaders and anyone appointed to supervise health and safety in the workplace. If you direct the work of others, you need to know how to enforce safe procedures and respond when things go wrong. This one-day course builds those skills, and daily classes mean you can book anytime."
+   },
+   {
+    "q": "Do I need experience before I can do this course?",
+    "a": "Some supervisory or workplace experience helps, but no formal safety qualification is required. The course gives you the legal and practical tools to supervise safety: assessing risks, monitoring compliance, investigating incidents and keeping records. It is a good step up from basic health and safety training, and daily classes mean you can start anytime."
+   }
+  ]
+ },
+ {
+  "name": "OHS Management & Leadership",
+  "description": "OHS Management & Leadership is for people who lead health and safety at an organisational level. The course covers safety management systems, the role of leadership in building a safety culture, the legal duties of management, policy and procedure development, performance monitoring, and managing contractors and audits. Learners come away able to set direction for safety in their organisation, support their safety team and show commitment from the top. It suits managers, directors, business owners and safety professionals moving into leadership. Certificates are issued in line with SAQA-aligned training.",
+  "outcomes": [
+   "Explain the legal duties of management under health and safety legislation",
+   "Develop and drive a safety policy and management system",
+   "Build a positive safety culture through leadership",
+   "Monitor safety performance and review control measures",
+   "Manage contractors, audits and continuous improvement"
+  ],
+  "audience": [
+   "Managers, directors and business owners",
+   "Safety officers moving into management roles",
+   "HR and operations managers with safety responsibilities"
+  ],
+  "faqs": [
+   {
+    "q": "How much does the OHS Management & Leadership course cost?",
+    "a": "Pricing depends on group size and delivery mode, so we quote per booking. The course runs for one day and is available online, at our Midrand or Durban centres, or on site at your premises. Daily classes mean no waiting period. Email us at info@rehtraining.co.za for a quote."
+   },
+   {
+    "q": "Who should attend this course?",
+    "a": "The course is aimed at managers, directors, business owners and senior safety personnel who lead health and safety in their organisation. It suits people who already have a basic understanding of OHS and now need to manage safety systems, build culture and meet their legal duties from a management position. No formal qualification is required to attend."
+   },
+   {
+    "q": "How is this different from the OHS Supervisor course?",
+    "a": "The OHS Supervisor course focuses on supervising safety in a specific work area, while OHS Management & Leadership covers the organisation-wide role of management: policy, systems, culture and legal accountability at a higher level. Many delegates do the supervisor course first and move on to this one. Contact us to discuss which level fits your role."
+   },
+   {
+    "q": "Do I get a certificate?",
+    "a": "Yes, you receive a certificate on completion, issued in line with SAQA-aligned unit standards where applicable. The certificate confirms you have completed management and leadership training in occupational health and safety, which supports your organisation's training records. Bookings are open for online, on-site and centre-based delivery. For dates and quotes, email info@rehtraining.co.za."
+   }
+  ]
+ },
+ {
+  "name": "Construction Supervisor Course",
+  "audience": [
+   "Construction site supervisors",
+   "Foremen and team leaders on construction sites",
+   "Contractors and small builders"
+  ],
+  "faqs": [
+   {
+    "q": "How much does the Construction Supervisor Course cost?",
+    "a": "Pricing depends on group size and delivery mode, so we quote per booking. The course runs for one day and covers supervision of a construction site, including planning, quality, safety and contractor management. Training is available online, on site or at our Midrand and Durban centres. Email info@rehtraining.co.za for a quote."
+   },
+   {
+    "q": "What unit standard does this course align to?",
+    "a": "The course is aligned to unit standard 13964, Supervise a construction site, at NQF level 4. It covers the supervisor's role, legal and safety requirements on site, planning and coordinating work, monitoring quality and progress, supervising contractors, and site documentation. Learners receive a certificate in line with SAQA-aligned unit standards."
+   },
+   {
+    "q": "Who should attend this course?",
+    "a": "Construction site supervisors, foremen, team leaders, contractors and small builders who manage people on site. If you are responsible for getting work done safely and to standard, this course gives you the planning, leadership and compliance skills to do it. Daily classes mean you can start without waiting, and group bookings are negotiable."
+   },
+   {
+    "q": "Can you train at our construction site?",
+    "a": "Yes. On-site training at your premises is available anywhere in South Africa, which suits construction teams that cannot leave site. Online and centre-based options are also available at our Midrand and Durban centres. Group pricing is negotiable. Email info@rehtraining.co.za with your location and team size for a quote."
+   }
+  ]
+ },
+ {
+  "name": "Temporary Works Supervisor Course",
+  "audience": [
+   "Temporary works supervisors on construction sites",
+   "Site managers and engineers involved in temporary works",
+   "Anyone assisting a Temporary Works Co-ordinator (TWC)"
+  ],
+  "faqs": [
+   {
+    "q": "How much does the Temporary Works Supervisor Course cost?",
+    "a": "Pricing depends on group size and delivery mode, so we quote per booking. The one-day course covers supervising and checking temporary works, permit systems, and the duties of the Temporary Works Supervisor, based on BS 5975. Training is online, on site or at our Midrand and Durban centres. Email info@rehtraining.co.za for a quote."
+   },
+   {
+    "q": "What is this course based on?",
+    "a": "The course follows the CITB Site Safety Plus standard and BS 5975, the British standard for temporary works. It covers the roles of the Temporary Works Supervisor and Co-ordinator, the 4Cs of communication, coordination, cooperation and competency, risk management, and supervision of temporary works on site. The certificate is valid for five years."
+   },
+   {
+    "q": "Who should attend?",
+    "a": "The course is for people appointed as Temporary Works Supervisors, and for site managers, engineers and foremen involved in temporary works such as formwork, falsework, shoring and propping. It also suits anyone who assists a Temporary Works Co-ordinator with delegated duties. Daily classes are available, so you can book without waiting."
+   },
+   {
+    "q": "Can you train at our site?",
+    "a": "Yes. On-site training at your premises is available anywhere in South Africa, and it works well for construction teams. Online and centre-based options are also offered at our Midrand and Durban centres. Group pricing is negotiable. Daily classes also mean no waiting period. Email info@rehtraining.co.za with your details and team size for a quote."
+   }
+  ]
+ },
+ {
+  "name": "General Machinery Regulations (GMRs)",
+  "audience": [
+   "Machinery supervisors and competent persons",
+   "Plant managers and maintenance staff",
+   "Safety officers in manufacturing, mining and construction"
+  ],
+  "faqs": [
+   {
+    "q": "How much does the General Machinery Regulations course cost?",
+    "a": "Pricing depends on group size and delivery mode, so we quote per booking. The one-day course covers the OHS Act requirements for the safe use, supervision and management of plant and machinery, including the General Machinery Regulations. Training is online, on site or at our centres. Email info@rehtraining.co.za for a quote."
+   },
+   {
+    "q": "Who needs GMR training?",
+    "a": "The GMRs apply to anyone who supervises, operates or manages plant and machinery, and to the people appointed as competent persons and machinery supervisors under the regulations. It is relevant in manufacturing, mining, construction and any workplace with machinery. The course explains the legal responsibilities and the appointment process for these roles."
+   },
+   {
+    "q": "What does the course cover?",
+    "a": "The course covers the OHS Act and the General Machinery Regulations, the duties of competent persons and their assistants, responsibilities of manufacturers, designers, erectors and installers, risk assessments, safe operating procedures, permit systems and lock-out procedures. Delegates leave knowing what the regulations require and how to apply them day to day."
+   },
+   {
+    "q": "Do I need experience to attend?",
+    "a": "The course is aimed at people already working with plant and machinery, so some workplace experience helps, but no formal safety qualification is required. It gives you the legal framework behind machinery supervision, appointment and safe operation. Classes run daily and the course takes one day. Bookings are open, so you can start as soon as you are ready."
+   }
+  ]
+ },
+ {
+  "name": "Safe Stacking & Storage",
+  "audience": [
+   "Warehouse and stores personnel",
+   "General workers who handle materials",
+   "Team leaders in stores and distribution"
+  ],
+  "faqs": [
+   {
+    "q": "How much does Safe Stacking & Storage training cost?",
+    "a": "The course costs R650 per learner and runs for one day. Group bookings are negotiable. Training is available online, on site at your premises, or at our centres in Midrand and Durban, with daily classes and no waiting period. Email info@rehtraining.co.za to book or ask about group rates."
+   },
+   {
+    "q": "What unit standard is this aligned to?",
+    "a": "Safe Stacking & Storage is aligned to unit standard 259601, Demonstrate knowledge of safe stacking and storage, at NQF level 2. The course covers stacking principles, load stability, height limits, safe storage of different materials, housekeeping and inspection of storage areas. Learners receive a certificate in line with SAQA-aligned unit standards."
+   },
+   {
+    "q": "Who should attend?",
+    "a": "Warehouse and stores personnel, general workers who handle or stack materials, and team leaders in stores, distribution and logistics. The training helps prevent collapses, falling objects and the injuries they cause, and it covers the housekeeping side of keeping a storage area safe. One day, with daily classes and no waiting period."
+   },
+   {
+    "q": "Do I need experience before I can do this course?",
+    "a": "No. The course is designed for workers at any level, including people new to warehouse or stores work. It is practical and covers the basics: safe stacking principles, weight distribution, height limits and inspecting stacked materials. You receive a certificate on completion, issued in line with SAQA-aligned unit standards. Group bookings are negotiable."
+   }
+  ]
+ },
+ {
+  "name": "Construction Housekeeping",
+  "audience": [
+   "Construction workers",
+   "Site supervisors and foremen",
+   "Anyone responsible for site tidiness"
+  ],
+  "faqs": [
+   {
+    "q": "How much does the Construction Housekeeping course cost?",
+    "a": "Pricing depends on group size and delivery mode, so we quote per booking. The one-day course covers keeping a construction site clean and safe: storing tools and materials, waste disposal, preventing slips and trips, and maintaining access routes and exits. Training is online, on site or at our centres. Email info@rehtraining.co.za for a quote."
+   },
+   {
+    "q": "What unit standard does it align to?",
+    "a": "The course is aligned to unit standard 116231, Maintain a clean and safe construction site, at NQF level 2. It covers housekeeping hazards, safe storage, waste management, preventing slips, trips and falls, and housekeeping inspections. The training is practical and site-focused. Learners receive a certificate in line with SAQA-aligned unit standards on completion."
+   },
+   {
+    "q": "Why is housekeeping training important on a site?",
+    "a": "Poor housekeeping is one of the biggest causes of slips, trips and falls on construction sites, and it can block access routes and fire exits in an emergency. Training workers to keep the site tidy, store materials safely and dispose of waste properly reduces injuries and keeps the site compliant. It is a short, practical one-day course."
+   },
+   {
+    "q": "Can you train at our site?",
+    "a": "Yes. On-site training at your premises is available anywhere in South Africa and suits construction teams that want the training delivered where they work. Online and centre-based options are also available at our Midrand and Durban centres. Group pricing is negotiable. Daily classes mean you can book without waiting. Email info@rehtraining.co.za for a quote."
+   }
+  ]
+ },
+ {
+  "name": "Emergency Evacuation Training",
+  "description": "Emergency Evacuation Training prepares employees to respond when a building or site must be cleared quickly. The course covers fire and emergency scenarios, evacuation procedures, assembly points, the duties of marshals and wardens, roll call and headcounts, emergency equipment, and the employer's duty to plan for emergencies. Learners practise planning and taking part in an evacuation so they act calmly and correctly under pressure. It suits all staff, as well as the people appointed to manage evacuations. Certificates are issued in line with SAQA-aligned training.",
+  "outcomes": [
+   "Explain the legal requirements for emergency planning and evacuation",
+   "Identify fire and emergency risks in the workplace",
+   "Carry out the duties of an evacuation marshal or warden",
+   "Follow evacuation procedures and manage roll calls",
+   "Use emergency equipment and direct people to assembly points"
+  ],
+  "audience": [
+   "All employees",
+   "Fire marshals and evacuation wardens",
+   "Building managers and supervisors"
+  ],
+  "faqs": [
+   {
+    "q": "How much does Emergency Evacuation Training cost?",
+    "a": "The course costs R650 per learner and runs for one day. Group bookings are negotiable. We train online, on site at your premises, or at our centres in Midrand and Durban. Daily classes mean you can book and start without waiting. Email info@rehtraining.co.za to book or ask about group rates."
+   },
+   {
+    "q": "Who should attend evacuation training?",
+    "a": "Every employee benefits, but the course is essential for the people appointed to manage evacuations, such as fire marshals, wardens and floor monitors. It is also useful for building managers and supervisors who must account for staff during an emergency. The training is practical, so delegates practise the steps of an evacuation rather than just hearing about them."
+   },
+   {
+    "q": "Do we need evacuation training by law?",
+    "a": "Yes, employers in South Africa have duties under the OHS Act to plan for emergencies and to prepare employees to respond, including fire and evacuation arrangements. Training your staff and appointing people to manage evacuations helps you meet those duties. This one-day course covers the practical side of planning and running an evacuation."
+   },
+   {
+    "q": "Can you train at our site?",
+    "a": "Yes. On-site training is a good fit for evacuation courses because your team can practise in the actual building, using your exits, assembly points and procedures. We also offer online and centre-based training at our Midrand and Durban centres. Group pricing is negotiable. Email info@rehtraining.co.za with your premises details for a quote."
+   }
+  ]
+ },
+ {
+  "name": "Flagman (Stop & Go)",
+  "audience": [
+   "Flagmen and traffic controllers",
+   "Road construction and maintenance workers",
+   "Anyone assigned to stop-and-go traffic duty"
+  ],
+  "faqs": [
+   {
+    "q": "How much does the Flagman (Stop & Go) course cost?",
+    "a": "The course costs R700 per learner and runs for one day. Group bookings are negotiable. We train online, on site at your premises, or at our centres in Midrand and Durban, with daily classes and no waiting period. Email info@rehtraining.co.za to book or request a group quote. You can also call 010 746 6954."
+   },
+   {
+    "q": "What unit standard is this aligned to?",
+    "a": "The course is aligned to unit standard 242974, Apply flagging procedures to control traffic, at NQF level 2. It covers traffic control plans, correct hand signals, flagging equipment and PPE, managing vehicles and pedestrians, and personal safety on the road. Learners receive a certificate in line with SAQA-aligned unit standards."
+   },
+   {
+    "q": "Who should attend flagman training?",
+    "a": "Anyone assigned to stop-and-go traffic control: flagmen, traffic controllers and road construction or maintenance workers. The work is dangerous, so proper training in hand signals, positioning and awareness is essential. The course also covers emergency situations and how to respond. It is also useful for site supervisors who manage traffic control teams. One day, with daily classes."
+   },
+   {
+    "q": "Do I need experience before I can do this course?",
+    "a": "No previous traffic control experience is required. The course starts with the role of the flagman and the hazards of traffic control areas, then teaches the correct procedures and hand signals. Delegates practise the signals and controls during the day and receive a certificate on completion. Classes run daily and group rates are negotiable."
+   }
+  ]
+ },
+ {
+  "name": "Safety Officer Skills Programme",
+  "audience": [
+   "Aspiring safety officers",
+   "SHE representatives and safety assistants",
+   "Anyone working towards the National Certificate in Health and Safety"
+  ],
+  "faqs": [
+   {
+    "q": "How much does the Safety Officer Skills Programme cost?",
+    "a": "The programme costs R7,900 per learner and runs over 10 days, with daily classes and no waiting period. Group bookings are negotiable. Delivery options include classroom, hybrid or correspondence, and training is available at our Midrand and Durban centres. You can also arrange on-site training for your team. Email info@rehtraining.co.za for dates or a group quote."
+   },
+   {
+    "q": "What qualification does this programme lead to?",
+    "a": "The Safety Officer Skills Programme is a 41-credit skills programme, a part qualification aligned to the National Certificate in Health and Safety. It includes modules on health and safety legislation, incident investigation, safety inspections, environmental initiatives and workplace communication. Each learner receives a certificate on completion, in line with SAQA-aligned training."
+   },
+   {
+    "q": "Who should attend this programme?",
+    "a": "The programme suits aspiring safety officers, SHE representatives, safety assistants and anyone building a career in occupational health and safety. It is also a practical route for companies that want a dedicated safety person on site. Over the 10 days, delegates build the skills to apply OHS principles across different workplaces."
+   },
+   {
+    "q": "Do I need experience before I can do this programme?",
+    "a": "No formal safety qualification is required. The programme starts with the fundamentals, including applying health and safety to a work area, then builds to legislation, investigations and inspections. It includes communication modules, so basic literacy and numeracy are needed to complete the assessments. The programme runs over 10 days with daily classes. Email info@rehtraining.co.za to book."
+   }
+  ]
+ },
+ {
+  "name": "Traffic Safety Officer",
+  "audience": [
+   "Traffic safety officers and traffic controllers",
+   "Road construction and maintenance workers",
+   "Anyone working in roadwork zones"
+  ],
+  "faqs": [
+   {
+    "q": "How much does the Traffic Safety Officer course cost?",
+    "a": "The course costs R2,800 per learner and runs over three days. Group bookings are negotiable. Training is available online, on site at your premises, or at our centres in Midrand and Durban, with daily classes and no waiting period. Email info@rehtraining.co.za to book or ask about group rates."
+   },
+   {
+    "q": "What does the course cover?",
+    "a": "The course covers legislative requirements, health and safety in roadwork areas, hazard identification, reading traffic accommodation and construction drawings, erecting temporary traffic control equipment, and implementing roadside safety measures. It includes unit standards 14558, 9964, 14580 and 14561. The training is practical, with hands-on work over the three days. Delegates receive a certificate in line with SAQA-aligned unit standards."
+   },
+   {
+    "q": "Do I need experience before I can do this course?",
+    "a": "You need basic literacy and numeracy, and you must be medically fit to work in roadside and construction environments. No previous traffic control experience is required. The three-day course teaches the practical skills for the job, from reading drawings to erecting traffic control equipment and managing roadside safety. It is also the entry route for people starting in traffic control."
+   },
+   {
+    "q": "Can you train at our site?",
+    "a": "Yes. On-site training at your premises is available anywhere in South Africa, which suits road construction and maintenance teams. Online and centre-based options are also offered at our Midrand and Durban centres. Group pricing is negotiable. Daily classes mean you can book without a waiting period. Email info@rehtraining.co.za with your location and team size for a quote."
+   }
+  ]
+ }
 ]

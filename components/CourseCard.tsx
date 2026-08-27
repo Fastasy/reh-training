@@ -1,5 +1,5 @@
 import type { Course } from "@/lib/courses";
-import { waQuoteLink } from "@/lib/courses";
+import { emailQuoteLink } from "@/lib/courses";
 import { courseSlug } from "@/lib/slugs";
 
 type Props = {
@@ -48,14 +48,14 @@ export default function CourseCard({ course }: Props) {
           </svg>
         </a>
         <a
-          href={waQuoteLink(course.name)}
+          href={emailQuoteLink(course.name)}
+          data-booking
           data-course={course.name}
-          target="_blank"
-          rel="noopener noreferrer"
           className="inline-flex min-h-11 items-center justify-center gap-1.5 rounded-xl bg-charcoal px-3 text-sm font-bold text-white transition-colors hover:bg-brand"
         >
-          <svg className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Z" />
+          <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <rect x="3" y="5" width="18" height="14" rx="2" />
+            <path d="M3 7l9 6 9-6" />
           </svg>
           Get Price
         </a>

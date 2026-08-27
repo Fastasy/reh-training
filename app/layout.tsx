@@ -3,7 +3,7 @@ import { Work_Sans, Lustria } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import WhatsAppFloat from "@/components/WhatsAppFloat";
+import QuoteFloat from "@/components/QuoteFloat";
 import { BookingProvider } from "@/components/BookingModal";
 
 const workSans = Work_Sans({
@@ -94,7 +94,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <Header />
           <main className="flex-1">{children}</main>
           <Footer />
-          <WhatsAppFloat />
+          <QuoteFloat />
         </BookingProvider>
       </body>
     </html>

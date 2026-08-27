@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     content?.description
       ?.replace(/[•\s]+/g, " ")
       .slice(0, 155) ||
-    `${course.name} training at REH Safety Training. SAQA-aligned, delivered online, on-site or at our Midrand and Durban centres. WhatsApp us for a quote.`;
+    `${course.name} training at REH Safety Training. SAQA-aligned, delivered online, on-site or at our Midrand and Durban centres. Email us for a quote.`;
   return {
     title: metaTitle(course),
     description: desc,
@@ -142,8 +142,8 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
     .filter(Boolean)
     .join(" · ");
 
-  const waLink = `https://wa.me/27615807967?text=${encodeURIComponent(
-    `Hi REH Safety Training! I'd like a quote for the ${course.name} course.`
+  const waLink = `mailto:info@rehtraining.co.za?subject=${encodeURIComponent(
+    `Training Quotation Request - ${course.name}`
   )}`;
 
   return (
@@ -185,15 +185,15 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
             <div className="mt-6 flex flex-wrap gap-3">
               <a
                 href={waLink}
+                data-booking
                 data-course={course.name}
-                target="_blank"
-                rel="noopener noreferrer"
                 className="inline-flex min-h-12 items-center justify-center gap-2 rounded-xl bg-brand px-6 py-3 text-sm font-bold text-white shadow-lg shadow-brand/25 transition-colors hover:bg-brand-dark"
               >
-                <svg className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Z" />
-                </svg>
-                Get a Quote on WhatsApp
+                <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <rect x="3" y="5" width="18" height="14" rx="2" />
+                <path d="M3 7l9 6 9-6" />
+              </svg>
+                Get a Quote
               </a>
               <a
                 href="/contact"
@@ -341,14 +341,14 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
                 </dl>
                 <a
                   href={waLink}
+                  data-booking
                   data-course={course.name}
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="mt-6 flex min-h-13 w-full items-center justify-center gap-2 rounded-xl bg-brand px-5 py-3.5 text-base font-bold text-white shadow-lg shadow-brand/25 transition-colors hover:bg-brand-dark"
                 >
-                  <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Z" />
-                  </svg>
+                  <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <rect x="3" y="5" width="18" height="14" rx="2" />
+                <path d="M3 7l9 6 9-6" />
+              </svg>
                   {price ? `Book ${price}` : "Get a Quote"}
                 </a>
                 <p className="mt-3 text-center text-xs text-charcoal/50">
@@ -379,7 +379,7 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
 
       <CTABand
         title={`Ready to book ${course.name}?`}
-        sub="Message us on WhatsApp for pricing, dates and group discounts. A training advisor responds fast."
+        sub="Email us for pricing, dates and group discounts. A training advisor responds fast."
       />
     </>
   );

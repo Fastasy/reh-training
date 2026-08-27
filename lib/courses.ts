@@ -187,7 +187,11 @@ export const POPULAR_COURSES = ALL_COURSES.filter((c) => c.popular);
 
 export const COURSE_COUNT = ALL_COURSES.length;
 
-export function waQuoteLink(courseName: string, phone = "27615807967"): string {
-  const msg = `Hi REH Safety Training! I'd like a quote for the ${courseName} course.`;
-  return `https://wa.me/${phone}?text=${encodeURIComponent(msg)}`;
+export const REH_EMAIL = "info@rehtraining.co.za";
+
+export function emailQuoteLink(courseName?: string): string {
+  const subject = courseName
+    ? `Training Quotation Request - ${courseName}`
+    : "Training Quotation Request";
+  return `mailto:${REH_EMAIL}?subject=${encodeURIComponent(subject)}`;
 }

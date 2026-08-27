@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { REH_EMAIL } from "@/lib/courses";
 
 const COURSE_OPTIONS = [
   "Working at Heights",
@@ -24,8 +25,12 @@ export default function QuoteForm() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    const subject = `Training Quotation Request - ${course}`;
     const text = [
-      "Hi REH Safety Training! I'd like a quote.",
+      "Hi REH Safety Training,",
+      "",
+      "Please send a quotation for the following training:",
+      "",
       `Name: ${name}`,
       `Phone: ${phone}`,
       `Course: ${course}`,
@@ -33,7 +38,7 @@ export default function QuoteForm() {
     ]
       .filter(Boolean)
       .join("\n");
-    window.open(`https://wa.me/27615807967?text=${encodeURIComponent(text)}`, "_blank");
+    window.location.href = `mailto:${REH_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(text)}`;
     setSent(true);
   };
 
@@ -45,11 +50,11 @@ export default function QuoteForm() {
             <path d="M20 6L9 17l-5-5" />
           </svg>
         </div>
-        <h3 className="mt-4 font-display text-xl text-charcoal">WhatsApp should be opening now</h3>
+      <h3 className="mt-4 font-display text-xl text-charcoal">Your email app should be opening now</h3>
         <p className="mt-2 text-sm text-charcoal/70">
-          If nothing happened, message us directly on{" "}
-          <a href="https://wa.me/27615807967" target="_blank" rel="noopener noreferrer" className="font-semibold text-brand">
-            061 580 7967
+          If nothing happened, email us directly at{" "}
+          <a href={`mailto:${REH_EMAIL}?subject=Training%20Quotation%20Request`} className="font-semibold text-brand">
+            {REH_EMAIL}
           </a>{" "}
           — a training advisor will get back to you fast.
         </p>
@@ -64,7 +69,7 @@ export default function QuoteForm() {
     >
       <h3 className="font-display text-xl text-charcoal">Request a Quote</h3>
       <p className="text-sm text-charcoal/70">
-        Send your details on WhatsApp — a training advisor responds quickly with pricing and available dates.
+        Send your details and one of our training advisors will respond with pricing and available dates.
       </p>
 
       <div>
@@ -84,7 +89,7 @@ export default function QuoteForm() {
 
       <div>
         <label htmlFor="q-phone" className="mb-1.5 block text-sm font-semibold text-charcoal">
-          Phone / WhatsApp number
+          Phone number
         </label>
         <input
           id="q-phone"
@@ -133,10 +138,11 @@ export default function QuoteForm() {
         type="submit"
         className="flex min-h-13 w-full items-center justify-center gap-2 rounded-xl bg-brand px-6 py-3.5 text-base font-bold text-white shadow-lg shadow-brand/25 transition-colors hover:bg-brand-dark"
       >
-        <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Z" />
+        <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+          <rect x="3" y="5" width="18" height="14" rx="2" />
+          <path d="M3 7l9 6 9-6" />
         </svg>
-        Send on WhatsApp
+        Send via Email
       </button>
       <p className="text-center text-xs text-charcoal/50">
         Prefer to call? <a href="tel:+27107466954" className="font-semibold text-charcoal/80">010 746 6954</a> (Midrand) ·{" "}
