@@ -342,7 +342,7 @@ export function BookingProvider({ children }: { children: ReactNode }) {
                         value={row.count}
                         onChange={(e) => updateRow(i, { count: e.target.value.replace(/[^\d]/g, "") })}
                         placeholder="No."
-                        className={`w-20 ${inputCls(false)}`}
+                        className={inputCls(false, "w-20")}
                         aria-label={`Course ${i + 1} delegate count`}
                       />
                       {rows.length > 1 && (
@@ -464,8 +464,8 @@ function Field({
   );
 }
 
-function inputCls(hasError: boolean) {
-  return `w-full rounded-xl border bg-white px-4 py-3 text-charcoal placeholder:text-charcoal/40 focus:outline-none focus:ring-2 ${
+function inputCls(hasError: boolean, width = "w-full") {
+  return `${width} rounded-xl border bg-white px-4 py-3 text-charcoal placeholder:text-charcoal/40 focus:outline-none focus:ring-2 ${
     hasError
       ? "border-brand ring-brand/20"
       : "border-line focus:border-brand focus:ring-brand/20"
