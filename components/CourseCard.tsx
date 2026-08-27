@@ -49,6 +49,7 @@ export default function CourseCard({ course }: Props) {
         </a>
         <a
           href={waQuoteLink(course.name)}
+          data-course={course.name}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex min-h-11 items-center justify-center gap-1.5 rounded-xl bg-charcoal px-3 text-sm font-bold text-white transition-colors hover:bg-brand"

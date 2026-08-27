@@ -184,6 +184,7 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
             <div className="mt-6 flex flex-wrap gap-3">
               <a
                 href={waLink}
+                data-course={course.name}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex min-h-12 items-center justify-center gap-2 rounded-xl bg-brand px-6 py-3 text-sm font-bold text-white shadow-lg shadow-brand/25 transition-colors hover:bg-brand-dark"
@@ -339,6 +340,7 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
                 </dl>
                 <a
                   href={waLink}
+                  data-course={course.name}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-6 flex min-h-13 w-full items-center justify-center gap-2 rounded-xl bg-brand px-5 py-3.5 text-base font-bold text-white shadow-lg shadow-brand/25 transition-colors hover:bg-brand-dark"

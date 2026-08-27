@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
+import { BookingProvider } from "@/components/BookingModal";
 
 const workSans = Work_Sans({
   variable: "--font-work-sans",
@@ -89,10 +90,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${workSans.variable} ${lustria.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-cream text-charcoal">
-        <Header />
-        <main className="flex-1">{children}</main>
-        <Footer />
-        <WhatsAppFloat />
+        <BookingProvider>
+          <Header />
+          <main className="flex-1">{children}</main>
+          <Footer />
+          <WhatsAppFloat />
+        </BookingProvider>
       </body>
     </html>
   );
