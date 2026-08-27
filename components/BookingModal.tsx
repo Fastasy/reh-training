@@ -9,6 +9,7 @@ import {
   useState,
   type ReactNode,
 } from "react";
+import CourseSelect from "./CourseSelect";
 
 const WHATSAPP_NUMBER = "27615807967";
 
@@ -46,7 +47,6 @@ function extractCourseFromUrl(href: string): string | null {
 
 export function BookingProvider({ children }: { children: ReactNode }) {
   const [open, setOpen] = useState(false);
-  const [sourceCourse, setSourceCourse] = useState<string | null>(null);
 
   // ---- form state ----
   const [contactPerson, setContactPerson] = useState("");
@@ -67,7 +67,6 @@ export function BookingProvider({ children }: { children: ReactNode }) {
   const panelRef = useRef<HTMLDivElement>(null);
 
   const openBooking = useCallback((course?: string) => {
-    setSourceCourse(course ?? null);
     setRows(course ? [{ course, count: "" }] : [{ ...EMPTY_ROW }]);
     setSent(false);
     setErrors({});
@@ -95,7 +94,13 @@ export function BookingProvider({ children }: { children: ReactNode }) {
     if (!open) return;
     const prevOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
-    const onKey = (e: KeyboardEvent) => e.key === "Escape" && setOpen(false);
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key !== "Escape") return;
+      // let a focused combobox close its own dropdown; only close the modal otherwise
+      const t = e.target as HTMLElement | null;
+      if (t && typeof t.closest === "function" && t.closest('[role="combobox"]')) return;
+      setOpen(false);
+    };
     document.addEventListener("keydown", onKey);
     return () => {
       document.body.style.overflow = prevOverflow;
@@ -324,13 +329,10 @@ export function BookingProvider({ children }: { children: ReactNode }) {
                 <div className="space-y-2.5">
                   {rows.map((row, i) => (
                     <div key={i} className="flex items-center gap-2">
-                      <input
-                        type="text"
+                      <CourseSelect
                         value={row.course}
-                        onChange={(e) => updateRow(i, { course: e.target.value })}
-                        placeholder={sourceCourse ? sourceCourse : "Course name"}
-                        className={`flex-1 ${inputCls(false)}`}
-                        aria-label={`Course ${i + 1} name`}
+                        onChange={(v) => updateRow(i, { course: v })}
+                        exclude={rows.filter((_, idx) => idx !== i).map((r) => r.course)}
                       />
                       <input
                         type="text"
