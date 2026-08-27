@@ -1,0 +1,2072 @@
+{
+ "Accident & Incident Investigation": {
+  "_source": "accidentandincidentinvestigation.md",
+  "us_id": "244288",
+  "us_name": "Investigate incidents",
+  "nqf": "4",
+  "duration": "1 Days",
+  "price": "R700",
+  "description": "This accredited course provides learners with the knowledge and practical skills required to investigate workplace accidents and incidents in a structured and legally compliant manner. The training focuses on identifying immediate and root causes, collecting and analysing evidence, interviewing witnesses, compiling investigation reports, and recommending corrective and preventive actions. Learners will be equipped to conduct effective investigations that support legal compliance, reduce repeat incidents, and improve workplace safety performance.",
+  "outline": [
+   "Legal and compliance requirements for incident investigation",
+   "Definitions and classification of accidents, incidents, and near misses",
+   "Roles and responsibilities of investigators and employers",
+   "Incident reporting requirements and timelines",
+   "Evidence collection and scene preservation",
+   "Interviewing techniques and witness statements",
+   "Root cause analysis methods",
+   "Development of corrective and preventive actions",
+   "Incident investigation reporting and documentation",
+   "Monitoring effectiveness of corrective actions"
+  ],
+  "outcomes": [
+   "Explain legal requirements relating to accident and incident investigations",
+   "Collect and preserve evidence following an incident",
+   "Conduct structured interviews with witnesses",
+   "Identify immediate, underlying, and root causes of incidents",
+   "Compile investigation reports and recommend corrective actions"
+  ],
+  "audience": [
+   "Health and Safety Officers and Representatives",
+   "Safety Supervisors and Managers",
+   "Supervisors and team leaders",
+   "Incident investigation team members",
+   "Employers and management representatives"
+  ],
+  "certification": "Learners who are found competent will receive an Accredited Certificate aligned to Unit Standard 244288.",
+  "entry_requirements": [
+   "Basic literacy and numeracy",
+   "Workplace experience recommended"
+  ]
+ },
+ "First Aid Level 3": {
+  "_source": "advancedfirstaid.md",
+  "us_id": "120497",
+  "us_name": "Provide first aid in the workplace",
+  "nqf": "3",
+  "duration": "1 Day",
+  "price": "R650",
+  "description": "This accredited course provides learners with advanced knowledge and practical skills to provide first aid in the workplace. The training focuses on managing complex injuries and medical emergencies, advanced patient assessment, coordination during emergencies, and effective use of first aid equipment. Learners will be equipped to respond confidently to serious workplace incidents until professional medical assistance arrives.",
+  "outline": [
+   "Legal and workplace requirements for advanced first aid",
+   "Roles and responsibilities of a First Aider (Level 3)",
+   "Advanced assessment of casualties and emergency scenes",
+   "Advanced basic life support and CPR principles",
+   "Management of severe bleeding, shock, and trauma",
+   "Treatment of fractures, burns, and spinal injuries",
+   "Management of medical emergencies and unconscious casualties",
+   "Use and maintenance of advanced first aid equipment",
+   "Reporting, documentation, and handover to emergency services"
+  ],
+  "outcomes": [
+   "Conduct advanced assessments of emergency situations",
+   "Apply advanced first aid techniques for serious injuries",
+   "Manage medical emergencies and trauma effectively",
+   "Coordinate first aid responses during workplace incidents",
+   "Comply with workplace first aid and reporting requirements"
+  ],
+  "audience": [
+   "Appointed workplace First Aiders",
+   "Supervisors and team leaders",
+   "Health and Safety Representatives",
+   "Emergency response team members",
+   "Employees responsible for workplace first aid"
+  ],
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to Unit Standard 120497.",
+  "entry_requirements": [
+   "Basic literacy and numeracy",
+   "First Aid Level 2 recommended"
+  ]
+ },
+ "Advanced OHS Act": {
+  "_source": "ohsact.md",
+  "nqf": "Aligned (Advanced / Post-Basic OHS Knowledge)",
+  "duration": "1 Days",
+  "price": "R700",
+  "description": "This accredited course provides learners with in-depth knowledge and a detailed understanding of the Occupational Health and Safety Act, including its procedures, regulations, and practical application in the workplace. The training focuses on legal compliance, monitoring of control measures, recordkeeping requirements, and employer obligations related to training and communication. Learners will be equipped to interpret legislation, identify non-compliance, and support effective implementation of the OHS Act across workplace activities.",
+  "outline": [
+   "Overview and purpose of the Occupational Health and Safety Act",
+   "Principles and structure of relevant health and safety legislation",
+   "Legal compliance requirements and regulatory obligations",
+   "Identification of deviations from legal and safety requirements",
+   "Control measures required to achieve and maintain compliance",
+   "Monitoring and review of health and safety control measures",
+   "Recordkeeping and documentation requirements",
+   "Employer obligations regarding training, instruction, and communication",
+   "Practical application of advanced OHS Act requirements"
+  ],
+  "outcomes": [
+   "Demonstrate in-depth knowledge and understanding of relevant OHS legislation",
+   "Explain legal requirements for compliance with the OHS Act and regulations",
+   "Identify deviations from safety plans and required control measures",
+   "Monitor and review activities to ensure effectiveness of control measures",
+   "Demonstrate knowledge of legislative recordkeeping requirements",
+   "Explain the legal obligations of employers regarding training and communication"
+  ],
+  "audience": [
+   "Managers and supervisors",
+   "Health and Safety Officers and Practitioners",
+   "Safety Supervisors",
+   "SHE Representatives",
+   "Employers and management representatives"
+  ],
+  "certification": "Learners who are found competent will receive an Accredited Certificate.",
+  "entry_requirements": [
+   "Completion of the OHS Act (Basic) course or equivalent knowledge",
+   "Basic literacy and numeracy"
+  ]
+ },
+ "Basic Rigging and Slinging": {
+  "_source": "advancedriggingandslinging.md",
+  "us_id": "116229",
+  "us_name": "Perform basic rigging and slinging operations",
+  "nqf": "2",
+  "duration": "1 Day",
+  "price": "R1,500",
+  "description": "This accredited course provides learners with the knowledge and practical skills required to perform basic rigging and slinging operations safely in the workplace. The training focuses on identifying lifting hazards, selecting and inspecting lifting equipment, applying correct slinging techniques, and communicating effectively during lifting operations. Learners will be equipped to support safe lifting activities and comply with occupational health and safety requirements.",
+  "outline": [
+   "Legal and workplace requirements for rigging and slinging",
+   "Roles and responsibilities of rigging and slinging personnel",
+   "Hazard identification and risk assessment for lifting operations",
+   "Types of lifting equipment and slings",
+   "Inspection of slings, hooks, shackles, and lifting accessories",
+   "Safe slinging methods and load control",
+   "Load weight estimation and centre of gravity",
+   "Hand signals and communication during lifting operations",
+   "Safe work practices during lifting and moving of loads"
+  ],
+  "outcomes": [
+   "Identify hazards associated with rigging and slinging activities",
+   "Select and inspect appropriate lifting equipment",
+   "Apply correct slinging techniques for different loads",
+   "Communicate effectively during lifting operations",
+   "Perform basic rigging and slinging operations safely"
+  ],
+  "audience": [
+   "Rigging and slinging assistants",
+   "Construction and industrial workers",
+   "Maintenance and engineering personnel",
+   "Machine and equipment operators",
+   "Contractors and site personnel"
+  ],
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to Unit Standard 116229.",
+  "entry_requirements": [
+   "Basic literacy and numeracy",
+   "Medically fit for lifting-related activities"
+  ]
+ },
+ "Asbestos Awareness": {
+  "_source": "asbestorsawareness.md",
+  "duration": "1 Day",
+  "price": "From R850",
+  "description": "The Working with Asbestos Safety Course provides essential knowledge to identify asbestos, understand its health risks, and apply safe working practices where asbestos-containing materials (ACMs) may be present. The course focuses on awareness, legal compliance, exposure control, and safe work procedures for workers who may encounter asbestos during maintenance, renovation, demolition, or construction activities.",
+  "outcomes": [
+   "Understand health risks associated with asbestos exposure",
+   "Identify materials that may contain asbestos",
+   "Use asbestos registers and exposure records correctly",
+   "Apply safe work practices when working near asbestos",
+   "Understand legal duties, prohibitions, and licensing controls",
+   "Respond appropriately when asbestos is suspected or identified"
+  ],
+  "audience": [
+   "Construction and maintenance workers, plumbers, electricians, technicians, supervisors, facility maintenance staff, contractors working on older buildings, Safety Officers, and SHE Representatives."
+  ],
+  "entry_requirements": [
+   "Basic literacy and numeracy. No prior asbestos training required."
+  ],
+  "certification": "Learners who successfully complete the course will receive a Certificate of Attendance for the Working with Asbestos Safety Course."
+ },
+ "Basic Fire Awareness": {
+  "_source": "basicfireawareness.md",
+  "us_id": "12484",
+  "us_name": "Fight fires in the workplace",
+  "nqf": "2",
+  "duration": "1 Day",
+  "price": "R650",
+  "description": "This accredited course aims to provide learners with the knowledge, skills, and confidence to respond effectively to fire emergencies in the workplace. The training covers fire prevention principles, correct response procedures, and the safe use of firefighting and emergency equipment. Learners will be equipped to fight containable fires, retreat safely when required, and hand over incidents to appropriate emergency personnel to enhance survival and reduce damage during fire emergencies.",
+  "outline": [
+   "Legal and workplace requirements for fire safety",
+   "Procedures for dealing with fires",
+   "Fire chemistry, types of fire, and fire classifications",
+   "Selection of appropriate firefighting procedures",
+   "Identifying, selecting, and checking firefighting and safety equipment",
+   "Fighting containable and extinguishable fires",
+   "Procedures for retreating safely from a fire site",
+   "Fire handover procedures to appropriate personnel",
+   "Reporting and recording the status of fires and firefighting equipment"
+  ],
+  "outcomes": [
+   "Explain procedures for dealing with workplace fires",
+   "Identify different types of fires and select appropriate firefighting methods",
+   "Inspect and use firefighting equipment correctly",
+   "Safely fight containable fires",
+   "Retreat safely when conditions become unsafe",
+   "Hand over fire incidents to emergency personnel",
+   "Report and record fire incidents and equipment status"
+  ],
+  "audience": [
+   "Employees at all levels",
+   "Health and Safety Representatives",
+   "Fire Marshals / Fire Wardens",
+   "Supervisors and team leaders",
+   "Contractors and site personnel"
+  ],
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to Unit Standard 12484.",
+  "entry_requirements": [
+   "Basic literacy and numeracy"
+  ]
+ },
+ "Basic Firefighting": {
+  "_source": "basicfirefghting.md",
+  "us_id": "120331",
+  "us_name": "Apply basic fire fighting procedures",
+  "nqf": "2",
+  "duration": "1 Day",
+  "price": "R650",
+  "description": "This accredited course enables learners to acquire the knowledge and practical skills required to identify potential causes of fires, prevent workplace fires, understand fire detection methods, and apply emergency firefighting procedures. The training focuses on fire preparedness, correct response to fire emergencies, and the safe operation of firefighting equipment. Learners will be equipped to respond effectively to fire incidents while ensuring personal safety and workplace compliance.",
+  "outline": [
+   "Basic knowledge pertaining to fires and fire behaviour",
+   "Causes of workplace fires and fire prevention measures",
+   "Fire detection systems and methods",
+   "Fire preparedness methods and emergency procedures",
+   "Roles and responsibilities during fire emergencies",
+   "Selection and use of appropriate firefighting methods",
+   "Operating firefighting equipment safely",
+   "Safe firefighting techniques for containable fires",
+   "Emergency response, evacuation support, and reporting"
+  ],
+  "outcomes": [
+   "Explain basic fire behaviour and fire principles",
+   "Identify causes of workplace fires and apply prevention measures",
+   "Recognise fire detection methods and warning systems",
+   "Apply fire preparedness and emergency response procedures",
+   "Operate firefighting equipment safely and effectively"
+  ],
+  "audience": [
+   "Employees at all levels",
+   "Health and Safety Representatives",
+   "Fire Marshals / Fire Wardens",
+   "Supervisors and team leaders",
+   "Contractors and site personnel"
+  ],
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to Unit Standard 120331.",
+  "entry_requirements": [
+   "Basic literacy and numeracy"
+  ]
+ },
+ "First Aid Level 1": {
+  "_source": "basicfirstaidlevel.md",
+  "us_id": "119567",
+  "us_name": "Provide first aid as an advanced first responder",
+  "nqf": "1",
+  "duration": "1 Day",
+  "price": "R650",
+  "description": "This accredited course provides learners with the knowledge and practical skills required to provide basic first aid treatment in the workplace. The training focuses on assessing emergency situations, performing basic life support, treating common injuries and illnesses, and maintaining first aid equipment. Learners will be equipped to respond confidently and effectively to medical emergencies until professional medical assistance arrives.",
+  "outline": [
+   "Legal requirements and responsibilities of a first aider",
+   "Principles of first aid and scene safety",
+   "Primary and secondary casualty assessment",
+   "Basic life support (CPR awareness and recovery position)",
+   "Management of bleeding, wounds, and shock",
+   "Treatment of burns, fractures, and soft tissue injuries",
+   "Medical emergencies such as fainting, seizures, and choking",
+   "Use and care of first aid equipment and kits",
+   "Recording and reporting of first aid incidents"
+  ],
+  "outcomes": [
+   "Assess emergency situations and ensure scene safety",
+   "Provide basic first aid treatment for common injuries",
+   "Perform basic life support procedures",
+   "Manage bleeding, shock, and medical emergencies",
+   "Maintain first aid equipment and complete incident records"
+  ],
+  "audience": [
+   "Appointed workplace first aiders",
+   "Employees at all levels",
+   "Supervisors and team leaders",
+   "Health and Safety Representatives",
+   "Contractors and site personnel"
+  ],
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to Unit Standard 119567.",
+  "entry_requirements": [
+   "Basic literacy and numeracy"
+  ]
+ },
+ "Basic Plumbing Skills Course": {
+  "_source": "basicplumbingskillscourse.md",
+  "description": "This course prepares learners for entry into the plumbing industry and forms the foundation toward becoming a qualified plumber at NQF Level 2, once sufficient workplace practical experience has been obtained.",
+  "outline": [
+   "Introduction to plumbing principles and the plumbing industry",
+   "Health, safety, and basic plumbing legislation",
+   "Plumbing tools, equipment, and materials",
+   "Pipe types, fittings, and joining methods",
+   "Domestic cold and hot water supply systems",
+   "Basic installation and maintenance of geysers",
+   "Installation and maintenance of toilets, basins, and showers",
+   "Drainage systems and basic waste removal principles",
+   "Reading and interpreting basic plumbing diagrams",
+   "Pipe measurement, layout, and simple calculations",
+   "Fault finding and common household plumbing problems",
+   "Good housekeeping and professional work practices"
+  ],
+  "outcomes": [
+   "Understand basic plumbing principles and terminology",
+   "Identify and correctly use common plumbing tools and materials",
+   "Install and maintain basic domestic plumbing components",
+   "Perform basic plumbing maintenance tasks safely",
+   "Read basic plumbing drawings and layouts",
+   "Apply safe work practices in plumbing environments"
+  ],
+  "audience": [
+   "School leavers seeking a skilled trade",
+   "Individuals with no prior plumbing experience",
+   "Career changers looking for a stable trade",
+   "Aspiring plumbers and plumbing assistants",
+   "Individuals planning to start a plumbing business in the future"
+  ],
+  "entry_requirements": [
+   "Basic literacy and numeracy",
+   "No prior plumbing experience required",
+   "Medically fit for practical work"
+  ],
+  "certification": "Progression toward NQF Level 2 plumber status requires additional practical workplace experience in line with industry requirements."
+ },
+ "BIG 5 SAFETY COMBO": {
+  "_source": "big5combo.md",
+  "duration": "2 Days",
+  "price": "R2,300",
+  "outcomes": [
+   "Learners will be able to:",
+   "Identify hazards and apply risk control measures",
+   "Understand legal health and safety responsibilities",
+   "Perform the statutory duties of a SHE Representative",
+   "Investigate incidents and recommend corrective actions",
+   "Respond safely to fire emergencies"
+  ],
+  "audience": [
+   "Safety Officers, Supervisors, Managers, SHE Representatives, and employees requiring multi-skill safety compliance training across construction, manufacturing, logistics, and industry."
+  ],
+  "entry_requirements": [
+   "Basic literacy and numeracy. No prior safety training required."
+  ],
+  "certification": "Learners found competent will receive Accredited Certificates for each unit standard successfully completed."
+ },
+ "Breathing Apparatus": {
+  "_source": "breathingapparatus.md",
+  "us_id": "123259",
+  "us_name": "Use and maintain self-contained breathing apparatus",
+  "nqf": "2",
+  "duration": "1 Day",
+  "price": "R700",
+  "description": "This course provides learners with the knowledge and practical skills required to safely use and maintain breathing apparatus in hazardous or oxygen-deficient environments. The training focuses on understanding atmospheric hazards, correct donning and doffing procedures, equipment inspection, safe operation, and emergency procedures. Learners will be equipped to use breathing apparatus correctly while complying with occupational health and safety requirements.",
+  "outline": [
+   "Legal and compliance requirements for breathing apparatus use",
+   "Types of breathing apparatus and their applications",
+   "Atmospheric hazards and oxygen-deficient environments",
+   "Roles and responsibilities of breathing apparatus users",
+   "Pre-use inspections and equipment checks",
+   "Donning, operation, and doffing procedures",
+   "Limitations and duration of breathing apparatus",
+   "Maintenance, cleaning, and storage requirements",
+   "Emergency procedures and user safety considerations"
+  ],
+  "outcomes": [
+   "Identify hazardous atmospheres requiring breathing apparatus",
+   "Inspect breathing apparatus and identify defects",
+   "Correctly don, operate, and remove breathing apparatus",
+   "Understand equipment limitations and safe working durations",
+   "Apply emergency procedures while using breathing apparatus"
+  ],
+  "audience": [
+   "Confined space workers",
+   "Emergency response and rescue teams",
+   "Maintenance and industrial personnel",
+   "Fire and safety teams",
+   "Health and Safety Representatives"
+  ],
+  "certification": "Learners who are found competent will receive a Statement of Results aligned to the relevant Unit Standard.",
+  "entry_requirements": [
+   "Basic literacy and numeracy",
+   "Medically fit to use breathing apparatus"
+  ]
+ },
+ "Cherry Picker Operator": {
+  "_source": "cherrypickeroperator.md",
+  "us_id": "243272",
+  "us_name": "Operate a self-propelled elevating work platform",
+  "nqf": "2",
+  "duration": "5 Day",
+  "price": "Novice (Initial Training) – R3 900",
+  "description": "This course provides learners with the knowledge and practical skills required to safely operate a cherry picker in accordance with occupational health and safety legislation and workplace procedures. The training focuses on pre-use inspections, safe operating techniques, hazard identification, emergency procedures, and shutdown requirements. Learners will be equipped to operate cherry pickers safely in construction, maintenance, warehousing, and industrial environments.",
+  "outline": [
+   "Legal and compliance requirements for MEWP operation",
+   "Types and applications of cherry pickers",
+   "Roles and responsibilities of a cherry picker operator",
+   "Hazard identification and risk assessment",
+   "Pre-use inspections and equipment checks",
+   "Safe operating procedures and load limitations",
+   "Working at heights and fall protection requirements",
+   "Emergency procedures and rescue awareness",
+   "Shutdown, parking, and post-operation procedures."
+  ],
+  "outcomes": [
+   "Identify hazards associated with cherry picker operations",
+   "Conduct pre-use inspections and identify defects",
+   "Operate a cherry picker safely and correctly",
+   "Apply safe working at heights practices",
+   "Respond appropriately to emergency situations"
+  ]
+ },
+ "COIDA – Compensation for Occupational Injuries and Diseases Act": {
+  "_source": "coidacourse.md",
+  "us_id": "259638",
+  "us_name": "Explain compensation for occupational injuries and diseases",
+  "nqf": "3",
+  "duration": "1 Day",
+  "price": "R600",
+  "description": "This accredited course provides learners with a clear understanding of the Compensation for Occupational Injuries and Diseases Act (COIDA) and its application in the workplace. The training focuses on employer and employee responsibilities, reporting of injuries and diseases, compensation claims processes, and the management of occupational injury cases. Learners will be equipped to ensure compliance with COIDA requirements and support effective injury management and compensation administration.",
+  "outline": [
+   "Purpose and scope of the Compensation for Occupational Injuries and Diseases Act",
+   "Roles and responsibilities of employers and employees",
+   "Types of occupational injuries and diseases",
+   "Reporting procedures for workplace injuries and incidents",
+   "Compensation claims process and required documentation",
+   "Employer registration and assessments",
+   "Duties of the Compensation Commissioner",
+   "Managing return-to-work and rehabilitation processes",
+   "Consequences of non-compliance with COIDA"
+  ],
+  "outcomes": [
+   "Explain the purpose and requirements of COIDA",
+   "Identify employer and employee responsibilities under COIDA",
+   "Apply correct reporting procedures for occupational injuries and diseases",
+   "Understand the compensation claims process",
+   "Support compliance and effective injury management in the workplace"
+  ],
+  "audience": [
+   "Employers and business owners",
+   "Managers and supervisors",
+   "Health and Safety Officers and Representatives",
+   "HR and payroll personnel",
+   "Administrators responsible for injury reporting and claims"
+  ],
+  "certification": "Learners who are found competent will receive an Accredited Certificate aligned to Unit Standard 259638.",
+  "entry_requirements": [
+   "Basic literacy and numeracy"
+  ]
+ },
+ "Cold Water Supply Systems": {
+  "_source": "coldwatersupplysystemscourse.md",
+  "us_id": "244507",
+  "us_name": "Install, maintain and test cold water supply systems",
+  "nqf": "4",
+  "duration": "4 Days",
+  "price": "R6,000",
+  "description": "Learners will be equipped to ensure cold water systems operate safely, efficiently, and in accordance with regulatory requirements.",
+  "outline": [
+   "Principles of cold water supply systems",
+   "Types of cold water systems and components",
+   "Health, safety, and environmental requirements",
+   "Interpreting drawings, layouts, and specifications",
+   "System layout, pipe sizing, and material selection",
+   "Installation of cold water supply systems",
+   "Valves, fittings, meters, and backflow prevention",
+   "Pressure control and leak prevention",
+   "Testing and commissioning procedures",
+   "Fault finding and corrective actions",
+   "Routine maintenance and servicing",
+   "System isolation and shutdown procedures",
+   "Compliance with applicable standards and regulations",
+   "Documentation, inspection records, and handover procedures"
+  ],
+  "outcomes": [
+   "Identify components and types of cold water supply systems",
+   "Install cold water supply systems safely and correctly",
+   "Test and commission cold water systems",
+   "Perform routine maintenance and servicing",
+   "Identify and rectify common system faults",
+   "Comply with health, safety, and regulatory requirements"
+  ],
+  "audience": [
+   "Plumbers and plumbing assistants",
+   "Maintenance and facilities personnel",
+   "Technicians involved in water supply systems",
+   "Individuals entering the plumbing or building services sector"
+  ],
+  "entry_requirements": [
+   "Basic literacy and numeracy",
+   "Basic plumbing knowledge or experience is recommended",
+   "Medically fit for installation work"
+  ],
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to SAQA Unit Standard 244507."
+ },
+ "Confined Space Entry": {
+  "_source": "confinedspaceentry.md",
+  "us_id": "116206",
+  "us_name": "Conduct confined space entry",
+  "nqf": "2",
+  "duration": "1 Day",
+  "price": "R700",
+  "outline": [
+   "Legislative and compliance requirements for confined space work",
+   "Definition and classification of confined spaces",
+   "Hazard identification and risk assessment in confined spaces",
+   "Safe entry procedures and permit-to-work systems",
+   "Personal protective equipment and safety equipment requirements",
+   "Atmospheric hazards and monitoring awareness",
+   "Emergency preparedness and response procedures"
+  ],
+  "outcomes": [
+   "Identify confined spaces and associated hazards in the workplace",
+   "Apply safe work procedures for confined space entry",
+   "Understand permit-to-work requirements and entry controls",
+   "Use and inspect basic personal protective equipment correctly",
+   "Respond appropriately to emergencies related to confined space work."
+  ]
+ },
+ "Confined Space Rescue": {
+  "_source": "confinedspacerescue.md",
+  "us_id": "252245",
+  "us_name": "Perform confined space rescue operations",
+  "nqf": "2–3",
+  "duration": "1 Day",
+  "price": "R700",
+  "outline": [
+   "Legislative and compliance requirements for confined space rescue",
+   "Roles and responsibilities of a confined space rescue team",
+   "Hazard identification and risk assessment during rescue operations",
+   "Rescue planning and permit-to-work considerations",
+   "Confined space rescue equipment and systems",
+   "Safe entry, retrieval, and casualty handling techniques",
+   "Communication, coordination, and teamwork during rescue operations",
+   "Emergency response procedures and post-rescue actions"
+  ],
+  "outcomes": [
+   "Identify hazards associated with confined space rescue operations",
+   "Understand the roles and responsibilities within a rescue team",
+   "Apply safe rescue procedures and emergency response techniques",
+   "Use confined space rescue equipment correctly and safely",
+   "Participate effectively in confined space rescue operations"
+  ]
+ },
+ "Construction Site Supervision": {
+  "_source": "constructionsupervisor.md",
+  "us_id": "13964",
+  "us_name": "Supervise a construction site",
+  "nqf": "4",
+  "duration": "1 Days",
+  "price": "R700",
+  "description": "This accredited course provides learners with the knowledge and practical skills required to effectively supervise construction site activities in compliance with occupational health and safety legislation, construction regulations, and project requirements. The training focuses on site supervision principles, planning and coordination of work activities, health and safety compliance, quality control, communication, and workforce management. Learners will be equipped to oversee construction operations, manage site risks, and ensure work is completed safely, efficiently, and to required standards.",
+  "outline": [
+   "Roles and responsibilities of a construction site supervisor",
+   "Legal and regulatory requirements for construction site supervision",
+   "Planning, organising, and coordinating construction activities",
+   "Health and safety management on construction sites",
+   "Hazard identification and risk assessment",
+   "Monitoring work progress, quality, and productivity",
+   "Supervising contractors and subcontractors",
+   "Communication, leadership, and conflict management",
+   "Incident reporting, investigations, and corrective actions",
+   "Record keeping, site documentation, and reporting"
+  ],
+  "outcomes": [
+   "Explain the role and responsibilities of a construction site supervisor",
+   "Apply legal and health and safety requirements on a construction site",
+   "Plan and coordinate daily construction activities",
+   "Monitor work quality, progress, and compliance",
+   "Supervise teams and contractors effectively"
+  ],
+  "audience": [
+   "Construction site supervisors",
+   "Foremen and team leaders",
+   "Construction managers",
+   "Health and Safety Officers",
+   "Contractors and site coordinators"
+  ],
+  "certification": "Learners who are found competent will receive an Accredited Certificate aligned to Unit Standard 13964.",
+  "entry_requirements": [
+   "Basic literacy and numeracy",
+   "Relevant construction site experience recommended."
+  ]
+ },
+ "Controlling Hazardous & Dangerous Goods": {
+  "_source": "controllinghazardousanddangerousgoodscourse.md",
+  "us_id": "244073",
+  "us_name": "Control hazardous chemical substances",
+  "nqf": "2",
+  "duration": "1 Day",
+  "price": "R800",
+  "description": "This accredited course provides learners with the knowledge and practical understanding required to control hazardous and dangerous goods in the workplace. The training focuses on identifying hazardous substances, applying control measures, safe handling and storage practices, emergency response actions, and compliance with occupational health and safety requirements. Learners will be equipped to minimise risks to people, property, and the environment when working with hazardous and dangerous goods.",
+  "outline": [
+   "Legal and workplace requirements for hazardous and dangerous goods",
+   "Classification of hazardous and dangerous substances",
+   "Hazard identification and risk assessment",
+   "Control measures for hazardous and dangerous goods",
+   "Safe handling, storage, and segregation practices",
+   "Labelling systems and Safety Data Sheets (SDS)",
+   "Personal protective equipment requirements",
+   "Emergency response procedures for spills, leaks, and exposure",
+   "Reporting incidents and maintaining records"
+  ],
+  "outcomes": [
+   "Identify hazardous and dangerous goods in the workplace",
+   "Apply appropriate control measures to manage risks",
+   "Handle and store hazardous substances safely",
+   "Interpret labels and Safety Data Sheets",
+   "Respond effectively to hazardous substance emergencies",
+   "Support compliance with health and safety requirements"
+  ],
+  "audience": [
+   "Employees working with hazardous substances",
+   "Supervisors and team leaders",
+   "Health and Safety Representatives",
+   "Warehouse, logistics, and operations personnel",
+   "Contractors and site personnel"
+  ],
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to Unit Standard 244073.",
+  "entry_requirements": [
+   "Basic literacy and numeracy"
+  ]
+ },
+ "Convey Dangerous Goods by Road (Drivers)": {
+  "_source": "conveydangerousgoodsbyroad.md",
+  "us_id": "123259",
+  "us_name": "Convey dangerous goods by road",
+  "nqf": "2",
+  "duration": "1 Day",
+  "price": "R800",
+  "description": "This accredited course provides drivers with the knowledge and understanding required to safely convey dangerous goods by road in compliance with legal and safety requirements. The training focuses on classification of dangerous goods, vehicle and load safety, documentation, emergency procedures, and driver responsibilities. Learners will be equipped to transport dangerous goods safely while minimising risks to people, property, and the environment.",
+  "outline": [
+   "Legal requirements for conveying dangerous goods by road",
+   "Classification of dangerous goods",
+   "Roles and responsibilities of drivers",
+   "Packaging, labelling, and placarding requirements",
+   "Vehicle safety and load securing",
+   "Documentation and transport instructions",
+   "Emergency procedures and incident response",
+   "Reporting accidents and dangerous goods incidents"
+  ],
+  "outcomes": [
+   "Identify different classes of dangerous goods",
+   "Apply legal requirements for transporting dangerous goods",
+   "Ensure vehicle and load safety compliance",
+   "Respond appropriately to dangerous goods emergencies",
+   "Comply with driver responsibilities and reporting requirements"
+  ],
+  "audience": [
+   "Drivers transporting dangerous goods by road",
+   "Logistics and transport personnel",
+   "Owner-drivers and fleet drivers",
+   "Supervisors responsible for dangerous goods transport",
+   "Employees involved in loading and transport operations"
+  ],
+  "entry_requirements": [
+   "Valid driver’s licence",
+   "Basic literacy and numeracy",
+   "Medically fit to operate a motor vehicle"
+  ],
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to Unit Standard 123259."
+ },
+ "Cut-Off Saw Operator Safety": {
+  "_source": "cutoffsawoperator.md",
+  "us_id": "10255",
+  "us_name": "Select, use and care for power tools",
+  "nqf": "2",
+  "duration": "1 Day",
+  "price": "R1250",
+  "description": "Learners will gain an understanding of how to use cut-off saws safely, reduce the risk of injury, and comply with workplace safety requirements when cutting materials such as pipes, metal, masonry, and concrete.",
+  "outline": [
+   "Cut-off saw safety legislation",
+   "Legal requirements under the Occupational Health and Safety Act",
+   "Main components and structure of cut-off saws",
+   "Safety precautions for cut-off saw operators",
+   "Safety precautions related to the machine and work environment",
+   "Safe operating procedures for rotary and handheld cut-off saws",
+   "Operational maintenance of cut-off saws",
+   "Mounting and checking abrasive wheels",
+   "Refuelling procedures and fuel safety",
+   "Checking spark plugs and air filters",
+   "Basic adjustments and safe storage of equipment",
+   "Hazard identification and risk control measures"
+  ],
+  "outcomes": [
+   "Identify legal and safety requirements for cut-off saw operation",
+   "Identify components and controls of a cut-off saw",
+   "Operate a cut-off saw safely and correctly",
+   "Perform basic operational maintenance and inspections",
+   "Apply hazard controls and safe working practices",
+   "Comply with workplace safety requirements when using cut-off saws"
+  ],
+  "audience": [
+   "Cut-off saw and power tool operators",
+   "Construction and industrial workers",
+   "Maintenance personnel",
+   "Apprentices and entry-level operators",
+   "Supervisors responsible for tool safety"
+  ],
+  "entry_requirements": [
+   "Basic literacy and numeracy",
+   "Medically fit for operational tasks"
+  ],
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to SAQA Unit Standard 10255."
+ },
+ "Drainage & Rainwater Systems Installation Course": {
+  "_source": "drainagesystemscourse.md",
+  "nqf": "4",
+  "duration": "5 Days",
+  "price": "R6,000",
+  "us_name": "Install, maintain and test below ground drainage systems",
+  "description": "This course is ideal for learners progressing in plumbing, drainage, or water management roles.",
+  "outline": [
+   "Principles of drainage and rainwater management systems",
+   "Health, safety, and environmental requirements",
+   "Interpreting drawings, layouts, and site plans",
+   "Below-ground drainage system components and materials",
+   "Excavation, trenching, bedding, and backfilling practices",
+   "Pipe laying techniques, gradients, and jointing methods",
+   "Inspection chambers, gullies, and access points",
+   "Testing and commissioning of drainage systems",
+   "Fault finding and corrective actions for drainage systems",
+   "Rainwater harvesting and stormwater control principles",
+   "Installation of gutters, downpipes, and rainwater outlets",
+   "Rainwater discharge, diversion, and drainage connections",
+   "Testing and maintenance of rainwater systems",
+   "Compliance with applicable standards and regulations",
+   "Documentation, inspections, and handover procedures"
+  ],
+  "outcomes": [
+   "Install and maintain below-ground drainage systems",
+   "Test drainage systems for compliance and performance",
+   "Install and maintain rainwater collection and discharge systems",
+   "Identify faults and carry out corrective actions",
+   "Apply safe work practices during excavation and installation",
+   "Comply with plumbing and drainage regulations"
+  ],
+  "audience": [
+   "Plumbers and plumbing assistants",
+   "Drainage and sanitation installers",
+   "Maintenance and facilities personnel",
+   "Construction and civil services workers",
+   "Learners progressing toward plumbing qualifications"
+  ],
+  "entry_requirements": [
+   "Basic literacy and numeracy",
+   "Basic plumbing knowledge or experience is recommended",
+   "Medically fit for excavation and installation work"
+  ],
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to SAQA Unit Standards 244498 and 244495."
+ },
+ "Fall Arrest Techniques": {
+  "_source": "fallarresttechniques.md",
+  "us_id": "229998",
+  "us_name": "Explain and perform fall arrest techniques when working at height",
+  "nqf": "1",
+  "duration": "1 Day",
+  "price": "R700",
+  "description": "This course provides learners with the knowledge and practical skills required to safely use fall arrest systems when working at heights. The training focuses on hazard identification, selection and inspection of fall arrest equipment, correct anchoring techniques, safe use of harness systems, and emergency response awareness. Learners will be equipped to apply fall arrest techniques correctly to prevent falls and reduce the risk of serious injury or fatality.",
+  "outline": [
+   "Legal and compliance requirements for fall arrest systems",
+   "Principles of fall protection and fall arrest",
+   "Roles and responsibilities of users and employers",
+   "Hazard identification and risk assessment for working at heights",
+   "Types of fall arrest systems and components",
+   "Inspection, care, and storage of fall arrest equipment",
+   "Correct fitting and use of full body harnesses",
+   "Anchorage points and connection methods",
+   "Safe working practices while using fall arrest systems",
+   "Emergency response and rescue awareness."
+  ],
+  "outcomes": [
+   "Identify fall hazards associated with working at heights",
+   "Select appropriate fall arrest systems for specific tasks",
+   "Inspect fall arrest equipment and identify defects",
+   "Fit and use fall arrest equipment correctly",
+   "Apply safe work practices when working at heights."
+  ]
+ },
+ "Fall Protection Plan Development": {
+  "_source": "fallprotectionplandevelopment.md",
+  "us_id": "229994",
+  "us_name": "Assess a worksite for work at height and prepare a fall protection plan",
+  "nqf": "2",
+  "duration": "1 Day",
+  "price": "R700",
+  "description": "This course provides learners with the knowledge and practical skills required to develop, implement, and review a fall protection plan in accordance with occupational health and safety legislation and construction regulations. The training focuses on identifying fall hazards, conducting risk assessments, selecting appropriate fall protection measures, and documenting control measures. Learners will be equipped to compile compliant fall protection plans for construction, maintenance, and industrial work environments.",
+  "outline": [
+   "Legal and regulatory requirements for fall protection plans",
+   "Purpose and scope of a fall protection plan",
+   "Roles and responsibilities of employers, supervisors, and employees",
+   "Hazard identification and risk assessment for work at heights",
+   "Selection of fall prevention and fall arrest control measures",
+   "Identification of suitable anchorage points and systems",
+   "Emergency and rescue planning considerations",
+   "Documentation, implementation, and communication of the plan",
+   "Monitoring, review, and updating of fall protection plans."
+  ],
+  "outcomes": [
+   "Interpret legal requirements relating to fall protection planning",
+   "Identify fall hazards and assess associated risks",
+   "Develop a compliant fall protection plan",
+   "Select appropriate fall prevention and fall arrest measures",
+   "Review and update fall protection plans to ensure ongoing compliance."
+  ]
+ },
+ "Fall Rescue": {
+  "_source": "fallrescue.md",
+  "us_id": "229995",
+  "us_name": "Install, use and perform basic rescues from fall arrest systems and implement the fall protection plan",
+  "nqf": "3",
+  "duration": "1 Day",
+  "price": "R700",
+  "description": "This course provides learners with the knowledge and practical skills required to perform safe and effective fall rescue operations following a fall arrest incident. The training focuses on rescue planning, hazard identification, correct use of rescue equipment, casualty handling, and coordination of rescue activities. Learners will be equipped to respond promptly to fall emergencies while minimising further risk to the casualty and rescue team.",
+  "outline": [
+   "Legal and compliance requirements for fall rescue",
+   "Principles of fall arrest and suspension trauma",
+   "Roles and responsibilities during fall rescue operations",
+   "Hazard identification and risk assessment for rescue activities",
+   "Rescue planning and selection of rescue methods",
+   "Fall rescue equipment and system setup",
+   "Casualty recovery and controlled descent techniques",
+   "Communication and coordination during rescue",
+   "Emergency response procedures and post-rescue actions."
+  ],
+  "outcomes": [
+   "Identify hazards associated with fall rescue operations",
+   "Understand the risks of suspension trauma and emergency response needs",
+   "Select and use fall rescue equipment correctly",
+   "Perform basic fall rescue techniques safely",
+   "Participate effectively in fall rescue operations"
+  ]
+ },
+ "Fire Equipment Inspector": {
+  "_source": "fireequipmentinspectorcourse.md",
+  "us_id": "259584",
+  "us_name": "Inspect firefighting equipment",
+  "nqf": "2",
+  "duration": "1 Day",
+  "price": "R650",
+  "description": "This accredited course provides learners with the knowledge and practical skills required to inspect firefighting equipment in the workplace to ensure it is safe, compliant, and operational. The training focuses on identifying different types of firefighting equipment, conducting routine inspections, recognising defects, maintaining inspection records, and reporting non-compliance. Learners will be equipped to support workplace fire safety and ensure firefighting equipment is ready for use during emergencies.",
+  "outline": [
+   "Legal and workplace requirements for firefighting equipment inspection",
+   "Types and uses of firefighting equipment",
+   "Roles and responsibilities of a fire equipment inspector",
+   "Inspection criteria for fire extinguishers and related equipment",
+   "Identifying defects, damage, and non-compliance",
+   "Tagging, labelling, and inspection intervals",
+   "Recordkeeping and inspection registers",
+   "Reporting defects and corrective actions",
+   "Storage and accessibility requirements for firefighting equipment"
+  ],
+  "outcomes": [
+   "Identify different types of firefighting equipment",
+   "Inspect firefighting equipment for defects and compliance",
+   "Complete inspection tags and inspection records",
+   "Report faulty or non-compliant equipment",
+   "Support workplace fire safety compliance"
+  ],
+  "audience": [
+   "Fire Equipment Inspectors",
+   "Health and Safety Representatives",
+   "Fire Marshals / Fire Wardens",
+   "Supervisors and team leaders",
+   "Employees responsible for fire safety equipment"
+  ],
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to Unit Standard 259584.",
+  "entry_requirements": [
+   "Basic literacy and numeracy"
+  ]
+ },
+ "Fire Marshal": {
+  "_source": "firemarshal.md",
+  "us_id": "259585",
+  "us_name": "Demonstrate knowledge of fire prevention and firefighting equipment",
+  "nqf": "2",
+  "duration": "1 Day",
+  "price": "R550",
+  "description": "This accredited course provides learners with the knowledge and practical understanding required to perform the duties of a Fire Marshal (Fire Warden) in the workplace. The training focuses on fire prevention, identification of fire hazards, emergency procedures, evacuation coordination, and the correct use of firefighting equipment. Learners will be equipped to assist with fire emergencies, support safe evacuations, and promote fire safety compliance in the workplace.",
+  "outline": [
+   "Legal and workplace requirements for fire safety",
+   "Roles and responsibilities of a Fire Marshal",
+   "Fire chemistry and classes of fire",
+   "Fire hazard identification and prevention measures",
+   "Emergency procedures and evacuation coordination",
+   "Use and limitations of firefighting equipment",
+   "Fire alarms, signage, and emergency communication",
+   "Assisting occupants during emergencies",
+   "Post-incident procedures and reporting"
+  ],
+  "outcomes": [
+   "Explain the role and responsibilities of a Fire Marshal",
+   "Identify fire hazards and apply prevention measures",
+   "Assist with emergency evacuations",
+   "Use firefighting equipment safely and correctly",
+   "Support workplace fire safety and emergency procedures"
+  ],
+  "audience": [
+   "Appointed Fire Marshals / Fire Wardens",
+   "Health and Safety Representatives",
+   "Supervisors and team leaders",
+   "Employees responsible for emergency response",
+   "Contractors and site personnel"
+  ],
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to Unit Standard 259585.",
+  "entry_requirements": [
+   "Basic literacy and numeracy"
+  ]
+ },
+ "Flagman (Traffic Controller)": {
+  "_source": "flagsmen.md",
+  "us_id": "242974",
+  "us_name": "Apply flagging procedures to control traffic",
+  "nqf": "2",
+  "duration": "1 Day",
+  "price": "R700",
+  "description": "This accredited course provides learners with the knowledge and practical skills required to safely control traffic using flagging procedures in work zones. The training focuses on traffic control principles, correct use of signage and hand signals, hazard identification, communication, and personal safety. Learners will be equipped to perform flagman duties safely and effectively in construction, roadworks, maintenance, and industrial environments.",
+  "outline": [
+   "Legal and workplace requirements for traffic control",
+   "Roles and responsibilities of a flagman",
+   "Hazard identification and risk assessment in traffic control areas",
+   "Traffic control plans and work zone layouts",
+   "Use of flagging equipment, signs, and PPE",
+   "Correct hand signals and communication techniques",
+   "Managing vehicle and pedestrian movement",
+   "Emergency situations and incident response",
+   "Personal safety and situational awareness"
+  ],
+  "outcomes": [
+   "Explain the role and responsibilities of a flagman",
+   "Identify hazards associated with traffic control activities",
+   "Apply correct flagging procedures and hand signals",
+   "Control traffic safely and effectively",
+   "Comply with legal and workplace traffic control requirements"
+  ],
+  "audience": [
+   "Flagmen and traffic controllers",
+   "Construction and roadworks personnel",
+   "Maintenance and utilities workers",
+   "Contractors and site personnel",
+   "Supervisors overseeing traffic control"
+  ],
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to Unit Standard 242974.",
+  "entry_requirements": [
+   "Basic literacy and numeracy",
+   "Medically fit for outdoor work"
+  ]
+ },
+ "General Machinery Regulations (GMRs)": {
+  "_source": "generalmachineryregulations.md",
+  "duration": "1 Day",
+  "price": "R800",
+  "description": "The course is designed to assist supervisors, managers, and appointed competent persons in ensuring legal compliance and promoting safe machinery operations within the workplace.",
+  "outline": [
+   "The following topics will be covered during the course:",
+   "01. Overview of the Occupational Health and Safety Act (OHS Act)",
+   "02. Understanding and interpreting occupational health and safety legislation",
+   "03. Occupational health and safety terminology and legal liabilities",
+   "04. Roles and responsibilities of competent persons overseeing machinery",
+   "05. Competency requirements for machinery supervision appointments",
+   "06. Appointment and responsibilities of assistants to machinery supervisors",
+   "07. Duties of manufacturers, designers, erectors, and installers",
+   "08. Importance of risk assessments, audits, and safe operating procedures",
+   "09. Permit systems and lock-out procedures",
+   "10. Legal requirements and practical application of the General Machinery Regulations (GMRs)",
+   "11. Procedures for appointing competent persons",
+   "12. Relationship between role players in occupational health and safety"
+  ]
+ },
+ "Grinders Operator (Angle Grinder) Safety": {
+  "_source": "grindersoperator.md",
+  "us_id": "10255",
+  "us_name": "Select, use and care for power tools",
+  "nqf": "2",
+  "duration": "1 Day",
+  "price": "R700",
+  "description": "The training focuses on identifying grinder hazards, selecting correct discs, applying safe operating techniques, controlling grinder speed, complying with hot work requirements, and implementing effective hazard controls. Learners will be equipped to operate grinders safely, prevent injuries, and comply with workplace safety requirements and applicable legislation.",
+  "outline": [
+   "Hazards associated with angle grinder use and potential consequences of unsafe operation",
+   "Understanding angle grinder equipment, limitations, and correct operating techniques",
+   "Selection and correct use of grinder discs (grit, diamond, wire, and wood discs)",
+   "Matching grinder speed to different materials and checking wheel speed compatibility",
+   "Safe operating procedures, PPE requirements, and protective clothing",
+   "Pre-use inspections, pre-start checks, and common-sense safety practices",
+   "Safe grinding techniques for different materials, including stone",
+   "Do’s and don’ts for grinder operators and unsafe practices to avoid",
+   "Identification of risks, hazard controls, and implementation of control measures",
+   "Hot work requirements, fire risks, fire watch procedures, and controlled grinding areas"
+  ],
+  "outcomes": [
+   "Identify hazards associated with angle grinder operations",
+   "Select and use correct grinder discs for specific tasks",
+   "Apply safe operating procedures and PPE requirements",
+   "Control grinder speed for different materials",
+   "Implement hazard controls and hot work safety measures",
+   "Operate angle grinders safely and compliantly"
+  ],
+  "audience": [
+   "Grinder and power tool operators",
+   "Construction and industrial workers",
+   "Maintenance personnel",
+   "Apprentices and entry-level operators",
+   "Supervisors responsible for tool safety"
+  ],
+  "entry_requirements": [
+   "Basic literacy and numeracy",
+   "Medically fit for operational tasks"
+  ],
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to SAQA Unit Standard 10255."
+ },
+ "Hand Tools Operator": {
+  "_source": "handtools.md",
+  "us_id": "12877",
+  "us_name": "Use and maintain hand tools on a construction site",
+  "nqf": "2",
+  "duration": "1 Day",
+  "price": "R700",
+  "description": "This accredited course provides learners with the knowledge and practical skills required to safely use and maintain hand tools on a construction site. The training focuses on identifying common hand tools, selecting the correct tool for specific tasks, applying safe operating procedures, conducting pre-use inspections, and maintaining tools in good working condition. Learners will be equipped to work safely, reduce tool-related incidents, and comply with construction site safety requirements and applicable legislation.",
+  "outline": [
+   "Identification of common hand tools used on construction sites",
+   "Correct selection of hand tools for specific tasks",
+   "Hazards associated with hand tool use",
+   "Safe operating procedures for hand tools",
+   "Personal protective equipment (PPE) requirements",
+   "Pre-use inspections and defect identification",
+   "Basic maintenance and care of hand tools",
+   "Safe storage and housekeeping practices",
+   "Actions to take when hand tools are damaged or unsafe",
+   "Compliance with construction site safety requirements and legislation"
+  ],
+  "outcomes": [
+   "Identify and correctly use common construction hand tools",
+   "Select appropriate hand tools for specific construction tasks",
+   "Apply safe operating procedures and PPE requirements",
+   "Conduct pre-use inspections and basic tool maintenance",
+   "Store and maintain hand tools safely on a construction site",
+   "Comply with workplace safety and legal requirements"
+  ],
+  "audience": [
+   "Construction workers and general labourers",
+   "Maintenance and building personnel",
+   "Apprentices and entry-level workers",
+   "Supervisors responsible for tool safety",
+   "Contractors and site personnel"
+  ],
+  "entry_requirements": [
+   "Basic literacy and numeracy",
+   "Medically fit for construction site work"
+  ],
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to SAQA Unit Standard 12877."
+ },
+ "Hand and Power Tools Operator": {
+  "_source": "handtoolsandpowertoolsoperator.md",
+  "duration": "1 Day",
+  "price": "R800",
+  "us_name": "Use and maintain Power Hand Tools.",
+  "nqf": "2",
+  "description": "This course is ideal for organisations looking for one comprehensive programme that addresses both hand tools and power tools in a practical and compliant manner.",
+  "outline": [
+   "Identification of common hand tools (hammers, chisels, saws, spanners, etc.)",
+   "Identification and correct use of power tools (drills, angle grinders, bench grinders, cut-off saws)",
+   "Correct application of tools for specific tasks",
+   "Safe operating procedures for hand and power tools",
+   "Personal protective equipment (PPE) requirements",
+   "Pre-use inspections and basic maintenance practices",
+   "Actions to take when tools are damaged or unsafe",
+   "Selecting manual tools versus power tools (productivity, cost, and efficiency)",
+   "Good housekeeping and safe storage of tools",
+   "Typical hazards (dust, sparks, flying debris, entanglement)",
+   "Basic compliance with workplace safety requirements and legislation"
+  ],
+  "outcomes": [
+   "Identify and correctly use common hand and power tools",
+   "Select the appropriate tool for specific tasks",
+   "Perform pre-use inspections and basic tool maintenance",
+   "Apply correct PPE and safe operating procedures",
+   "Identify hazards associated with tool use and apply control measures",
+   "Store and maintain tools safely in the workplace"
+  ],
+  "audience": [
+   "General workers and operators",
+   "Maintenance personnel",
+   "Construction and industrial employees",
+   "Apprentices and entry-level workers",
+   "Supervisors responsible for tool safety"
+  ],
+  "entry_requirements": [
+   "Basic literacy and numeracy",
+   "Medically fit for operational tasks"
+  ],
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to SAQA Unit Standards 12877 and 12878."
+ },
+ "Move & Store Hazardous Loads": {
+  "_source": "hazardousloadshandling.md",
+  "us_id": "260837",
+  "us_name": "Move and store hazardous loads",
+  "nqf": "2",
+  "duration": "1 Day",
+  "price": "R800",
+  "description": "This accredited course provides learners with the knowledge and practical skills required to safely move and store hazardous loads in the workplace. The training focuses on hazard identification, risk control measures, correct handling techniques, storage requirements, segregation of incompatible substances, and emergency response procedures. Learners will be equipped to minimise risks to people, property, and the environment while ensuring compliance with occupational health and safety requirements.",
+  "outline": [
+   "Legal and workplace requirements for moving and storing hazardous loads",
+   "Identification and classification of hazardous loads",
+   "Hazard identification and risk assessment",
+   "Safe handling and movement techniques",
+   "Storage requirements and segregation of hazardous substances",
+   "Labelling, signage, and documentation requirements",
+   "Use of handling equipment and personal protective equipment",
+   "Emergency procedures for spills, leaks, and exposure",
+   "Reporting incidents and maintaining records"
+  ],
+  "outcomes": [
+   "Identify hazardous loads and associated risks",
+   "Apply safe handling and movement techniques",
+   "Store hazardous loads in compliance with safety requirements",
+   "Segregate incompatible substances correctly",
+   "Respond appropriately to emergencies involving hazardous loads",
+   "Comply with workplace procedures and legal requirements"
+  ],
+  "audience": [
+   "Warehouse and stores personnel",
+   "Logistics and transport staff",
+   "Manufacturing and processing employees",
+   "Supervisors and team leaders",
+   "Health and Safety Representatives"
+  ],
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to Unit Standard 260837.",
+  "entry_requirements": [
+   "Basic literacy and numeracy"
+  ]
+ },
+ "HAZARDOUS CHEMICAL (HAZCHEM)": {
+  "_source": "hazchemcourse.md",
+  "us_id": "120370",
+  "us_name": "Monitor and make recommendations on the application of health and safety principles regarding hazardous substances in the working place",
+  "nqf": "4",
+  "duration": "1 Day",
+  "price": "R800",
+  "description": "This accredited course provides learners with the knowledge and practical understanding required to identify chemical hazards and respond effectively to chemical emergencies. The training focuses on HAZCHEM identification systems, chemical warning signs, spill response procedures, and emergency actions to minimise harm to people, property, and the environment. Learners will be equipped to recognise chemical risks and respond safely during chemical incidents.",
+  "outline": [
+   "Introduction to chemical hazards and HAZCHEM principles",
+   "Chemical classification and hazard symbols",
+   "Interpreting HAZCHEM codes and emergency information",
+   "Chemical spill and leak response procedures",
+   "Personal protective equipment for chemical emergencies",
+   "Evacuation and isolation procedures",
+   "Reporting chemical incidents and emergencies"
+  ],
+  "outcomes": [
+   "Identify chemical hazards using HAZCHEM systems",
+   "Interpret hazard symbols and emergency response information",
+   "Respond safely to chemical spills and leaks",
+   "Apply emergency procedures during chemical incidents",
+   "Report chemical emergencies correctly"
+  ],
+  "audience": [
+   "Employees working with or around hazardous chemicals",
+   "Warehouse and manufacturing personnel",
+   "Emergency response team members",
+   "Health and Safety Representatives",
+   "Supervisors and team leaders"
+  ],
+  "entry_requirements": [
+   "Basic literacy and numeracy",
+   "Medically fit for work in environments where chemicals are present"
+  ],
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to Unit Standard 244073."
+ },
+ "Hazard Identification & Risk Assessment (HIRA)": {
+  "_source": "hira.md",
+  "us_id": "242811",
+  "us_name": "Conduct a risk assessment",
+  "nqf": "4",
+  "duration": "1 Days",
+  "price": "R650",
+  "description": "This accredited course provides learners with the knowledge and practical skills required to conduct effective hazard identification and risk assessments in the workplace. The training focuses on identifying hazards, analysing and evaluating risks, implementing control measures, and reviewing risk assessments in line with occupational health and safety legislation. Learners will be equipped to apply HIRA principles to reduce incidents, improve compliance, and support informed decision-making in the workplace.",
+  "outline": [
+   "Legal and compliance requirements for risk assessments",
+   "Principles of hazard identification",
+   "Types of workplace hazards",
+   "Risk analysis and risk evaluation techniques",
+   "Risk rating and prioritisation",
+   "Selection and implementation of control measures",
+   "Hierarchy of controls",
+   "Recording and documenting risk assessments",
+   "Reviewing and updating risk assessments",
+   "Communication of risk assessment findings"
+  ],
+  "outcomes": [
+   "Identify hazards in the workplace",
+   "Analyse and evaluate risks associated with identified hazards",
+   "Apply the hierarchy of controls to manage risks",
+   "Conduct and document a formal risk assessment",
+   "Review and update risk assessments to ensure ongoing compliance"
+  ],
+  "audience": [
+   "Supervisors and team leaders",
+   "Health and Safety Officers and Representatives",
+   "Safety Supervisors and Managers",
+   "Site supervisors and foremen",
+   "Employees involved in risk assessment processes"
+  ],
+  "certification": "Learners who are found competent will receive an Accredited Certificate aligned to Unit Standard 242811.",
+  "entry_requirements": [
+   "Basic literacy and numeracy",
+   "Workplace experience recommended"
+  ]
+ },
+ "Hot Water Supply Systems": {
+  "_source": "hotwatersupplysystems.md",
+  "us_id": "244496",
+  "us_name": "Install, maintain and test hot water supply systems",
+  "nqf": "4",
+  "duration": "5 Days",
+  "price": "R6,000",
+  "description": "The training covers system components, installation methods, testing and commissioning, maintenance practices, fault finding, and compliance with applicable standards and regulations. Learners will be equipped to ensure hot water systems operate safely, efficiently, and reliably.",
+  "outline": [
+   "Principles of hot water supply systems",
+   "Types of hot water systems and components",
+   "Health, safety, and environmental requirements",
+   "Interpreting drawings, specifications, and manufacturer instructions",
+   "System layout and preparation",
+   "Installation of hot water supply systems",
+   "Pipework, fittings, and insulation requirements",
+   "Pressure control and temperature regulation",
+   "Testing and commissioning procedures",
+   "Fault finding and corrective actions",
+   "Routine maintenance and servicing",
+   "System shutdown and isolation procedures",
+   "Compliance with applicable standards and regulations",
+   "Documentation and handover procedures"
+  ],
+  "outcomes": [
+   "Identify components and types of hot water supply systems",
+   "Install hot water supply systems safely and correctly",
+   "Test and commission hot water systems",
+   "Perform routine maintenance and servicing",
+   "Identify and rectify common system faults",
+   "Comply with health, safety, and regulatory requirements"
+  ],
+  "audience": [
+   "Plumbers and plumbing assistants",
+   "Maintenance and facilities personnel",
+   "Technicians involved in water heating systems",
+   "Individuals entering the plumbing or building services sector"
+  ],
+  "entry_requirements": [
+   "Basic literacy and numeracy",
+   "Basic plumbing knowledge or experience is recommended",
+   "Medically fit for installation work"
+  ],
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to SAQA Unit Standard 244496."
+ },
+ "Construction Site Housekeeping": {
+  "_source": "housekeepingcourse.md",
+  "us_id": "116231",
+  "us_name": "Maintain a clean and safe construction site",
+  "nqf": "2",
+  "duration": "1 Day",
+  "price": "R700",
+  "description": "This accredited course provides learners with the knowledge and practical understanding required to maintain good housekeeping standards on construction sites. The training focuses on identifying housekeeping hazards, safe storage of materials, waste management, prevention of slips, trips and falls, and maintaining clean and organised work areas. Learners will be equipped to apply effective housekeeping practices that support safety, productivity, and legal compliance on construction sites.",
+  "outline": [
+   "Importance of housekeeping on construction sites",
+   "Legal and workplace requirements for site cleanliness",
+   "Identification of housekeeping hazards",
+   "Safe storage of tools, materials, and equipment",
+   "Waste management and disposal procedures",
+   "Prevention of slips, trips, and falls",
+   "Maintaining access routes, walkways, and emergency exits",
+   "Housekeeping inspections and reporting",
+   "Corrective actions and continuous improvement"
+  ],
+  "outcomes": [
+   "Explain the importance of good housekeeping on construction sites",
+   "Identify housekeeping-related hazards",
+   "Apply safe storage and waste management practices",
+   "Prevent slips, trips, and falls through effective housekeeping",
+   "Maintain a clean, safe, and compliant construction site"
+  ],
+  "audience": [
+   "Construction workers",
+   "General workers and labourers",
+   "Supervisors and foremen",
+   "Contractors and subcontractors",
+   "Health and Safety Representatives"
+  ],
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to Unit Standard 116231.",
+  "entry_requirements": [
+   "Basic literacy and numeracy"
+  ]
+ },
+ "Dangerous Goods – Identification & Classification": {
+  "_source": "identifyandclassifydangerousgoods.md",
+  "us_id": "119558",
+  "us_name": "Identify and classify dangerous goods for transport",
+  "nqf": "2",
+  "duration": "1 Day",
+  "price": "R800",
+  "description": "This accredited course provides learners with the knowledge and practical understanding required to correctly identify and classify dangerous goods for transport. The training focuses on the legal framework for dangerous goods, classification systems, hazard classes, packaging groups, and documentation requirements. Learners will be equipped to recognise dangerous goods, apply correct classification principles, and support safe and compliant transport operations.",
+  "outline": [
+   "Legal requirements for dangerous goods identification and classification",
+   "Overview of dangerous goods regulations and standards",
+   "Classes and divisions of dangerous goods",
+   "Packaging groups and hazard severity",
+   "Identification of dangerous goods using labels, placards, and documentation",
+   "Dangerous goods markings and signage",
+   "Documentation requirements for dangerous goods transport",
+   "Responsibilities of employees involved in dangerous goods handling",
+   "Consequences of incorrect identification and classification"
+  ],
+  "outcomes": [
+   "Identify dangerous goods using recognised classification systems",
+   "Classify dangerous goods according to hazard classes and packaging groups",
+   "Interpret labels, placards, and transport documentation",
+   "Apply legal requirements related to dangerous goods transport",
+   "Support safe and compliant dangerous goods operations"
+  ],
+  "audience": [
+   "Employees involved in handling or transporting dangerous goods",
+   "Warehouse and logistics personnel",
+   "Drivers and transport operators",
+   "Supervisors and team leaders",
+   "Health and Safety Representatives"
+  ],
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to Unit Standard 119558.",
+  "entry_requirements": [
+   "Basic literacy and numeracy"
+  ]
+ },
+ "First Aid Level 2": {
+  "_source": "intermediatefirstaidtrainin.md",
+  "us_id": "120496",
+  "us_name": "Provide first aid in the workplace",
+  "nqf": "2",
+  "duration": "1 Day",
+  "price": "R650",
+  "description": "This accredited course provides learners with the knowledge and practical skills required to provide first aid in the workplace. The training focuses on assessing emergency situations, managing injuries and medical emergencies, performing basic life support, and caring for casualties until professional medical assistance arrives. Learners will be equipped to respond confidently and effectively to workplace emergencies in line with occupational health and safety requirements.",
+  "outline": [
+   "Legal and workplace requirements for first aid provision",
+   "Roles and responsibilities of a first aider",
+   "Assessing emergency scenes and ensuring personal safety",
+   "Basic life support and CPR principles",
+   "Management of bleeding, wounds, and shock",
+   "Treatment of fractures, burns, and soft tissue injuries",
+   "Management of medical emergencies",
+   "Use of first aid equipment and contents of first aid boxes",
+   "Reporting and recordkeeping following first aid treatment"
+  ],
+  "outcomes": [
+   "Assess emergency situations and prioritise first aid treatment",
+   "Apply basic life support techniques",
+   "Manage common workplace injuries and medical emergencies",
+   "Use first aid equipment correctly",
+   "Comply with workplace first aid and reporting requirements"
+  ],
+  "audience": [
+   "Appointed workplace first aiders",
+   "Supervisors and team leaders",
+   "Health and Safety Representatives",
+   "Employees responsible for emergency response",
+   "Contractors and site personnel"
+  ],
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to Unit Standard 120496.",
+  "entry_requirements": [
+   "Basic literacy and numeracy",
+   "First Aid Level 1 recommended"
+  ]
+ },
+ "Ladder Inspection": {
+  "_source": "ladderinspection.md",
+  "us_id": "259639",
+  "us_name": "Inspect and use ladders",
+  "nqf": "2",
+  "duration": "1 Day",
+  "price": "R700",
+  "description": "This course provides learners with the knowledge and practical skills required to inspect ladders and ensure their safe use in the workplace. The training focuses on identifying ladder-related hazards, conducting pre-use and formal inspections, selecting the correct ladder for the task, and ensuring compliance with occupational health and safety requirements. Learners will be equipped to identify defective ladders, remove unsafe equipment from service, and promote safe ladder practices to prevent falls and injuries.",
+  "outline": [
+   "Legislative and compliance requirements for ladder use",
+   "Types and classifications of ladders",
+   "Roles and responsibilities related to ladder safety",
+   "Hazard identification and risk assessment for ladder work",
+   "Pre-use and formal ladder inspection procedures",
+   "Common ladder defects and damage identification",
+   "Correct ladder selection and positioning",
+   "Safe use, handling, and storage of ladders",
+   "Tagging, reporting, and record keeping for ladder inspections",
+   "Incident prevention and corrective actions."
+  ],
+  "outcomes": [
+   "Identify different types of ladders and their intended use",
+   "Inspect ladders for defects and unsafe conditions",
+   "Apply correct ladder selection and positioning principles",
+   "Remove defective ladders from service and report findings",
+   "Comply with legal and workplace ladder safety requirements"
+  ]
+ },
+ "Legal Liability": {
+  "_source": "legalliabilitycourse.md",
+  "us_id": "259615",
+  "us_name": "Explain legal liability in the workplace",
+  "nqf": "4",
+  "duration": "1 Day",
+  "price": "R700",
+  "description": "This accredited course provides learners with a clear understanding of legal liability within the workplace, with specific focus on occupational health and safety responsibilities. The training covers employer and employee duties, criminal and civil liability, negligence, vicarious liability, and the consequences of non-compliance with health and safety legislation. Learners will be equipped to understand their legal exposure, apply preventative measures, and support lawful and responsible decision-making in the workplace.",
+  "outline": [
+   "Introduction to legal liability in the workplace",
+   "Overview of occupational health and safety legislation",
+   "Duties and responsibilities of employers and employees",
+   "Criminal, civil, and vicarious liability",
+   "Negligence and breach of duty of care",
+   "Consequences of non-compliance and enforcement actions",
+   "Incident liability and accountability",
+   "Practical application of legal liability principles",
+   "Reducing legal exposure through compliance and supervision"
+  ],
+  "outcomes": [
+   "Explain the concept of legal liability in the workplace",
+   "Identify the legal duties of employers and employees",
+   "Understand different types of liability and their consequences",
+   "Recognise the impact of non-compliance with safety legislation",
+   "Apply legal principles to reduce workplace liability risks"
+  ],
+  "audience": [
+   "Employers and business owners",
+   "Managers and supervisors",
+   "Health and Safety Officers and Representatives",
+   "Safety Supervisors",
+   "Contractors and management personnel"
+  ],
+  "certification": "Learners who are found competent will receive an Accredited Certificate aligned to Unit Standard 259615.",
+  "entry_requirements": [
+   "Basic literacy and numeracy."
+  ]
+ },
+ "Mobile Elevating Work Platform (MEWP) Operator": {
+  "_source": "mewpoperator.md",
+  "us_id": "243272",
+  "us_name": "Operate a self-propelled elevating work platform",
+  "nqf": "2",
+  "duration": "5 Day",
+  "price": "Novice (Initial Training) – R3 900",
+  "description": "This course provides learners with the knowledge and practical skills required to safely operate Mobile Elevating Work Platforms (MEWPs) in accordance with occupational health and safety legislation and workplace procedures. The training focuses on hazard identification, pre-use inspections, safe operating techniques, emergency procedures, and working at heights requirements. Learners will be equipped to operate MEWPs safely in construction, maintenance, warehousing, and industrial environments.",
+  "outline": [
+   "Legal and compliance requirements for MEWP operation",
+   "Types and classifications of MEWPs",
+   "Roles and responsibilities of a MEWP operator",
+   "Hazard identification and risk assessment",
+   "Pre-use inspections and equipment checks",
+   "Safe operating procedures and load limitations",
+   "Stability, ground conditions, and exclusion zones",
+   "Working at heights and fall protection requirements",
+   "Emergency procedures and rescue awareness",
+   "Shutdown, parking, and post-operation procedures."
+  ],
+  "outcomes": [
+   "Identify hazards associated with MEWP operations",
+   "Conduct pre-use inspections and identify defects",
+   "Operate a MEWP safely and correctly",
+   "Apply working at heights and fall protection requirements",
+   "Respond appropriately to emergency situations"
+  ]
+ },
+ "Storm Water Pipe Laying": {
+  "_source": "pipelaying.md",
+  "us_id": "12903",
+  "us_name": "Install storm water pipelines",
+  "nqf": "2",
+  "duration": "5 Days",
+  "price": "R6,000",
+  "description": "Learners will gain knowledge and hands-on skills in interpreting drawings, preparing work areas, excavation techniques, pipe installation, testing, and backfilling. The course applies to pipelines constructed from concrete, steel, and plastic, commonly used in highways, drainage systems, airfields, and civil developments.",
+  "outline": [
+   "Introduction to storm water and underground pipeline systems",
+   "Interpreting construction drawings and specifications",
+   "Planning and preparing work areas for pipe installation",
+   "Excavation techniques for different pipeline types",
+   "Trenching safety and ground support requirements",
+   "Safe handling and positioning of pipes",
+   "Installing storm water pipelines correctly and safely",
+   "Jointing methods for concrete, steel, and plastic pipes",
+   "Testing pipelines for alignment, leaks, and compliance",
+   "Backfilling techniques and compaction methods",
+   "Installation of culverts and manholes",
+   "Site housekeeping and environmental considerations"
+  ],
+  "outcomes": [
+   "Interpret drawings and specifications for storm water pipelines",
+   "Prepare excavation sites safely and effectively",
+   "Install storm water pipes using correct methods and techniques",
+   "Conduct basic testing of installed pipelines",
+   "Backfill and compact trenches correctly",
+   "Assist with installation of culverts and manholes"
+  ],
+  "audience": [
+   "Civil construction workers",
+   "Pipe layers and assistant pipe layers",
+   "Construction and infrastructure workers",
+   "Municipal and civil services personnel",
+   "Learners entering the civil construction field"
+  ],
+  "entry_requirements": [
+   "Basic literacy and numeracy",
+   "Medically fit for physical and site-based work"
+  ],
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to SAQA Unit Standard 12903."
+ },
+ "Leak Detection & Plumbing Maintenance": {
+  "_source": "plumbingfaultfinding.md",
+  "us_id": "244494",
+  "us_name": "Perform specialised fault-finding and repairs to plumbing systems",
+  "nqf": "4",
+  "duration": "5 Days",
+  "price": "R6,000",
+  "description": "Learners will be prepared to identify underlying causes of plumbing failures, implement effective repairs, and restore systems to safe and efficient operation.",
+  "outline": [
+   "Principles of advanced plumbing fault-finding",
+   "Health, safety, and environmental requirements",
+   "Interpreting drawings, specifications, and system layouts",
+   "Diagnostic techniques for water supply and drainage systems",
+   "Testing methods to identify leaks, blockages, pressure, and flow issues",
+   "Fault-finding on hot and cold water systems",
+   "Fault-finding on drainage and waste systems",
+   "Repair techniques for pipes, fittings, valves, and fixtures",
+   "Replacement of damaged or worn components",
+   "Use of specialised tools and equipment",
+   "System recommissioning and performance testing",
+   "Preventive maintenance strategies",
+   "Compliance with applicable standards and regulations",
+   "Documentation, reporting, and handover procedures"
+  ],
+  "outcomes": [
+   "Diagnose faults in plumbing systems using systematic methods",
+   "Identify root causes of plumbing failures",
+   "Carry out specialised repairs safely and effectively",
+   "Test and recommission plumbing systems after repairs",
+   "Apply preventive maintenance practices",
+   "Comply with health, safety, and regulatory requirements"
+  ],
+  "audience": [
+   "Qualified plumbers and plumbing assistants",
+   "Maintenance and facilities technicians",
+   "Building services personnel",
+   "Learners progressing toward advanced plumbing qualifications"
+  ],
+  "entry_requirements": [
+   "Basic literacy and numeracy",
+   "Plumbing qualification or relevant plumbing experience is recommended",
+   "Medically fit for plumbing and maintenance work"
+  ],
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to SAQA Unit Standard 244494."
+ },
+ "Plumbing Safety & Legal Compliance": {
+  "_source": "plumbingsafetycourse.md",
+  "us_id": "13224",
+  "us_name": "Monitor the application of safety, health and environmental protection procedures",
+  "nqf": "4",
+  "duration": "1 Day",
+  "price": "R900",
+  "description": "This course focuses on legal compliance, risk control, environmental protection, and supervisory responsibilities specific to plumbing and construction environments. Learners will gain practical insight into managing safe plumbing work practices, supervising teams, and ensuring compliance with workplace policies, procedures, and legislation.",
+  "outline": [
+   "Legal framework governing plumbing work and site safety",
+   "Roles and responsibilities of plumbers, supervisors, and team leaders",
+   "Application of health, safety, and environmental protection procedures",
+   "Hazard identification and risk control in plumbing operations",
+   "Environmental protection in plumbing (waste, runoff, contamination prevention)",
+   "Monitoring compliance with organisational safety standards",
+   "Incident reporting and corrective action procedures",
+   "Supervisory duties and accountability for safety performance",
+   "Communication and enforcement of workplace procedures",
+   "Conducting basic inspections and safety monitoring activities"
+  ],
+  "outcomes": [
+   "Apply and monitor safety, health, and environmental procedures in plumbing work",
+   "Understand legal responsibilities related to plumbing safety and compliance",
+   "Identify and manage risks associated with plumbing activities",
+   "Perform supervisory duties to ensure organisational standards are met",
+   "Communicate and enforce safety requirements within plumbing teams"
+  ],
+  "audience": [
+   "Plumbers and assistant plumbers",
+   "Plumbing supervisors and foremen",
+   "Construction supervisors overseeing plumbing work",
+   "Contractors and site supervisors",
+   "Safety Officers supporting plumbing operations"
+  ],
+  "entry_requirements": [
+   "Basic literacy and numeracy",
+   "Plumbing or construction experience is recommended"
+  ],
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to SAQA Unit Standards 13224 and 242821."
+ },
+ "Portable Power Tools Safety Training": {
+  "_source": "portablepower.md",
+  "us_name": "Select, use and care for power tools",
+  "nqf": "2",
+  "duration": "1 Day",
+  "price": "R700",
+  "description": "This accredited Portable Power Tools Safety Training course provides learners with the knowledge and practical skills required to safely select, use, and care for portable power tools in the workplace. The course covers commonly used portable tools such as drills, angle grinders, sanders, cut-off saws, jigsaws, and similar equipment. Learners will be equipped to identify hazards, apply safe operating procedures, conduct inspections, and comply with workplace safety requirements and applicable legislation.",
+  "outline": [
+   "Overview of portable power tools and their applications",
+   "Hazards associated with portable power tool use",
+   "Selecting the correct portable power tool for the task",
+   "Safe operating procedures for portable power tools",
+   "Electrical safety and extension lead management",
+   "Personal protective equipment (PPE) requirements",
+   "Pre-use inspections and defect identification",
+   "Safe handling, care, and basic maintenance",
+   "Safe storage and housekeeping practices",
+   "Actions to take when tools are damaged or unsafe",
+   "Compliance with workplace safety requirements and legislation"
+  ],
+  "outcomes": [
+   "Identify common portable power tools and their uses",
+   "Select appropriate tools for specific tasks",
+   "Operate portable power tools safely and correctly",
+   "Conduct pre-use inspections and identify defects",
+   "Apply correct care, storage, and basic maintenance practices",
+   "Comply with workplace safety and legal requirements"
+  ],
+  "audience": [
+   "General workers and operators",
+   "Maintenance and technical personnel",
+   "Construction and industrial employees",
+   "Apprentices and entry-level workers",
+   "Supervisors responsible for tool safety"
+  ],
+  "entry_requirements": [
+   "Basic literacy and numeracy",
+   "Medically fit for operational tasks"
+  ],
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to SAQA Unit Standard 10255."
+ },
+ "Power Tools Operator": {
+  "_source": "powertoolscourse.md",
+  "us_id": "10255",
+  "us_name": "Select, use and care for power tools",
+  "nqf": "2",
+  "duration": "1 Day",
+  "price": "R700",
+  "description": "This accredited course provides learners with the knowledge and practical skills required to safely select, use, and care for power tools in the workplace. The training focuses on correct tool selection for specific tasks, safe operating procedures, pre-use inspections, routine care and maintenance, and hazard awareness. Learners will be equipped to use power tools safely, efficiently, and in compliance with workplace safety requirements and applicable legislation.",
+  "outline": [
+   "Overview of common power tools and their applications",
+   "Selecting the correct power tool for specific tasks",
+   "Hazards associated with power tool use",
+   "Safe operating procedures for power tools",
+   "Personal protective equipment (PPE) requirements",
+   "Pre-use inspections and defect identification",
+   "Safe handling, care, and basic maintenance of power tools",
+   "Safe storage and housekeeping practices",
+   "Actions to take when tools are damaged or unsafe",
+   "Compliance with workplace safety requirements and legislation"
+  ],
+  "outcomes": [
+   "Select appropriate power tools for specific tasks",
+   "Operate power tools safely and correctly",
+   "Conduct pre-use inspections and identify defects",
+   "Apply correct care and basic maintenance practices",
+   "Store power tools safely and maintain good housekeeping",
+   "Comply with workplace safety and legal requirements"
+  ],
+  "audience": [
+   "General workers and operators",
+   "Maintenance personnel",
+   "Construction and industrial employees",
+   "Apprentices and entry-level workers",
+   "Supervisors responsible for tool safety"
+  ],
+  "entry_requirements": [
+   "Basic literacy and numeracy",
+   "Medically fit for operational tasks"
+  ],
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to SAQA Unit Standard 10255."
+ },
+ "Safe Stacking And Storage": {
+  "_source": "safestackingandstoragecourse.md",
+  "us_id": "259601",
+  "us_name": "Demonstrate knowledge of safe stacking and storage",
+  "nqf": "2",
+  "duration": "1 Day",
+  "price": "R800",
+  "description": "This accredited course provides learners with the knowledge and practical understanding required to stack and store materials safely in the workplace. The training focuses on identifying hazards associated with stacking and storage, applying safe stacking principles, preventing collapses and falling objects, and ensuring compliance with occupational health and safety requirements. Learners will be equipped to reduce injuries, damage, and operational risks related to improper storage practices.",
+  "outline": [
+   "Legal and workplace requirements for safe stacking and storage",
+   "Principles of safe stacking and storage",
+   "Identification of stacking and storage hazards",
+   "Load stability, height limits, and weight distribution",
+   "Safe storage of different materials and goods",
+   "Use of storage equipment and aids",
+   "Housekeeping and storage area management",
+   "Inspection of storage areas and stacked materials",
+   "Reporting unsafe conditions and corrective actions"
+  ],
+  "outcomes": [
+   "Identify hazards related to stacking and storage",
+   "Apply safe stacking principles in the workplace",
+   "Prevent collapses, falling objects, and related injuries",
+   "Inspect storage areas and stacked materials",
+   "Comply with legal and workplace stacking and storage requirements"
+  ],
+  "audience": [
+   "Warehouse and stores personnel",
+   "Construction and manufacturing employees",
+   "Supervisors and team leaders",
+   "Health and Safety Representatives",
+   "Contractors and logistics personnel"
+  ],
+  "certification": "Learners who are found competent will receive an Accredited Certificate aligned to Unit Standard 259601.",
+  "entry_requirements": [
+   "Basic literacy and numeracy"
+  ]
+ },
+ "Safety Officer Skills Programme (41 Credits – Part Qualification)": {
+  "_source": "safetyofficerskillsprogramme.md",
+  "duration": "2 Weeks",
+  "outcomes": [
+   "Apply occupational health and safety principles within different workplace environments",
+   "Interpret and apply health and safety legislation",
+   "Conduct accident and incident investigations",
+   "Perform workplace safety inspections and follow up on corrective actions",
+   "Support environmental and sustainability initiatives",
+   "Communicate effectively in written and verbal safety-related contexts"
+  ],
+  "audience": [
+   "Aspiring Safety Officers",
+   "SHE Representatives",
+   "Safety Interns",
+   "Junior Safety Practitioners",
+   "Employees seeking to move into a safety role across any industry"
+  ],
+  "certification": "Learners who are found competent will receive Accredited Certificates for each unit standard successfully completed as part of this Safety Officer Skills Programme.",
+  "entry_requirements": [
+   "Basic literacy and numeracy",
+   "Interest in occupational health and safet"
+  ]
+ },
+ "Safety Supervisor": {
+  "_source": "safetysupervisor.md",
+  "us_id": "259622",
+  "us_name": "Supervise health and safety in the workplace",
+  "nqf": "4",
+  "duration": "5 Days",
+  "price": "R4,500",
+  "description": "This accredited course provides learners with the knowledge and supervisory skills required to manage and supervise health and safety activities in the workplace. The training focuses on legal compliance, hazard identification, risk assessment, incident management, monitoring of safety controls, and effective supervision of employees and contractors. Learners will be equipped to implement health and safety systems, enforce compliance, and promote a strong safety culture across operational environments.",
+  "outline": [
+   "Legal framework for workplace health and safety supervision",
+   "Roles and responsibilities of a Safety Supervisor",
+   "Hazard identification and risk assessment techniques",
+   "Implementing and monitoring safety control measures",
+   "Supervising safe work procedures and contractor compliance",
+   "Incident reporting, investigation, and corrective actions",
+   "Health and safety inspections and audits",
+   "Communication, leadership, and safety culture development",
+   "Record keeping and safety documentation",
+   "Continuous improvement in workplace health and safety"
+  ],
+  "outcomes": [
+   "Supervise workplace health and safety activities effectively",
+   "Apply legal and organisational safety requirements",
+   "Identify hazards and assess workplace risks",
+   "Monitor compliance with safe work procedures",
+   "Investigate incidents and recommend corrective actions",
+   "Promote and maintain a positive safety culture"
+  ],
+  "audience": [
+   "Safety Supervisors and Coordinators",
+   "Supervisors and team leaders",
+   "Health and Safety Officers",
+   "Site supervisors and foremen",
+   "Employees responsible for workplace safety"
+  ],
+  "certification": "Learners who are found competent will receive an Accredited Certificate aligned to Unit Standard 259622.",
+  "entry_requirements": [
+   "Basic literacy and numeracy",
+   "Prior supervisory or safety experience recommended"
+  ]
+ },
+ "Scaffolding Erector": {
+  "_source": "scaffoldingerector.md",
+  "us_id": "263245",
+  "us_name": "Erect, alter and dismantle scaffolding",
+  "nqf": "2",
+  "duration": "1 Day",
+  "price": "R700",
+  "description": "This course provides learners with the knowledge and practical skills required to safely erect, alter, inspect, and dismantle scaffolding structures in accordance with occupational health and safety legislation and workplace procedures. The training focuses on hazard identification, risk assessment, correct use of scaffolding components, load requirements, and safe work practices. Learners will be equipped to work competently as scaffolding erectors in construction, maintenance, and industrial environments.",
+  "outline": [
+   "Legislative and compliance requirements for scaffolding work",
+   "Types and classifications of scaffolding systems",
+   "Roles and responsibilities of a scaffolding erector",
+   "Hazard identification and risk assessment for scaffolding activities",
+   "Safe erection, alteration, and dismantling procedures",
+   "Use and inspection of scaffolding components and equipment",
+   "Load limits, stability, and foundation requirements",
+   "Fall protection and working at heights requirements",
+   "Inspection, tagging, and reporting of scaffolding structures",
+   "Emergency procedures and incident reporting."
+  ],
+  "outcomes": [
+   "Identify hazards associated with scaffolding erection and dismantling",
+   "Apply safe work procedures for scaffolding activities",
+   "Erect, alter, and dismantle scaffolding safely and correctly",
+   "Inspect scaffolding structures and identify defects",
+   "Comply with legal and workplace safety requirements."
+  ]
+ },
+ "Scaffolding Inspection": {
+  "_source": "scaffoldinginspectors.md",
+  "us_id": "263244",
+  "us_name": "Inspect scaffolding and ensure compliance with safety requirements",
+  "nqf": "3",
+  "duration": "1 Day",
+  "price": "R700",
+  "description": "This course provides learners with the knowledge and practical skills required to inspect scaffolding structures and ensure compliance with occupational health and safety legislation and workplace standards. The training focuses on identifying unsafe conditions, verifying correct erection, assessing structural integrity, and ensuring scaffolding is safe for use before, during, and after work activities. Learners will be equipped to conduct formal scaffolding inspections and recommend corrective actions to prevent incidents and ensure legal compliance.",
+  "outline": [
+   "Legislative and compliance requirements for scaffolding inspection",
+   "Roles and responsibilities of a scaffolding inspector",
+   "Types of scaffolding systems and their inspection criteria",
+   "Hazard identification and risk assessment for scaffolding structures",
+   "Inspection of foundations, standards, ledgers, braces, and platforms",
+   "Fall protection, access, and edge protection requirements",
+   "Load limits, stability, and structural integrity checks",
+   "Scaffolding tagging systems and inspection records",
+   "Reporting non-compliance and recommending corrective actions",
+   "Emergency procedures and incident reporting related to scaffolding"
+  ],
+  "outcomes": [
+   "Inspect scaffolding structures for safety and compliance",
+   "Identify defects, unsafe conditions, and non-compliance issues",
+   "Verify that scaffolding has been erected according to approved standards",
+   "Complete scaffolding inspection records and tagging documentation",
+   "Recommend corrective actions to ensure scaffolding safety"
+  ]
+ },
+ "Scaffolding Supervisor": {
+  "_source": "scaffoldingsupervision.md",
+  "us_id": "N/A",
+  "us_name": "Scaffolding Supervision, Inspections & Legal Compliance",
+  "nqf": "4",
+  "duration": "1 Day",
+  "price": "R700",
+  "description": "This course provides learners with the advanced knowledge and supervisory skills required to oversee scaffolding operations, conduct inspections, and ensure full legal compliance on construction and industrial sites. The training focuses on planning and supervising scaffolding work, verifying safe erection and dismantling practices, conducting formal inspections, managing documentation, and enforcing compliance with occupational health and safety legislation. Learners will be equipped to take responsibility for scaffolding safety, supervision, and compliance across multiple work teams.",
+  "outline": [
+   "Legal and regulatory framework for scaffolding supervision",
+   "Roles and responsibilities of a scaffolding supervisor",
+   "Planning and coordination of scaffolding work activities",
+   "Advanced hazard identification and risk assessment",
+   "Supervision of scaffolding erection, alteration, and dismantling",
+   "Scaffolding inspection systems and compliance verification",
+   "Load calculations, stability, and structural integrity oversight",
+   "Fall protection, access, and edge protection requirements",
+   "Scaffolding tagging, registers, and record keeping",
+   "Managing non-compliance and corrective actions",
+   "Incident investigation and reporting related to scaffolding",
+   "Leadership, communication, and team management in scaffolding operations."
+  ],
+  "outcomes": [
+   "Supervise scaffolding operations in compliance with legal requirements",
+   "Plan and coordinate scaffolding work safely and effectively",
+   "Conduct and oversee scaffolding inspections and compliance checks",
+   "Ensure correct documentation, tagging, and record keeping",
+   "Identify non-compliance and implement corrective actions",
+   "Lead teams and enforce safe work practices on site"
+  ]
+ },
+ "SHE Representative (Health & Safety Representative)": {
+  "_source": "sherepresentative.md",
+  "us_id": "259622",
+  "us_name": "Describe the functions of the workplace health and safety representative",
+  "nqf": "2",
+  "duration": "1 Day",
+  "price": "R600",
+  "description": "This accredited course provides learners with the knowledge and practical understanding required to perform the functions of a workplace health and safety representative. The training focuses on legal duties, workplace inspections, hazard identification, incident reporting, and effective communication with management and employees. Learners will be equipped to actively promote health and safety compliance and contribute to the prevention of incidents and occupational injuries.",
+  "outline": [
+   "Purpose and legal framework of the health and safety representative role",
+   "Rights, duties, and responsibilities of a SHE Representative",
+   "Hazard identification and basic risk assessment principles",
+   "Workplace inspections and reporting procedures",
+   "Incident reporting and investigation participation",
+   "Health and safety committees and consultation processes",
+   "Communication and conflict resolution in health and safety matters",
+   "Promoting a positive health and safety culture in the workplace"
+  ],
+  "outcomes": [
+   "Explain the role and legal responsibilities of a SHE Representative",
+   "Identify workplace hazards and report unsafe conditions",
+   "Conduct basic workplace inspections",
+   "Participate in incident reporting and investigations",
+   "Communicate health and safety matters effectively"
+  ],
+  "audience": [
+   "Appointed or nominated SHE Representatives",
+   "Supervisors and team leaders",
+   "Health and Safety Officers",
+   "Employees involved in workplace safety structures"
+  ],
+  "certification": "Learners who are found competent will receive an Accredited Certificate aligned to Unit Standard 259622.",
+  "entry_requirements": [
+   "Basic literacy and numeracy"
+  ]
+ },
+ "Solar Water Heating Systems": {
+  "_source": "solarwaterheatingcourse.md",
+  "us_id": "244499",
+  "us_name": "Install and maintain solar water heating systems",
+  "nqf": "4",
+  "duration": "3 Days",
+  "price": "R4 500",
+  "description": "Learners will be equipped to work safely and competently on solar water heating systems in residential, commercial, and light industrial environments.",
+  "outline": [
+   "Introduction to solar water heating systems and renewable energy principles",
+   "Types of solar water heating systems and components",
+   "Health, safety, and environmental requirements for solar installations",
+   "Interpreting technical drawings, layouts, and manufacturer instructions",
+   "Site assessment and system selection",
+   "Installation of solar collectors, storage tanks, and pipework",
+   "Mounting methods and structural considerations",
+   "Plumbing connections and insulation requirements",
+   "System commissioning and testing procedures",
+   "Fault finding and corrective actions",
+   "Routine maintenance and servicing of solar water heating systems",
+   "System shutdown, isolation, and safe work practices",
+   "Compliance with applicable standards and regulations",
+   "Documentation, reporting, and handover procedures"
+  ],
+  "outcomes": [
+   "Identify components and types of solar water heating systems",
+   "Install solar water heating systems safely and correctly",
+   "Commission and test installed systems",
+   "Perform routine maintenance and servicing",
+   "Identify and rectify common system faults",
+   "Comply with health, safety, and environmental requirements"
+  ],
+  "audience": [
+   "Plumbers and plumbing assistants",
+   "Renewable energy installers",
+   "Maintenance personnel",
+   "Technicians entering the solar water heating field",
+   "Individuals seeking skills in renewable energy systems"
+  ],
+  "entry_requirements": [
+   "Basic literacy and numeracy",
+   "Basic plumbing knowledge or experience is recommended",
+   "Medically fit for installation work"
+  ],
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to SAQA Unit Standard 244499."
+ },
+ "Spill Kit Responder Training": {
+  "_source": "spillkit.md",
+  "us_id": "242999",
+  "us_name": "Respond to and clean up a spill",
+  "nqf": "2",
+  "duration": "1 Day",
+  "price": "R850",
+  "description": "This accredited course provides learners with the knowledge and practical skills required to respond to and clean up hazardous and non-hazardous spills safely in the workplace. The training focuses on spill risk identification, correct use of spill kits, containment and clean-up procedures, waste disposal, and reporting requirements. Learners will be equipped to respond effectively to spills while minimising risks to people, property, and the environment.",
+  "outline": [
+   "Legal and workplace requirements for spill response",
+   "Types of spills and associated risks",
+   "Spill risk identification and assessment",
+   "Spill response planning and procedures",
+   "Types and contents of spill kits",
+   "Correct use of spill response equipment",
+   "Spill containment and clean-up techniques",
+   "Disposal of contaminated materials",
+   "Decontamination and personal safety measures",
+   "Reporting and recordkeeping after a spill"
+  ],
+  "outcomes": [
+   "Identify different types of workplace spills",
+   "Assess spill risks and select appropriate response actions",
+   "Use spill kits correctly and safely",
+   "Contain and clean up spills effectively",
+   "Dispose of contaminated materials correctly",
+   "Report spill incidents in line with workplace procedures"
+  ],
+  "audience": [
+   "Employees working with hazardous substances",
+   "Warehouse and logistics personnel",
+   "Maintenance and operations staff",
+   "Health and Safety Representatives",
+   "Emergency response team members"
+  ],
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to Unit Standard 242999.",
+  "entry_requirements": [
+   "Basic literacy and numeracy"
+  ]
+ },
+ "Temporary Works Supervisor Training Course": {
+  "_source": "temporaryworkssupervisor.md",
+  "duration": "1 Day",
+  "description": "The training provides learners with a clear understanding of the Temporary Works Supervisor (TWS) role, including supervision, checking, communication, coordination, and risk management. The course aims to raise industry standards and promote a consistent, transferable level of competence across employers.",
+  "outline": [
+   "Overview of temporary works and the role of the Temporary Works Supervisor",
+   "Legal and industry requirements related to temporary works",
+   "Roles and responsibilities of the TWS and others involved in temporary works",
+   "Detailed understanding of BS 5975 in relation to supervision",
+   "The importance of the 4Cs: communication, coordination, cooperation, and competency",
+   "Risk management principles for temporary works",
+   "Supervising, checking, and monitoring temporary works on site",
+   "Permit systems and control measures related to temporary works",
+   "Practical application of temporary works supervision principles"
+  ],
+  "outcomes": [
+   "Understand the duties and responsibilities of a Temporary Works Supervisor",
+   "Identify the roles and responsibilities of others involved in temporary works",
+   "Demonstrate knowledge and understanding of BS 5975 requirements",
+   "Apply effective risk management principles to temporary works",
+   "Implement the 4Cs effectively within the workplace",
+   "Support the Temporary Works Co-ordinator in maintaining safe systems of work"
+  ],
+  "audience": [
+   "Site personnel responsible for supervising temporary works",
+   "Supervisors and foremen involved in construction activities",
+   "Individuals appointed or about to be appointed as Temporary Works Supervisors",
+   "Site managers and assistant site managers with supervisory responsibilities"
+  ],
+  "entry_requirements": [
+   "There are no formal entry requirements",
+   "Delegates should hold, or be about to hold, the role of a Temporary Works Supervisor"
+  ],
+  "certification": "Delegates who successfully achieve the required level of understanding will be awarded the Temporary Works Supervisor Training Course (TWSTC) Certificate, which is valid for 5 years."
+ },
+ "Traffic Safety Officer": {
+  "_source": "trafficsafityofficer.md",
+  "duration": "3 Days",
+  "price": "R2 800",
+  "outline": [
+   "Legislative requirements and roles of a Traffic Safety Officer",
+   "Health and safety principles applicable to roadwork environments",
+   "Hazard identification and risk assessment for traffic control operations",
+   "Reading and interpreting traffic accommodation and construction drawings",
+   "Erection, placement, and removal of temporary traffic control equipment",
+   "Implementing and monitoring roadside safety measures",
+   "Communication, reporting, and incident prevention on site"
+  ],
+  "outcomes": [
+   "Apply health and safety requirements within a traffic control work area",
+   "Read and interpret drawings and traffic accommodation layouts",
+   "Correctly erect and maintain temporary traffic control equipment",
+   "Identify hazards and implement appropriate roadside safety controls",
+   "Monitor traffic operations and report unsafe conditions effectively"
+  ]
+ },
+ "Working at Heights": {
+  "_source": "workingatheights.md",
+  "us_id": "120362",
+  "us_name": "Monitor, report and advise on activities performed in a working at heights environment",
+  "nqf": "3",
+  "duration": "1 Day",
+  "price": "R700",
+  "outline": [
+   "Introduction to Working at Heights",
+   "Hazard Identification and Risk Assessment",
+   "Monitoring Safe Work Practices at Heights",
+   "Fall Arrest Systems and Safety Equipment Inspection",
+   "Safe Use of Access Equipment and Work Platforms",
+   "Reporting Unsafe Conditions and Advising on Corrective Actions",
+   "Emergency Preparedness and Incident Response Awareness."
+  ],
+  "outcomes": [
+   "Identify hazards associated with work at heights and conduct basic risk assessments.",
+   "Inspect and assess fall protection equipment and elevated access systems.",
+   "Monitor work being performed at heights for compliance with safety standards.",
+   "Report unsafe acts or conditions clearly and recommend appropriate corrective measures.",
+   "Apply basic knowledge of safety legislation and workplace procedures relevant to work at heights."
+  ]
+ }
+}

@@ -223,12 +223,39 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
                 </div>
               )}
 
-              {/* what you'll learn */}
+              {/* course outline / modules */}
+              {content?.outline && content.outline.length > 0 && (
+                <div className="mt-12">
+                  <h2 className="font-display text-2xl text-charcoal sm:text-3xl">
+                    Course outline
+                  </h2>
+                  <p className="mt-2 text-sm text-charcoal/60">
+                    What the {course.name} course covers, module by module.
+                  </p>
+                  <ul className="mt-6 space-y-3">
+                    {content.outline.map((o) => (
+                      <li key={o} className="flex items-start gap-3 text-charcoal/80">
+                        <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-soft">
+                          <svg className="h-3.5 w-3.5 text-brand" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3">
+                            <path d="M20 6L9 17l-5-5" />
+                          </svg>
+                        </span>
+                        {o}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {/* learning outcomes */}
               {content?.outcomes && content.outcomes.length > 0 && (
                 <div className="mt-12">
                   <h2 className="font-display text-2xl text-charcoal sm:text-3xl">
-                    What you will learn
+                    Learning outcomes
                   </h2>
+                  <p className="mt-2 text-sm text-charcoal/60">
+                    By the end of this course, learners will be able to:
+                  </p>
                   <ul className="mt-6 grid gap-3 sm:grid-cols-2">
                     {content.outcomes.map((o) => (
                       <li key={o} className="flex items-start gap-3 rounded-xl border border-line bg-paper p-4 text-sm leading-relaxed text-charcoal/80">
@@ -250,6 +277,27 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
                   </h2>
                   <ul className="mt-6 space-y-3">
                     {content.audience.map((a) => (
+                      <li key={a} className="flex items-start gap-3 text-charcoal/80">
+                        <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-soft">
+                          <svg className="h-3.5 w-3.5 text-brand" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3">
+                            <path d="M20 6L9 17l-5-5" />
+                          </svg>
+                        </span>
+                        {a}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {/* entry requirements */}
+              {content?.entryRequirements && content.entryRequirements.length > 0 && (
+                <div className="mt-12">
+                  <h2 className="font-display text-2xl text-charcoal sm:text-3xl">
+                    Entry requirements
+                  </h2>
+                  <ul className="mt-6 space-y-3">
+                    {content.entryRequirements.map((a) => (
                       <li key={a} className="flex items-start gap-3 text-charcoal/80">
                         <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-soft">
                           <svg className="h-3.5 w-3.5 text-brand" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3">
@@ -331,8 +379,16 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
                   </div>
                   <div className="flex items-center justify-between gap-4 border-t border-line pt-4">
                     <dt className="text-charcoal/60">Certification</dt>
-                    <dd className="text-right font-semibold text-charcoal">SAQA-aligned certificate</dd>
+                    <dd className="text-right font-semibold leading-snug text-charcoal">
+                      {content?.certification || "SAQA-aligned certificate"}
+                    </dd>
                   </div>
+                  {content?.nqf && (
+                    <div className="flex items-center justify-between gap-4 border-t border-line pt-4">
+                      <dt className="text-charcoal/60">NQF level</dt>
+                      <dd className="font-bold text-charcoal">{content.nqf}</dd>
+                    </div>
+                  )}
                   {content?.us_name && (
                     <div className="border-t border-line pt-4">
                       <dt className="text-charcoal/60">Unit standard</dt>

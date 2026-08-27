@@ -1,6 +1,8 @@
-// Per-course page content: merges scraped landing-page content (lp-content.json)
+// Per-course page content: merges full scraped landing-page content (lp-full.json)
 // with writer-generated copy (course-content/<category>.json).
 import lpContentRaw from "./course-content/lp-content.json";
+import lpFullRaw from "./course-content/lp-full.json";
+import lpNameMapRaw from "./course-content/lp-name-map.json";
 import safetyCompliance from "./course-content/safety-compliance.json";
 import workingAtHeights from "./course-content/working-at-heights.json";
 import emergencyFire from "./course-content/emergency-fire.json";
@@ -14,8 +16,11 @@ export type Faq = { q: string; a: string };
 
 export type CoursePageContent = {
   description?: string;
-  outcomes?: string[];
+  outline?: string[]; // course modules/syllabus (from the client's original LP pages)
+  outcomes?: string[]; // learning outcomes
   audience: string[];
+  certification?: string;
+  entryRequirements?: string[];
   faqs: Faq[];
   us_id?: string | null;
   us_name?: string | null;
@@ -41,23 +46,54 @@ const LP_CONTENT = lpContentRaw as Record<
   { us_id?: string | null; us_name?: string | null; nqf?: string | null; description?: string; outline?: string[] }
 >;
 
+type LpFull = {
+  us_id?: string;
+  us_name?: string;
+  nqf?: string;
+  duration?: string;
+  price?: string;
+  description?: string;
+  outline?: string[];
+  outcomes?: string[];
+  audience?: string[];
+  certification?: string;
+  entry_requirements?: string[];
+};
+
+const LP_FULL = lpFullRaw as Record<string, LpFull>;
+const LP_NAME_MAP = lpNameMapRaw as Record<string, string>;
+
+function lpFullFor(name: string): LpFull | undefined {
+  const key = Object.keys(LP_NAME_MAP).find((k) => LP_NAME_MAP[k] === name);
+  return key ? LP_FULL[key] : undefined;
+}
+
 export function getCoursePageContent(name: string): CoursePageContent | null {
   const writer = WRITER_CONTENT[name];
   const lp = LP_CONTENT[name];
-  if (!writer && !lp) return null;
+  const full = lpFullFor(name);
+  if (!writer && !lp && !full) return null;
 
-  // LP description/outline wins when present (real scraped content); writer fills gaps.
-  const description = lp?.description || writer?.description;
-  const outcomes = lp?.outline?.length ? lp.outline : writer?.outcomes;
+  // Full LP scrape wins (real client content); older partial scrape + writer fill gaps.
+  const description = full?.description || lp?.description || writer?.description;
+  const outline = full?.outline?.length ? full.outline : lp?.outline;
+  const outcomes =
+    full?.outcomes?.length
+      ? full.outcomes
+      : writer?.outcomes ?? (outline?.length ? outline : undefined);
+  const audience = full?.audience?.length ? full.audience : writer?.audience ?? [];
 
   return {
     description,
+    outline,
     outcomes,
-    audience: writer?.audience ?? [],
+    audience,
+    certification: full?.certification,
+    entryRequirements: full?.entry_requirements,
     faqs: writer?.faqs ?? [],
-    us_id: lp?.us_id ?? null,
-    us_name: lp?.us_name ?? null,
-    nqf: lp?.nqf ?? null,
+    us_id: full?.us_id ?? lp?.us_id ?? null,
+    us_name: full?.us_name ?? lp?.us_name ?? null,
+    nqf: full?.nqf ?? lp?.nqf ?? null,
   };
 }
 
