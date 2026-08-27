@@ -4,6 +4,8 @@ import SectionHeading from "@/components/SectionHeading";
 import CourseCard from "@/components/CourseCard";
 import CTABand from "@/components/CTABand";
 import { POPULAR_COURSES, COURSE_CATEGORIES, COURSE_COUNT } from "@/lib/courses";
+import ReviewsSection from "@/components/ReviewsSection";
+import GoogleReviewsCard from "@/components/GoogleReviewsCard";
 
 const CATEGORY_CARDS = [
   {
@@ -465,6 +467,33 @@ export default function Home() {
                 height={162}
                 className="h-auto w-full object-contain"
               />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ============ REVIEWS ============ */}
+      <section className="bg-cream py-16 lg:py-24">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="grid gap-12 lg:grid-cols-[0.9fr_1.1fr]">
+            <div>
+              <GoogleReviewsCard />
+              <div className="mt-6 rounded-2xl border border-line bg-paper p-6">
+                <h3 className="font-display text-lg text-charcoal">Trained with us?</h3>
+                <p className="mt-2 text-sm leading-relaxed text-charcoal/70">
+                  Leave a review on the site after your course — it takes under a minute and helps
+                  other companies choose the right training.
+                </p>
+                <a
+                  href="#site-reviews"
+                  className="mt-4 inline-flex min-h-11 items-center justify-center rounded-xl bg-charcoal px-5 text-sm font-bold text-white transition-colors hover:bg-brand"
+                >
+                  Write a review
+                </a>
+              </div>
+            </div>
+            <div id="site-reviews" className="scroll-mt-32">
+              <ReviewsSection title="What clients say about REH Safety Training" limit={9} />
             </div>
           </div>
         </div>

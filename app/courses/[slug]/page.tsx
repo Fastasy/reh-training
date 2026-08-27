@@ -12,6 +12,7 @@ import { COURSE_CATEGORIES } from "@/lib/courses";
 import { getCoursePageContent } from "@/lib/coursePages";
 import CTABand from "@/components/CTABand";
 import AllCoursesSidebar from "@/components/AllCoursesSidebar";
+import ReviewsSection from "@/components/ReviewsSection";
 
 export const dynamicParams = false;
 
@@ -373,6 +374,16 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
                 </ul>
               </div>
             </aside>
+          </div>
+
+          {/* reviews for this course */}
+          <div className="mt-16">
+            <ReviewsSection
+              courseSlug={course.slug}
+              courseName={course.name}
+              title={`Reviews for ${course.name}`}
+              limit={6}
+            />
           </div>
         </div>
       </section>
