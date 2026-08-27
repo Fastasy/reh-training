@@ -30,8 +30,8 @@ export default function CoursesPage() {
             <div className="mt-6 flex flex-wrap gap-3">
               <a
                 href="mailto:info@rehtraining.co.za?subject=Training%20Quotation%20Request"
-                className="inline-flexdata-booking
- min-h-12 items-center justify-center gap-2 rounded-xl bg-brand px-6 py-3 text-sm font-bold text-white shadow-lg shadow-brand/25 transition-colors hover:bg-brand-dark"
+                data-booking
+                className="inline-flex min-h-12 items-center justify-center gap-2 rounded-xl bg-brand px-6 py-3 text-sm font-bold text-white shadow-lg shadow-brand/25 transition-colors hover:bg-brand-dark"
               >
                 <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <rect x="3" y="5" width="18" height="14" rx="2" />

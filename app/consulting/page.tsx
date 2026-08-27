@@ -60,8 +60,8 @@ export default function ConsultingPage() {
               </p>
               <a
                 href="mailto:info@rehtraining.co.za?subject=Training%20Quotation%20Request"
-                className="mt-data-booking
-7 inline-flex min-h-13 items-center justify-center gap-2 rounded-xl bg-brand px-7 py-3.5 text-base font-bold text-white shadow-lg shadow-brand/25 transition-colors hover:bg-brand-dark"
+                data-booking
+                className="mt-7 inline-flex min-h-13 items-center justify-center gap-2 rounded-xl bg-brand px-7 py-3.5 text-base font-bold text-white shadow-lg shadow-brand/25 transition-colors hover:bg-brand-dark"
               >
                 <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <rect x="3" y="5" width="18" height="14" rx="2" />
@@ -133,8 +133,8 @@ export default function ConsultingPage() {
               </ul>
               <a
                 href="mailto:info@rehtraining.co.za?subject=Training%20Quotation%20Request"
-                className="mt-data-booking
-8 inline-flex min-h-12 items-center justify-center gap-2 rounded-xl bg-charcoal px-6 py-3 text-base font-bold text-white transition-colors hover:bg-brand"
+                data-booking
+                className="mt-8 inline-flex min-h-12 items-center justify-center gap-2 rounded-xl bg-charcoal px-6 py-3 text-base font-bold text-white transition-colors hover:bg-brand"
               >
                 Discuss Your Compliance Needs
               </a>
