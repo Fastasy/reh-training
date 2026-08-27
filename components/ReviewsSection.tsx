@@ -21,6 +21,7 @@ type Props = {
   showForm?: boolean;
   title?: string;
   compact?: boolean;
+  gridClass?: string; // responsive grid classes for the cards (default 2-up sm, 3-up lg)
 };
 
 function timeAgo(iso: string): string {
@@ -42,6 +43,7 @@ export default function ReviewsSection({
   showForm = true,
   title,
   compact = false,
+  gridClass = "sm:grid-cols-2 lg:grid-cols-3",
 }: Props) {
   const [reviews, setReviews] = useState<Review[]>([]);
   const [loading, setLoading] = useState(true);
@@ -198,7 +200,7 @@ export default function ReviewsSection({
       )}
 
       {loading && (
-        <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className={`mt-6 grid gap-4 ${gridClass}`}>
           {[1, 2, 3].map((i) => (
             <div key={i} className="h-36 animate-pulse rounded-2xl bg-charcoal/5" />
           ))}
@@ -206,12 +208,12 @@ export default function ReviewsSection({
       )}
 
       {!loading && reviews.length > 0 && (
-        <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className={`mt-6 grid gap-4 ${gridClass}`}>
           {reviews.map((r) => {
             const isSample = (r as Review & { sample?: boolean }).sample === true;
             return (
               <article key={r.id} className="flex flex-col rounded-2xl border border-line bg-paper p-5">
-                <div className="flex items-center justify-between gap-3">
+                <div className="flex flex-wrap items-center justify-between gap-x-3 gap-y-2">
                   <StarRating value={r.rating} size="sm" />
                   <span className="flex items-center gap-2">
                     {isSample && (

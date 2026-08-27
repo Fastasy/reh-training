@@ -493,7 +493,11 @@ export default function Home() {
               </div>
             </div>
             <div id="site-reviews" className="scroll-mt-32">
-              <ReviewsSection title="What clients say about REH Safety Training" limit={9} />
+              <ReviewsSection
+                title="What clients say about REH Safety Training"
+                limit={9}
+                gridClass="sm:grid-cols-2"
+              />
             </div>
           </div>
         </div>
