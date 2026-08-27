@@ -3,7 +3,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 244288 Unit Standard Name: Investigate incidents NQF Level: 4 Duration: 1 Days Price: R700",
+  "description": "This accredited course provides learners with the knowledge and practical skills required to investigate workplace accidents and incidents in a structured and legally compliant manner.",
   "outline": [
    "Legal and compliance requirements for incident investigation",
    "Definitions and classification of accidents, incidents, and near misses",
@@ -26,7 +26,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 12484 Unit Standard Name: Fight fires in the workplace NQF Level: 2 Duration: 1 Day Price: R650",
+  "description": "This accredited course aims to provide learners with the knowledge, skills, and confidence to respond effectively to fire emergencies in the workplace. The training covers fire prevention principles, correct response procedures, and the safe use of firefighting and emergency equipment.",
   "outline": [
    "Legal and workplace requirements for fire safety",
    "Procedures for dealing with fires",
@@ -49,7 +49,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 120331 Unit Standard Name: Apply basic fire fighting procedures NQF Level: 2 Duration: 1 Day Price: R650",
+  "description": "This accredited course enables learners to acquire the knowledge and practical skills required to identify potential causes of fires, prevent workplace fires, understand fire detection methods, and apply emergency firefighting procedures.",
   "outline": [
    "Basic knowledge pertaining to fires and fire behaviour",
    "Causes of workplace fires and fire prevention measures",
@@ -72,7 +72,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 243272 Unit Standard Name: Operate a self-propelled elevating work platform NQF Level: 2 Duration: 5 Day Price: Novice (Initial Training) \u2013 R3 900",
+  "description": "This course provides learners with the knowledge and practical skills required to safely operate a cherry picker in accordance with occupational health and safety legislation and workplace procedures.",
   "outline": [
    "Legal and compliance requirements for MEWP operation",
    "Types and applications of cherry pickers",
@@ -82,7 +82,7 @@
    "Safe operating procedures and load limitations",
    "Working at heights and fall protection requirements",
    "Emergency procedures and rescue awareness",
-   "Shutdown, parking, and post-operation procedures.",
+   "Shutdown, parking, and post-operation procedures",
    "Identify hazards associated with cherry picker operations",
    "Conduct pre-use inspections and identify defects",
    "Operate a cherry picker safely and correctly",
@@ -94,7 +94,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 229998 Unit Standard Name: Explain and perform fall arrest techniques when working at height NQF Level: 1 Duration: 1 Day Price: R700",
+  "description": "This course provides learners with the knowledge and practical skills required to safely use fall arrest systems when working at heights. The training focuses on hazard identification, selection and inspection of fall arrest equipment, correct anchoring techniques, safe use of harness systems, and emergency response awareness.",
   "outline": [
    "Legal and compliance requirements for fall arrest systems",
    "Principles of fall protection and fall arrest",
@@ -105,19 +105,19 @@
    "Correct fitting and use of full body harnesses",
    "Anchorage points and connection methods",
    "Safe working practices while using fall arrest systems",
-   "Emergency response and rescue awareness.",
+   "Emergency response and rescue awareness",
    "Identify fall hazards associated with working at heights",
    "Select appropriate fall arrest systems for specific tasks",
    "Inspect fall arrest equipment and identify defects",
    "Fit and use fall arrest equipment correctly",
-   "Apply safe work practices when working at heights."
+   "Apply safe work practices when working at heights"
   ]
  },
  "First Aid Level 3": {
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 120497 Unit Standard Name: Provide first aid in the workplace NQF Level: 3 Duration: 1 Day Price: R650",
+  "description": "This accredited course provides learners with advanced knowledge and practical skills to provide first aid in the workplace. The training focuses on managing complex injuries and medical emergencies, advanced patient assessment, coordination during emergencies, and effective use of first aid equipment.",
   "outline": [
    "Legal and workplace requirements for advanced first aid",
    "Roles and responsibilities of a First Aider (Level 3)",
@@ -140,7 +140,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Category: Occupational Health & Safety Duration: 1 Day Price: From R850 Delivery: On-site or at training centre",
+  "description": "The Working with Asbestos Safety Course provides essential knowledge to identify asbestos, understand its health risks, and apply safe working practices where asbestos-containing materials (ACMs) may be present.",
   "outline": [
    "Overview of asbestos, types, and health effects",
    "Identifying asbestos-containing materials (ACMs) and common locations",
@@ -163,7 +163,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 119567 Unit Standard Name: Provide first aid as an advanced first responder NQF Level: 1 Duration: 1 Day Price: R650",
+  "description": "This accredited course provides learners with the knowledge and practical skills required to provide basic first aid treatment in the workplace. The training focuses on assessing emergency situations, performing basic life support, treating common injuries and illnesses, and maintaining first aid equipment.",
   "outline": [
    "Legal requirements and responsibilities of a first aider",
    "Principles of first aid and scene safety",
@@ -199,7 +199,7 @@
    "Apply safe work procedures for confined space entry",
    "Understand permit-to-work requirements and entry controls",
    "Use and inspect basic personal protective equipment correctly",
-   "Respond appropriately to emergencies related to confined space work."
+   "Respond appropriately to emergencies related to confined space work"
   ]
  },
  "Confined Space Rescue": {
@@ -227,7 +227,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 244073 Unit Standard Name: Control hazardous chemical substances NQF Level: 2 Duration: 1 Day Price: R800",
+  "description": "This accredited course provides learners with the knowledge and practical understanding required to control hazardous and dangerous goods in the workplace. The training focuses on identifying hazardous substances, applying control measures, safe handling and storage practices, emergency response actions, and compliance with occupational health and safety requirements.",
   "outline": [
    "Legal and workplace requirements for hazardous and dangerous goods",
    "Classification of hazardous and dangerous substances",
@@ -250,7 +250,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 259584 Unit Standard Name: Inspect firefighting equipment NQF Level: 2 Duration: 1 Day Price: R650",
+  "description": "This accredited course provides learners with the knowledge and practical skills required to inspect firefighting equipment in the workplace to ensure it is safe, compliant, and operational.",
   "outline": [
    "Legal and workplace requirements for firefighting equipment inspection",
    "Types and uses of firefighting equipment",
@@ -316,7 +316,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 260837 Unit Standard Name: Move and store hazardous loads NQF Level: 2 Duration: 1 Day Price: R800",
+  "description": "This accredited course provides learners with the knowledge and practical skills required to safely move and store hazardous loads in the workplace. The training focuses on hazard identification, risk control measures, correct handling techniques, storage requirements, segregation of incompatible substances, and emergency response procedures.",
   "outline": [
    "Legal and workplace requirements for moving and storing hazardous loads",
    "Identification and classification of hazardous loads",
@@ -339,7 +339,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 120496 Unit Standard Name: Provide first aid in the workplace NQF Level: 2 Duration: 1 Day Price: R650",
+  "description": "This accredited course provides learners with the knowledge and practical skills required to provide first aid in the workplace. The training focuses on assessing emergency situations, managing injuries and medical emergencies, performing basic life support, and caring for casualties until professional medical assistance arrives.",
   "outline": [
    "Legal and workplace requirements for first aid provision",
    "Roles and responsibilities of a first aider",
@@ -373,12 +373,12 @@
    "Load limits, stability, and foundation requirements",
    "Fall protection and working at heights requirements",
    "Inspection, tagging, and reporting of scaffolding structures",
-   "Emergency procedures and incident reporting.",
+   "Emergency procedures and incident reporting",
    "Identify hazards associated with scaffolding erection and dismantling",
    "Apply safe work procedures for scaffolding activities",
    "Erect, alter, and dismantle scaffolding safely and correctly",
    "Inspect scaffolding structures and identify defects",
-   "Comply with legal and workplace safety requirements."
+   "Comply with legal and workplace safety requirements"
   ]
  },
  "Scaffolding Supervisor": {
@@ -398,7 +398,7 @@
    "Scaffolding tagging, registers, and record keeping",
    "Managing non-compliance and corrective actions",
    "Incident investigation and reporting related to scaffolding",
-   "Leadership, communication, and team management in scaffolding operations.",
+   "Leadership, communication, and team management in scaffolding operations",
    "Supervise scaffolding operations in compliance with legal requirements",
    "Plan and coordinate scaffolding work safely and effectively",
    "Conduct and oversee scaffolding inspections and compliance checks"
@@ -428,17 +428,30 @@
   ]
  },
  "Working at Heights": {
-  "us_id": null,
+  "us_id": "120362",
   "us_name": null,
-  "nqf": null,
-  "description": "SAQA-Accredited Training All courses aligned with South African unit standards and legislation.",
-  "outline": []
+  "nqf": "3",
+  "description": "This course equips learners with the knowledge and practical skills to work safely at height. It covers hazard identification and risk assessment for elevated work, inspection and correct use of fall protection equipment, and safe work practices that meet South African requirements for working at heights.",
+  "outline": [
+   "Introduction to Working at Heights",
+   "Hazard Identification and Risk Assessment",
+   "Monitoring Safe Work Practices at Heights",
+   "Fall Arrest Systems and Safety Equipment Inspection",
+   "Safe Use of Access Equipment and Work Platforms",
+   "Reporting Unsafe Conditions and Advising on Corrective Actions",
+   "Emergency Preparedness and Incident Response Awareness",
+   "Identify hazards associated with work at heights and conduct basic risk assessments",
+   "Inspect and assess fall protection equipment and elevated access systems",
+   "Monitor work being performed at heights for compliance with safety standards",
+   "Report unsafe acts or conditions clearly and recommend appropriate corrective measures",
+   "Apply basic knowledge of safety legislation and workplace procedures relevant to work at heights"
+  ]
  },
  "COIDA (Compensation for Occupational Injuries & Diseases Act)": {
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 259638 Unit Standard Name: Explain compensation for occupational injuries and diseases NQF Level: 3 Duration: 1 Day Price: R600",
+  "description": "This accredited course provides learners with a clear understanding of the Compensation for Occupational Injuries and Diseases Act (COIDA) and its application in the workplace. The training focuses on employer and employee responsibilities, reporting of injuries and diseases, compensation claims processes, and the management of occupational injury cases.",
   "outline": [
    "Purpose and scope of the Compensation for Occupational Injuries and Diseases Act",
    "Roles and responsibilities of employers and employees",
@@ -461,7 +474,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 123259 Unit Standard Name: Convey dangerous goods by road NQF Level: 2 Duration: 1 Day Price: R800",
+  "description": "This accredited course provides drivers with the knowledge and understanding required to safely convey dangerous goods by road in compliance with legal and safety requirements. The training focuses on classification of dangerous goods, vehicle and load safety, documentation, emergency procedures, and driver responsibilities.",
   "outline": [
    "Legal requirements for conveying dangerous goods by road",
    "Classification of dangerous goods",
@@ -484,7 +497,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 243272 Unit Standard Name: Operate a self-propelled elevating work platform NQF Level: 2 Duration: 5 Day Price: Novice (Initial Training) \u2013 R3 900",
+  "description": "This course provides learners with the knowledge and practical skills required to safely operate Mobile Elevating Work Platforms (MEWPs) in accordance with occupational health and safety legislation and workplace procedures.",
   "outline": [
    "Legal and compliance requirements for MEWP operation",
    "Types and classifications of MEWPs",
@@ -495,7 +508,7 @@
    "Stability, ground conditions, and exclusion zones",
    "Working at heights and fall protection requirements",
    "Emergency procedures and rescue awareness",
-   "Shutdown, parking, and post-operation procedures.",
+   "Shutdown, parking, and post-operation procedures",
    "Identify hazards associated with MEWP operations",
    "Conduct pre-use inspections and identify defects",
    "Operate a MEWP safely and correctly",
@@ -507,7 +520,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Course Type: Accredited Legislative Compliance Training NQF Level: Aligned (Accredited Learning Programme) Duration: 1 Day Price: R600",
+  "description": "This accredited course provides learners with a comprehensive understanding of the Occupational Health and Safety Act and its practical application in the workplace. The training focuses on legal duties, rights and responsibilities of employers and employees, enforcement provisions, and the implementation of effective health and safety systems.",
   "outline": [
    "Purpose, objectives, and scope of the Occupational Health and Safety Act",
    "Duties and responsibilities of employers, employees, and other stakeholders",
@@ -553,7 +566,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 10255 Unit Standard Name: Select, use and care for power tools NQF Level: 2 Duration: 1 Day Price: R1250",
+  "description": "This Cut-Off Saw Operator Safety Training course equips learners with the knowledge and practical skills required to safely operate handheld cut-off saws (rotary saws) in the workplace.",
   "outline": [
    "Cut-off saw safety legislation",
    "Legal requirements under the Occupational Health and Safety Act",
@@ -576,7 +589,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Programme Type: Accredited Plumbing Skills Course NQF Level: 4 Duration: 5 Days Price: R6,000",
+  "description": "The Drainage & Rainwater Systems Installation Course is a specialised plumbing programme designed to equip learners with the skills required to install, maintain, and test below-ground drainage systems and rainwater systems in residential, commercial, and light industrial environments.",
   "outline": [
    "Unit Standard ID: 244498 Unit Standard Name: Install, maintain and test below ground drainage systems",
    "Unit Standard ID: 244495 Unit Standard Name: Install, maintain and test rainwater systems",
@@ -599,7 +612,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 259622 Unit Standard Name: Describe the functions of the workplace health and safety representative NQF Level: 2 Duration: 1 Day Price: R600",
+  "description": "This accredited course provides learners with the knowledge and practical understanding required to perform the functions of a workplace health and safety representative. The training focuses on legal duties, workplace inspections, hazard identification, incident reporting, and effective communication with management and employees.",
   "outline": [
    "Purpose and legal framework of the health and safety representative role",
    "Rights, duties, and responsibilities of a SHE Representative",
@@ -622,7 +635,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Course Type: Accredited Legislative Compliance Training NQF Level: Aligned (Advanced / Post-Basic OHS Knowledge) Duration: 1 Days Price: R700",
+  "description": "This accredited course provides learners with in-depth knowledge and a detailed understanding of the Occupational Health and Safety Act, including its procedures, regulations, and practical application in the workplace.",
   "outline": [
    "Overview and purpose of the Occupational Health and Safety Act",
    "Principles and structure of relevant health and safety legislation",
@@ -645,7 +658,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 116229 Unit Standard Name: Perform basic rigging and slinging operations NQF Level: 2 Duration: 1 Day Price: R1,500",
+  "description": "This accredited course provides learners with the knowledge and practical skills required to perform basic rigging and slinging operations safely in the workplace. The training focuses on identifying lifting hazards, selecting and inspecting lifting equipment, applying correct slinging techniques, and communicating effectively during lifting operations.",
   "outline": [
    "Legal and workplace requirements for rigging and slinging",
    "Roles and responsibilities of rigging and slinging personnel",
@@ -668,7 +681,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 119558 Unit Standard Name: Identify and classify dangerous goods for transport NQF Level: 2 Duration: 1 Day Price: R800",
+  "description": "This accredited course provides learners with the knowledge and practical understanding required to correctly identify and classify dangerous goods for transport. The training focuses on the legal framework for dangerous goods, classification systems, hazard classes, packaging groups, and documentation requirements.",
   "outline": [
    "Legal requirements for dangerous goods identification and classification",
    "Overview of dangerous goods regulations and standards",
@@ -691,7 +704,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 259601 Unit Standard Name: Demonstrate knowledge of safe stacking and storage NQF Level: 2 Duration: 1 Day Price: R800",
+  "description": "This accredited course provides learners with the knowledge and practical understanding required to stack and store materials safely in the workplace. The training focuses on identifying hazards associated with stacking and storage, applying safe stacking principles, preventing collapses and falling objects, and ensuring compliance with occupational health and safety requirements.",
   "outline": [
    "Legal and workplace requirements for safe stacking and storage",
    "Principles of safe stacking and storage",
@@ -714,7 +727,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 242999 Unit Standard Name: Respond to and clean up a spill NQF Level: 2 Duration: 1 Day Price: R850",
+  "description": "This accredited course provides learners with the knowledge and practical skills required to respond to and clean up hazardous and non-hazardous spills safely in the workplace. The training focuses on spill risk identification, correct use of spill kits, containment and clean-up procedures, waste disposal, and reporting requirements.",
   "outline": [
    "Legal and workplace requirements for spill response",
    "Types of spills and associated risks",
@@ -747,7 +760,7 @@
    "Fall rescue equipment and system setup",
    "Casualty recovery and controlled descent techniques",
    "Communication and coordination during rescue",
-   "Emergency response procedures and post-rescue actions.",
+   "Emergency response procedures and post-rescue actions",
    "Identify hazards associated with fall rescue operations",
    "Understand the risks of suspension trauma and emergency response needs",
    "Select and use fall rescue equipment correctly",
@@ -759,7 +772,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 116231 Unit Standard Name: Maintain a clean and safe construction site NQF Level: 2 Duration: 1 Day Price: R700",
+  "description": "This accredited course provides learners with the knowledge and practical understanding required to maintain good housekeeping standards on construction sites. The training focuses on identifying housekeeping hazards, safe storage of materials, waste management, prevention of slips, trips and falls, and maintaining clean and organised work areas.",
   "outline": [
    "Importance of housekeeping on construction sites",
    "Legal and workplace requirements for site cleanliness",
@@ -782,7 +795,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 229994 Unit Standard Name: Assess a worksite for work at height and prepare a fall protection plan NQF Level: 2 Duration: 1 Day Price: R700",
+  "description": "This course provides learners with the knowledge and practical skills required to develop, implement, and review a fall protection plan in accordance with occupational health and safety legislation and construction regulations.",
   "outline": [
    "Legal and regulatory requirements for fall protection plans",
    "Purpose and scope of a fall protection plan",
@@ -792,19 +805,19 @@
    "Identification of suitable anchorage points and systems",
    "Emergency and rescue planning considerations",
    "Documentation, implementation, and communication of the plan",
-   "Monitoring, review, and updating of fall protection plans.",
+   "Monitoring, review, and updating of fall protection plans",
    "Interpret legal requirements relating to fall protection planning",
    "Identify fall hazards and assess associated risks",
    "Develop a compliant fall protection plan",
    "Select appropriate fall prevention and fall arrest measures",
-   "Review and update fall protection plans to ensure ongoing compliance."
+   "Review and update fall protection plans to ensure ongoing compliance"
   ]
  },
  "Risk Assessment (HIRA)": {
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 242811 Unit Standard Name: Conduct a risk assessment NQF Level: 4 Duration: 1 Days Price: R650",
+  "description": "This accredited course provides learners with the knowledge and practical skills required to conduct effective hazard identification and risk assessments in the workplace. The training focuses on identifying hazards, analysing and evaluating risks, implementing control measures, and reviewing risk assessments in line with occupational health and safety legislation.",
   "outline": [
    "Legal and compliance requirements for risk assessments",
    "Principles of hazard identification",
@@ -827,7 +840,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 244507 Unit Standard Name: Install, maintain and test cold water supply systems NQF Level: 4 Duration: 4 Days Price: R6,000",
+  "description": "This accredited course provides learners with the knowledge and practical skills required to install, maintain, and test cold water supply systems in residential, commercial, and light industrial environments.",
   "outline": [
    "Principles of cold water supply systems",
    "Types of cold water systems and components",
@@ -850,7 +863,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 244494 Unit Standard Name: Perform specialised fault-finding and repairs to plumbing systems NQF Level: 4 Duration: 5 Days Price: R6,000",
+  "description": "This accredited course equips learners with advanced knowledge and practical skills to diagnose, fault-find, and repair complex plumbing systems in residential, commercial, and light industrial environments.",
   "outline": [
    "Principles of advanced plumbing fault-finding",
    "Health, safety, and environmental requirements",
@@ -873,7 +886,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard Name: Select, use and care for power tools NQF Level: 2 Duration: 1 Day Price: R700",
+  "description": "This accredited Portable Power Tools Safety Training course provides learners with the knowledge and practical skills required to safely select, use, and care for portable power tools in the workplace.",
   "outline": [
    "Overview of portable power tools and their applications",
    "Hazards associated with portable power tool use",
@@ -896,7 +909,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 244499 Unit Standard Name: Install and maintain solar water heating systems NQF Level: 4 Duration: 3 Days Price: R4 500",
+  "description": "This accredited course provides learners with the knowledge and practical skills required to install, commission, maintain, and fault-find solar water heating systems . The training focuses on system components, installation procedures, safety requirements, maintenance practices, and compliance with applicable standards and regulations.",
   "outline": [
    "Introduction to solar water heating systems and renewable energy principles",
    "Types of solar water heating systems and components",
@@ -919,7 +932,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 12877 Unit Standard Name: Use and maintain hand tools on a construction site NQF Level: 2 Duration: 1 Day Price: R700",
+  "description": "This accredited course provides learners with the knowledge and practical skills required to safely use and maintain hand tools on a construction site . The training focuses on identifying common hand tools, selecting the correct tool for specific tasks, applying safe operating procedures, conducting pre-use inspections, and maintaining tools in good working condition.",
   "outline": [
    "Identification of common hand tools used on construction sites",
    "Correct selection of hand tools for specific tasks",
@@ -944,7 +957,7 @@
   "nqf": null,
   "description": "This accredited all-round Hand and Power Tools Operator Course provides learners with the knowledge and practical skills required to safely use and maintain both manual hand tools and power tools in the workplace. The course covers common tools such as angle grinders, drill machines, bench grinders, cut-off saws, and related equipment.",
   "outline": [
-   "Unit Standard ID: 12878 Unit Standard Name: Use and maintain Power Hand Tools.",
+   "Unit Standard ID: 12878 Unit Standard Name: Use and maintain Power Hand Tools",
    "Identification of common hand tools (hammers, chisels, saws, spanners, etc.)",
    "Identification and correct use of power tools (drills, angle grinders, bench grinders, cut-off saws)",
    "Correct application of tools for specific tasks",
@@ -965,7 +978,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 120370 Unit Standard Name: Monitor and make recommendations on the application of health and safety principles regarding hazardous substances in the working place",
+  "description": "This accredited course provides learners with the knowledge and practical understanding required to identify chemical hazards and respond effectively to chemical emergencies. The training focuses on HAZCHEM identification systems, chemical warning signs, spill response procedures, and emergency actions to minimise harm to people, property, and the environment.",
   "outline": [
    "Introduction to chemical hazards and HAZCHEM principles",
    "Chemical classification and hazard symbols",
@@ -988,7 +1001,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 244496 Unit Standard Name: Install, maintain and test hot water supply systems NQF Level: 4 Duration: 5 Days Price: R6,000",
+  "description": "This accredited course provides learners with the knowledge and practical skills required to install, maintain, and test hot water supply systems in residential, commercial, and light industrial environments.",
   "outline": [
    "Principles of hot water supply systems",
    "Types of hot water systems and components",
@@ -1011,7 +1024,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 259615 Unit Standard Name: Explain legal liability in the workplace NQF Level: 4 Duration: 1 Day Price: R700",
+  "description": "This accredited course provides learners with a clear understanding of legal liability within the workplace, with specific focus on occupational health and safety responsibilities. The training covers employer and employee duties, criminal and civil liability, negligence, vicarious liability, and the consequences of non-compliance with health and safety legislation.",
   "outline": [
    "Introduction to legal liability in the workplace",
    "Overview of occupational health and safety legislation",
@@ -1034,7 +1047,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 10255 Unit Standard Name: Select, use and care for power tools NQF Level: 2 Duration: 1 Day Price: R700",
+  "description": "This accredited course provides learners with the knowledge and practical skills required to safely select, use, and care for power tools in the workplace. The training focuses on correct tool selection for specific tasks, safe operating procedures, pre-use inspections, routine care and maintenance, and hazard awareness.",
   "outline": [
    "Overview of common power tools and their applications",
    "Selecting the correct power tool for specific tasks",
@@ -1059,9 +1072,6 @@
   "nqf": null,
   "description": "Programme Type: Skills Programme (Part Qualification) Total Credits: 41 Credits Aligned Qualification: National Certificate: Health and Safety Duration: 2 Weeks",
   "outline": [
-   "Full-Time (Classroom Sessions): R7,999",
-   "Hybrid Sessions (Attend Some Days + Work From Home): R7,999",
-   "Correspondence (No Classes): R5,000",
    "Apply health and safety to a work area \u2013 3 Credits",
    "Demonstrate knowledge and understanding of relevant current occupational health and safety legislation \u2013 4 Credits",
    "Conduct an investigation into workplace incidents \u2013 5 Credits",
@@ -1080,7 +1090,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 123259 Unit Standard Name: Use and maintain self-contained breathing apparatus NQF Level: 2 Duration: 1 Day Price: R700",
+  "description": "This course provides learners with the knowledge and practical skills required to safely use and maintain breathing apparatus in hazardous or oxygen-deficient environments. The training focuses on understanding atmospheric hazards, correct donning and doffing procedures, equipment inspection, safe operation, and emergency procedures.",
   "outline": [
    "Legal and compliance requirements for breathing apparatus use",
    "Types of breathing apparatus and their applications",
@@ -1103,7 +1113,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Programme Level: NQF Level 2 Programme Type: Entry-Level Plumbing Skills Programme Duration:",
+  "description": "The Basic Plumbing Skills Course is an entry-level programme designed for individuals with no prior plumbing experience who want to build a solid foundation in the plumbing trade. The course covers essential plumbing theory, tools, materials, and basic installation and maintenance of common domestic plumbing systems.",
   "outline": [
    "Theory: 8 Days (Introductory Phase)",
    "Full Programme: 4\u20136 Weeks (Theory + Practical Training)",
@@ -1126,7 +1136,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 10255 Unit Standard Name: Select, use and care for power tools NQF Level: 2 Duration: 1 Day Price: R700",
+  "description": "This accredited Grinders Operator (Angle Grinder) Safety Training course provides learners with the knowledge and practical skills required to safely operate angle grinders and related grinding equipment in the workplace.",
   "outline": [
    "Hazards associated with angle grinder use and potential consequences of unsafe operation",
    "Understanding angle grinder equipment, limitations, and correct operating techniques",
@@ -1149,7 +1159,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 12903 Unit Standard Name: Install storm water pipelines NQF Level: 2 Duration: 5 Days Price: R6,000 Programme Type: Accredited Civil Construction Skills Course",
+  "description": "The Storm Water Pipe Laying Course provides learners with the practical and technical skills required to work as a pipe layer in the civil construction industry . The course focuses on the installation of underground pipelines used for storm water drainage and related infrastructure projects.",
   "outline": [
    "Introduction to storm water and underground pipeline systems",
    "Interpreting construction drawings and specifications",
@@ -1172,7 +1182,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 259639 Unit Standard Name: Inspect and use ladders NQF Level: 2 Duration: 1 Day Price: R700",
+  "description": "This course provides learners with the knowledge and practical skills required to inspect ladders and ensure their safe use in the workplace. The training focuses on identifying ladder-related hazards, conducting pre-use and formal inspections, selecting the correct ladder for the task, and ensuring compliance with occupational health and safety requirements.",
   "outline": [
    "Legislative and compliance requirements for ladder use",
    "Types and classifications of ladders",
@@ -1183,7 +1193,7 @@
    "Correct ladder selection and positioning",
    "Safe use, handling, and storage of ladders",
    "Tagging, reporting, and record keeping for ladder inspections",
-   "Incident prevention and corrective actions.",
+   "Incident prevention and corrective actions",
    "Identify different types of ladders and their intended use",
    "Inspect ladders for defects and unsafe conditions",
    "Apply correct ladder selection and positioning principles",
@@ -1218,7 +1228,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 259622 Unit Standard Name: Supervise health and safety in the workplace NQF Level: 4 Duration: 5 Days Price: R4,500",
+  "description": "This accredited course provides learners with the knowledge and supervisory skills required to manage and supervise health and safety activities in the workplace. The training focuses on legal compliance, hazard identification, risk assessment, incident management, monitoring of safety controls, and effective supervision of employees and contractors.",
   "outline": [
    "Legal framework for workplace health and safety supervision",
    "Roles and responsibilities of a Safety Supervisor",
@@ -1241,30 +1251,30 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 10255 Unit Standard Name: Select, use and care for power tools NQF Level: 2 Duration: 1 Day Price: R1250",
+  "description": "The Chainsaw Operator Course equips learners with the knowledge and practical skills required to safely operate, inspect, maintain, and transport chainsaws in forestry, agriculture, landscaping, construction, and other industries where chainsaws are used.",
   "outline": [
-   "Identify different types of chainsaws and their applications.",
-   "Explain the function of chainsaw components and mechanical systems.",
-   "Conduct pre-operational inspections and routine maintenance.",
-   "Identify workplace hazards and perform basic risk assessments.",
-   "Select, inspect, and correctly wear Personal Protective Equipment (PPE).",
-   "Safely start, operate, transport, and shut down a chainsaw.",
-   "Demonstrate correct cutting techniques for different timber conditions.",
-   "Recognise and control reactive forces such as kickback.",
-   "Perform tree felling, cross-cutting, and de-branching safely.",
-   "Complete maintenance records, inspection checklists, and defect reports.",
-   "Apply safe work practices and comply with legal and organisational requirements.",
-   "Types of chainsaws and their applications.",
-   "Chainsaw components and their functions.",
-   "Basic cutting principles and chainsaw terminology.",
-   "Guide bars, saw chains, cutters, sprockets, and lubrication systems."
+   "Identify different types of chainsaws and their applications",
+   "Explain the function of chainsaw components and mechanical systems",
+   "Conduct pre-operational inspections and routine maintenance",
+   "Identify workplace hazards and perform basic risk assessments",
+   "Select, inspect, and correctly wear Personal Protective Equipment (PPE)",
+   "Safely start, operate, transport, and shut down a chainsaw",
+   "Demonstrate correct cutting techniques for different timber conditions",
+   "Recognise and control reactive forces such as kickback",
+   "Perform tree felling, cross-cutting, and de-branching safely",
+   "Complete maintenance records, inspection checklists, and defect reports",
+   "Apply safe work practices and comply with legal and organisational requirements",
+   "Types of chainsaws and their applications",
+   "Chainsaw components and their functions",
+   "Basic cutting principles and chainsaw terminology",
+   "Guide bars, saw chains, cutters, sprockets, and lubrication systems"
   ]
  },
  "Construction Supervisor Course": {
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 13964 Unit Standard Name: Supervise a construction site NQF Level: 4 Duration: 1 Days Price: R700",
+  "description": "This accredited course provides learners with the knowledge and practical skills required to effectively supervise construction site activities in compliance with occupational health and safety legislation, construction regulations, and project requirements.",
   "outline": [
    "Roles and responsibilities of a construction site supervisor",
    "Legal and regulatory requirements for construction site supervision",
@@ -1287,7 +1297,7 @@
   "us_id": null,
   "us_name": null,
   "nqf": null,
-  "description": "Unit Standard ID: 242974 Unit Standard Name: Apply flagging procedures to control traffic NQF Level: 2 Duration: 1 Day Price: R700",
+  "description": "This accredited course provides learners with the knowledge and practical skills required to safely control traffic using flagging procedures in work zones. The training focuses on traffic control principles, correct use of signage and hand signals, hazard identification, communication, and personal safety.",
   "outline": [
    "Legal and workplace requirements for traffic control",
    "Roles and responsibilities of a flagman",
