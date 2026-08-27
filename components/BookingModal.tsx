@@ -11,6 +11,7 @@ import {
 } from "react";
 import CourseSelect from "./CourseSelect";
 import { REH_EMAIL } from "@/lib/courses";
+import { pushEvent } from "@/lib/analytics";
 
 type BookingContextType = {
   openBooking: (course?: string) => void;
@@ -158,6 +159,15 @@ export function BookingProvider({ children }: { children: ReactNode }) {
       .join("\n");
 
     const url = `mailto:${REH_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    // Primary conversion event for Google Ads — fire BEFORE navigating so it's
+    // never lost. Course list + company let the client segment quote requests
+    // by course in GA4/Ads.
+    pushEvent("quote_request", {
+      company: company.trim(),
+      course_count: rows.filter((r) => r.course.trim()).length,
+      course_list: courseList,
+      training_location: trainingLocation.trim(),
+    });
     window.dispatchEvent(new CustomEvent("reh:quote", { detail: url }));
     window.location.href = url;
     setSent(true);

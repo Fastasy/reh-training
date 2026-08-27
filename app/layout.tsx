@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Work_Sans, Lustria } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import QuoteFloat from "@/components/QuoteFloat";
+import Tracking from "@/components/Tracking";
 import { BookingProvider } from "@/components/BookingModal";
+import { GTM_ID } from "@/lib/analytics";
 
 const workSans = Work_Sans({
   variable: "--font-work-sans",
@@ -90,6 +93,14 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${workSans.variable} ${lustria.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-cream text-charcoal">
+        <Script id="gtm" strategy="afterInteractive">
+          {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','${GTM_ID}');`}
+        </Script>
+        <Tracking />
         <BookingProvider>
           <Header />
           <main className="flex-1">{children}</main>
