@@ -1,0 +1,296 @@
+[
+  {
+    "name": "Controlling Hazardous & Dangerous Goods",
+    "audience": [
+      "Employees who handle, store or work near hazardous and dangerous goods",
+      "Warehouse, factory and workshop personnel",
+      "SHE representatives and supervisors responsible for hazardous substances",
+      "Managers who must meet workplace health and safety requirements"
+    ],
+    "faqs": [
+      {
+        "q": "How much does the Controlling Hazardous & Dangerous Goods course cost?",
+        "a": "The course costs R800 per person and runs over one day. Prices are negotiable for group bookings, and we run daily classes, so there is no waiting period. Training can take place online, on-site at your premises, or at our centres in Midrand or Durban. WhatsApp us on 061 580 7967 to book or to ask about group rates."
+      },
+      {
+        "q": "Do I need experience before I can do this course?",
+        "a": "No, prior experience is not required. The course is aimed at anyone who works with or around hazardous and dangerous goods, and it covers classification, safe handling, storage, labelling and emergency response from the basics up. The content aligns with unit standard 244073, Control hazardous chemical substances, at NQF level 2, so it suits entry-level staff and experienced workers alike."
+      },
+      {
+        "q": "How long is the certificate valid?",
+        "a": "There is no fixed expiry on the certificate itself. Most companies refresh dangerous goods training every two to three years, depending on their risk assessment and client requirements. Certificates are issued in line with SAQA-aligned unit standards where applicable, and you keep the certificate as proof of training. Ask your safety officer what interval applies in your workplace, or WhatsApp us and we will advise."
+      },
+      {
+        "q": "Can you train at our site?",
+        "a": "Yes. We deliver on-site at client premises anywhere in South Africa, or at our training centres in Midrand and Durban. Online classes are also available. On-site training suits teams that work with hazardous goods, because we schedule around your operations and can use your workplace examples. WhatsApp 061 580 7967 or call 010 746 6954 for a date and a group quote."
+      }
+    ]
+  },
+  {
+    "name": "Convey Dangerous Goods by Road",
+    "audience": [
+      "Drivers who transport dangerous goods by road",
+      "Logistics and transport personnel",
+      "Fleet managers and transport supervisors",
+      "Dispatch and loading staff involved with dangerous loads"
+    ],
+    "faqs": [
+      {
+        "q": "How much does the Convey Dangerous Goods by Road course cost?",
+        "a": "The course costs R800 per person and runs over one day. Group bookings are negotiable, and daily classes mean you can book without waiting. Training is available online, on-site at your premises, or at our centres in Midrand and Durban. WhatsApp 061 580 7967 to book a seat or to get a quote for your team."
+      },
+      {
+        "q": "What does the course cover?",
+        "a": "It covers the legal requirements for conveying dangerous goods by road, classification of dangerous goods, driver responsibilities, packaging, labelling and placarding, vehicle safety and load securing, documentation, and emergency procedures. The course aligns with unit standard 123259, Convey dangerous goods by road, at NQF level 2. You leave knowing how to move a dangerous load legally and what to do if something goes wrong."
+      },
+      {
+        "q": "Do I need a specific licence to attend?",
+        "a": "The course covers dangerous goods requirements, not basic driving, so employers normally expect you to hold a valid licence for the vehicle you operate. That requirement sits with your employer and the vehicle you drive. If you are not sure whether this course is right for your role, ask your transport manager or WhatsApp us and we will help you choose."
+      },
+      {
+        "q": "Can you train our drivers at our depot?",
+        "a": "Yes. We run the course on-site at client premises, which suits depots because your drivers train together and the examples can come from your own loads. It is also available at our centres in Midrand and Durban, or online. Daily classes mean you can book without a waiting period. WhatsApp 061 580 7967 for dates and a group rate."
+      }
+    ]
+  },
+  {
+    "name": "Chemical Hazards (HAZCHEM)",
+    "audience": [
+      "Employees working with or around hazardous chemicals",
+      "Warehouse and manufacturing personnel",
+      "Emergency response team members",
+      "SHE representatives who monitor hazardous substances"
+    ],
+    "faqs": [
+      {
+        "q": "How much does the Chemical Hazards (HAZCHEM) course cost?",
+        "a": "Pricing for this one-day course depends on group size and delivery mode, so WhatsApp us on 061 580 7967 for a quote. We run daily classes, so there is no waiting period. Training can be done at our centres in Midrand or Durban, on-site at your premises, or online. Group bookings are negotiable, so the more staff you send, the better the rate."
+      },
+      {
+        "q": "What is a HAZCHEM code and will I learn to read it?",
+        "a": "Yes. The course covers chemical classification, hazard symbols and how to interpret HAZCHEM codes and emergency information panels. You also practise responding to chemical spills and leaks, selecting personal protective equipment, and evacuating or isolating an area safely. The content aligns with unit standard 120370, which deals with monitoring and making recommendations on health and safety principles for hazardous substances in the workplace."
+      },
+      {
+        "q": "Is this course only for emergency response teams?",
+        "a": "No. It is aimed at anyone who works with or around hazardous chemicals, including warehouse, manufacturing and maintenance staff. Emergency response team members also do this course because it covers spill and leak response, evacuation and incident reporting. If your team handles chemicals daily, this training builds the awareness to spot hazards before they turn into incidents."
+      },
+      {
+        "q": "Where can I do the training?",
+        "a": "You have three options: at our training centres in Midrand (14 Douglas Road, Glen Austin) and Durban (62 Lilian Ngoyi Street, Windermere), on-site at your premises, or online. Classes run daily. For centre dates or an on-site booking, WhatsApp 061 580 7967 or call 010 746 6954, and we will confirm a date that suits you."
+      }
+    ]
+  },
+  {
+    "name": "Hazardous Materials Awareness",
+    "description": "This one-day awareness course introduces employees to hazardous materials in the workplace. It covers what hazardous materials are, how they are classified, and the risks they carry. Learners work through hazard communication, labelling, Safety Data Sheets, and the basics of storage, segregation and emergency response. The outcome is a worker who recognises hazardous materials, understands the controls around them, and knows when to stop and report rather than guess. It suits general staff who may not handle chemicals directly but work where hazardous materials are present.",
+    "outcomes": [
+      "Identify hazardous materials and their classes in the workplace",
+      "Interpret hazard labels, markings and Safety Data Sheets",
+      "Apply safe storage, handling and segregation practices",
+      "Recognise emergency situations and follow spill or leak response procedures",
+      "Report hazards and incidents to the right person"
+    ],
+    "audience": [
+      "General employees who work where hazardous materials are stored or used",
+      "New staff starting in warehouses, factories, workshops or laboratories",
+      "Contractors and visitors who need site hazard awareness",
+      "SHE representatives introducing chemical safety basics"
+    ],
+    "faqs": [
+      {
+        "q": "How much does Hazardous Materials Awareness cost?",
+        "a": "Pricing for this one-day course depends on group size and delivery mode, so message us on WhatsApp at 061 580 7967 for a quote. We run daily classes, so you can book without a waiting period. Training is available at our centres in Midrand and Durban, on-site at your premises, or online. Group bookings are negotiable."
+      },
+      {
+        "q": "Is this the same as a HAZCHEM or dangerous goods course?",
+        "a": "Not quite. Hazardous Materials Awareness is an entry-level course that covers identification, labelling, Safety Data Sheets and basic emergency response. Courses like Chemical Hazards (HAZCHEM) or Controlling Hazardous and Dangerous Goods go deeper into control measures and unit standard content. If your staff only need to recognise hazardous materials and act safely around them, this is the right starting point. WhatsApp us if you want help choosing."
+      },
+      {
+        "q": "How long is the course and how often should staff retrain?",
+        "a": "The course takes one day. There is no fixed expiry on the certificate, but most companies refresh awareness training every two years, especially where staff change or new substances come into the workplace. Certificates are issued in line with SAQA-aligned unit standards where applicable. Keep the certificate on file as proof that your employees have completed the training."
+      },
+      {
+        "q": "Can you run this course at our workplace?",
+        "a": "Yes. On-site training works well for this course because we can use your own substances, labels and procedures as examples. We also offer it at our training centres in Midrand and Durban, or online for the theory. Daily classes mean flexible dates. WhatsApp 061 580 7967 to arrange a session and get a group quote."
+      }
+    ]
+  },
+  {
+    "name": "Asbestos Awareness",
+    "audience": [
+      "Maintenance, renovation and demolition workers who may disturb asbestos",
+      "Building managers and facilities staff",
+      "Contractors working in older buildings, factories and plants",
+      "Anyone who needs to identify asbestos-containing materials"
+    ],
+    "faqs": [
+      {
+        "q": "How much does Asbestos Awareness training cost?",
+        "a": "Pricing starts at around R850 per person and depends on group size and delivery mode. The course runs over one day, either on-site at your premises or at one of our training centres in Midrand or Durban. Asbestos Awareness is separate from licensed asbestos removal work, which has its own requirements. WhatsApp 061 580 7967 for a quote and available dates."
+      },
+      {
+        "q": "Do I need this course if I do maintenance work?",
+        "a": "Yes, especially if you work in older buildings. The course covers identifying asbestos-containing materials and where they are commonly found, including cement products, cladding and insulation. You will learn to use asbestos registers and exposure records, and to recognise when work could disturb asbestos so it can be stopped and handled correctly. That protects you and everyone on site."
+      },
+      {
+        "q": "Does this course allow me to remove asbestos?",
+        "a": "No. Asbestos Awareness is awareness only, and it does not qualify anyone to remove asbestos. The course explains the restrictions on high-risk activities and the limitations on removal work, so you know what must be left to licensed specialists. If your company does asbestos removal, those teams need the specific licensed training required for that work."
+      },
+      {
+        "q": "Can you present this course at our site?",
+        "a": "Yes. The course is available on-site at client premises, which suits building managers and maintenance teams because the examples can come from your own buildings. It is also offered at our training centres in Midrand and Durban. Classes run daily, so there is no waiting period. WhatsApp 061 580 7967 or call 010 746 6954 to book."
+      }
+    ]
+  },
+  {
+    "name": "Dangerous Goods – Identification",
+    "audience": [
+      "Employees involved in handling or transporting dangerous goods",
+      "Dispatch, warehouse and logistics staff",
+      "Stores controllers and goods-inwards personnel",
+      "Anyone who labels, documents or loads dangerous goods for transport"
+    ],
+    "faqs": [
+      {
+        "q": "How much does Dangerous Goods Identification training cost?",
+        "a": "Pricing for this one-day course depends on group size and delivery mode, so WhatsApp us on 061 580 7967 for a quote. We run daily classes with no waiting period. Training is available at our centres in Midrand and Durban, on-site at your premises, or online. Group bookings are negotiable, so the per-person rate improves as your group grows."
+      },
+      {
+        "q": "Why is it important to identify dangerous goods correctly?",
+        "a": "Wrong identification leads to wrong packaging, wrong placards and unsafe transport, and that puts drivers and the public at risk. This course covers the classes and divisions of dangerous goods, packaging groups, labels, placards and transport documentation. It aligns with unit standard 119558, Identify and classify dangerous goods for transport, at NQF level 2. You will learn to classify a load correctly and spot documents that do not match the goods."
+      },
+      {
+        "q": "I work in dispatch. Is this course for me?",
+        "a": "Yes. Dispatch, stores and goods-inwards staff deal with dangerous goods labels, placards and paperwork every day. The course gives you the classification knowledge to check that a load is identified correctly before it leaves your site, and to flag problems before they become incidents. It runs over one day with daily classes, so you can be trained without long delays."
+      },
+      {
+        "q": "Do you offer this course for a group at our warehouse?",
+        "a": "Yes. We run the course on-site at client premises, which lets your team train together using the labels and documentation you actually use. It is also available at our centres in Midrand and Durban, or online. Group bookings are negotiable, and daily classes mean no waiting period. WhatsApp 061 580 7967 for dates and a group rate."
+      }
+    ]
+  },
+  {
+    "name": "Respond to & Clean Up a Spill",
+    "description": "This one-day course trains employees to respond to chemical and hazardous substance spills quickly and safely. It covers assessing a spill and its risks, deciding who needs to act, using the right equipment, containing and cleaning up the spill, and disposing of contaminated materials correctly. Learners also cover decontamination, personal protection and reporting. The outcome is a worker who can manage a small spill calmly, protect themselves and others, and call in help when a spill is beyond their level.",
+    "outcomes": [
+      "Assess a spill and its risks before acting",
+      "Select and use spill response equipment correctly",
+      "Contain and clean up spills of hazardous substances",
+      "Dispose of contaminated materials safely",
+      "Report spills and record the response"
+    ],
+    "audience": [
+      "Warehouse, factory and workshop employees who handle chemicals",
+      "Fuel and lubricant attendants and plant operators",
+      "Emergency response team members",
+      "Supervisors who oversee spill-prone areas"
+    ],
+    "faqs": [
+      {
+        "q": "How much does the Respond to and Clean Up a Spill course cost?",
+        "a": "The course costs R700 per person and runs over one day. Prices are negotiable for group bookings, and classes run daily, so there is no waiting period. Training can be done at our centres in Midrand or Durban, on-site at your premises, or online. WhatsApp 061 580 7967 to book or to get a group quote."
+      },
+      {
+        "q": "Do I need to be part of an emergency response team?",
+        "a": "No. The course is for anyone who works where spills can happen, including warehouse staff, machine operators and maintenance teams. The sooner a spill is contained, the smaller the damage and the lower the risk to people and the environment. This training gives ordinary workers the confidence to act in the first few minutes instead of waiting for help."
+      },
+      {
+        "q": "What types of spills does the course cover?",
+        "a": "It covers the common workplace spills: chemicals, fuels, oils, solvents and other hazardous liquids. You will learn to assess the risk of a spill, use spill kits and absorbents, contain the spill, and handle the contaminated material afterwards. The same response steps apply to most hazardous substances, and the course teaches you to read the hazard information before you act."
+      },
+      {
+        "q": "How long is the certificate valid?",
+        "a": "There is no fixed expiry on the certificate itself. Most companies refresh spill response training every two years, depending on their risk assessment and how often spills occur in their operations. Certificates are issued in line with SAQA-aligned unit standards where applicable. Keep the certificate on file as proof of training, and ask your safety officer what interval applies in your workplace."
+      }
+    ]
+  },
+  {
+    "name": "Spill Training Workshop",
+    "description": "The Spill Training Workshop is a hands-on one-day session built around practical spill response. Learners work through real spill scenarios: identifying the substance, sizing up the risk, choosing the right spill kit, containing and cleaning up the spill, and dealing with the waste. It suits teams that want more practice time than a standard awareness course offers, and it can be run at your site using your own spill kits and procedures. The outcome is a team that responds to spills as a routine, not a panic.",
+    "outcomes": [
+      "Work through a spill scenario from first sighting to final clean-up",
+      "Select the correct spill kit and equipment for the substance involved",
+      "Contain, absorb and dispose of spilled material safely",
+      "Apply decontamination and personal protection steps",
+      "Complete spill reports and hand the area back safely"
+    ],
+    "audience": [
+      "Operational teams in warehouses, depots and workshops",
+      "Fuel and chemical handling crews",
+      "Maintenance and cleaning staff",
+      "Emergency response team members who want practical practice"
+    ],
+    "faqs": [
+      {
+        "q": "How much does the Spill Training Workshop cost?",
+        "a": "The workshop costs R700 per person and runs over one day. Group bookings are negotiable, and daily classes mean you can book without a waiting period. The workshop works best on-site, where we can use your spill kits and procedures, but it is also available at our centres in Midrand and Durban. WhatsApp 061 580 7967 for dates and a quote."
+      },
+      {
+        "q": "What is the difference between this workshop and the spill response course?",
+        "a": "Both cover the same ground, but the workshop puts more time into hands-on practice. You will work through live scenarios using spill kits, absorbents and containment equipment, and the practical work is assessed in the room. It suits teams that want more than theory, or companies that want the training built around their own site procedures."
+      },
+      {
+        "q": "Can you run the workshop at our premises?",
+        "a": "Yes, and it is usually the best option. On-site, we can use your spill kits, your substances and your procedures, so the team practises exactly what they would do on the job. We also run the workshop at our centres in Midrand and Durban. Contact us on WhatsApp 061 580 7967 to arrange a date and a group quote."
+      },
+      {
+        "q": "How long does the workshop take?",
+        "a": "One day. The morning covers the response steps and the equipment, and the afternoon is practical scenario work. Because classes run daily, you can book a date that suits your team without waiting weeks. Group discounts apply, so the per-person cost comes down the more staff you send. Message us on WhatsApp for availability."
+      }
+    ]
+  },
+  {
+    "name": "Spill Kit Responder",
+    "audience": [
+      "Designated spill kit responders and emergency response team members",
+      "Warehouse and workshop staff who use spill kits",
+      "Fuel attendants and chemical handlers",
+      "SHE representatives responsible for spill equipment"
+    ],
+    "faqs": [
+      {
+        "q": "How much does the Spill Kit Responder course cost?",
+        "a": "The course costs R700 per person and runs over one day. Group bookings are negotiable, and daily classes mean no waiting period. It is available on-site at your premises, online, or at our centres in Midrand and Durban. WhatsApp 061 580 7967 to book a seat or to get a group quote for your team."
+      },
+      {
+        "q": "What does a spill kit responder do?",
+        "a": "A spill kit responder is the person who acts first when a spill happens. This course covers assessing the spill, choosing the right kit and equipment, containing and cleaning up the spill, and disposing of contaminated material. It aligns with unit standard 242999, Respond to and clean up a spill, at NQF level 2, so the training follows a recognised national standard."
+      },
+      {
+        "q": "Do I need any experience to attend?",
+        "a": "No. The course starts from the basics and is open to anyone designated to respond to spills in their workplace. You will learn to read hazard information, select the right equipment and follow safe clean-up steps. If you already respond to spills, this course formalises your training with a certificate issued in line with the SAQA-aligned unit standard."
+      },
+      {
+        "q": "Where is the training offered?",
+        "a": "At our training centres in Midrand (14 Douglas Road, Glen Austin) and Durban (62 Lilian Ngoyi Street, Windermere), on-site at your premises, or online. Classes run daily, so there is no waiting period. For centre dates or an on-site booking, WhatsApp 061 580 7967 or call 010 746 6954, and we will confirm a date that suits you."
+      }
+    ]
+  },
+  {
+    "name": "Move & Store Hazardous Loads",
+    "audience": [
+      "Warehouse and stores personnel who move hazardous loads",
+      "Forklift and materials handling operators",
+      "Goods-inwards and dispatch staff",
+      "Supervisors responsible for storage and segregation"
+    ],
+    "faqs": [
+      {
+        "q": "How much does the Move and Store Hazardous Loads course cost?",
+        "a": "The course costs R700 per person and runs over one day. Prices are negotiable for group bookings, and we run daily classes, so there is no waiting period. Training is available at our Midrand and Durban centres, on-site at your premises, or online. WhatsApp 061 580 7967 to book or to ask about group rates."
+      },
+      {
+        "q": "What will I learn about storing hazardous loads?",
+        "a": "The course covers identifying and classifying hazardous loads, risk assessment, safe handling and movement, storage requirements, and segregation of incompatible substances. You will also cover labelling, signage, documentation, and emergency procedures for spills, leaks and exposure. It aligns with unit standard 260837, Move and store hazardous loads, at NQF level 2."
+      },
+      {
+        "q": "Is this course for forklift drivers?",
+        "a": "Forklift and materials handling operators are a big part of the audience, but the course is not limited to them. Anyone who moves, picks, loads or stores hazardous goods, including stores controllers and dispatch staff, will get value from it. The focus is on the load and the storage area, so it works for anyone handling hazardous materials, with or without machinery."
+      },
+      {
+        "q": "Can you train at our warehouse?",
+        "a": "Yes. On-site training lets your team practise with the loads, storage areas and procedures you actually use, which makes the course more relevant. It is also available at our centres in Midrand and Durban, or online. Daily classes mean flexible dates, and group bookings are negotiable. WhatsApp 061 580 7967 to arrange a date."
+      }
+    ]
+  }
+]

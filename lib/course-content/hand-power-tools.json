@@ -1,0 +1,191 @@
+[
+  {
+    "name": "Hand & Power Tools Safety",
+    "audience": [
+      "Workers who use hand tools and power tools as part of their daily work",
+      "New employees who need basic tool safety training before starting on site",
+      "Supervisors and team leaders responsible for safe tool use on the job",
+      "Anyone who wants a recognised certificate in hand and power tool safety"
+    ],
+    "faqs": [
+      {
+        "q": "How much does the Hand & Power Tools Safety course cost?",
+        "a": "The course costs R800 per person and runs over one day. Classes start daily with no waiting period. Training is available online, at our centres in Midrand and Durban, or on site at your premises. Prices are negotiable for group bookings, so WhatsApp 061 580 7967 for a quote. Most learners finish the day with their certificate in hand."
+      },
+      {
+        "q": "Do I need experience before I can do this course?",
+        "a": "No, you do not need prior experience. The course starts with identifying common hand tools and power tools, then moves into safe operating procedures and pre-use inspections. It suits new employees and experienced workers alike. You complete the training in one day and receive your certificate on completion, issued in line with SAQA-aligned unit standards where applicable."
+      },
+      {
+        "q": "Can you train at our workplace?",
+        "a": "Yes. We run on-site training at client premises anywhere in South Africa, and it works well for teams that use tools daily. You can also join centre-based classes in Midrand or Durban, or train online. Because classes run daily, there is no waiting period. WhatsApp 061 580 7967 to book a date that suits you."
+      },
+      {
+        "q": "What certificate do I get after the course?",
+        "a": "You receive a certificate issued in line with SAQA-aligned unit standards, and this course maps to Unit Standard 12878, Use and maintain Power Hand Tools. The training is accredited and SAQA aligned. The certificate has no standard expiry date; many employers set their own refresher intervals, so check with your safety officer if you are not sure."
+      }
+    ]
+  },
+  {
+    "name": "Power (Electrical) Tools",
+    "audience": [
+      "Artisans, electricians and maintenance staff who work with power tools",
+      "Factory and workshop employees who use drills, grinders and similar equipment",
+      "Learners who need NQF Level 2 competence in selecting, using and caring for power tools",
+      "Supervisors who must confirm their teams use power tools safely"
+    ],
+    "faqs": [
+      {
+        "q": "How much does the Power (Electrical) Tools course cost?",
+        "a": "The course costs R700 per person and runs over one day. It is aligned to Unit Standard 10255, Select, use and care for power tools, at NQF Level 2. Classes run daily with no waiting period, online, at our centres in Midrand or Durban, or on site at your premises. Group bookings are negotiable, so WhatsApp 061 580 7967 for a quote."
+      },
+      {
+        "q": "Do I need a trade qualification to attend?",
+        "a": "No. The course suits both experienced tradespeople and workers who are new to power tools. It covers selecting the correct tool for the task, hazards, safe operating procedures, PPE requirements, pre-use inspections, defect identification, basic maintenance and safe storage. You leave with a recognised certificate and the know-how to use power tools safely at work."
+      },
+      {
+        "q": "What does the course cover in a day?",
+        "a": "The day covers common power tools and their applications, the hazards linked to power tool use, and safe operating procedures. You learn to inspect tools before use, identify defects, care for tools, and store them safely. The course also covers what to do when a tool is damaged or unsafe, and how to comply with workplace safety requirements and legislation."
+      },
+      {
+        "q": "Is the certificate recognised for site work in South Africa?",
+        "a": "Yes. The certificate is issued in line with SAQA-aligned unit standards, and the course maps to Unit Standard 10255 at NQF Level 2. That gives employers a clear record that you are competent in selecting, using and caring for power tools. The certificate has no fixed expiry; many companies ask for refresher training at their own intervals."
+      }
+    ]
+  },
+  {
+    "name": "Manual (Hand) Tools",
+    "audience": [
+      "Construction workers who use hand tools as part of their daily work",
+      "General workers on building sites who need formal hand tool safety training",
+      "Apprentices and new entrants to the construction industry",
+      "Site supervisors who want their teams trained in safe hand tool use"
+    ],
+    "faqs": [
+      {
+        "q": "How much does the Manual (Hand) Tools course cost?",
+        "a": "The course costs R700 per person and takes one day. It is aligned to Unit Standard 12877, Use and maintain hand tools on a construction site, at NQF Level 2. We run daily classes with no waiting period, in Midrand, Durban, online, or on site at your premises. Group pricing is negotiable, so message us on WhatsApp at 061 580 7967 for a quote."
+      },
+      {
+        "q": "Is this course only for construction workers?",
+        "a": "It is aimed at construction sites, but anyone who uses hand tools at work will benefit. The course covers identifying common hand tools, selecting the right tool for the job, safe operating procedures, PPE, pre-use inspections, basic maintenance and safe storage on site. Most learners finish in one day and receive their certificate on completion."
+      },
+      {
+        "q": "What hand tools does the course cover?",
+        "a": "The course covers the hand tools commonly found on construction sites, including hammers, chisels, saws, spanners and related equipment. You learn to identify each tool, choose the correct one for a task, inspect it before use, and keep it maintained and stored safely. The focus is on preventing injuries caused by poor tool selection and misuse."
+      },
+      {
+        "q": "Can you train our whole team on site?",
+        "a": "Yes. On-site training works well for construction teams because it fits around site work and uses your own tools and conditions. We also offer centre-based training in Midrand and Durban, plus online training. Daily classes mean you can start without waiting. WhatsApp 061 580 7967 to arrange a date for your team."
+      }
+    ]
+  },
+  {
+    "name": "Grinders Operator",
+    "audience": [
+      "Operators who use angle grinders as part of their work",
+      "Workshop and fabrication staff who cut or grind metal, stone or wood",
+      "Construction and maintenance teams that use grinders on site",
+      "Workers who need training in grinder disc selection and safe grinding techniques"
+    ],
+    "faqs": [
+      {
+        "q": "How much does the Grinders Operator course cost?",
+        "a": "The course costs R700 per person and runs over one day. It is aligned to Unit Standard 10255, Select, use and care for power tools, at NQF Level 2. Classes run daily with no waiting period, online, at our centres in Midrand or Durban, or on site at your premises. Group bookings are negotiable, so WhatsApp 061 580 7967 for a quote."
+      },
+      {
+        "q": "What will I learn on the Grinders Operator course?",
+        "a": "You learn the hazards of angle grinder use and the consequences of unsafe operation, plus correct operating techniques. The course covers selecting the right disc, whether grit, diamond, wire or wood, and matching grinder speed to the material. It also covers pre-use inspections, PPE, hot work requirements, fire risks and fire watch procedures for controlled grinding areas."
+      },
+      {
+        "q": "Do I need experience with angle grinders first?",
+        "a": "No, you do not. The course starts with equipment basics and the hazards involved, then builds up to safe operating techniques and disc selection. It also suits experienced operators who want a recognised certificate and a refresher on safety. You finish in one day and receive your certificate on completion."
+      },
+      {
+        "q": "Does the course cover hot work and fire safety?",
+        "a": "Yes. Grinding creates sparks and heat, so the course covers hot work requirements, fire risks, fire watch procedures and controlled grinding areas. You also learn to identify risks, apply hazard controls and work safely near flammable materials. That matters on sites where grinding happens close to fuel, dust or stored goods."
+      }
+    ]
+  },
+  {
+    "name": "Chain Saw Operator",
+    "audience": [
+      "Farm, estate and forestry workers who cut timber with chainsaws",
+      "Tree felling, cross-cutting and de-branching operators",
+      "Municipal and grounds maintenance teams",
+      "Workers who need formal chainsaw operator training and certification"
+    ],
+    "faqs": [
+      {
+        "q": "How much does the Chain Saw Operator course cost?",
+        "a": "The course costs R800 per person and takes one day. It is aligned to Unit Standard 10255, Select, use and care for power tools, at NQF Level 2. Training runs daily with no waiting period, at our centres in Midrand and Durban, online, or on site at your premises. Prices are negotiable for group bookings, so WhatsApp 061 580 7967 for a quote."
+      },
+      {
+        "q": "What does the chainsaw course cover?",
+        "a": "It covers chainsaw types and applications, components and mechanical systems, pre-operational inspections and routine maintenance. You learn to start, operate, transport and shut down a chainsaw safely, control reactive forces such as kickback, and carry out tree felling, cross-cutting and de-branching with correct cutting techniques. Maintenance records, inspection checklists and defect reports are also covered."
+      },
+      {
+        "q": "Do I need experience with chainsaws to attend?",
+        "a": "No prior experience is needed. The course takes you from chainsaw components and safety checks through to safe operation and cutting techniques. If you already work with chainsaws, it gives you a recognised certificate and a structured refresher on safe practice. You complete the training in one day and get your certificate on completion."
+      },
+      {
+        "q": "What certificate do I get after the chainsaw course?",
+        "a": "You receive a certificate issued in line with SAQA-aligned unit standards, and the course maps to Unit Standard 10255 at NQF Level 2. It records your competence in chainsaw operation, including pre-operational inspections, safe cutting techniques and kickback control. The certificate has no fixed expiry; many employers set their own refresher intervals."
+      }
+    ]
+  },
+  {
+    "name": "Cut-Off Saw Operator",
+    "audience": [
+      "Operators who use petrol-driven cut-off saws to cut concrete, steel and pipe",
+      "Roadworks, pipe-laying and construction cutting teams",
+      "Workers who need training in abrasive wheel mounting and cut-off saw safety",
+      "Site supervisors responsible for safe cut-off saw operation"
+    ],
+    "faqs": [
+      {
+        "q": "How much does the Cut-Off Saw Operator course cost?",
+        "a": "The course costs R700 per person and runs over one day. It is aligned to Unit Standard 10255, Select, use and care for power tools, at NQF Level 2. Daily classes run with no waiting period, online, at our Midrand and Durban centres, or on site at your premises. Group prices are negotiable, so WhatsApp 061 580 7967 for a quote."
+      },
+      {
+        "q": "What does the cut-off saw course cover?",
+        "a": "It covers cut-off saw safety legislation and the legal requirements under the Occupational Health and Safety Act, the main components of cut-off saws, and safe operating procedures for rotary and handheld machines. You also learn to mount and check abrasive wheels, refuel safely, check spark plugs and air filters, and do basic adjustments and safe storage."
+      },
+      {
+        "q": "Do I need any qualifications before I can do this course?",
+        "a": "No, you do not need prior qualifications. The course starts with cut-off saw safety legislation and the legal requirements under the Occupational Health and Safety Act, so you build the background knowledge as you go. Novice learners write a formative theoretical assessment at the start, and everyone does a theoretical and practical assessment at the end."
+      },
+      {
+        "q": "Is the training practical?",
+        "a": "Yes. The course ends with a summative theoretical and practical assessment, so you demonstrate your skills on the machine. Learners who are not yet competent receive guidance on the areas they need to develop before they can pass. The practical work covers mounting and checking abrasive wheels, refuelling and safe operating procedures."
+      }
+    ]
+  },
+  {
+    "name": "Portable Power Tools",
+    "audience": [
+      "Tradespeople and technicians who use portable power tools daily",
+      "Maintenance and facilities staff who drill, cut and fasten on site",
+      "New employees who need portable power tool safety training",
+      "Supervisors who want their teams trained on safe portable tool use"
+    ],
+    "faqs": [
+      {
+        "q": "How much does the Portable Power Tools course cost?",
+        "a": "The course costs R700 per person and runs over one day. It is aligned to the unit standard Select, use and care for power tools at NQF Level 2. We run daily classes with no waiting period, at our Midrand and Durban centres, online, or on site at your premises. Group bookings are negotiable, so message us on WhatsApp for a quote."
+      },
+      {
+        "q": "What does the course cover?",
+        "a": "It covers portable power tools and their applications, the hazards linked to their use, and how to select the right tool for the task. Safe operating procedures, PPE requirements, pre-use inspections and defect identification get full attention. Electrical safety and extension lead management are covered specifically, along with safe storage and housekeeping."
+      },
+      {
+        "q": "Do I need experience with power tools before I attend?",
+        "a": "No. The course suits new users and experienced workers who want a recognised certificate. You learn to identify common portable power tools, select the right one for each task and operate it safely. Pre-use inspections and defect identification are covered in detail, so you leave ready to work safely on your own tools."
+      },
+      {
+        "q": "Can you run the training at our workplace?",
+        "a": "Yes. On-site training is available at client premises anywhere in South Africa, and it suits teams that use portable tools daily. We also offer centre-based classes in Midrand and Durban, plus online training. Because classes run daily, there is no waiting period. WhatsApp 061 580 7967 to book a date."
+      }
+    ]
+  }
+]
