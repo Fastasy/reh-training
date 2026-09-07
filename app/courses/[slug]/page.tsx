@@ -389,6 +389,12 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
                       <dd className="font-bold text-charcoal">{content.nqf}</dd>
                     </div>
                   )}
+                  {content?.us_id && (
+                    <div className="flex items-center justify-between gap-4 border-t border-line pt-4">
+                      <dt className="text-charcoal/60">Unit Standard ID</dt>
+                      <dd className="font-bold text-charcoal">{content.us_id}</dd>
+                    </div>
+                  )}
                   {content?.us_name && (
                     <div className="border-t border-line pt-4">
                       <dt className="text-charcoal/60">Unit standard</dt>

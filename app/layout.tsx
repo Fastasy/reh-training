@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     template: "%s | REH Safety Training",
   },
   description:
-    "SAQA-aligned health & safety training, OHS consulting and occupational medicals. Online, on-site and centre-based courses in Midrand & Durban — daily classes, no waiting period.",
+    "SAQA-aligned health & safety training, soft skills courses and occupational medicals. Online, on-site and centre-based courses in Midrand & Durban — daily classes, no waiting period.",
   keywords: [
     "health and safety training South Africa",
     "working at heights training",
@@ -48,14 +48,14 @@ export const metadata: Metadata = {
     "first aid level 1",
     "safety officer course",
     "forklift training",
-    "OHS consulting",
+    "soft skills training",
     "occupational medicals",
     "REH Safety Training",
   ],
   openGraph: {
     title: "Accredited Health & Safety Training | REH Safety Training",
     description:
-      "SAQA-aligned health & safety courses, OHS consulting and occupational medicals. Online, on-site and centre-based — daily classes, no waiting period.",
+      "SAQA-aligned health & safety courses, soft skills training and occupational medicals. Online, on-site and centre-based — daily classes, no waiting period.",
     url: site.url,
     siteName: site.name,
     type: "website",
@@ -72,7 +72,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Accredited Health & Safety Training | REH Safety Training",
     description:
-      "SAQA-aligned health & safety courses, OHS consulting and occupational medicals.",
+      "SAQA-aligned health & safety courses, soft skills training and occupational medicals.",
     images: ["/images/og-image.png"],
   },
   alternates: {

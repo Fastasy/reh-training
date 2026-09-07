@@ -3,6 +3,7 @@
 import lpContentRaw from "./course-content/lp-content.json";
 import lpFullRaw from "./course-content/lp-full.json";
 import lpNameMapRaw from "./course-content/lp-name-map.json";
+import unitStandardsRaw from "./course-content/unit-standards.json";
 import safetyCompliance from "./course-content/safety-compliance.json";
 import workingAtHeights from "./course-content/working-at-heights.json";
 import emergencyFire from "./course-content/emergency-fire.json";
@@ -63,6 +64,13 @@ type LpFull = {
 const LP_FULL = lpFullRaw as Record<string, LpFull>;
 const LP_NAME_MAP = lpNameMapRaw as Record<string, string>;
 
+// Authoritative Unit Standard data extracted from the client's old LP pages
+// (lp.rehtraining.co.za). Keyed by catalogue course name; wins over the scrapes.
+const UNIT_STANDARDS = unitStandardsRaw as Record<
+  string,
+  { us_id?: string | null; us_name?: string | null; nqf?: string | null }
+>;
+
 function lpFullFor(name: string): LpFull | undefined {
   const key = Object.keys(LP_NAME_MAP).find((k) => LP_NAME_MAP[k] === name);
   return key ? LP_FULL[key] : undefined;
@@ -73,6 +81,10 @@ export function getCoursePageContent(name: string): CoursePageContent | null {
   const lp = LP_CONTENT[name];
   const full = lpFullFor(name);
   if (!writer && !lp && !full) return null;
+
+  // "N/A" values on the client's old pages mean "no unit standard" — treat as absent.
+  const cleanUs = (v: string | null | undefined) =>
+    typeof v === "string" && /^N\/?A$/i.test(v.trim()) ? null : (v ?? null);
 
   // Full LP scrape wins (real client content); older partial scrape + writer fill gaps.
   const description = full?.description || lp?.description || writer?.description;
@@ -91,9 +103,10 @@ export function getCoursePageContent(name: string): CoursePageContent | null {
     certification: full?.certification,
     entryRequirements: full?.entry_requirements,
     faqs: writer?.faqs ?? [],
-    us_id: full?.us_id ?? lp?.us_id ?? null,
-    us_name: full?.us_name ?? lp?.us_name ?? null,
-    nqf: full?.nqf ?? lp?.nqf ?? null,
+    // Explicit Unit Standard table (client LP pages) wins, then full scrape, then partial scrape.
+    us_id: cleanUs(UNIT_STANDARDS[name]?.us_id ?? full?.us_id ?? lp?.us_id),
+    us_name: UNIT_STANDARDS[name]?.us_name ?? full?.us_name ?? lp?.us_name ?? null,
+    nqf: cleanUs(UNIT_STANDARDS[name]?.nqf ?? full?.nqf ?? lp?.nqf),
   };
 }
 

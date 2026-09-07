@@ -1,0 +1,262 @@
+{
+ "Accident & Incident Investigation": {
+  "us_id": "244288",
+  "us_name": "Investigate incidents",
+  "nqf": "4"
+ },
+ "Health & Safety Representative (SHE Rep)": {
+  "us_id": "259622",
+  "us_name": "Describe the functions of the workplace health and safety representative",
+  "nqf": "2"
+ },
+ "OHS Supervisor": {
+  "us_id": "259622",
+  "us_name": "Supervise health and safety in the workplace",
+  "nqf": "4"
+ },
+ "COIDA (Compensation for Occupational Injuries & Diseases Act)": {
+  "us_id": "259638",
+  "us_name": "Explain compensation for occupational injuries and diseases",
+  "nqf": "3"
+ },
+ "Risk Assessment (HIRA)": {
+  "us_id": "242811",
+  "us_name": "Conduct a risk assessment",
+  "nqf": "4"
+ },
+ "Legal Liability & Compliance Training": {
+  "us_id": "259615",
+  "us_name": "Explain legal liability in the workplace",
+  "nqf": "4"
+ },
+ "Safe Stacking & Storage": {
+  "us_id": "259601",
+  "us_name": "Demonstrate knowledge of safe stacking and storage",
+  "nqf": "2"
+ },
+ "Construction Housekeeping": {
+  "us_id": "116231",
+  "us_name": "Maintain a clean and safe construction site",
+  "nqf": "2"
+ },
+ "Flagman (Stop & Go)": {
+  "us_id": "242974",
+  "us_name": "Apply flagging procedures to control traffic",
+  "nqf": "2"
+ },
+ "Construction Supervisor Course": {
+  "us_id": "13964",
+  "us_name": "Supervise a construction site",
+  "nqf": "4"
+ },
+ "Plumbing Safety & Legal Compliance": {
+  "us_id": "13224",
+  "us_name": "Monitor the application of safety, health and environmental protection procedures",
+  "nqf": "4"
+ },
+ "Cold Water Plumbing Systems": {
+  "us_id": "244507",
+  "us_name": "Install, maintain and test cold water supply systems",
+  "nqf": "4"
+ },
+ "Hot Water Systems (Geysers & Boilers)": {
+  "us_id": "244496",
+  "us_name": "Install, maintain and test hot water supply systems",
+  "nqf": "4"
+ },
+ "Drainage & Rainwater Systems Installation": {
+  "us_id": "244498 & 244495",
+  "us_name": "Install, maintain and test below ground drainage systems / rainwater systems",
+  "nqf": "4"
+ },
+ "Solar Water Heating Course": {
+  "us_id": "244499",
+  "us_name": "Install and maintain solar water heating systems",
+  "nqf": "4"
+ },
+ "Pipe Laying & Jointing": {
+  "us_id": "12903",
+  "us_name": "Install storm water pipelines",
+  "nqf": "2"
+ },
+ "Leak Detection & Basic Maintenance": {
+  "us_id": "244494",
+  "us_name": "Perform specialised fault-finding and repairs to plumbing systems",
+  "nqf": "4"
+ },
+ "Hand & Power Tools Safety": {
+  "us_id": "12878",
+  "us_name": "Use and maintain Power Hand Tools",
+  "nqf": "2"
+ },
+ "Power (Electrical) Tools": {
+  "us_id": "10255",
+  "us_name": "Select, use and care for power tools",
+  "nqf": "2"
+ },
+ "Manual (Hand) Tools": {
+  "us_id": "12877",
+  "us_name": "Use and maintain hand tools on a construction site",
+  "nqf": "2"
+ },
+ "Grinders Operator": {
+  "us_id": "10255",
+  "us_name": "Select, use and care for power tools",
+  "nqf": "2"
+ },
+ "Cut-Off Saw Operator": {
+  "us_id": "10255",
+  "us_name": "Select, use and care for power tools",
+  "nqf": "2"
+ },
+ "Portable Power Tools": {
+  "us_id": "10255",
+  "us_name": "Select, use and care for power tools",
+  "nqf": "2"
+ },
+ "Working at Heights": {
+  "us_id": "120362",
+  "us_name": "Monitor, report and advise on activities performed in a working at heights environment",
+  "nqf": "3"
+ },
+ "Fall Arrest Techniques": {
+  "us_id": "229998",
+  "us_name": "Explain and perform fall arrest techniques when working at height",
+  "nqf": "1"
+ },
+ "Fall Arrest Rescue": {
+  "us_id": "229995",
+  "us_name": "Install, use and perform basic rescues from fall arrest",
+  "nqf": "3"
+ },
+ "Fall Protection Plan Developer": {
+  "us_id": "229994",
+  "us_name": "Assess a worksite for work at height and prepare a fall protection plan",
+  "nqf": "2"
+ },
+ "Scaffolding Erector": {
+  "us_id": "263245",
+  "us_name": "Erect, alter and dismantle scaffolding",
+  "nqf": "2"
+ },
+ "Scaffolding Inspector": {
+  "us_id": "263244",
+  "us_name": "Inspect scaffolding and ensure compliance with safety standards",
+  "nqf": "3"
+ },
+ "Ladder Inspector": {
+  "us_id": "259639",
+  "us_name": "Inspect and use ladders",
+  "nqf": "2"
+ },
+ "Cherry Picker Operator": {
+  "us_id": "243272",
+  "us_name": "Operate a self-propelled elevating work platform",
+  "nqf": "2"
+ },
+ "Basic Rigging & Slinging": {
+  "us_id": "116229",
+  "us_name": "Perform basic rigging and slinging operations",
+  "nqf": "2"
+ },
+ "Confined Space Entry": {
+  "us_id": "116206",
+  "us_name": "Conduct confined space entry",
+  "nqf": "2"
+ },
+ "Confined Space Rescue": {
+  "us_id": "252245",
+  "us_name": "Perform confined space rescue operations",
+  "nqf": "2–3"
+ },
+ "Safe Use of Breathing Apparatus": {
+  "us_id": "123259",
+  "us_name": "Use and maintain self-contained breathing apparatus",
+  "nqf": "2"
+ },
+ "Mobile Elevating Work Platform (MEWP)": {
+  "us_id": "243272",
+  "us_name": "Operate a self-propelled elevating work platform",
+  "nqf": "2"
+ },
+ "Scaffolding Supervisor": {
+  "us_id": null,
+  "us_name": "Scaffolding Supervision, Inspections & Legal Compliance",
+  "nqf": "4"
+ },
+ "First Aid Level 1": {
+  "us_id": "119567",
+  "us_name": "Provide first aid as an advanced first responder",
+  "nqf": "1"
+ },
+ "First Aid Level 2": {
+  "us_id": "120496",
+  "us_name": "Provide first aid in the workplace",
+  "nqf": "2"
+ },
+ "First Aid Level 3": {
+  "us_id": "120497",
+  "us_name": "Provide first aid in the workplace",
+  "nqf": "3"
+ },
+ "Emergency Evacuation Procedures": {
+  "us_id": "259589",
+  "us_name": "Demonstrate knowledge and understanding of emergency preparedness",
+  "nqf": "2"
+ },
+ "Basic Fire Awareness": {
+  "us_id": "12484",
+  "us_name": "Fight fires in the workplace",
+  "nqf": "2"
+ },
+ "Basic Firefighting": {
+  "us_id": "120331",
+  "us_name": "Apply basic fire fighting procedures",
+  "nqf": "2"
+ },
+ "Fire Marshal": {
+  "us_id": "259585",
+  "us_name": "Demonstrate knowledge of fire prevention and firefighting equipment",
+  "nqf": "2"
+ },
+ "Fire Equipment Inspector": {
+  "us_id": "259584",
+  "us_name": "Inspect firefighting equipment",
+  "nqf": "2"
+ },
+ "Controlling Hazardous & Dangerous Goods": {
+  "us_id": "244073",
+  "us_name": "Control hazardous chemical substances",
+  "nqf": "2"
+ },
+ "Convey Dangerous Goods by Road": {
+  "us_id": "123259",
+  "us_name": "Convey dangerous goods by road",
+  "nqf": "2"
+ },
+ "Dangerous Goods – Identification": {
+  "us_id": "119558",
+  "us_name": "Identify and classify dangerous goods for transport",
+  "nqf": "2"
+ },
+ "Move & Store Hazardous Loads": {
+  "us_id": "260837",
+  "us_name": "Move and store hazardous loads",
+  "nqf": "2"
+ },
+ "Spill Kit Responder": {
+  "us_id": "242999",
+  "us_name": "Respond to and clean up a spill",
+  "nqf": "2"
+ },
+ "Chemical Hazards (HAZCHEM)": {
+  "us_id": "120370",
+  "us_name": "Monitor and make recommendations on the application of health and safety principles regarding hazardous substances in the workplace",
+  "nqf": "4"
+ },
+ "Hazardous Materials Awareness": {
+  "us_id": "120370",
+  "us_name": "Monitor and make recommendations on the application of health and safety principles regarding hazardous substances in the workplace",
+  "nqf": "3"
+ }
+}

@@ -3,7 +3,11 @@ import Link from "next/link";
 import SectionHeading from "@/components/SectionHeading";
 import CourseCard from "@/components/CourseCard";
 import CTABand from "@/components/CTABand";
-import { POPULAR_COURSES, COURSE_CATEGORIES, COURSE_COUNT } from "@/lib/courses";
+import {
+  COURSE_CATEGORIES,
+  COURSE_COUNT,
+  HOME_POPULAR_COURSES,
+} from "@/lib/courses";
 import ReviewsSection from "@/components/ReviewsSection";
 import GoogleReviewsCard from "@/components/GoogleReviewsCard";
 
@@ -11,32 +15,44 @@ import GoogleReviewsCard from "@/components/GoogleReviewsCard";
 const GOOGLE_REVIEW_URL =
   "https://search.google.com/local/writereview?placeid=ChIJ7ctwo2ZvlR4RfvD4cUs5rV4";
 
-const CATEGORY_CARDS = [
-  {
-    id: "safety-compliance",
-    title: "Safety & Legal Compliance",
+// Home "Browse by Category" cards derive from COURSE_CATEGORIES so naming stays in
+// sync with /courses. Icons + punchy one-liners keyed by category id.
+const CATEGORY_CARD_COPY: Record<string, { desc: string; icon: string }> = {
+  "safety-compliance": {
     desc: "OHS Act, SHE Rep, risk assessment, incident investigation, safety officer programmes.",
     icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z",
   },
-  {
-    id: "working-at-heights",
-    title: "Working at Heights & Fall Protection",
+  "technical-courses": {
+    desc: "Plumbing, water systems, bricklaying, formwork, steel fixing, concrete and roadworks.",
+    icon: "M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z",
+  },
+  "machines-tools": {
+    desc: "Forklift, excavator, TLB, crane and plant operators, plus hand & power tools.",
+    icon: "M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m6.75 12H3.375A1.125 1.125 0 002.25 15.75v4.5c0 .621.504 1.125 1.125 1.125h14.25a1.125 1.125 0 001.125-1.125v-4.5a1.125 1.125 0 00-1.125-1.125zm0 0h4.5m-4.5 0a1.125 1.125 0 011.125-1.125h4.5a1.125 1.125 0 011.125 1.125v2.25a1.125 1.125 0 01-1.125 1.125h-4.5a1.125 1.125 0 01-1.125-1.125v-2.25z",
+  },
+  "heights-and-access": {
     desc: "Working at heights, fall arrest, scaffolding erector, inspector & supervisor, rigging.",
     icon: "M4 8V6a2 2 0 012-2h12a2 2 0 012 2v2M4 8a2 2 0 00-2 2v4h3m19-6a2 2 0 012 2v4h-3m-16 0h16m-16 0a2 2 0 01-2 2H2m18 0a2 2 0 002 2h2M9 20h6m-3-6v6",
   },
-  {
-    id: "emergency-fire",
-    title: "Emergency, First Aid & Fire",
+  "emergency-courses": {
     desc: "First aid levels 1–3, fire awareness, firefighting, fire marshal, evacuation procedures.",
     icon: "M13 10V3L4 14h7v7l9-11h-7z",
   },
-  {
-    id: "machine-plant",
-    title: "Machines & Construction",
-    desc: "Forklift, excavator, TLB, cranes, hand & power tools, bricklaying and civil skills.",
-    icon: "M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m6.75 12H3.375A1.125 1.125 0 002.25 15.75v4.5c0 .621.504 1.125 1.125 1.125h14.25a1.125 1.125 0 001.125-1.125v-4.5a1.125 1.125 0 00-1.125-1.125zm0 0h4.5m-4.5 0a1.125 1.125 0 011.125-1.125h4.5a1.125 1.125 0 011.125 1.125v2.25a1.125 1.125 0 01-1.125 1.125h-4.5a1.125 1.125 0 01-1.125-1.125v-2.25z",
+  "dangerous-goods": {
+    desc: "HAZMAT, dangerous goods handling, spill response and chemical safety.",
+    icon: "m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z M12 9v4 M12 17h.01",
   },
-];
+};
+
+const FALLBACK_CAT_ICON = "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z";
+
+const CATEGORY_CARDS = COURSE_CATEGORIES.map((cat) => ({
+  id: cat.id,
+  title: cat.title,
+  desc: CATEGORY_CARD_COPY[cat.id]?.desc ?? cat.blurb,
+  icon: CATEGORY_CARD_COPY[cat.id]?.icon ?? FALLBACK_CAT_ICON,
+  count: cat.courses.length,
+}));
 
 const WHY = [
   {
@@ -75,7 +91,7 @@ const STEPS = [
   {
     n: "03",
     title: "Train & get certified",
-    desc: "Attend your practical course and receive your SAQA-aligned certificate.",
+    desc: "Attend your practical course and receive your accredited certificate.",
   },
 ];
 
@@ -87,7 +103,7 @@ const jsonLd = {
   telephone: "+27107466954",
   email: "info@rehtraining.co.za",
   description:
-    "Accredited health and safety training, OHS consulting and occupational medicals in South Africa.",
+    "Accredited health and safety training, soft skills development and occupational medicals in South Africa.",
   address: [
     {
       "@type": "PostalAddress",
@@ -109,7 +125,7 @@ const jsonLd = {
 };
 
 export default function Home() {
-  const popular = POPULAR_COURSES.slice(0, 8);
+  const popular = HOME_POPULAR_COURSES;
 
   return (
     <>
@@ -134,9 +150,9 @@ export default function Home() {
                 We Make Workplace <span className="text-brand">Safety Easy</span>
               </h1>
               <p className="mt-5 max-w-xl text-lg leading-relaxed text-cream/80">
-                SAQA-aligned health &amp; safety training, OHS consulting and occupational medicals
-                for South African businesses. Train online, on-site or at our centres in Midrand and
-                Durban — with daily classes and no waiting period.
+                SAQA-aligned health &amp; safety training, soft skills development and occupational
+                medicals for South African businesses. Train online, on-site or at our centres in
+                Midrand and Durban — with daily classes and no waiting period.
               </p>
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -228,32 +244,28 @@ export default function Home() {
             sub="Browse our full range of occupational health and safety training programmes by category. All courses are practical, industry-relevant, and aligned with South African unit standards."
             center
           />
-          <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-            {CATEGORY_CARDS.map((cat) => {
-              const count =
-                COURSE_CATEGORIES.find((c) => c.id === cat.id)?.courses.length ?? 0;
-              return (
-                <Link
-                  key={cat.id}
-                  href="/courses"
-                  className="group flex flex-col rounded-2xl border border-line bg-paper p-6 transition-all hover:-translate-y-1 hover:border-brand/40 hover:shadow-xl hover:shadow-charcoal/10"
-                >
-                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-charcoal text-cream transition-colors group-hover:bg-brand">
-                    <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-                      <path d={cat.icon} />
-                    </svg>
-                  </div>
-                  <h3 className="mt-5 font-display text-lg leading-snug text-charcoal">{cat.title}</h3>
-                  <p className="mt-2 flex-1 text-sm leading-relaxed text-charcoal/65">{cat.desc}</p>
-                  <span className="mt-5 inline-flex items-center gap-1.5 text-sm font-bold text-brand">
-                    {count} courses
-                    <svg className="h-4 w-4 transition-transform group-hover:translate-x-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                      <path d="M5 12h14m-6-6l6 6-6 6" />
-                    </svg>
-                  </span>
-                </Link>
-              );
-            })}
+          <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {CATEGORY_CARDS.map((cat) => (
+              <Link
+                key={cat.id}
+                href="/courses"
+                className="group flex flex-col rounded-2xl border border-line bg-paper p-6 transition-all hover:-translate-y-1 hover:border-brand/40 hover:shadow-xl hover:shadow-charcoal/10"
+              >
+                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-charcoal text-cream transition-colors group-hover:bg-brand">
+                  <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                    <path d={cat.icon} />
+                  </svg>
+                </div>
+                <h3 className="mt-5 font-display text-lg leading-snug text-charcoal">{cat.title}</h3>
+                <p className="mt-2 flex-1 text-sm leading-relaxed text-charcoal/65">{cat.desc}</p>
+                <span className="mt-5 inline-flex items-center gap-1.5 text-sm font-bold text-brand">
+                  {cat.count} courses
+                  <svg className="h-4 w-4 transition-transform group-hover:translate-x-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                    <path d="M5 12h14m-6-6l6 6-6 6" />
+                  </svg>
+                </span>
+              </Link>
+            ))}
           </div>
         </div>
       </section>
@@ -274,7 +286,7 @@ export default function Home() {
               View Full Course List
             </Link>
           </div>
-          <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {popular.map((c) => (
               <CourseCard key={c.name} course={c} />
             ))}
@@ -311,36 +323,25 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ============ CONSULTING TEASER ============ */}
+      {/* ============ CONSTRUCTION TEASER ============ */}
       <section className="bg-paper py-16 lg:py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid items-center gap-12 lg:grid-cols-2">
-            <div className="relative order-2 lg:order-1">
-              <div className="overflow-hidden rounded-3xl shadow-xl shadow-charcoal/15">
-                <Image
-                  src="/images/ohs-consulting.jpg"
-                  alt="OHS consultant reviewing a safety file at REH Safety Training"
-                  width={814}
-                  height={458}
-                  className="h-full w-full object-cover"
-                />
-              </div>
-            </div>
-            <div className="order-1 lg:order-2">
-              <p className="text-xs font-bold uppercase tracking-[0.22em] text-brand">OHS Consulting</p>
+            <div>
+              <p className="text-xs font-bold uppercase tracking-[0.22em] text-brand">Construction &amp; Technical Courses</p>
               <h2 className="mt-3 font-display text-3xl leading-tight text-charcoal sm:text-4xl">
-                Reduce Risk. Ensure Compliance. Build a Safety-First Culture.
+                Hands-On Construction Skills for Site Teams
               </h2>
               <p className="mt-4 leading-relaxed text-charcoal/70">
-                From workplace risk assessments (HIRA) and legal compliance audits to complete
-                safety file development, our consultants help your business meet statutory
-                requirements and pass inspections with confidence.
+                Bricklaying, formwork, steel fixing, concrete works, roadworks and plumbing.
+                Practical technical training that gives artisans and site teams the skills to
+                deliver quality work, safely.
               </p>
               <ul className="mt-6 space-y-3">
                 {[
-                  "Workplace risk assessments, including HIRA",
-                  "Legal compliance audits & gap analysis",
-                  "Safety file development & documentation support",
+                  "Bricklaying, formwork & steel fixing",
+                  "Concrete works, roadworks & paving",
+                  "Plumbing & water systems installation",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-3 text-charcoal/80">
                     <svg className="mt-0.5 h-5 w-5 shrink-0 text-brand" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
@@ -351,14 +352,36 @@ export default function Home() {
                 ))}
               </ul>
               <Link
-                href="/consulting"
+                href="/courses"
                 className="mt-8 inline-flex items-center gap-2 rounded-xl bg-charcoal px-6 py-3.5 text-base font-bold text-white transition-colors hover:bg-brand"
               >
-                Explore OHS Consulting
+                Browse Construction Courses
                 <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                   <path d="M5 12h14m-6-6l6 6-6 6" />
                 </svg>
               </Link>
+            </div>
+            <div className="rounded-2xl border border-line bg-paper p-8 shadow-sm">
+              <h3 className="font-display text-2xl text-charcoal">Popular construction courses</h3>
+              <div className="mt-6 space-y-3">
+                {[
+                  "Bricklaying",
+                  "Steel Fixing",
+                  "Concrete Works",
+                  "Plumbing General Skills",
+                ].map((c) => (
+                  <Link
+                    key={c}
+                    href="/courses"
+                    className="group flex items-center justify-between gap-3 rounded-xl border border-line bg-white px-5 py-4 transition-all hover:-translate-y-0.5 hover:border-brand/40 hover:shadow-lg hover:shadow-charcoal/10"
+                  >
+                    <span className="font-semibold text-charcoal">{c}</span>
+                    <svg className="h-5 w-5 shrink-0 text-brand transition-transform group-hover:translate-x-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                      <path d="M5 12h14m-6-6l6 6-6 6" />
+                    </svg>
+                  </Link>
+                ))}
+              </div>
             </div>
           </div>
         </div>
@@ -416,8 +439,72 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ============ HOW IT WORKS ============ */}
+      {/* ============ SOFT SKILLS TEASER ============ */}
       <section className="bg-paper py-16 lg:py-24">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="grid items-center gap-12 lg:grid-cols-2">
+            <div>
+              <p className="text-xs font-bold uppercase tracking-[0.22em] text-brand">Soft Skills Training</p>
+              <h2 className="mt-3 font-display text-3xl leading-tight text-charcoal sm:text-4xl">
+                Practical Courses for Everyday Workplace Skills
+              </h2>
+              <p className="mt-4 leading-relaxed text-charcoal/70">
+                Excel basics, customer service, time management, clear communication. Short,
+                hands-on courses your team can put to work right away, delivered online, on-site
+                or at our centres in Midrand and Durban.
+              </p>
+              <ul className="mt-6 space-y-3">
+                {[
+                  "Basic Microsoft Excel",
+                  "Customer service that keeps clients coming back",
+                  "Time management & personal productivity",
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-3 text-charcoal/80">
+                    <svg className="mt-0.5 h-5 w-5 shrink-0 text-brand" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                      <path d="M20 6L9 17l-5-5" />
+                    </svg>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+              <Link
+                href="/soft-skills"
+                className="mt-8 inline-flex items-center gap-2 rounded-xl bg-charcoal px-6 py-3.5 text-base font-bold text-white transition-colors hover:bg-brand"
+              >
+                Explore Soft Skills Courses
+                <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                  <path d="M5 12h14m-6-6l6 6-6 6" />
+                </svg>
+              </Link>
+            </div>
+            <div className="rounded-2xl border border-line bg-paper p-8 shadow-sm">
+              <h3 className="font-display text-2xl text-charcoal">Popular soft skills courses</h3>
+              <div className="mt-6 space-y-3">
+                {[
+                  "Basic Microsoft Excel",
+                  "Customer Service Excellence",
+                  "Time Management & Productivity",
+                  "Effective Communication in the Workplace",
+                ].map((c) => (
+                  <Link
+                    key={c}
+                    href="/soft-skills"
+                    className="group flex items-center justify-between gap-3 rounded-xl border border-line bg-white px-5 py-4 transition-all hover:-translate-y-0.5 hover:border-brand/40 hover:shadow-lg hover:shadow-charcoal/10"
+                  >
+                    <span className="font-semibold text-charcoal">{c}</span>
+                    <svg className="h-5 w-5 shrink-0 text-brand transition-transform group-hover:translate-x-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                      <path d="M5 12h14m-6-6l6 6-6 6" />
+                    </svg>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ============ HOW IT WORKS ============ */}
+      <section className="bg-cream py-16 lg:py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeading
             eyebrow="Simple Process"
@@ -460,14 +547,14 @@ export default function Home() {
               </h2>
               <p className="mt-4 leading-relaxed text-cream/75">
                 REH Safety Training forms part of the SM Safety and Technical Learning Group, one of
-                South Africa&apos;s established providers of OHS training, auditing and consulting.
+                South Africa&apos;s established providers of OHS training and auditing.
               </p>
             </div>
             <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
               <Image
                 src="/images/accreditations.jpg"
-                alt="REH Safety Training accreditation and professional body logos"
-                width={892}
+                alt="REH Safety Training accreditation and professional body logos including QCTO"
+                width={1264}
                 height={162}
                 className="h-auto w-full object-contain"
               />

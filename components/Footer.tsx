@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const QUICK_LINKS = [
   { href: "/courses", label: "All Courses" },
-  { href: "/consulting", label: "OHS Consulting" },
+  { href: "/soft-skills", label: "Soft Skills" },
   { href: "/medicals", label: "OHS Medicals" },
   { href: "/contact", label: "Request a Quote" },
 ];
@@ -30,7 +30,7 @@ export default function Footer() {
               <span className="font-display text-lg text-white">REH Safety Training</span>
             </div>
             <p className="mt-4 text-sm leading-relaxed text-cream/70">
-              Accredited health &amp; safety training, OHS consulting and occupational medicals —
+              Accredited health &amp; safety training, soft skills courses and occupational medicals —
               part of the SM Safety and Technical Learning Group.
             </p>
             <div className="mt-4 flex items-center gap-3">

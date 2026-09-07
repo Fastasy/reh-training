@@ -48,10 +48,66 @@ export const COURSE_CATEGORIES: CourseCategory[] = [
     ],
   },
   {
-    id: "working-at-heights",
-    title: "Working at Heights & Fall Protection",
+    id: "technical-courses",
+    title: "Technical Courses",
     blurb:
-      "Scaffolding, fall arrest, rigging and confined space training for teams operating at height — the most requested courses in the industry.",
+      "Practical trade and water systems skills — plumbing, drainage, geysers and solar heating, plus bricklaying, formwork, steel fixing, concrete and roadworks.",
+    courses: [
+      { name: "Plumbing General Skills", duration: "To Quote", price: null },
+      { name: "Plumbing Safety & Legal Compliance", duration: "To Quote", price: null },
+      { name: "Cold Water Plumbing Systems", duration: "To Quote", price: null },
+      { name: "Hot Water Systems (Geysers & Boilers)", duration: "To Quote", price: null },
+      { name: "Drainage & Rainwater Systems Installation", duration: "To Quote", price: null },
+      { name: "Solar Water Heating Course", duration: "To Quote", price: null },
+      { name: "Pipe Laying & Jointing", duration: "To Quote", price: null },
+      { name: "Leak Detection & Basic Maintenance", duration: "To Quote", price: null },
+      { name: "Bricklaying", duration: "To Quote", price: null },
+      { name: "Formwork", duration: "To Quote", price: null },
+      { name: "Steel Fixing", duration: "To Quote", price: null },
+      { name: "Concrete Works", duration: "To Quote", price: null },
+      { name: "Surveying Techniques", duration: "To Quote", price: null },
+      { name: "Roadworks", duration: "To Quote", price: null },
+      { name: "Paving & Kerbs", duration: "To Quote", price: null },
+      { name: "Road Signage & Markings", duration: "To Quote", price: null },
+      { name: "Stormwater", duration: "To Quote", price: null },
+    ],
+  },
+  {
+    id: "machines-tools",
+    title: "Machines & Tools",
+    blurb:
+      "Operator competence for forklifts, excavators, TLBs, cranes and earthmoving plant, plus safe use of hand and power tools — protecting people and plant.",
+    courses: [
+      { name: "Forklift Operator", duration: "To Quote", price: null },
+      { name: "Excavator Operator", duration: "To Quote", price: null },
+      { name: "TLB Operator", duration: "To Quote", price: null },
+      { name: "Grader Operator", duration: "To Quote", price: null },
+      { name: "Bulldozer Operator", duration: "To Quote", price: null },
+      { name: "Tipper Truck Operator", duration: "To Quote", price: null },
+      { name: "Truck Mounted Crane", duration: "To Quote", price: null },
+      { name: "Tower Crane Operator", duration: "To Quote", price: null },
+      { name: "Roller Operator", duration: "To Quote", price: null },
+      { name: "Bobcat (Skid Steer Loader) Operator", duration: "To Quote", price: null },
+      { name: "Operate a Front-End Loader", duration: "To Quote", price: null },
+      { name: "Tractor Operator", duration: "To Quote", price: null },
+      { name: "Banksman", duration: "To Quote", price: null },
+      { name: "Articulated Dump Truck (ADT)", duration: "To Quote", price: null },
+      { name: "Water Tanker Operator", duration: "To Quote", price: null },
+      { name: "Rigid Body Dump Truck", duration: "To Quote", price: null },
+      { name: "Hand & Power Tools Safety", duration: "1 Day", price: "R800", popular: true },
+      { name: "Power (Electrical) Tools", duration: "1 Day", price: "R700" },
+      { name: "Manual (Hand) Tools", duration: "1 Day", price: "R700" },
+      { name: "Grinders Operator", duration: "1 Day", price: "R700" },
+      { name: "Chain Saw Operator", duration: "1 Day", price: "R800" },
+      { name: "Cut-Off Saw Operator", duration: "1 Day", price: "R700" },
+      { name: "Portable Power Tools", duration: "1 Day", price: "R700" },
+    ],
+  },
+  {
+    id: "heights-and-access",
+    title: "Heights and Access",
+    blurb:
+      "Working at height, scaffolding, fall arrest and access equipment — ladders, MEWPs, rigging and confined space for teams operating above ground.",
     courses: [
       { name: "Working at Heights", duration: "1 Day", price: "R700", popular: true },
       { name: "Fall Arrest Techniques", duration: "1 Day", price: "R700" },
@@ -72,8 +128,8 @@ export const COURSE_CATEGORIES: CourseCategory[] = [
     ],
   },
   {
-    id: "emergency-fire",
-    title: "Emergency, First Aid & Fire Safety",
+    id: "emergency-courses",
+    title: "Emergency Courses",
     blurb:
       "First aid levels 1–3, fire awareness and firefighting — practical emergency response training that keeps your team ready.",
     courses: [
@@ -95,7 +151,7 @@ export const COURSE_CATEGORIES: CourseCategory[] = [
     courses: [
       { name: "Controlling Hazardous & Dangerous Goods", duration: "1 Day", price: "R800" },
       { name: "Convey Dangerous Goods by Road", duration: "1 Day", price: "R800" },
-      { name: "Chemical Hazards (HAZCHEM)", duration: "1 Day", price: null },
+      { name: "Chemical Hazards (HAZCHEM)", duration: "1 Day", price: "R800" },
       { name: "Hazardous Materials Awareness", duration: "1 Day", price: null },
       { name: "Asbestos Awareness", duration: "1 Day", price: null },
       { name: "Dangerous Goods – Identification", duration: "1 Day", price: null },
@@ -105,78 +161,6 @@ export const COURSE_CATEGORIES: CourseCategory[] = [
       { name: "Move & Store Hazardous Loads", duration: "1 Day", price: "R700" },
     ],
   },
-  {
-    id: "hand-power-tools",
-    title: "Hand & Power Tools",
-    blurb:
-      "Safe operation of hand tools, power tools, grinders and cut-off saws — operator competence that protects people and plant.",
-    courses: [
-      { name: "Hand & Power Tools Safety", duration: "1 Day", price: "R800" },
-      { name: "Power (Electrical) Tools", duration: "1 Day", price: "R700" },
-      { name: "Manual (Hand) Tools", duration: "1 Day", price: "R700" },
-      { name: "Grinders Operator", duration: "1 Day", price: "R700" },
-      { name: "Chain Saw Operator", duration: "1 Day", price: "R800" },
-      { name: "Cut-Off Saw Operator", duration: "1 Day", price: "R700" },
-      { name: "Portable Power Tools", duration: "1 Day", price: "R700" },
-    ],
-  },
-  {
-    id: "civil-construction",
-    title: "Construction & Civil Skills",
-    blurb:
-      "Practical construction skills training — bricklaying, formwork, steel fixing, concrete works, paving and roadworks.",
-    courses: [
-      { name: "Bricklaying", duration: "To Quote", price: null },
-      { name: "Formwork", duration: "To Quote", price: null },
-      { name: "Steel Fixing", duration: "To Quote", price: null },
-      { name: "Concrete Works", duration: "To Quote", price: null },
-      { name: "Surveying Techniques", duration: "To Quote", price: null },
-      { name: "Roadworks", duration: "To Quote", price: null },
-      { name: "Paving & Kerbs", duration: "To Quote", price: null },
-      { name: "Road Signage & Markings", duration: "To Quote", price: null },
-      { name: "Stormwater", duration: "To Quote", price: null },
-    ],
-  },
-  {
-    id: "plumbing",
-    title: "Plumbing & Water Systems",
-    blurb:
-      "From general plumbing skills to hot water systems, drainage and solar water heating — theory and hands-on practice.",
-    courses: [
-      { name: "Plumbing General Skills", duration: "To Quote", price: null },
-      { name: "Plumbing Safety & Legal Compliance", duration: "To Quote", price: null },
-      { name: "Cold Water Plumbing Systems", duration: "To Quote", price: null },
-      { name: "Hot Water Systems (Geysers & Boilers)", duration: "To Quote", price: null },
-      { name: "Drainage & Rainwater Systems Installation", duration: "To Quote", price: null },
-      { name: "Solar Water Heating Course", duration: "To Quote", price: null },
-      { name: "Pipe Laying & Jointing", duration: "To Quote", price: null },
-      { name: "Leak Detection & Basic Maintenance", duration: "To Quote", price: null },
-    ],
-  },
-  {
-    id: "machine-plant",
-    title: "Machine & Plant Operator",
-    blurb:
-      "Operator training for forklifts, excavators, TLBs, cranes and earthmoving plant — licensing and competence for the modern site.",
-    courses: [
-      { name: "Forklift Operator", duration: "To Quote", price: null },
-      { name: "Excavator Operator", duration: "To Quote", price: null },
-      { name: "TLB Operator", duration: "To Quote", price: null },
-      { name: "Grader Operator", duration: "To Quote", price: null },
-      { name: "Bulldozer Operator", duration: "To Quote", price: null },
-      { name: "Tipper Truck Operator", duration: "To Quote", price: null },
-      { name: "Truck Mounted Crane", duration: "To Quote", price: null },
-      { name: "Tower Crane Operator", duration: "To Quote", price: null },
-      { name: "Roller Operator", duration: "To Quote", price: null },
-      { name: "Bobcat (Skid Steer Loader) Operator", duration: "To Quote", price: null },
-      { name: "Operate a Front-End Loader", duration: "To Quote", price: null },
-      { name: "Tractor Operator", duration: "To Quote", price: null },
-      { name: "Banksman", duration: "To Quote", price: null },
-      { name: "Articulated Dump Truck (ADT)", duration: "To Quote", price: null },
-      { name: "Water Tanker Operator", duration: "To Quote", price: null },
-      { name: "Rigid Body Dump Truck", duration: "To Quote", price: null },
-    ],
-  },
 ];
 
 export const ALL_COURSES = COURSE_CATEGORIES.flatMap((c) =>
@@ -184,6 +168,26 @@ export const ALL_COURSES = COURSE_CATEGORIES.flatMap((c) =>
 );
 
 export const POPULAR_COURSES = ALL_COURSES.filter((c) => c.popular);
+
+// Display order for the home-page "Popular Courses" section (client list, 2026-09).
+// SHE Rep first, then heights, scaffolding, first aid, firefighting, hand & power tools.
+const POPULAR_ORDER = [
+  "Health & Safety Representative (SHE Rep)",
+  "Working at Heights",
+  "Scaffolding Inspector",
+  "Scaffolding Erector",
+  "First Aid Level 1",
+  "First Aid Level 2",
+  "First Aid Level 3",
+  "Basic Firefighting",
+  "Hand & Power Tools Safety",
+];
+
+export const HOME_POPULAR_COURSES = POPULAR_ORDER.map((name) => {
+  const course = ALL_COURSES.find((c) => c.name === name);
+  if (!course) throw new Error(`Popular course not found: ${name}`);
+  return course;
+});
 
 export const COURSE_COUNT = ALL_COURSES.length;
 
