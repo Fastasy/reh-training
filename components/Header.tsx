@@ -27,7 +27,7 @@ export default function Header() {
               <svg className="h-3.5 w-3.5 text-brand" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4">
                 <path d="M20 6L9 17l-5-5" />
               </svg>
-              SAQA-aligned training · Accredited providers
+              Accredited courses · Certified providers
             </span>
             <span className="hidden lg:inline">Midrand &amp; Durban · Daily classes, no waiting period</span>
           </div>

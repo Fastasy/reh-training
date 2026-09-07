@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     content?.description
       ?.replace(/[•\s]+/g, " ")
       .slice(0, 155) ||
-    `${course.name} training at REH Safety Training. SAQA-aligned, delivered online, on-site or at our Midrand and Durban centres. Email us for a quote.`;
+    `${course.name} training at REH Safety Training. Accredited, delivered online, on-site or at our Midrand and Durban centres. Email us for a quote.`;
   return {
     title: metaTitle(course),
     description: desc,
@@ -180,7 +180,7 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
             </h1>
             {metaLine && <p className="mt-3 text-sm font-semibold text-cream/70">{metaLine}</p>}
             <p className="mt-4 text-lg leading-relaxed text-cream/80">
-              SAQA-aligned {course.name.toLowerCase()} training delivered online, on-site or at our
+              Accredited {course.name.toLowerCase()} training delivered online, on-site or at our
               centres in Midrand and Durban. Daily classes, no waiting period.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
@@ -380,7 +380,7 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
                   <div className="flex items-center justify-between gap-4 border-t border-line pt-4">
                     <dt className="text-charcoal/60">Certification</dt>
                     <dd className="text-right font-semibold leading-snug text-charcoal">
-                      {content?.certification || "SAQA-aligned certificate"}
+                      {content?.certification || "Accredited certificate"}
                     </dd>
                   </div>
                   {content?.nqf && (
@@ -425,7 +425,7 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
               <div className="rounded-2xl bg-navy p-6 text-cream">
                 <h2 className="font-display text-lg text-white">Why train with REH?</h2>
                 <ul className="mt-4 space-y-2.5 text-sm text-cream/80">
-                  {["Daily classes, no waiting period", "Online, on-site or centre-based", "SAQA-aligned unit standards", "Midrand & Durban training centres", "Group booking discounts"].map((t) => (
+                  {["Daily classes, no waiting period", "Online, on-site or centre-based", "Accredited courses", "Midrand & Durban training centres", "Group booking discounts"].map((t) => (
                     <li key={t} className="flex items-start gap-2.5">
                       <svg className="mt-0.5 h-4 w-4 shrink-0 text-brand" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                         <path d="M20 6L9 17l-5-5" />

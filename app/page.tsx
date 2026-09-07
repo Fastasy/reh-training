@@ -150,7 +150,7 @@ export default function Home() {
                 We Make Workplace <span className="text-brand">Safety Easy</span>
               </h1>
               <p className="mt-5 max-w-xl text-lg leading-relaxed text-cream/80">
-                SAQA-aligned health &amp; safety training, soft skills development and occupational
+                Accredited health &amp; safety training, soft skills development and occupational
                 medicals for South African businesses. Train online, on-site or at our centres in
                 Midrand and Durban — with daily classes and no waiting period.
               </p>
@@ -176,7 +176,7 @@ export default function Home() {
               </div>
 
               <div className="mt-8 flex flex-wrap gap-x-6 gap-y-3 text-sm text-cream/75">
-                {["SAQA-aligned training", "Group discounts", "Daily classes · no waiting"].map((t) => (
+                {["Accredited training", "Group discounts", "Daily classes · no waiting"].map((t) => (
                   <span key={t} className="inline-flex items-center gap-2">
                     <svg className="h-4 w-4 text-brand" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                       <path d="M20 6L9 17l-5-5" />
@@ -207,7 +207,7 @@ export default function Home() {
                   </svg>
                 </div>
                 <div>
-                  <p className="text-sm font-bold text-charcoal">SAQA-Aligned</p>
+                  <p className="text-sm font-bold text-charcoal">Accredited</p>
                   <p className="text-xs text-charcoal/60">Certificates issued per unit standards</p>
                 </div>
               </div>

@@ -1,7 +1,7 @@
 [
  {
   "name": "Bricklaying",
-  "description": "This course covers the practical skills you need to lay bricks and blocks on a construction site. You will learn to mix mortar, set out walls, build to line and level, and construct corners, openings and jambs. The training also covers reading simple drawings, choosing the right tools and materials, and working safely around scaffolding and plant. By the end, learners can complete basic bricklaying work to a standard that holds up under inspection, with a certificate issued in line with SAQA-aligned unit standards where applicable.",
+  "description": "This course covers the practical skills you need to lay bricks and blocks on a construction site. You will learn to mix mortar, set out walls, build to line and level, and construct corners, openings and jambs. The training also covers reading simple drawings, choosing the right tools and materials, and working safely around scaffolding and plant. By the end, learners can complete basic bricklaying work to a standard that holds up under inspection, with a certificate issued in line with unit standards where applicable.",
   "outcomes": [
    "Lay bricks and blocks to line and level using strings, levels and corner blocks",
    "Mix mortar to the right consistency for different wall types",
@@ -36,7 +36,7 @@
  },
  {
   "name": "Formwork",
-  "description": "This course covers the erection and stripping of formwork for columns, beams, slabs and walls. Learners work with timber and steel shutters, learn to set out and align formwork to line and level, and apply release agents and supports correctly. The training includes reading simple drawings, checking formwork before concrete is placed, and stripping and cleaning shutters safely. The outcome is a worker who can carry out formwork tasks to tolerance on a live construction site, with certification in line with SAQA-aligned unit standards where applicable.",
+  "description": "This course covers the erection and stripping of formwork for columns, beams, slabs and walls. Learners work with timber and steel shutters, learn to set out and align formwork to line and level, and apply release agents and supports correctly. The training includes reading simple drawings, checking formwork before concrete is placed, and stripping and cleaning shutters safely. The outcome is a worker who can carry out formwork tasks to tolerance on a live construction site, with certification in line with unit standards where applicable.",
   "outcomes": [
    "Set out and erect formwork for columns, beams, slabs and walls",
    "Work with timber and steel shutters, including release agents and supports",
@@ -71,7 +71,7 @@
  },
  {
   "name": "Steel Fixing",
-  "description": "This course covers cutting, bending and tying reinforcing steel to match drawings and bar schedules. Learners practise placing reinforcement for columns, beams, slabs and footings, setting laps, cover and chairs correctly, and fixing steel so it stays in position while concrete is placed. The training also covers handling steel safely and checking work before a concreting team arrives. The outcome is a steel fixer who can produce sound reinforcement work on site, with a certificate issued in line with SAQA-aligned unit standards where applicable.",
+  "description": "This course covers cutting, bending and tying reinforcing steel to match drawings and bar schedules. Learners practise placing reinforcement for columns, beams, slabs and footings, setting laps, cover and chairs correctly, and fixing steel so it stays in position while concrete is placed. The training also covers handling steel safely and checking work before a concreting team arrives. The outcome is a steel fixer who can produce sound reinforcement work on site, with a certificate issued in line with unit standards where applicable.",
   "outcomes": [
    "Read bar schedules and simple reinforcement drawings",
    "Cut and bend reinforcing steel to the required shapes and lengths",
@@ -106,7 +106,7 @@
  },
  {
   "name": "Concrete Works",
-  "description": "This course covers concrete from mix design to finished surface. Learners practise mixing concrete to the right proportions, placing and compacting it in formwork, and finishing, curing and protecting surfaces. The training also covers quality checks, slump testing basics, and the safe handling of concrete and admixtures on site. The outcome is a worker who can carry out concrete works to specification and spot problems before they harden into defects, with certification aligned to SAQA unit standards where applicable.",
+  "description": "This course covers concrete from mix design to finished surface. Learners practise mixing concrete to the right proportions, placing and compacting it in formwork, and finishing, curing and protecting surfaces. The training also covers quality checks, slump testing basics, and the safe handling of concrete and admixtures on site. The outcome is a worker who can carry out concrete works to specification and spot problems before they harden into defects, with certification aligned to unit standards where applicable.",
   "outcomes": [
    "Batch and mix concrete to the right proportions for the job",
    "Place and compact concrete in formwork without segregation",
@@ -141,7 +141,7 @@
  },
  {
   "name": "Surveying Techniques",
-  "description": "This course covers the basic surveying skills used on construction and civil sites. Learners practise using levels, tapes and other instruments to set out buildings, check levels, and transfer heights across a site. The training includes reading construction drawings, recording measurements, and working with a surveyor or site engineer. The outcome is a worker who can carry out routine setting-out and levelling tasks accurately and record them properly, with a certificate issued in line with SAQA-aligned unit standards where applicable.",
+  "description": "This course covers the basic surveying skills used on construction and civil sites. Learners practise using levels, tapes and other instruments to set out buildings, check levels, and transfer heights across a site. The training includes reading construction drawings, recording measurements, and working with a surveyor or site engineer. The outcome is a worker who can carry out routine setting-out and levelling tasks accurately and record them properly, with a certificate issued in line with unit standards where applicable.",
   "outcomes": [
    "Use a level, staff and tape to take and transfer measurements",
    "Set out simple building lines and levels from a drawing",
@@ -211,7 +211,7 @@
  },
  {
   "name": "Paving & Kerbs",
-  "description": "This course covers the laying of paving blocks, bricks and kerbs on residential and municipal projects. Learners practise preparing and compacting the base, bedding materials, laying to line, level and fall, and finishing joints and edges. The training also covers cutting pavers, setting kerb lines, and the small drainage falls that keep paved areas from holding water. The outcome is a worker who can lay paving and kerbs to a clean, level standard, with certification in line with SAQA-aligned unit standards where applicable.",
+  "description": "This course covers the laying of paving blocks, bricks and kerbs on residential and municipal projects. Learners practise preparing and compacting the base, bedding materials, laying to line, level and fall, and finishing joints and edges. The training also covers cutting pavers, setting kerb lines, and the small drainage falls that keep paved areas from holding water. The outcome is a worker who can lay paving and kerbs to a clean, level standard, with certification in line with unit standards where applicable.",
   "outcomes": [
    "Prepare and compact a base ready for paving",
    "Lay paving blocks and bricks to line, level and fall",

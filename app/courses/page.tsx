@@ -6,7 +6,7 @@ import { COURSE_COUNT } from "@/lib/courses";
 export const metadata: Metadata = {
   title: "Health & Safety Courses — Prices & Booking",
   description:
-    `Browse ${COURSE_COUNT}+ SAQA-aligned health and safety courses with transparent pricing — working at heights, first aid, safety officer, forklift, scaffolding and more.`,
+    `Browse more than ${COURSE_COUNT} accredited health and safety courses with transparent pricing — working at heights, first aid, safety officer, forklift, scaffolding and more.`,
   alternates: { canonical: "/courses" },
 };
 
@@ -40,7 +40,7 @@ export default function CoursesPage() {
                 Request a Quote
               </a>
               <span className="inline-flex min-h-12 items-center rounded-xl border border-white/15 bg-white/5 px-5 text-sm text-cream/85">
-                SAQA-aligned training · Certificates issued
+                Accredited training · Certificates issued
               </span>
             </div>
           </div>

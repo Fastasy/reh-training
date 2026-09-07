@@ -498,7 +498,7 @@
    "Basic plumbing knowledge or experience is recommended",
    "Medically fit for installation work"
   ],
-  "certification": "Learners who are found competent will receive Accredited Certificates aligned to SAQA Unit Standard 244507."
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to Unit Standard 244507."
  },
  "Confined Space Entry": {
   "_source": "confinedspaceentry.md",
@@ -708,7 +708,7 @@
    "Basic literacy and numeracy",
    "Medically fit for operational tasks"
   ],
-  "certification": "Learners who are found competent will receive Accredited Certificates aligned to SAQA Unit Standard 10255."
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to Unit Standard 10255."
  },
  "Drainage & Rainwater Systems Installation Course": {
   "_source": "drainagesystemscourse.md",
@@ -754,7 +754,7 @@
    "Basic plumbing knowledge or experience is recommended",
    "Medically fit for excavation and installation work"
   ],
-  "certification": "Learners who are found competent will receive Accredited Certificates aligned to SAQA Unit Standards 244498 and 244495."
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to Unit Standards 244498 and 244495."
  },
  "Fall Arrest Techniques": {
   "_source": "fallarresttechniques.md",
@@ -1013,7 +1013,7 @@
    "Basic literacy and numeracy",
    "Medically fit for operational tasks"
   ],
-  "certification": "Learners who are found competent will receive Accredited Certificates aligned to SAQA Unit Standard 10255."
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to Unit Standard 10255."
  },
  "Hand Tools Operator": {
   "_source": "handtools.md",
@@ -1054,7 +1054,7 @@
    "Basic literacy and numeracy",
    "Medically fit for construction site work"
   ],
-  "certification": "Learners who are found competent will receive Accredited Certificates aligned to SAQA Unit Standard 12877."
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to Unit Standard 12877."
  },
  "Hand and Power Tools Operator": {
   "_source": "handtoolsandpowertoolsoperator.md",
@@ -1095,7 +1095,7 @@
    "Basic literacy and numeracy",
    "Medically fit for operational tasks"
   ],
-  "certification": "Learners who are found competent will receive Accredited Certificates aligned to SAQA Unit Standards 12877 and 12878."
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to Unit Standards 12877 and 12878."
  },
  "Move & Store Hazardous Loads": {
   "_source": "hazardousloadshandling.md",
@@ -1256,7 +1256,7 @@
    "Basic plumbing knowledge or experience is recommended",
    "Medically fit for installation work"
   ],
-  "certification": "Learners who are found competent will receive Accredited Certificates aligned to SAQA Unit Standard 244496."
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to Unit Standard 244496."
  },
  "Construction Site Housekeeping": {
   "_source": "housekeepingcourse.md",
@@ -1508,7 +1508,7 @@
    "Basic literacy and numeracy",
    "Medically fit for physical and site-based work"
   ],
-  "certification": "Learners who are found competent will receive Accredited Certificates aligned to SAQA Unit Standard 12903."
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to Unit Standard 12903."
  },
  "Leak Detection & Plumbing Maintenance": {
   "_source": "plumbingfaultfinding.md",
@@ -1553,7 +1553,7 @@
    "Plumbing qualification or relevant plumbing experience is recommended",
    "Medically fit for plumbing and maintenance work"
   ],
-  "certification": "Learners who are found competent will receive Accredited Certificates aligned to SAQA Unit Standard 244494."
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to Unit Standard 244494."
  },
  "Plumbing Safety & Legal Compliance": {
   "_source": "plumbingsafetycourse.md",
@@ -1593,7 +1593,7 @@
    "Basic literacy and numeracy",
    "Plumbing or construction experience is recommended"
   ],
-  "certification": "Learners who are found competent will receive Accredited Certificates aligned to SAQA Unit Standards 13224 and 242821."
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to Unit Standards 13224 and 242821."
  },
  "Portable Power Tools Safety Training": {
   "_source": "portablepower.md",
@@ -1634,7 +1634,7 @@
    "Basic literacy and numeracy",
    "Medically fit for operational tasks"
   ],
-  "certification": "Learners who are found competent will receive Accredited Certificates aligned to SAQA Unit Standard 10255."
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to Unit Standard 10255."
  },
  "Power Tools Operator": {
   "_source": "powertoolscourse.md",
@@ -1675,7 +1675,7 @@
    "Basic literacy and numeracy",
    "Medically fit for operational tasks"
   ],
-  "certification": "Learners who are found competent will receive Accredited Certificates aligned to SAQA Unit Standard 10255."
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to Unit Standard 10255."
  },
  "Safe Stacking And Storage": {
   "_source": "safestackingandstoragecourse.md",
@@ -1947,7 +1947,7 @@
    "Basic plumbing knowledge or experience is recommended",
    "Medically fit for installation work"
   ],
-  "certification": "Learners who are found competent will receive Accredited Certificates aligned to SAQA Unit Standard 244499."
+  "certification": "Learners who are found competent will receive Accredited Certificates aligned to Unit Standard 244499."
  },
  "Spill Kit Responder Training": {
   "_source": "spillkit.md",
