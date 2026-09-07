@@ -155,7 +155,7 @@ export const COURSE_CATEGORIES: CourseCategory[] = [
     id: "dangerous-goods",
     title: "Dangerous Goods & Environmental",
     blurb:
-      "HAZMAT, dangerous goods handling, spill response and chemical safety for workplaces that move or store hazardous loads.",
+      "Conveying dangerous goods for drivers, Hazchem, dangerous goods handling, spill response, and chemical safety for workplaces that move or store hazardous loads.",
     courses: [
       { name: "Controlling Hazardous & Dangerous Goods", duration: "1 Day", price: "R800" },
       { name: "Convey Dangerous Goods by Road", duration: "1 Day", price: "R800" },
