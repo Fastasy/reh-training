@@ -24,8 +24,8 @@ export default function CoursesPage() {
               Let&apos;s Find the Right Safety Course for You
             </h1>
             <p className="mt-4 text-lg leading-relaxed text-cream/80">
-              {COURSE_COUNT}+ practical, industry-relevant courses aligned with South African unit
-              standards. Search the catalogue below, or message us for a group quote.
+              Explore more than {COURSE_COUNT} hands-on courses tailored to South African
+              industry standards. Search the catalogue below, or message us for a group quote.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a
