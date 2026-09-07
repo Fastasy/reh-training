@@ -62,7 +62,6 @@ export const COURSE_CATEGORIES: CourseCategory[] = [
       "Practical trade and water systems skills — plumbing, drainage, geysers and solar heating, plus bricklaying, formwork, steel fixing, concrete and roadworks.",
     courses: [
       { name: "Plumbing General Skills", duration: "To Quote", price: null },
-      { name: "Plumbing Safety & Legal Compliance", duration: "To Quote", price: null },
       { name: "Cold Water Plumbing Systems", duration: "To Quote", price: null },
       { name: "Hot Water Systems (Geysers & Boilers)", duration: "To Quote", price: null },
       { name: "Drainage & Rainwater Systems Installation", duration: "To Quote", price: null },
