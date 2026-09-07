@@ -14,7 +14,7 @@ export default function Footer() {
       {/* hazard stripe accent */}
       <div className="hazard-stripes h-1.5 w-full" aria-hidden />
       <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
-        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-[1.2fr_0.8fr_1fr_1fr_1fr]">
           {/* brand */}
           <div>
             <div className="flex items-center gap-3">
@@ -102,6 +102,18 @@ export default function Footer() {
             <div className="mt-3 space-y-1.5 text-sm">
               <a href="tel:+27769346783" className="block text-cream/80 hover:text-white">076 934 6783</a>
               <a href="tel:+27107466954" className="block text-cream/80 hover:text-white">010 746 6954</a>
+              <a href="mailto:info@rehtraining.co.za" className="block text-cream/80 hover:text-white">info@rehtraining.co.za</a>
+            </div>
+          </div>
+
+          {/* Mthatha */}
+          <div>
+            <h3 className="font-display text-base text-white">Mthatha Branch</h3>
+            <p className="mt-4 text-sm leading-relaxed text-cream/70">
+              CNR Leads &amp; York Road, 1st Floor Old Mutual, Mthatha
+            </p>
+            <div className="mt-3 space-y-1.5 text-sm">
+              <a href="tel:+27780452852" className="block text-cream/80 hover:text-white">078 045 2852</a>
               <a href="mailto:info@rehtraining.co.za" className="block text-cream/80 hover:text-white">info@rehtraining.co.za</a>
             </div>
           </div>
