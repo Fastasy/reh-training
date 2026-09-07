@@ -15,6 +15,7 @@ export default function CourseBrowser() {
       (c) =>
         c.name.toLowerCase().includes(q) ||
         c.category.toLowerCase().includes(q) ||
+        (c.usId && c.usId.toLowerCase().includes(q)) ||
         (c.duration.toLowerCase().includes(q) && q.length > 2)
     );
   }, [query]);
@@ -39,7 +40,7 @@ export default function CourseBrowser() {
               type="search"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder="Search courses — e.g. forklift, first aid, scaffolding..."
+              placeholder="Search courses — e.g. forklift, first aid, scaffolding or a unit standard ID..."
               className="w-full rounded-xl border border-line bg-white py-3.5 pl-12 pr-4 text-charcoal placeholder:text-charcoal/40 focus:border-brand focus:outline-none focus:ring-2 focus:ring-brand/20"
               aria-label="Search courses"
             />

@@ -2,12 +2,20 @@
 // Sources: REH price list PDF (2026-08, client-provided) + rehtraining.co.za/courses scrape.
 // price: "R650" string | null (null = "Request a Quote").
 // popular: true = featured on home page.
+import unitStandardsRaw from "./course-content/unit-standards.json";
+
+const UNIT_STANDARDS = unitStandardsRaw as Record<
+  string,
+  { us_id?: string | null; us_name?: string | null; nqf?: string | null }
+>;
 
 export type Course = {
   name: string;
   duration: string;
   price: string | null;
   popular?: boolean;
+  /** Unit Standard ID (from the client's LP pages), e.g. "120362" or "244498 & 244495". */
+  usId?: string | null;
 };
 
 export type CourseCategory = {
@@ -164,7 +172,12 @@ export const COURSE_CATEGORIES: CourseCategory[] = [
 ];
 
 export const ALL_COURSES = COURSE_CATEGORIES.flatMap((c) =>
-  c.courses.map((course) => ({ ...course, category: c.title, categoryId: c.id }))
+  c.courses.map((course) => ({
+    ...course,
+    category: c.title,
+    categoryId: c.id,
+    usId: UNIT_STANDARDS[course.name]?.us_id ?? null,
+  }))
 );
 
 export const POPULAR_COURSES = ALL_COURSES.filter((c) => c.popular);

@@ -20,7 +20,11 @@ export default function CourseSelect({ value, onChange, exclude = [] }: Props) {
     const q = query.trim().toLowerCase();
     const excluded = new Set(exclude);
     const base = q
-      ? ALL_COURSES.filter((c) => c.name.toLowerCase().includes(q))
+      ? ALL_COURSES.filter(
+          (c) =>
+            c.name.toLowerCase().includes(q) ||
+            (c.usId && c.usId.toLowerCase().includes(q))
+        )
       : ALL_COURSES;
     return base.filter((c) => !excluded.has(c.name)).slice(0, 40);
   }, [query, exclude]);
