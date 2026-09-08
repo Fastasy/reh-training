@@ -29,7 +29,7 @@ export default function Header() {
               </svg>
               Accredited courses · Certified providers
             </span>
-            <span className="hidden lg:inline">Midrand &amp; Durban · Daily classes, no waiting period</span>
+            <span className="hidden lg:inline">Midrand, Durban &amp; Mthatha · Daily classes, no waiting period</span>
           </div>
           <div className="flex items-center gap-5">
             <a href="tel:+27107466954" className="hover:text-white">

@@ -226,7 +226,7 @@ export default function Home() {
             {[
               { v: `${COURSE_COUNT}+`, l: "Courses on offer" },
               { v: "3", l: "Delivery modes — online, on-site, centre" },
-              { v: "2", l: "Training centres — Midrand & Durban" },
+              { v: "3", l: "Training centres — Midrand, Durban & Mthatha" },
               { v: "Daily", l: "Classes with no waiting period" },
             ].map((s) => (
               <div key={s.l}>

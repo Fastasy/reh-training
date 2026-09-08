@@ -4,7 +4,7 @@ import QuoteForm from "@/components/QuoteForm";
 export const metadata: Metadata = {
   title: "Contact Us — Request a Quote",
   description:
-    "Contact REH Safety Training for quotes and bookings: email info@rehtraining.co.za, call 010 746 6954, or visit our Midrand or Durban training centres.",
+    "Contact REH Safety Training for quotes and bookings: email info@rehtraining.co.za, call 010 746 6954, or visit our Midrand, Durban or Mthatha training centres.",
   alternates: { canonical: "/contact" },
 };
 
@@ -20,6 +20,12 @@ const BRANCHES = [
     address: "62 Lilian Ngoyi Street, Windermere, Durban",
     phones: ["076 934 6783", "010 746 6954"],
     map: "https://www.google.com/maps/search/?api=1&query=62+Lilian+Ngoyi+Street+Windermere+Durban",
+  },
+  {
+    city: "Mthatha Branch",
+    address: "CNR Leads & York Road, 1st Floor Old Mutual, Mthatha",
+    phones: ["078 045 2852"],
+    map: "https://www.google.com/maps/search/?api=1&query=Old+Mutual+Mthatha+Leeds+York+Road",
   },
 ];
 
