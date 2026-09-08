@@ -46,13 +46,28 @@ const CATEGORY_CARD_COPY: Record<string, { desc: string; icon: string }> = {
 
 const FALLBACK_CAT_ICON = "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z";
 
-const CATEGORY_CARDS = COURSE_CATEGORIES.map((cat) => ({
-  id: cat.id,
-  title: cat.title,
-  desc: CATEGORY_CARD_COPY[cat.id]?.desc ?? cat.blurb,
-  icon: CATEGORY_CARD_COPY[cat.id]?.icon ?? FALLBACK_CAT_ICON,
-  count: cat.courses.length,
-}));
+// Home card order: Safety first, then Heights & Emergency on row one (client request),
+// followed by Technical, Machines & Tools and Dangerous Goods.
+const HOME_CATEGORY_ORDER = [
+  "safety-compliance",
+  "heights-and-access",
+  "emergency-courses",
+  "technical-courses",
+  "machines-tools",
+  "dangerous-goods",
+];
+
+const CATEGORY_CARDS = HOME_CATEGORY_ORDER.map((id) => {
+  const cat = COURSE_CATEGORIES.find((c) => c.id === id);
+  if (!cat) throw new Error(`Missing home category card: ${id}`);
+  return {
+    id: cat.id,
+    title: cat.title,
+    desc: CATEGORY_CARD_COPY[cat.id]?.desc ?? cat.blurb,
+    icon: CATEGORY_CARD_COPY[cat.id]?.icon ?? FALLBACK_CAT_ICON,
+    count: cat.courses.length,
+  };
+});
 
 const WHY = [
   {
