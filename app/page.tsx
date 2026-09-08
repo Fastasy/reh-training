@@ -139,7 +139,7 @@ export default function Home() {
         <div className="hero-grid-light absolute inset-0" aria-hidden />
         <div className="hazard-stripes h-1.5 w-full" aria-hidden />
         <div className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
-          <div className="grid items-center gap-12 lg:grid-cols-[1.05fr_0.95fr]">
+          <div className="grid items-center gap-14 lg:grid-cols-2">
             {/* copy */}
             <div>
               <p className="inline-flex items-center gap-2 rounded-full border border-line bg-paper px-4 py-1.5 text-xs font-bold uppercase tracking-[0.18em] text-charcoal/80">
@@ -189,7 +189,9 @@ export default function Home() {
 
             {/* hero image */}
             <div className="relative">
-              <div className="overflow-hidden rounded-3xl border border-line shadow-2xl shadow-charcoal/15">
+              {/* offset accent frame behind the photo */}
+              <div className="absolute -inset-4 translate-x-3 translate-y-3 rounded-[2rem] border-2 border-brand/30 bg-brand-soft/70" aria-hidden />
+              <div className="relative overflow-hidden rounded-3xl border-2 border-white shadow-2xl shadow-brand/20">
                 <Image
                   src="/images/hero-training.jpg"
                   alt="Safety training course in session at REH Safety Training"
@@ -200,7 +202,7 @@ export default function Home() {
                 />
               </div>
               {/* trust badge */}
-              <div className="absolute -bottom-5 left-5 flex items-center gap-3 rounded-2xl border border-line bg-paper px-5 py-4 shadow-xl shadow-charcoal/15">
+              <div className="absolute -bottom-5 left-6 z-10 flex items-center gap-3 rounded-2xl border border-line bg-paper px-5 py-4 shadow-xl shadow-charcoal/15">
                 <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-brand-soft">
                   <svg className="h-6 w-6 text-brand" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
