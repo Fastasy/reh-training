@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     template: "%s | REH Safety Training",
   },
   description:
-    "Accredited health & safety training, soft skills courses and occupational medicals. Online, on-site and centre-based courses in Midrand & Durban — daily classes, no waiting period.",
+    "Accredited health & safety training, soft skills courses and occupational medicals. Online, on-site and centre-based courses in Midrand, Durban & Mthatha — daily classes, no waiting period.",
   keywords: [
     "health and safety training South Africa",
     "working at heights training",

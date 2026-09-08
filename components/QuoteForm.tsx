@@ -146,7 +146,7 @@ export default function QuoteForm() {
       </button>
       <p className="text-center text-xs text-charcoal/50">
         Prefer to call? <a href="tel:+27107466954" className="font-semibold text-charcoal/80">010 746 6954</a> (Midrand) ·{" "}
-        <a href="tel:+27769346783" className="font-semibold text-charcoal/80">076 934 6783</a> (Durban)
+        <a href="tel:+27769346783" className="font-semibold text-charcoal/80">076 934 6783</a> (Durban) · <a href="tel:+27780452852" className="font-semibold text-charcoal/80">078 045 2852</a> (Mthatha)
       </p>
     </form>
   );

@@ -57,7 +57,7 @@ const CATEGORY_CARDS = COURSE_CATEGORIES.map((cat) => ({
 const WHY = [
   {
     title: "Flexible — Daily Classes",
-    desc: "No waiting for a full class. Daily classes across Midrand and Durban fit around your schedule.",
+    desc: "No waiting for a full class. Daily classes across Midrand, Durban and Mthatha fit around your schedule.",
     icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z",
   },
   {
@@ -120,6 +120,13 @@ const jsonLd = {
       addressRegion: "KwaZulu-Natal",
       addressCountry: "ZA",
     },
+    {
+      "@type": "PostalAddress",
+      streetAddress: "CNR Leads & York Road, 1st Floor Old Mutual",
+      addressLocality: "Mthatha",
+      addressRegion: "Eastern Cape",
+      addressCountry: "ZA",
+    },
   ],
   sameAs: ["https://www.facebook.com/rehtraining"],
 };
@@ -152,7 +159,7 @@ export default function Home() {
               <p className="mt-5 max-w-xl text-lg leading-relaxed text-charcoal/75">
                 Accredited health &amp; safety training, soft skills development and occupational
                 medicals for South African businesses. Train online, on-site or at our centres in
-                Midrand and Durban — with daily classes and no waiting period.
+                Midrand, Durban and Mthatha — with daily classes and no waiting period.
               </p>
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -454,7 +461,7 @@ export default function Home() {
               <p className="mt-4 leading-relaxed text-charcoal/70">
                 Excel basics, customer service, time management, clear communication. Short,
                 hands-on courses your team can put to work right away, delivered online, on-site
-                or at our centres in Midrand and Durban.
+                or at our centres in Midrand, Durban and Mthatha.
               </p>
               <ul className="mt-6 space-y-3">
                 {[

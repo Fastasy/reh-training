@@ -5,7 +5,7 @@ import { emailQuoteLink } from "@/lib/courses";
 export const metadata: Metadata = {
   title: "Soft Skills Courses — Excel, Customer Service & Time Management",
   description:
-    "Practical soft skills courses in South Africa: basic Excel, customer service, time management, communication and presentation skills. Online, on-site or at our Midrand & Durban centres.",
+    "Practical soft skills courses in South Africa: basic Excel, customer service, time management, communication and presentation skills. Online, on-site or at our Midrand, Durban & Mthatha centres.",
   alternates: { canonical: "/soft-skills" },
 };
 
@@ -89,8 +89,8 @@ export default function SoftSkillsPage() {
             </h1>
             <p className="mt-4 text-lg leading-relaxed text-charcoal/75">
               Short, hands-on courses in Excel, customer service, time management, communication
-              and more. Your team trains online, on-site or at our centres in Midrand and Durban,
-              then puts what they learn to work the same week.
+              and more. Your team trains online, on-site or at our centres in Midrand, Durban and
+              Mthatha, then puts what they learn to work the same week.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a

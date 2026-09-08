@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     content?.description
       ?.replace(/[•\s]+/g, " ")
       .slice(0, 155) ||
-    `${course.name} training at REH Safety Training. Accredited, delivered online, on-site or at our Midrand and Durban centres. Email us for a quote.`;
+    `${course.name} training at REH Safety Training. Accredited, delivered online, on-site or at our Midrand, Durban and Mthatha centres. Email us for a quote.`;
   return {
     title: metaTitle(course),
     description: desc,
@@ -95,6 +95,11 @@ function jsonLd(course: CourseWithSlug, content: Awaited<ReturnType<typeof getCo
             "@type": "Place",
             name: "REH Safety Training Durban",
             address: "62 Lilian Ngoyi Street, Windermere, Durban",
+          },
+          {
+            "@type": "Place",
+            name: "REH Safety Training Mthatha",
+            address: "CNR Leads & York Road, 1st Floor Old Mutual, Mthatha",
           },
         ],
       },
@@ -181,7 +186,7 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
             {metaLine && <p className="mt-3 text-sm font-semibold text-charcoal/70">{metaLine}</p>}
             <p className="mt-4 text-lg leading-relaxed text-charcoal/75">
               Accredited {course.name.toLowerCase()} training delivered online, on-site or at our
-              centres in Midrand and Durban. Daily classes, no waiting period.
+              centres in Midrand, Durban and Mthatha. Daily classes, no waiting period.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a
@@ -425,7 +430,7 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
               <div className="rounded-2xl bg-navy p-6 text-cream">
                 <h2 className="font-display text-lg text-white">Why train with REH?</h2>
                 <ul className="mt-4 space-y-2.5 text-sm text-cream/80">
-                  {["Daily classes, no waiting period", "Online, on-site or centre-based", "Accredited courses", "Midrand & Durban training centres", "Group booking discounts"].map((t) => (
+                  {["Daily classes, no waiting period", "Online, on-site or centre-based", "Accredited courses", "Midrand, Durban & Mthatha training centres", "Group booking discounts"].map((t) => (
                     <li key={t} className="flex items-start gap-2.5">
                       <svg className="mt-0.5 h-4 w-4 shrink-0 text-brand" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                         <path d="M20 6L9 17l-5-5" />
