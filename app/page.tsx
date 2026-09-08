@@ -217,8 +217,9 @@ export default function Home() {
       </section>
 
       {/* ============ STATS STRIP ============ */}
-      <section className="bg-cream">
-        <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+      <section className="relative overflow-hidden bg-charcoal text-cream">
+        <div className="hero-grid absolute inset-0" aria-hidden />
+        <div className="relative mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 gap-6 text-center md:grid-cols-4">
             {[
               { v: `${COURSE_COUNT}+`, l: "Courses on offer" },
@@ -227,8 +228,8 @@ export default function Home() {
               { v: "Daily", l: "Classes with no waiting period" },
             ].map((s) => (
               <div key={s.l}>
-                <p className="font-display text-4xl text-charcoal">{s.v}</p>
-                <p className="mt-1 text-sm text-charcoal/60">{s.l}</p>
+                <p className="font-display text-4xl text-white">{s.v}</p>
+                <p className="mt-1 text-sm text-cream/70">{s.l}</p>
               </div>
             ))}
           </div>
