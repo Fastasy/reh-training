@@ -48,17 +48,17 @@ const WAH_TESTS = [
 export default function MedicalsPage() {
   return (
     <>
-      <section className="relative overflow-hidden bg-charcoal text-cream">
-        <div className="hero-grid absolute inset-0" aria-hidden />
+      <section className="relative overflow-hidden bg-white text-charcoal">
+        <div className="hero-grid-light absolute inset-0" aria-hidden />
         <div className="hazard-stripes h-1.5 w-full" aria-hidden />
         <div className="relative mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8 lg:py-20">
           <div className="grid items-center gap-10 lg:grid-cols-[1.1fr_0.9fr]">
             <div>
               <p className="text-xs font-bold uppercase tracking-[0.22em] text-brand">REH Medicals</p>
-              <h1 className="mt-3 font-display text-4xl leading-tight text-white sm:text-5xl">
+              <h1 className="mt-3 font-display text-4xl leading-tight text-charcoal sm:text-5xl">
                 Occupational Medicals That Keep Your Workforce Fit &amp; Compliant
               </h1>
-              <p className="mt-4 max-w-xl text-lg leading-relaxed text-cream/80">
+              <p className="mt-4 max-w-xl text-lg leading-relaxed text-charcoal/75">
                 Professional occupational health services to ensure your employees are fit for work,
                 compliant with legislation and protected against health risks.
               </p>
@@ -74,7 +74,7 @@ export default function MedicalsPage() {
                 Book a Medical
               </a>
             </div>
-            <div className="overflow-hidden rounded-3xl border border-white/10 shadow-2xl shadow-black/40">
+            <div className="overflow-hidden rounded-3xl border border-line shadow-2xl shadow-charcoal/15">
               <Image
                 src="/images/medicals.jpg"
                 alt="Occupational medical assessment at REH Medicals"

@@ -135,21 +135,21 @@ export default function Home() {
       />
 
       {/* ============ HERO ============ */}
-      <section className="relative overflow-hidden bg-charcoal text-cream">
-        <div className="hero-grid absolute inset-0" aria-hidden />
+      <section className="relative overflow-hidden bg-white text-charcoal">
+        <div className="hero-grid-light absolute inset-0" aria-hidden />
         <div className="hazard-stripes h-1.5 w-full" aria-hidden />
         <div className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
           <div className="grid items-center gap-12 lg:grid-cols-[1.05fr_0.95fr]">
             {/* copy */}
             <div>
-              <p className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.18em] text-cream/85">
+              <p className="inline-flex items-center gap-2 rounded-full border border-line bg-paper px-4 py-1.5 text-xs font-bold uppercase tracking-[0.18em] text-charcoal/80">
                 <span className="h-2 w-2 rounded-full bg-brand" aria-hidden />
                 Accredited Health &amp; Safety Courses
               </p>
-              <h1 className="mt-5 font-display text-4xl leading-[1.1] text-white sm:text-5xl lg:text-6xl">
+              <h1 className="mt-5 font-display text-4xl leading-[1.1] text-charcoal sm:text-5xl lg:text-6xl">
                 We Make Workplace <span className="text-brand">Safety Easy</span>
               </h1>
-              <p className="mt-5 max-w-xl text-lg leading-relaxed text-cream/80">
+              <p className="mt-5 max-w-xl text-lg leading-relaxed text-charcoal/75">
                 Accredited health &amp; safety training, soft skills development and occupational
                 medicals for South African businesses. Train online, on-site or at our centres in
                 Midrand and Durban — with daily classes and no waiting period.
@@ -159,7 +159,7 @@ export default function Home() {
                 <a
                   href="mailto:info@rehtraining.co.za?subject=Training%20Quotation%20Request"
                   data-booking
-                  className="inline-flex min-h-13 items-center justify-center gap-2 rounded-xl bg-brand px-7 py-3.5 text-base font-bold text-white shadow-xl shadow-brand/30 transition-all hover:-translate-y-0.5 hover:bg-brand-dark"
+                  className="inline-flex min-h-13 items-center justify-center gap-2 rounded-xl bg-brand px-7 py-3.5 text-base font-bold text-white shadow-xl shadow-brand/25 transition-all hover:-translate-y-0.5 hover:bg-brand-dark"
                 >
                   <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <rect x="3" y="5" width="18" height="14" rx="2" />
@@ -169,13 +169,13 @@ export default function Home() {
                 </a>
                 <a
                   href="/courses"
-                  className="inline-flex min-h-13 items-center justify-center rounded-xl border-2 border-cream/30 px-7 py-3.5 text-base font-bold text-cream transition-colors hover:border-cream hover:bg-white/5"
+                  className="inline-flex min-h-13 items-center justify-center rounded-xl border-2 border-charcoal/25 px-7 py-3.5 text-base font-bold text-charcoal transition-colors hover:border-charcoal hover:bg-charcoal hover:text-white"
                 >
                   View Price List
                 </a>
               </div>
 
-              <div className="mt-8 flex flex-wrap gap-x-6 gap-y-3 text-sm text-cream/75">
+              <div className="mt-8 flex flex-wrap gap-x-6 gap-y-3 text-sm text-charcoal/75">
                 {["Accredited training", "Group discounts", "Daily classes · no waiting"].map((t) => (
                   <span key={t} className="inline-flex items-center gap-2">
                     <svg className="h-4 w-4 text-brand" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
@@ -189,7 +189,7 @@ export default function Home() {
 
             {/* hero image */}
             <div className="relative">
-              <div className="overflow-hidden rounded-3xl border border-white/10 shadow-2xl shadow-black/40">
+              <div className="overflow-hidden rounded-3xl border border-line shadow-2xl shadow-charcoal/15">
                 <Image
                   src="/images/hero-training.jpg"
                   alt="Safety training course in session at REH Safety Training"
@@ -200,7 +200,7 @@ export default function Home() {
                 />
               </div>
               {/* trust badge */}
-              <div className="absolute -bottom-5 left-5 flex items-center gap-3 rounded-2xl bg-paper px-5 py-4 shadow-xl shadow-black/30">
+              <div className="absolute -bottom-5 left-5 flex items-center gap-3 rounded-2xl border border-line bg-paper px-5 py-4 shadow-xl shadow-charcoal/15">
                 <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-brand-soft">
                   <svg className="h-6 w-6 text-brand" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />

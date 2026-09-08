@@ -152,22 +152,22 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd(course, content)) }} />
 
       {/* page hero */}
-      <section className="relative overflow-hidden bg-charcoal text-cream">
-        <div className="hero-grid absolute inset-0" aria-hidden />
+      <section className="relative overflow-hidden bg-white text-charcoal">
+        <div className="hero-grid-light absolute inset-0" aria-hidden />
         <div className="hazard-stripes h-1.5 w-full" aria-hidden />
         <div className="relative mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
           {/* breadcrumbs */}
           <nav aria-label="Breadcrumb" className="mb-6">
-            <ol className="flex flex-wrap items-center gap-2 text-sm text-cream/60">
+            <ol className="flex flex-wrap items-center gap-2 text-sm text-charcoal/60">
               <li>
-                <Link href="/" className="hover:text-white">Home</Link>
+                <Link href="/" className="hover:text-brand">Home</Link>
               </li>
               <li aria-hidden>/</li>
               <li>
-                <Link href="/courses" className="hover:text-white">Courses</Link>
+                <Link href="/courses" className="hover:text-brand">Courses</Link>
               </li>
               <li aria-hidden>/</li>
-              <li className="text-cream/90">{course.name}</li>
+              <li className="text-charcoal/90">{course.name}</li>
             </ol>
           </nav>
 
@@ -175,11 +175,11 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
             <p className="text-xs font-bold uppercase tracking-[0.22em] text-brand">
               {category?.title ?? "Safety Training"}
             </p>
-            <h1 className="mt-3 font-display text-4xl leading-tight text-white sm:text-5xl">
+            <h1 className="mt-3 font-display text-4xl leading-tight text-charcoal sm:text-5xl">
               {course.name} Training
             </h1>
-            {metaLine && <p className="mt-3 text-sm font-semibold text-cream/70">{metaLine}</p>}
-            <p className="mt-4 text-lg leading-relaxed text-cream/80">
+            {metaLine && <p className="mt-3 text-sm font-semibold text-charcoal/70">{metaLine}</p>}
+            <p className="mt-4 text-lg leading-relaxed text-charcoal/75">
               Accredited {course.name.toLowerCase()} training delivered online, on-site or at our
               centres in Midrand and Durban. Daily classes, no waiting period.
             </p>
@@ -198,7 +198,7 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
               </a>
               <a
                 href="/contact"
-                className="inline-flex min-h-12 items-center justify-center rounded-xl border-2 border-cream/30 px-6 py-3 text-sm font-bold text-cream transition-colors hover:border-cream hover:bg-white/5"
+                className="inline-flex min-h-12 items-center justify-center rounded-xl border-2 border-charcoal/25 px-6 py-3 text-sm font-bold text-charcoal transition-colors hover:border-charcoal hover:bg-charcoal hover:text-white"
               >
                 Talk to a Training Advisor
               </a>

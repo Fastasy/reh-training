@@ -26,16 +26,16 @@ const BRANCHES = [
 export default function ContactPage() {
   return (
     <>
-      <section className="relative overflow-hidden bg-charcoal text-cream">
-        <div className="hero-grid absolute inset-0" aria-hidden />
+      <section className="relative overflow-hidden bg-white text-charcoal">
+        <div className="hero-grid-light absolute inset-0" aria-hidden />
         <div className="hazard-stripes h-1.5 w-full" aria-hidden />
         <div className="relative mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8 lg:py-20">
           <div className="max-w-3xl">
             <p className="text-xs font-bold uppercase tracking-[0.22em] text-brand">Contact Us</p>
-            <h1 className="mt-3 font-display text-4xl leading-tight text-white sm:text-5xl">
+            <h1 className="mt-3 font-display text-4xl leading-tight text-charcoal sm:text-5xl">
               Training Quotation Request
             </h1>
-            <p className="mt-4 text-lg leading-relaxed text-cream/80">
+            <p className="mt-4 text-lg leading-relaxed text-charcoal/75">
               Submit your details and one of our training advisors will contact you to assist with
               information or bookings — fast, via email.
             </p>
