@@ -156,7 +156,7 @@ export default function Home() {
         <div className="hero-grid-light absolute inset-0" aria-hidden />
         <div className="hazard-stripes h-1.5 w-full" aria-hidden />
         <div className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
-          <div className="grid items-center gap-14 lg:grid-cols-2">
+          <div className="grid items-center gap-12 lg:grid-cols-[0.85fr_1.15fr] lg:gap-14">
             {/* copy */}
             <div>
               <p className="inline-flex items-center gap-2 rounded-full border border-line bg-paper px-4 py-1.5 text-xs font-bold uppercase tracking-[0.18em] text-charcoal/80">
@@ -213,7 +213,7 @@ export default function Home() {
                   width={1600}
                   height={896}
                   priority
-                  className="h-full w-full object-cover"
+                  className="h-full w-full object-cover lg:aspect-[16/10]"
                 />
               </div>
               {/* trust badge */}
