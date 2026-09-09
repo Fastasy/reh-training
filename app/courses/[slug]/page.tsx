@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
@@ -197,7 +198,8 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
             </ol>
           </nav>
 
-          <div className="max-w-3xl">
+          <div className="grid items-center gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:gap-14">
+            <div className="min-w-0">
             <p className="text-xs font-bold uppercase tracking-[0.22em] text-brand">
               {category?.title ?? "Safety Training"}
             </p>
@@ -228,6 +230,39 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
               >
                 Talk to a Training Advisor
               </a>
+            </div>
+            </div>
+
+            {/* header image — same framed treatment as the home hero */}
+            <div className="relative">
+              <div
+                className="absolute -inset-4 translate-x-3 translate-y-3 rounded-[2rem] border-2 border-brand/30 bg-brand-soft/70"
+                aria-hidden
+              />
+              <div className="relative overflow-hidden rounded-3xl border-2 border-white shadow-2xl shadow-brand/20">
+                <Image
+                  src="/images/ohs-consulting.jpg"
+                  alt="Occupational health and safety training and consulting with REH Safety Training"
+                  width={814}
+                  height={458}
+                  priority
+                  className="aspect-video h-full w-full object-cover"
+                />
+              </div>
+              {course.duration && (
+                <div className="absolute -bottom-5 left-6 z-10 flex items-center gap-3 rounded-2xl border border-line bg-paper px-5 py-4 shadow-xl shadow-charcoal/15">
+                  <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-brand-soft">
+                    <svg className="h-6 w-6 text-brand" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                      <rect x="3" y="4" width="18" height="18" rx="2" />
+                      <path d="M16 2v4M8 2v4M3 10h18" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p className="text-sm font-bold text-charcoal">{course.duration}</p>
+                    <p className="text-xs text-charcoal/60">Duration · daily classes</p>
+                  </div>
+                </div>
+              )}
             </div>
           </div>
         </div>
