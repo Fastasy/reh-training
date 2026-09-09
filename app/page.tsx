@@ -206,9 +206,7 @@ export default function Home() {
 
             {/* hero image */}
             <div className="relative">
-              {/* offset accent frame behind the photo */}
-              <div className="absolute -inset-4 translate-x-3 translate-y-3 rounded-[2rem] border-2 border-brand/30 bg-brand-soft/70" aria-hidden />
-              <div className="relative overflow-hidden rounded-3xl border-2 border-white shadow-2xl shadow-brand/20">
+              <div className="relative overflow-hidden rounded-3xl border-2 border-white shadow-2xl shadow-charcoal/15">
                 <Image
                   src="/images/hero-training.jpg"
                   alt="Safety training course in session at REH Safety Training"

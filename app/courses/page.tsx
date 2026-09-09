@@ -47,13 +47,9 @@ export default function CoursesPage() {
             </div>
             </div>
 
-            {/* header image — same framed treatment as the home hero */}
+            {/* header image — same treatment as the home hero */}
             <div className="relative">
-              <div
-                className="absolute -inset-4 translate-x-3 translate-y-3 rounded-[2rem] border-2 border-brand/30 bg-brand-soft/70"
-                aria-hidden
-              />
-              <div className="relative overflow-hidden rounded-3xl border-2 border-white shadow-2xl shadow-brand/20">
+              <div className="relative overflow-hidden rounded-3xl border-2 border-white shadow-2xl shadow-charcoal/15">
                 <Image
                   src="/images/ohs-consulting.jpg"
                   alt="Occupational health and safety training and consulting with REH Safety Training"
