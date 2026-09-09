@@ -162,7 +162,7 @@ export default function Home() {
           className="object-cover"
         />
         <div
-          className="absolute inset-0 bg-gradient-to-r from-charcoal/95 via-charcoal/75 to-charcoal/25"
+          className="absolute inset-0 bg-gradient-to-r from-charcoal/95 via-charcoal/85 to-charcoal/40"
           aria-hidden
         />
         <div className="absolute inset-x-0 top-0 z-10">
@@ -171,14 +171,17 @@ export default function Home() {
 
         <div className="relative mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8 lg:py-36">
           <div className="max-w-3xl">
-            <p className="inline-flex items-center gap-2 rounded-full border border-white/25 bg-white/10 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.18em] text-cream/90 backdrop-blur-sm">
+            <p className="inline-flex items-center gap-2 rounded-full border border-white/30 bg-charcoal/45 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.18em] text-white backdrop-blur-sm">
               <span className="h-2 w-2 rounded-full bg-brand" aria-hidden />
               Accredited Health &amp; Safety Courses
             </p>
-            <h1 className="mt-5 font-display text-4xl leading-[1.1] text-white sm:text-5xl lg:text-6xl">
-              We Make Workplace <span className="text-brand">Safety Easy</span>
+            <h1 className="mt-5 font-display text-4xl leading-[1.1] text-white drop-shadow-[0_3px_20px_rgba(0,0,0,0.7)] sm:text-5xl lg:text-6xl">
+              We Make Workplace{" "}
+              <span className="text-brand [text-shadow:0_0_18px_rgba(226,28,20,0.85),0_2px_12px_rgba(0,0,0,0.65)]">
+                Safety Easy
+              </span>
             </h1>
-            <p className="mt-5 max-w-2xl text-lg leading-relaxed text-cream/85">
+            <p className="mt-5 max-w-2xl text-lg leading-relaxed text-cream/95 drop-shadow-[0_1px_10px_rgba(0,0,0,0.6)]">
               Accredited health &amp; safety training, soft skills development and occupational
               medicals for South African businesses. Train online, on-site or at our centres in
               Midrand, Durban and Mthatha — with daily classes and no waiting period.
@@ -204,7 +207,7 @@ export default function Home() {
               </a>
             </div>
 
-            <div className="mt-8 flex flex-wrap gap-x-6 gap-y-3 text-sm text-cream/80">
+            <div className="mt-8 flex flex-wrap gap-x-6 gap-y-3 text-sm text-cream/90 drop-shadow-[0_1px_6px_rgba(0,0,0,0.6)]">
               {["Accredited training", "Group discounts", "Daily classes · no waiting"].map((t) => (
                 <span key={t} className="inline-flex items-center gap-2">
                   <svg className="h-4 w-4 text-brand" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
