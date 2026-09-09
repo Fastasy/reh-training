@@ -10,6 +10,12 @@ import {
 } from "@/lib/slugs";
 import { COURSE_CATEGORIES } from "@/lib/courses";
 import { getCoursePageContent } from "@/lib/coursePages";
+import {
+  courseDeliveryModes,
+  deliveryLabel,
+  deliverySentence,
+  schemaCourseModes,
+} from "@/lib/delivery";
 import CTABand from "@/components/CTABand";
 import AllCoursesSidebar from "@/components/AllCoursesSidebar";
 import ReviewsSection from "@/components/ReviewsSection";
@@ -31,11 +37,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const course = ALL_COURSES_WITH_SLUG.find((c) => c.slug === slug);
   if (!course) return {};
   const content = getCoursePageContent(course.name);
+  const modes = courseDeliveryModes(course.categoryId, course.name);
   const desc =
     content?.description
       ?.replace(/[•\s]+/g, " ")
       .slice(0, 155) ||
-    `${course.name} training at REH Safety Training. Accredited, delivered online, on-site or at our Midrand, Durban and Mthatha centres. Email us for a quote.`;
+    `${course.name} training at REH Safety Training. Accredited, delivered ${deliverySentence(
+      modes
+    )}. Email us for a quote.`;
   return {
     title: metaTitle(course),
     description: desc,
@@ -53,6 +62,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 function jsonLd(course: CourseWithSlug, content: Awaited<ReturnType<typeof getCoursePageContent>>) {
   const price = course.price ? course.price.replace(/[^\d]/g, "") : null;
+  const modes = courseDeliveryModes(course.categoryId, course.name);
   const graph: Record<string, unknown>[] = [
     {
       "@type": "Course",
@@ -84,7 +94,7 @@ function jsonLd(course: CourseWithSlug, content: Awaited<ReturnType<typeof getCo
         : undefined,
       hasCourseInstance: {
         "@type": "CourseInstance",
-        courseMode: ["onsite", "online"],
+        courseMode: schemaCourseModes(modes),
         location: [
           {
             "@type": "Place",
@@ -141,6 +151,7 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
     .map((c) => ({ ...c, slug: courseSlug(c.name) }));
 
   const price = course.price;
+  const deliveryModes = courseDeliveryModes(course.categoryId, course.name);
   const metaLine = [
     content?.us_id ? `Unit Standard ${content.us_id}` : null,
     content?.nqf ? `NQF Level ${content.nqf}` : null,
@@ -151,6 +162,16 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
   const waLink = `mailto:info@rehtraining.co.za?subject=${encodeURIComponent(
     `Training Quotation Request - ${course.name}`
   )}`;
+
+  const whyBullets = [
+    "Daily classes, no waiting period",
+    deliveryModes.includes("Online")
+      ? "Online, on-site or centre-based"
+      : "On-site at your premises or centre-based",
+    "Accredited courses",
+    "Midrand, Durban & Mthatha training centres",
+    "Group booking discounts",
+  ];
 
   return (
     <>
@@ -185,8 +206,8 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
             </h1>
             {metaLine && <p className="mt-3 text-sm font-semibold text-charcoal/70">{metaLine}</p>}
             <p className="mt-4 text-lg leading-relaxed text-charcoal/75">
-              Accredited {course.name.toLowerCase()} training delivered online, on-site or at our
-              centres in Midrand, Durban and Mthatha. Daily classes, no waiting period.
+              Accredited {course.name.toLowerCase()} training delivered{" "}
+              {deliverySentence(deliveryModes)}. Daily classes, no waiting period.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a
@@ -380,7 +401,7 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
                   </div>
                   <div className="flex items-center justify-between gap-4 border-t border-line pt-4">
                     <dt className="text-charcoal/60">Delivery</dt>
-                    <dd className="text-right font-semibold text-charcoal">Online · On-site · Centre</dd>
+                    <dd className="text-right font-semibold text-charcoal">{deliveryLabel(deliveryModes)}</dd>
                   </div>
                   <div className="flex items-center justify-between gap-4 border-t border-line pt-4">
                     <dt className="text-charcoal/60">Certification</dt>
@@ -430,7 +451,7 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
               <div className="rounded-2xl bg-navy p-6 text-cream">
                 <h2 className="font-display text-lg text-white">Why train with REH?</h2>
                 <ul className="mt-4 space-y-2.5 text-sm text-cream/80">
-                  {["Daily classes, no waiting period", "Online, on-site or centre-based", "Accredited courses", "Midrand, Durban & Mthatha training centres", "Group booking discounts"].map((t) => (
+                  {whyBullets.map((t) => (
                     <li key={t} className="flex items-start gap-2.5">
                       <svg className="mt-0.5 h-4 w-4 shrink-0 text-brand" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                         <path d="M20 6L9 17l-5-5" />
