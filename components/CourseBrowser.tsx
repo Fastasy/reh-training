@@ -45,25 +45,39 @@ export default function CourseBrowser() {
               aria-label="Search courses"
             />
           </div>
-          <div className="mt-4 flex flex-wrap gap-2">
-            {COURSE_CATEGORIES.map((cat) => (
-              <button
-                key={cat.id}
-                type="button"
-                onClick={() => {
-                  setActiveCat(activeCat === cat.id ? null : cat.id);
-                  setQuery("");
-                }}
-                className={`rounded-full px-4 py-2 text-sm font-semibold transition-colors ${
-                  activeCat === cat.id
-                    ? "bg-brand text-white"
-                    : "bg-cream text-charcoal/75 hover:bg-charcoal hover:text-white"
-                }`}
-              >
-                {cat.title}
-                <span className="ml-1.5 opacity-60">{cat.courses.length}</span>
-              </button>
-            ))}
+          <div className="cat-tile-grid mt-5 grid grid-cols-2 gap-2.5 sm:grid-cols-3 lg:grid-cols-6">
+            {COURSE_CATEGORIES.map((cat) => {
+              const isActive = activeCat === cat.id;
+              return (
+                <button
+                  key={cat.id}
+                  type="button"
+                  onClick={() => {
+                    setActiveCat(activeCat === cat.id ? null : cat.id);
+                    setQuery("");
+                  }}
+                  aria-pressed={isActive}
+                  className={`tile-shine flex min-h-[86px] flex-col items-center justify-between gap-2 rounded-2xl px-3 py-3.5 text-center transition-all ${
+                    isActive
+                      ? "bg-brand text-white shadow-lg shadow-brand/30 ring-2 ring-brand ring-offset-2 ring-offset-paper"
+                      : "bg-charcoal text-white shadow-md shadow-charcoal/20 hover:-translate-y-0.5 hover:bg-brand-dark hover:shadow-lg hover:shadow-brand/25"
+                  }`}
+                >
+                  <span className="relative z-[1] text-[13px] font-bold leading-snug sm:text-sm">
+                    {cat.title}
+                  </span>
+                  <span
+                    className={`relative z-[1] inline-flex items-center justify-center rounded-full px-2.5 py-1 text-[11px] font-extrabold leading-none tracking-wide uppercase ${
+                      isActive
+                        ? "bg-white/25 text-white"
+                        : "bg-white/10 text-cream/85"
+                    }`}
+                  >
+                    {cat.courses.length} course{cat.courses.length === 1 ? "" : "s"}
+                  </span>
+                </button>
+              );
+            })}
           </div>
         </div>
       </div>

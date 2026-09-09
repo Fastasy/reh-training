@@ -78,6 +78,86 @@ html {
   scroll-behavior: smooth;
 }
 
+/* ---- Category filter tiles: glass shine ---- */
+
+/* Static gloss + animated light sweep on the course-category tiles.
+   Content inside gets `relative z-[1]` so the sheen stays behind the text. */
+.tile-shine {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+/* soft glass highlight along the top edge */
+.tile-shine::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.16),
+    rgba(255, 255, 255, 0) 45%
+  );
+}
+
+/* periodic diagonal light sweep */
+.tile-shine::after {
+  content: "";
+  position: absolute;
+  top: -20%;
+  bottom: -20%;
+  left: -80%;
+  width: 45%;
+  z-index: 0;
+  pointer-events: none;
+  transform: skewX(-18deg);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.3),
+    transparent
+  );
+  animation: tile-shine-sweep 4.5s ease-in-out infinite;
+}
+
+@keyframes tile-shine-sweep {
+  0% {
+    left: -80%;
+  }
+  50%,
+  100% {
+    left: 135%;
+  }
+}
+
+/* sweep the row left-to-right instead of in sync */
+.cat-tile-grid > *:nth-child(1)::after {
+  animation-delay: 0s;
+}
+.cat-tile-grid > *:nth-child(2)::after {
+  animation-delay: 0.45s;
+}
+.cat-tile-grid > *:nth-child(3)::after {
+  animation-delay: 0.9s;
+}
+.cat-tile-grid > *:nth-child(4)::after {
+  animation-delay: 1.35s;
+}
+.cat-tile-grid > *:nth-child(5)::after {
+  animation-delay: 1.8s;
+}
+.cat-tile-grid > *:nth-child(6)::after {
+  animation-delay: 2.25s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tile-shine::after {
+    animation: none;
+  }
+}
+
 ::selection {
   background: var(--color-brand);
   color: #fff;
