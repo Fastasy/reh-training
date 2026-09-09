@@ -159,64 +159,49 @@ export default function Home() {
           fill
           priority
           sizes="100vw"
-          className="object-cover"
+          className="object-cover brightness-[1.45]"
         />
         <div
-          className="absolute inset-0 bg-gradient-to-r from-charcoal/95 via-charcoal/85 to-charcoal/40"
+          className="absolute inset-0 bg-gradient-to-r from-charcoal/85 via-charcoal/40 to-charcoal/5"
           aria-hidden
         />
         <div className="absolute inset-x-0 top-0 z-10">
           <div className="hazard-stripes h-1.5 w-full" aria-hidden />
         </div>
 
-        <div className="relative mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8 lg:py-36">
-          <div className="max-w-3xl">
-            <p className="inline-flex items-center gap-2 rounded-full border border-white/30 bg-charcoal/45 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.18em] text-white backdrop-blur-sm">
-              <span className="h-2 w-2 rounded-full bg-brand" aria-hidden />
+        <div className="relative mx-auto flex min-h-[92svh] w-full max-w-7xl flex-col justify-between px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+          <div className="max-w-3xl lg:max-w-none">
+            <p className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-brand px-4 py-1.5 text-xs font-bold uppercase tracking-[0.18em] text-white shadow-lg shadow-brand/25 backdrop-blur-sm">
+              <span className="h-2 w-2 rounded-full bg-white" aria-hidden />
               Accredited Health &amp; Safety Courses
             </p>
-            <h1 className="mt-5 font-display text-4xl leading-[1.1] text-white drop-shadow-[0_3px_20px_rgba(0,0,0,0.7)] sm:text-5xl lg:text-6xl">
+            <h1 className="mt-5 font-display text-4xl leading-[1.1] text-white drop-shadow-[0_3px_20px_rgba(0,0,0,0.7)] sm:text-5xl lg:whitespace-nowrap lg:text-6xl">
               We Make Workplace{" "}
-              <span className="text-brand [text-shadow:0_0_18px_rgba(226,28,20,0.85),0_2px_12px_rgba(0,0,0,0.65)]">
-                Safety Easy
+              <span className="whitespace-nowrap text-brand [text-shadow:0_0_18px_rgba(226,28,20,0.85),0_2px_12px_rgba(0,0,0,0.65)]">
+                Safety&nbsp;Easy
               </span>
             </h1>
-            <p className="mt-5 max-w-2xl text-lg leading-relaxed text-cream/95 drop-shadow-[0_1px_10px_rgba(0,0,0,0.6)]">
-              Accredited health &amp; safety training, soft skills development and occupational
-              medicals for South African businesses. Train online, on-site or at our centres in
-              Midrand, Durban and Mthatha — with daily classes and no waiting period.
-            </p>
+          </div>
 
-            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <a
-                href="mailto:info@rehtraining.co.za?subject=Training%20Quotation%20Request"
-                data-booking
-                className="inline-flex min-h-13 items-center justify-center gap-2 rounded-xl bg-brand px-7 py-3.5 text-base font-bold text-white shadow-xl shadow-brand/25 transition-all hover:-translate-y-0.5 hover:bg-brand-dark"
-              >
-                <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <rect x="3" y="5" width="18" height="14" rx="2" />
-                <path d="M3 7l9 6 9-6" />
-              </svg>
-                Request a Quote
-              </a>
-              <a
-                href="/courses"
-                className="inline-flex min-h-13 items-center justify-center rounded-xl border-2 border-white/40 px-7 py-3.5 text-base font-bold text-white transition-colors hover:border-white hover:bg-white hover:text-charcoal"
-              >
-                View Price List
-              </a>
-            </div>
-
-            <div className="mt-8 flex flex-wrap gap-x-6 gap-y-3 text-sm text-cream/90 drop-shadow-[0_1px_6px_rgba(0,0,0,0.6)]">
-              {["Accredited training", "Group discounts", "Daily classes · no waiting"].map((t) => (
-                <span key={t} className="inline-flex items-center gap-2">
-                  <svg className="h-4 w-4 text-brand" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                    <path d="M20 6L9 17l-5-5" />
-                  </svg>
-                  {t}
-                </span>
-              ))}
-            </div>
+          {/* CTAs — bottom right of the hero */}
+          <div className="flex flex-col gap-3 sm:flex-row sm:justify-end">
+            <a
+              href="mailto:info@rehtraining.co.za?subject=Training%20Quotation%20Request"
+              data-booking
+              className="inline-flex min-h-13 items-center justify-center gap-2 rounded-xl bg-brand px-7 py-3.5 text-base font-bold text-white shadow-xl shadow-brand/25 transition-all hover:-translate-y-0.5 hover:bg-brand-dark"
+            >
+              <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <rect x="3" y="5" width="18" height="14" rx="2" />
+              <path d="M3 7l9 6 9-6" />
+            </svg>
+              Request a Quote
+            </a>
+            <a
+              href="/courses"
+              className="inline-flex min-h-13 items-center justify-center rounded-xl border-2 border-white/40 px-7 py-3.5 text-base font-bold text-white transition-colors hover:border-white hover:bg-white hover:text-charcoal"
+            >
+              View Price List
+            </a>
           </div>
         </div>
       </section>
