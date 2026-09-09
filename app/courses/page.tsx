@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import CourseBrowser from "@/components/CourseBrowser";
 import CTABand from "@/components/CTABand";
 import { COURSE_COUNT } from "@/lib/courses";
@@ -18,7 +19,8 @@ export default function CoursesPage() {
         <div className="hero-grid-light absolute inset-0" aria-hidden />
         <div className="hazard-stripes h-1.5 w-full" aria-hidden />
         <div className="relative mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8 lg:py-20">
-          <div className="max-w-3xl">
+          <div className="grid items-center gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:gap-14">
+            <div className="min-w-0">
             <p className="text-xs font-bold uppercase tracking-[0.22em] text-brand">Health &amp; Safety Courses</p>
             <h1 className="mt-3 font-display text-4xl leading-tight text-charcoal sm:text-5xl">
               Let&apos;s Find the Right Safety Course for You
@@ -42,6 +44,36 @@ export default function CoursesPage() {
               <span className="inline-flex min-h-12 items-center rounded-xl border border-line bg-paper px-5 text-sm text-charcoal/85">
                 Accredited training · Certificates issued
               </span>
+            </div>
+            </div>
+
+            {/* header image — same framed treatment as the home hero */}
+            <div className="relative">
+              <div
+                className="absolute -inset-4 translate-x-3 translate-y-3 rounded-[2rem] border-2 border-brand/30 bg-brand-soft/70"
+                aria-hidden
+              />
+              <div className="relative overflow-hidden rounded-3xl border-2 border-white shadow-2xl shadow-brand/20">
+                <Image
+                  src="/images/ohs-consulting.jpg"
+                  alt="Occupational health and safety training and consulting with REH Safety Training"
+                  width={814}
+                  height={458}
+                  priority
+                  className="aspect-video h-full w-full object-cover"
+                />
+              </div>
+              <div className="absolute -bottom-5 left-6 z-10 flex items-center gap-3 rounded-2xl border border-line bg-paper px-5 py-4 shadow-xl shadow-charcoal/15">
+                <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-brand-soft">
+                  <svg className="h-6 w-6 text-brand" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                  </svg>
+                </div>
+                <div>
+                  <p className="text-sm font-bold text-charcoal">{COURSE_COUNT}+ Courses</p>
+                  <p className="text-xs text-charcoal/60">Accredited unit-standard training</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
