@@ -1,20 +1,25 @@
 // Google Reviews card — real Google Business Profile for REH Safety Training.
-// Place ID: ChIJ7ctwo2ZvlR4RfvD4cUs5rV4 (resolved 2026-08-27 via maps embed lookup).
+// Branch (Midrand / Durban / Mthatha) is selected via the location switcher on
+// the home page; each branch has its own live Business Profile.
 // NOTE: Google has no free official widget for review cards. The keyless embed below
 // shows the live place card (rating + review link). For live Google review CARDS on
 // the site, the client can register a free/paid widget (Trustindex, Elfsight or
 // EmbedSocial) and paste its snippet into the slot marked <-- WIDGET SLOT -->.
-const PLACE_QUERY =
-  "REH%20Safety%20Training%2C%2014%20Douglas%20Rd%2C%20Glen%20Austin%20AH%2C%20Midrand";
-const PLACE_URL = "https://www.google.com/maps/place/?q=place_id:ChIJ7ctwo2ZvlR4RfvD4cUs5rV4";
-// Direct link to the Google review form for this Place ID — one tap from a phone.
-const REVIEW_URL =
-  "https://search.google.com/local/writereview?placeid=ChIJ7ctwo2ZvlR4RfvD4cUs5rV4";
+import { GoogleLocation, getGoogleLocation } from "@/lib/googleLocations";
 
-export default function GoogleReviewsCard() {
+type Props = {
+  location?: GoogleLocation; // omit to default to Midrand
+};
+
+export default function GoogleReviewsCard({ location }: Props) {
+  const loc = location ?? getGoogleLocation("midrand");
+  const embedSrc = `https://maps.google.com/maps?q=${encodeURIComponent(
+    loc.embedQuery
+  )}&z=15&output=embed`;
+
   return (
     <div className="rounded-2xl border border-line bg-paper p-6">
-      <div className="flex items-center justify-between gap-4">
+      <div className="flex items-start justify-between gap-4">
         <div className="flex items-center gap-3">
           <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-white shadow-sm">
             <svg className="h-6 w-6" viewBox="0 0 24 24">
@@ -27,7 +32,7 @@ export default function GoogleReviewsCard() {
           <div>
             <p className="font-display text-lg text-charcoal">Google Reviews</p>
             <a
-              href={PLACE_URL}
+              href={loc.mapsUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="text-xs font-semibold text-brand hover:text-brand-dark"
@@ -38,8 +43,10 @@ export default function GoogleReviewsCard() {
         </div>
       </div>
 
+      <p className="mt-3 text-sm font-medium text-charcoal/70">{loc.address}</p>
+
       <a
-        href={REVIEW_URL}
+        href={loc.reviewUrl}
         target="_blank"
         rel="noopener noreferrer"
         className="mt-4 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-xl bg-brand px-6 py-3 text-sm font-bold text-white shadow-lg shadow-brand/25 transition-colors hover:bg-brand-dark"
@@ -55,8 +62,9 @@ export default function GoogleReviewsCard() {
 
       <div className="mt-4 overflow-hidden rounded-xl border border-line">
         <iframe
-          title="REH Safety Training on Google Maps"
-          src={`https://maps.google.com/maps?q=${PLACE_QUERY}&z=15&output=embed`}
+          key={loc.id}
+          title={`REH Safety Training ${loc.label} on Google Maps`}
+          src={embedSrc}
           width="100%"
           height="220"
           style={{ border: 0 }}
@@ -68,7 +76,8 @@ export default function GoogleReviewsCard() {
 
       {/* <-- WIDGET SLOT: paste Trustindex/Elfsight Google-reviews snippet here when the client registers --> */}
       <p className="mt-3 text-xs text-charcoal/50">
-        Rating and reviews shown are from REH Safety Training&apos;s Google Business Profile.
+        Rating and reviews shown are from {loc.profileName}&apos;s Google Business
+        Profile.
       </p>
     </div>
   );
