@@ -7,11 +7,16 @@ this script is the only thing that turns them into site data. It exists so a pub
 article can never drift from the version that was fact-checked, and so re-publishing a
 draft is one command rather than hand-editing TypeScript.
 
+Vault layout: "Articles/Published" holds what is live on the site, "Articles/Drafts"
+holds what is written but not yet published. Moving a file between the two folders is
+the only editorial step; this script reads from both.
+
 Usage:
     python3 scripts/build-articles.py            # rebuild from the PUBLISHED list below
     python3 scripts/build-articles.py --check     # exit 1 if lib/articles.ts is stale
 
-To publish an article: add its draft filename to PUBLISHED and set its date, then re-run.
+To publish an article: move its draft into Articles/Published, add its filename to
+PUBLISHED with a date, then re-run.
 """
 from __future__ import annotations
 
@@ -20,10 +25,21 @@ import re
 import sys
 from pathlib import Path
 
-VAULT_DRAFTS = Path(
-    "/mnt/c/Users/Administrator/Documents/Hermes Obsidian/REH Training/Articles/Drafts"
+VAULT_ARTICLES = Path(
+    "/mnt/c/Users/Administrator/Documents/Hermes Obsidian/REH Training/Articles"
 )
+# Published articles live in Published/; anything still under review sits in Drafts/.
+# Both are searched so a filename in PUBLISHED resolves wherever it currently lives.
+SOURCE_DIRS = [VAULT_ARTICLES / "Published", VAULT_ARTICLES / "Drafts"]
 OUT = Path(__file__).resolve().parent.parent / "lib" / "articles.ts"
+
+
+def resolve_source(name: str) -> Path:
+    for directory in SOURCE_DIRS:
+        candidate = directory / name
+        if candidate.exists():
+            return candidate
+    raise SystemExit(f"{name}: not found in {[str(d) for d in SOURCE_DIRS]}")
 
 # --- what is live -------------------------------------------------------------------
 # Order here is the order shown on /articles. The hub goes first so every later article
@@ -348,7 +364,7 @@ export function otherArticles(slug: string, limit = 3): Article[] {
 
 
 def main() -> int:
-    articles = [parse_article(VAULT_DRAFTS / name, date) for name, date in PUBLISHED]
+    articles = [parse_article(resolve_source(name), date) for name, date in PUBLISHED]
     out = render(articles)
     if "--check" in sys.argv:
         current = OUT.read_text(encoding="utf-8") if OUT.exists() else ""
