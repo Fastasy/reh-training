@@ -34,6 +34,26 @@ Verified: `tsc --noEmit` clean, `next build` clean (104 pages), 0 doubled titles
 | `public/images/reh-logo.png`, `og-image.png`, `app/icon.png`, `apple-icon.png` | REH branding is baked into the pixels. Awaiting the client's new logo. |
 | `.firecrawl/**` scrape archives | Historical record of the old site's content. |
 
+## Legacy URL map (for the 301s)
+
+The old Zoho site is **still live** on `www.rehtraining.co.za` (verified 2026-09-10: HTTP 200, `server: ZGS`), so the host-based 308 in `next.config.ts` has never fired. It publishes two sitemaps: `sitemap-cms.xml` and `sitemap-post.xml`. Between them the old site has only **six URLs**:
+
+| Old URL | New destination | Status |
+|---|---|---|
+| `/` | `/` | Covered by the host catch-all, path exists |
+| `/contact` | `/contact` | Covered, path exists |
+| `/courses` | `/courses` | Covered, path exists |
+| `/medicals` | `/medicals` | Covered, path exists |
+| `/Consulting` | `/soft-skills` | Covered by the explicit rule in `next.config.ts` |
+| `/blogs/post/working-at-heights` | `/courses/working-at-heights` | **Covered** — explicit absolute rule in `next.config.ts` (was going to 404) |
+
+**Details that matter:**
+
+- The catch-all host rule is `source: "/:path*"` with a host condition, so a legacy-only path such as `/blogs/post/working-at-heights` would forward to the new domain **at the same path**, where nothing exists. Hence the explicit `LEGACY_PATHS` entries.
+- Legacy path rules live in `LEGACY_PATHS` in `next.config.ts`, **before** the host catch-all, with **absolute** destinations so any legacy URL resolves in one hop rather than bouncing through the old host first. Verified 2026-09-10 on all six old URLs with `Host:` headers: every one returns a single 308 to a live destination.
+- `/blogs/post/working-at-heights` is the old site's **only** blog post (published 2026-01-04). It duplicates the old Working at Heights landing page: Unit Standard 120362, NQF Level 3, 1 day, R700. It carries the only content URL with any age on the domain, so redirect it to the new course page rather than letting it 404.
+- **The old site still advertises OHS consulting** (`/Consulting`: risk assessments, HIRA, legal compliance audits and gap analysis) and occupational health medicals. The new site removed consulting and serves it as a 308 to `/soft-skills`. So the two domains currently publish different service lists, and a visitor comparing them will see consulting disappear. Resolve the consulting decision before the flip rather than after.
+
 ## Launch checklist
 
 **Code / deploy**
