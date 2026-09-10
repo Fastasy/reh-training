@@ -1,12 +1,39 @@
 import type { Metadata } from "next";
 import QuoteForm from "@/components/QuoteForm";
+import { SITE } from "@/lib/site";
+import { breadcrumbSchema, contactPageSchema, graph, organizationSchema } from "@/lib/schema";
+
+const DESCRIPTION = `Contact ${SITE.name} for quotes and bookings: email ${SITE.email}, call ${SITE.phoneDisplay}, or visit our Midrand, Durban or Mthatha training centres.`;
 
 export const metadata: Metadata = {
   title: "Contact Us — Request a Quote",
-  description:
-    "Contact RSTL Centre for quotes and bookings: email info@rehtraining.co.za, call 010 746 6954, or visit our Midrand, Durban or Mthatha training centres.",
+  description: DESCRIPTION,
   alternates: { canonical: "/contact" },
+  openGraph: {
+    title: `Contact Us — Request a Quote | ${SITE.name}`,
+    description: DESCRIPTION,
+    url: `${SITE.url}/contact`,
+    siteName: SITE.name,
+    locale: "en_ZA",
+    type: "website",
+    images: [{ url: "/images/og-default.png", width: 1200, height: 630, alt: `Contact ${SITE.name}` }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `Contact Us — Request a Quote | ${SITE.name}`,
+    description: DESCRIPTION,
+    images: ["/images/og-default.png"],
+  },
 };
+
+const jsonLd = graph(
+  organizationSchema(),
+  contactPageSchema(DESCRIPTION),
+  breadcrumbSchema([
+    { name: "Home", path: "/" },
+    { name: "Contact", path: "/contact" },
+  ])
+);
 
 const BRANCHES = [
   {
@@ -32,6 +59,7 @@ const BRANCHES = [
 export default function ContactPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <section className="relative overflow-hidden bg-white text-charcoal">
         <div className="hero-grid-light absolute inset-0" aria-hidden />
         <div className="hazard-stripes h-1.5 w-full" aria-hidden />

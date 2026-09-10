@@ -9,6 +9,7 @@ import {
   HOME_POPULAR_COURSES,
 } from "@/lib/courses";
 import HomeReviewsSection from "@/components/HomeReviewsSection";
+import { graph, organizationSchema, websiteSchema } from "@/lib/schema";
 
 // Home "Browse by Category" cards derive from COURSE_CATEGORIES so naming stays in
 // sync with /courses. Icons + punchy one-liners keyed by category id.
@@ -105,41 +106,9 @@ const STEPS = [
   },
 ];
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "EducationalOrganization",
-  name: "RSTL Centre",
-  url: "https://www.rstlcentre.co.za",
-  telephone: "+27107466954",
-  email: "info@rehtraining.co.za",
-  description:
-    "Accredited health and safety training, soft skills development and occupational medicals in South Africa.",
-  address: [
-    {
-      "@type": "PostalAddress",
-      streetAddress: "14 Douglas Road, Glen Austin",
-      addressLocality: "Midrand",
-      addressRegion: "Gauteng",
-      postalCode: "1685",
-      addressCountry: "ZA",
-    },
-    {
-      "@type": "PostalAddress",
-      streetAddress: "62 Lilian Ngoyi Street, Windermere",
-      addressLocality: "Durban",
-      addressRegion: "KwaZulu-Natal",
-      addressCountry: "ZA",
-    },
-    {
-      "@type": "PostalAddress",
-      streetAddress: "CNR Leads & York Road, 1st Floor Old Mutual",
-      addressLocality: "Mthatha",
-      addressRegion: "Eastern Cape",
-      addressCountry: "ZA",
-    },
-  ],
-  sameAs: ["https://www.facebook.com/rehtraining"],
-};
+// Organisation + WebSite graph. Branch nodes (one address each) come from lib/schema.ts,
+// which reads lib/site.ts, so N.A.P. lives in exactly one place.
+const jsonLd = graph(organizationSchema(), websiteSchema());
 
 export default function Home() {
   const popular = HOME_POPULAR_COURSES;

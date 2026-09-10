@@ -1,13 +1,32 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import CTABand from "@/components/CTABand";
+import { SITE } from "@/lib/site";
+import { breadcrumbSchema, graph, serviceSchema } from "@/lib/schema";
+
+const DESCRIPTION =
+  "Occupational medicals: pre-employment, working at heights, fitness to work, PDP driver, exit and annual medicals at our Midrand clinic or on site.";
 
 export const metadata: Metadata = {
   // 48 chars; template's " | RSTL Centre" brings it to exactly 62 (Google's cut-off).
   title: "Occupational Medicals — Pre-Employment & Fitness",
-  description:
-    "Occupational health medicals in South Africa: pre-employment, working at heights, fitness to work, PDP driver, exit and annual medicals — at our Midrand clinic or on-site via mobile units.",
+  description: DESCRIPTION,
   alternates: { canonical: "/medicals" },
+  openGraph: {
+    title: `Occupational Medicals — Pre-Employment & Fitness | ${SITE.name}`,
+    description: DESCRIPTION,
+    url: `${SITE.url}/medicals`,
+    siteName: SITE.name,
+    locale: "en_ZA",
+    type: "website",
+    images: [{ url: "/images/og-default.png", width: 1200, height: 630, alt: `${SITE.name} occupational medicals` }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `Occupational Medicals — Pre-Employment & Fitness | ${SITE.name}`,
+    description: DESCRIPTION,
+    images: ["/images/og-default.png"],
+  },
 };
 
 const SERVICES = [
@@ -49,6 +68,25 @@ const WAH_TESTS = [
 export default function MedicalsPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            graph(
+              serviceSchema({
+                name: "Occupational Medicals",
+                description: DESCRIPTION,
+                path: "/medicals",
+                services: SERVICES.map((s) => ({ "@type": "Offer", itemOffered: { "@type": "Service", name: s } })),
+              }),
+              breadcrumbSchema([
+                { name: "Home", path: "/" },
+                { name: "Occupational Medicals", path: "/medicals" },
+              ])
+            )
+          ),
+        }}
+      />
       <section className="relative overflow-hidden bg-white text-charcoal">
         <div className="hero-grid-light absolute inset-0" aria-hidden />
         <div className="hazard-stripes h-1.5 w-full" aria-hidden />

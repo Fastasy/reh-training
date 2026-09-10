@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import { Work_Sans, Lustria } from "next/font/google";
 import "./globals.css";
@@ -8,6 +8,7 @@ import QuoteFloat from "@/components/QuoteFloat";
 import Tracking from "@/components/Tracking";
 import { BookingProvider } from "@/components/BookingModal";
 import { GTM_ID } from "@/lib/analytics";
+import { SITE } from "@/lib/site";
 
 const workSans = Work_Sans({
   variable: "--font-work-sans",
@@ -22,25 +23,29 @@ const lustria = Lustria({
   display: "swap",
 });
 
+/** Kept for backwards compatibility with anything importing the layout's site object. */
 const site = {
-  name: "RSTL Centre",
-  url: "https://www.rstlcentre.co.za",
-  phone: "+27107466954",
-  phoneLink: "tel:+27107466954",
-  whatsapp: "27615807967",
-  email: "info@rehtraining.co.za",
+  name: SITE.name,
+  url: SITE.url,
+  phone: SITE.phoneDisplay,
+  phoneLink: `tel:${SITE.phone}`,
+  whatsapp: SITE.whatsapp,
+  email: SITE.email,
   jhb: "14 Douglas Road, Glen Austin, Midrand, Johannesburg, 1685",
   dbn: "62 Lilian Ngoyi Street, Windermere, Durban",
 };
 
+const TITLE_DEFAULT = "Accredited Health & Safety Training | RSTL Centre";
+const DESCRIPTION =
+  "Accredited health and safety training, occupational medicals and soft skills in Midrand, Durban and Mthatha. 94 courses, published prices, daily classes.";
+
 export const metadata: Metadata = {
-  metadataBase: new URL(site.url),
+  metadataBase: new URL(SITE.url),
   title: {
-    default: "Accredited Health & Safety Training | RSTL Centre",
-    template: "%s | RSTL Centre",
+    default: TITLE_DEFAULT,
+    template: `%s | ${SITE.name}`,
   },
-  description:
-    "Accredited health & safety training, soft skills courses and occupational medicals. Online, on-site and centre-based courses in Midrand, Durban & Mthatha — daily classes, no waiting period.",
+  description: DESCRIPTION,
   keywords: [
     "health and safety training South Africa",
     "working at heights training",
@@ -52,31 +57,28 @@ export const metadata: Metadata = {
     "occupational medicals",
     "RSTL Centre",
   ],
+  alternates: { canonical: "/" },
   openGraph: {
-    title: "Accredited Health & Safety Training | RSTL Centre",
-    description:
-      "Accredited health & safety courses, soft skills training and occupational medicals. Online, on-site and centre-based — daily classes, no waiting period.",
-    url: site.url,
-    siteName: site.name,
+    title: TITLE_DEFAULT,
+    description: DESCRIPTION,
+    url: SITE.url,
+    siteName: SITE.name,
+    locale: "en_ZA",
     type: "website",
     images: [
       {
-        url: "/images/og-image.png",
-        width: 1280,
-        height: 1280,
-        alt: "RSTL Centre — Accredited Health & Safety Courses",
+        url: "/images/og-default.png",
+        width: 1200,
+        height: 630,
+        alt: "RSTL Centre — accredited health and safety training in South Africa",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Accredited Health & Safety Training | RSTL Centre",
-    description:
-      "Accredited health & safety courses, soft skills training and occupational medicals.",
-    images: ["/images/og-image.png"],
-  },
-  alternates: {
-    canonical: "/",
+    title: TITLE_DEFAULT,
+    description: DESCRIPTION,
+    images: ["/images/og-default.png"],
   },
   icons: {
     icon: "/app/icon.png",
@@ -84,12 +86,19 @@ export const metadata: Metadata = {
   },
 };
 
+/** Browser chrome colour on Android/iOS matches the brand charcoal. */
+export const viewport: Viewport = {
+  themeColor: "#252423",
+  colorScheme: "light",
+};
+
 export { site };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
+    /* en-ZA, not "en": this is a South African business and hreflang signals should agree. */
     <html
-      lang="en"
+      lang="en-ZA"
       className={`${workSans.variable} ${lustria.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-cream text-charcoal">

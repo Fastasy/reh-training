@@ -1,13 +1,32 @@
 import type { Metadata } from "next";
 import CTABand from "@/components/CTABand";
 import { emailQuoteLink } from "@/lib/courses";
+import { SITE } from "@/lib/site";
+import { breadcrumbSchema, graph, serviceSchema } from "@/lib/schema";
+
+const DESCRIPTION =
+  "Practical soft skills courses in South Africa: Excel, customer service, time management, communication and presentation skills, online or at our centres.";
 
 export const metadata: Metadata = {
   // 46 chars; the layout template appends " | RSTL Centre" (14) = 60, inside Google's ~62 cut-off.
   title: "Soft Skills Courses — Excel & Customer Service",
-  description:
-    "Practical soft skills courses in South Africa: basic Excel, customer service, time management, communication and presentation skills. Online, on-site or at our Midrand, Durban & Mthatha centres.",
+  description: DESCRIPTION,
   alternates: { canonical: "/soft-skills" },
+  openGraph: {
+    title: `Soft Skills Courses — Excel & Customer Service | ${SITE.name}`,
+    description: DESCRIPTION,
+    url: `${SITE.url}/soft-skills`,
+    siteName: SITE.name,
+    locale: "en_ZA",
+    type: "website",
+    images: [{ url: "/images/og-default.png", width: 1200, height: 630, alt: `${SITE.name} soft skills courses` }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `Soft Skills Courses — Excel & Customer Service | ${SITE.name}`,
+    description: DESCRIPTION,
+    images: ["/images/og-default.png"],
+  },
 };
 
 const COURSES = [
@@ -78,6 +97,28 @@ const STEPS = [
 export default function SoftSkillsPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            graph(
+              serviceSchema({
+                name: "Soft Skills Training",
+                description: DESCRIPTION,
+                path: "/soft-skills",
+                services: COURSES.map((c) => ({
+                  "@type": "Offer",
+                  itemOffered: { "@type": "Service", name: c.title, description: c.desc },
+                })),
+              }),
+              breadcrumbSchema([
+                { name: "Home", path: "/" },
+                { name: "Soft Skills", path: "/soft-skills" },
+              ])
+            )
+          ),
+        }}
+      />
       {/* page hero */}
       <section className="relative overflow-hidden bg-white text-charcoal">
         <div className="hero-grid-light absolute inset-0" aria-hidden />

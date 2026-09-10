@@ -4,17 +4,55 @@ import Image from "next/image";
 import CourseBrowser from "@/components/CourseBrowser";
 import CTABand from "@/components/CTABand";
 import { COURSE_COUNT } from "@/lib/courses";
+import { SITE } from "@/lib/site";
+import { breadcrumbSchema, courseListSchema, graph } from "@/lib/schema";
+
+const DESCRIPTION = `Browse all ${COURSE_COUNT} accredited health and safety courses with published prices: working at heights, first aid, forklift, scaffolding, SHE Rep and more.`;
 
 export const metadata: Metadata = {
   title: "Health & Safety Courses — Prices & Booking",
-  description:
-    `Browse more than ${COURSE_COUNT} accredited health and safety courses with transparent pricing — working at heights, first aid, safety officer, forklift, scaffolding and more.`,
+  description: DESCRIPTION,
   alternates: { canonical: "/courses" },
+  openGraph: {
+    title: `Health & Safety Courses — Prices & Booking | ${SITE.name}`,
+    description: DESCRIPTION,
+    url: `${SITE.url}/courses`,
+    siteName: SITE.name,
+    locale: "en_ZA",
+    type: "website",
+    images: [
+      { url: "/images/og-default.png", width: 1200, height: 630, alt: `${SITE.name} health and safety course catalogue` },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `Health & Safety Courses — Prices & Booking | ${SITE.name}`,
+    description: DESCRIPTION,
+    images: ["/images/og-default.png"],
+  },
 };
+
+const jsonLd = graph(
+  {
+    "@type": "CollectionPage",
+    "@id": `${SITE.url}/courses#page`,
+    url: `${SITE.url}/courses`,
+    name: "Health & Safety Course Catalogue",
+    description: DESCRIPTION,
+    isPartOf: { "@id": `${SITE.url}/#website` },
+    about: { "@id": `${SITE.url}/#organization` },
+  },
+  courseListSchema(),
+  breadcrumbSchema([
+    { name: "Home", path: "/" },
+    { name: "Courses", path: "/courses" },
+  ])
+);
 
 export default function CoursesPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       {/* page hero */}
       <section className="relative overflow-hidden bg-white text-charcoal">
         <div className="hero-grid-light absolute inset-0" aria-hidden />

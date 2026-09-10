@@ -19,6 +19,8 @@ import {
 import CTABand from "@/components/CTABand";
 import AllCoursesSidebar from "@/components/AllCoursesSidebar";
 import ReviewsSection from "@/components/ReviewsSection";
+import { SITE } from "@/lib/site";
+import { breadcrumbSchema, graph, organizationSchema } from "@/lib/schema";
 
 export const dynamicParams = false;
 
@@ -55,19 +57,43 @@ function fullTitle(course: CourseWithSlug): string {
   return `${metaTitle(course)} | ${BRAND}`;
 }
 
+/** Cut at a word boundary so a description never ends mid-word. */
+function clampWords(text: string, max: number, min = 0): string {
+  if (text.length <= max) return text;
+  const cut = text.slice(0, max);
+  const lastSpace = cut.lastIndexOf(" ");
+  const keep = lastSpace > min ? lastSpace : max;
+  return cut.slice(0, keep).trim().replace(/[,;:.\-–—]$/, "");
+}
+
+/**
+ * Meta description for a course page: the client's own course copy, trimmed to Google's
+ * window at a word boundary. A few courses ship very short blurbs, so short copy gets a
+ * factual closing line instead of being padded with fluff.
+ */
+function courseDescription(
+  course: CourseWithSlug,
+  content: Awaited<ReturnType<typeof getCoursePageContent>>,
+  modes: ReturnType<typeof courseDeliveryModes>
+): string {
+  const MIN = 120;
+  const MAX = 158;
+  const body = content?.description?.replace(/[•\s]+/g, " ").trim() ?? "";
+  let desc = body ? clampWords(body, MAX, MIN) : `${course.name} training at ${SITE.name}.`;
+  if (desc.length < MIN) {
+    const price = course.price ? ` From ${course.price} per learner.` : "";
+    desc += ` Accredited course, delivered ${deliverySentence(modes)}.${price}`;
+  }
+  return clampWords(desc, MAX, MIN);
+}
+
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const course = ALL_COURSES_WITH_SLUG.find((c) => c.slug === slug);
   if (!course) return {};
   const content = getCoursePageContent(course.name);
   const modes = courseDeliveryModes(course.categoryId, course.name);
-  const desc =
-    content?.description
-      ?.replace(/[•\s]+/g, " ")
-      .slice(0, 155) ||
-    `${course.name} training at RSTL Centre. Accredited, delivered ${deliverySentence(
-      modes
-    )}. Email us for a quote.`;
+  const desc = courseDescription(course, content, modes);
   return {
     title: metaTitle(course),
     description: desc,
@@ -75,10 +101,17 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     openGraph: {
       title: fullTitle(course),
       description: desc,
-      url: `https://www.rstlcentre.co.za${courseUrl(course.name)}`,
+      url: `${SITE.url}${courseUrl(course.name)}`,
       type: "website",
-      siteName: "RSTL Centre",
-      images: [{ url: "/images/og-image.png", width: 1280, height: 1280, alt: "RSTL Centre" }],
+      siteName: SITE.name,
+      locale: "en_ZA",
+      // No images here on purpose: app/courses/[slug]/opengraph-image.tsx supplies a
+      // per-course card, and setting images explicitly would override it.
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: fullTitle(course),
+      description: desc,
     },
   };
 }
@@ -86,69 +119,51 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 function jsonLd(course: CourseWithSlug, content: Awaited<ReturnType<typeof getCoursePageContent>>) {
   const price = course.price ? course.price.replace(/[^\d]/g, "") : null;
   const modes = courseDeliveryModes(course.categoryId, course.name);
-  const graph: Record<string, unknown>[] = [
+  const nodes: Record<string, unknown>[] = [
+    // The organisation node is repeated here (same @id as on the home page) so the
+    // provider/branch references below resolve inside this document.
+    organizationSchema(),
     {
       "@type": "Course",
+      "@id": `${SITE.url}${courseUrl(course.name)}#course`,
       name: `${course.name} Training Course`,
       description: content?.description ?? `${course.name} training in South Africa.`,
-      provider: {
-        "@type": "EducationalOrganization",
-        name: "RSTL Centre",
-        url: "https://www.rstlcentre.co.za",
-        telephone: "+27107466954",
-        email: "info@rehtraining.co.za",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress: "14 Douglas Road, Glen Austin",
-          addressLocality: "Midrand",
-          addressRegion: "Gauteng",
-          postalCode: "1685",
-          addressCountry: "ZA",
-        },
-      },
+      url: `${SITE.url}${courseUrl(course.name)}`,
+      provider: { "@id": `${SITE.url}/#organization` },
       offers: price
         ? {
             "@type": "Offer",
             price,
             priceCurrency: "ZAR",
             availability: "https://schema.org/InStock",
-            url: `https://www.rstlcentre.co.za${courseUrl(course.name)}`,
+            url: `${SITE.url}${courseUrl(course.name)}`,
           }
         : undefined,
       hasCourseInstance: {
         "@type": "CourseInstance",
         courseMode: schemaCourseModes(modes),
-        location: [
-          {
-            "@type": "Place",
-            name: "RSTL Centre Midrand",
-            address: "14 Douglas Road, Glen Austin, Midrand, Gauteng, 1685",
+        location: SITE.branches.map((b) => ({
+          "@type": "Place",
+          name: b.name,
+          address: {
+            "@type": "PostalAddress",
+            streetAddress: b.street,
+            addressLocality: b.city,
+            addressRegion: b.region,
+            addressCountry: b.country,
           },
-          {
-            "@type": "Place",
-            name: "RSTL Centre Durban",
-            address: "62 Lilian Ngoyi Street, Windermere, Durban",
-          },
-          {
-            "@type": "Place",
-            name: "RSTL Centre Mthatha",
-            address: "CNR Leads & York Road, 1st Floor Old Mutual, Mthatha",
-          },
-        ],
+        })),
       },
     },
-    {
-      "@type": "BreadcrumbList",
-      itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.rstlcentre.co.za/" },
-        { "@type": "ListItem", position: 2, name: "Courses", item: "https://www.rstlcentre.co.za/courses" },
-        { "@type": "ListItem", position: 3, name: course.name },
-      ],
-    },
+    breadcrumbSchema([
+      { name: "Home", path: "/" },
+      { name: "Courses", path: "/courses" },
+      { name: course.name, path: courseUrl(course.name) },
+    ]),
   ];
 
   if (content?.faqs?.length) {
-    graph.push({
+    nodes.push({
       "@type": "FAQPage",
       mainEntity: content.faqs.map((f) => ({
         "@type": "Question",
@@ -158,7 +173,7 @@ function jsonLd(course: CourseWithSlug, content: Awaited<ReturnType<typeof getCo
     });
   }
 
-  return { "@context": "https://schema.org", "@graph": graph };
+  return graph(...nodes);
 }
 
 export default async function CoursePage({ params }: { params: Promise<{ slug: string }> }) {
