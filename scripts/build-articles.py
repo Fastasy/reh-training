@@ -38,6 +38,26 @@ PUBLISHED: list[tuple[str, str]] = [
 FAQ_HEADINGS = {"frequently asked questions", "faqs"}
 CLOSING_PREFIXES = ("book", "get ", "talk to", "next step", "ready to")
 
+# The root layout title template appends this to every page title.
+TITLE_SUFFIX = " | RSTL Centre"
+TITLE_LIMIT = 62
+
+
+def normalise_meta_title(meta_title: str, name: str) -> str:
+    """Guarantee the rendered <title> has one brand and fits Google's window.
+
+    Two ways a draft gets this wrong: carrying its own "| RSTL" suffix, which the layout
+    template then doubles up, and running long enough that Google truncates it mid-word.
+    Cheaper to normalise here than to trust every writer to remember.
+    """
+    cleaned = re.sub(r"\s*\|\s*(RSTL|REH)[^|]*$", "", meta_title).strip()
+    if cleaned != meta_title:
+        print(f"  note: {name} metaTitle carried its own brand, stripped")
+    rendered = len(cleaned) + len(TITLE_SUFFIX)
+    if rendered > TITLE_LIMIT:
+        print(f"  WARN: {name} renders a {rendered} char title (> {TITLE_LIMIT}): {cleaned!r}")
+    return cleaned
+
 
 def parse_frontmatter(block: str) -> dict:
     out: dict = {}
@@ -191,7 +211,7 @@ def parse_article(path: Path, date: str) -> dict:
     return {
         "slug": fm["slug"],
         "title": fm["title"],
-        "metaTitle": fm["metaTitle"],
+        "metaTitle": normalise_meta_title(str(fm["metaTitle"]), path.name),
         "metaDescription": fm["metaDescription"],
         "primaryKeyword": fm["primaryKeyword"],
         "secondaryKeywords": fm.get("secondaryKeywords", []),

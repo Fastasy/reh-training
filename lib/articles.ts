@@ -50,7 +50,7 @@ export const ALL_ARTICLES: Article[] = [
   {
     slug: "safety-training-mthatha",
     title: "Safety Training in Mthatha: What Local Employers Actually Need in 2026",
-    metaTitle: "Safety Training in Mthatha: Local Employer Guide",
+    metaTitle: "Safety Training in Mthatha: Employer Guide",
     metaDescription: "Safety training in Mthatha by employer type: construction, retail, government, health, education and forestry, plus the legal duty each sector carries.",
     primaryKeyword: "safety training mthatha",
     secondaryKeywords: ["health and safety training mthatha", "safety courses mthatha", "training centre mthatha", "SHE Rep course Mthatha"],
@@ -223,7 +223,7 @@ export const ALL_ARTICLES: Article[] = [
   {
     slug: "she-rep-duties-appointment-letter",
     title: "SHE Rep Duties and Responsibilities in South Africa (and How to Appoint One)",
-    metaTitle: "SHE Rep Duties and How to Appoint One in South Africa",
+    metaTitle: "SHE Rep Duties and How to Appoint One",
     metaDescription: "SHE Rep duties under the OHS Act: who must be appointed, how many are needed, what the employer provides, and what an appointment letter has to contain.",
     primaryKeyword: "she rep duties",
     secondaryKeywords: ["she rep duties and responsibilities", "she rep duties in construction", "she rep appointment letter template", "she rep functions"],
@@ -316,7 +316,7 @@ export const ALL_ARTICLES: Article[] = [
   {
     slug: "forklift-licence-south-africa-cost",
     title: "How Much Does a Forklift Licence Cost in South Africa? (2026 Guide)",
-    metaTitle: "Forklift Licence Cost in South Africa 2026 | RSTL",
+    metaTitle: "Forklift Licence Cost in South Africa 2026",
     metaDescription: "How much does a forklift licence cost in South Africa in 2026? RSTL Centre charges R1,500 for the one day course, with published prices from about R600.",
     primaryKeyword: "how much does a forklift licence cost in south africa",
     secondaryKeywords: ["forklift licence training", "forklift operator course fees", "forklift licence south africa", "forklift operator course"],
