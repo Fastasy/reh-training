@@ -31,8 +31,32 @@ Verified: `tsc --noEmit` clean, `next build` clean (104 pages), 0 doubled titles
 | `facebook.com/rehtraining`, `tiktok.com/@rehsafetytraining` | Client-owned pages. Changing the URL before they rename the page creates broken social links in the footer. |
 | GTM events `reh:quote`, `reh:review` and the `reh-reviews` blob store | Live interface contracts with the client's GTM container (GTM-T8J7SZQB) / Vercel storage. Renaming them silently breaks conversion tracking. |
 | Vercel project `reh-training` | Renaming changes the preview URL (`reh-training.vercel.app`). Cosmetic; do it when everything else is settled. |
-| `public/images/reh-logo.png`, `og-image.png`, `app/icon.png`, `apple-icon.png` | REH branding is baked into the pixels. Awaiting the client's new logo. |
+| `public/images/reh-logo.png` (nav + footer), `public/images/og-image.png`, `accreditations.jpg` | REH branding is baked into the pixels. Awaiting the client's new logo. The favicon/app icons are off this list — see below. |
 | `.firecrawl/**` scrape archives | Historical record of the old site's content. |
+
+## Favicon / app icons (fixed 2026-09-10)
+
+The site was still serving the **create-next-app default `app/favicon.ico` — the black
+circle with the white Vercel triangle** — because nobody had replaced it. The app icons
+`public/app/icon.png` + `apple-icon.png` were the legacy REH lockup, which is illegible
+at 16px anyway.
+
+Interim mark (until the client's art lands): charcoal `#252423` tile, cream `#f5f0ec`
+serif `R`, red `#e21c14` base band — the same language as `og-default.png`, and the same
+charcoal as the `themeColor`, so the Android chrome bar and the tile agree.
+`scripts/make-favicon.py` generates the whole set (`--check` reports without writing).
+
+Icons now live under Next's **file conventions** in `app/`: `favicon.ico`, `icon.png`
+(512), `apple-icon.png` (180). Next emits them as content-hashed URLs
+(`/icon.png?icon.0cbo39okelpye.png`), so replacing an icon busts the browser and crawler
+cache automatically. The previous hand-rolled `/app/icon.png` path was **unhashed** and
+would have kept serving the old icon after any swap; `public/app/` is deleted and the
+old URLs 404. Because of that, the explicit `icons` block was removed from
+`app/layout.tsx` — do not re-add one pointing at `/public` paths.
+
+Verified 2026-09-10: `tsc --noEmit` clean, `next build` clean, served
+`/favicon.ico`, `/icon.png`, `/apple-icon.png` byte-identical to the files on disk,
+`.ico` holds six PNG-compressed frames (16/32/48/64/128/256), old `/app/*` URLs 404.
 
 ## Legacy URL map (for the 301s)
 
@@ -58,7 +82,9 @@ The old Zoho site is **still live** on `www.rehtraining.co.za` (verified 2026-09
 
 **Code / deploy**
 - [x] Rebrand committed and pushed (Vercel auto-deploys)
-- [ ] Client sends logo files → replace `public/images/reh-logo.png` (+ alt text already updated), regenerate `og-image.png` (1200×630 ideally, currently 1280×1280), `app/icon.png`, `apple-icon.png`; eyeball `accreditations.jpg`
+- [x] Favicon + app icons: replaced the create-next-app default (Vercel triangle) and the legacy REH lockup with the interim RSTL tile — `scripts/make-favicon.py` writes `app/favicon.ico` (16/32/48/64/128/256), `app/icon.png` (512), `app/apple-icon.png` (180)
+- [ ] Client sends logo files → replace `public/images/reh-logo.png` (nav + footer; alt text already updated), regenerate `og-image.png` (1200×630 ideally, currently 1280×1280) and the icon set via `scripts/make-favicon.py`; eyeball `accreditations.jpg`
+- [ ] Request favicon refresh in Search Console after the client's real logo lands (Google caches favicons separately from page data)
 - [ ] Register `rstlcentre.co.za` (unregistered as of 2026-09-10; `rstl.co.za` is taken by a third party)
 - [ ] Add `rstlcentre.co.za` + `www.rstlcentre.co.za` as domains in the Vercel project; DNS to Vercel
 - [ ] Keep `rehtraining.co.za` pointed at Vercel too (the 308 in `next.config.ts` only fires once the host resolves here)

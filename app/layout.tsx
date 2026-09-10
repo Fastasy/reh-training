@@ -80,10 +80,11 @@ export const metadata: Metadata = {
     description: DESCRIPTION,
     images: ["/images/og-default.png"],
   },
-  icons: {
-    icon: "/app/icon.png",
-    apple: "/app/apple-icon.png",
-  },
+  // Icons come from the file conventions in this directory: app/favicon.ico,
+  // app/icon.png (512) and app/apple-icon.png (180). Next emits them as
+  // content-hashed URLs, so a new icon busts the browser/crawler cache on its own.
+  // Do NOT re-add an `icons` block pointing at hand-rolled /public paths -- those
+  // URLs are unhashed and will keep serving the old icon after a swap.
 };
 
 /** Browser chrome colour on Android/iOS matches the brand charcoal. */
