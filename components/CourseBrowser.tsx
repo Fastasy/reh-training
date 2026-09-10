@@ -1,12 +1,52 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { COURSE_CATEGORIES, ALL_COURSES } from "@/lib/courses";
 import CourseCard from "@/components/CourseCard";
 
+const CATEGORY_IDS = COURSE_CATEGORIES.map((c) => c.id);
+
+/**
+ * ?category=<id> is how the home page's "Browse by Category" cards hand a filter
+ * over to this page, e.g. /courses?category=emergency-courses. Unknown values are
+ * ignored so a stale or hand-typed link falls back to the full catalogue.
+ */
+function categoryFromParam(value: string | null): string | null {
+  return value && CATEGORY_IDS.includes(value) ? value : null;
+}
+
 export default function CourseBrowser() {
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+  const urlCategory = categoryFromParam(searchParams.get("category"));
+
   const [query, setQuery] = useState("");
-  const [activeCat, setActiveCat] = useState<string | null>(null);
+  const [activeCat, setActiveCat] = useState<string | null>(urlCategory);
+  const barRef = useRef<HTMLDivElement>(null);
+
+  // The URL is the source of truth: home-page cards, shared links and back/forward
+  // all land on the right filter.
+  useEffect(() => {
+    setActiveCat(urlCategory);
+    setQuery("");
+  }, [urlCategory]);
+
+  // Landed here from a category card? Put the catalogue in view instead of the page
+  // hero above it. Runs once per arrival; the card links navigate with scroll={false}
+  // so this is the only thing moving the page.
+  useEffect(() => {
+    if (!urlCategory) return;
+    barRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  const selectCategory = (id: string | null) => {
+    setActiveCat(id);
+    setQuery("");
+    router.replace(id ? `${pathname}?category=${id}` : pathname, { scroll: false });
+  };
 
   const results = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -20,10 +60,12 @@ export default function CourseBrowser() {
     );
   }, [query]);
 
+  const activeCategory = COURSE_CATEGORIES.find((c) => c.id === activeCat) ?? null;
+
   return (
     <div>
       {/* search + filter bar */}
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div ref={barRef} className="mx-auto max-w-7xl scroll-mt-28 px-4 sm:px-6 lg:px-8">
         <div className="rounded-2xl border border-line bg-paper p-5 shadow-sm">
           <div className="relative">
             <svg
@@ -52,10 +94,7 @@ export default function CourseBrowser() {
                 <button
                   key={cat.id}
                   type="button"
-                  onClick={() => {
-                    setActiveCat(activeCat === cat.id ? null : cat.id);
-                    setQuery("");
-                  }}
+                  onClick={() => selectCategory(isActive ? null : cat.id)}
                   aria-pressed={isActive}
                   className={`tile-shine flex min-h-[86px] flex-col items-center justify-between gap-2 rounded-2xl px-3 py-3.5 text-center transition-all ${
                     isActive
@@ -98,9 +137,27 @@ export default function CourseBrowser() {
         </div>
       )}
 
+      {/* active filter notice — only when the catalogue is filtered by category */}
+      {!results && activeCategory && (
+        <div className="mx-auto mt-10 flex max-w-7xl flex-wrap items-center gap-x-3 gap-y-2 px-4 sm:px-6 lg:px-8">
+          <p className="text-sm text-charcoal/70">
+            Showing{" "}
+            <span className="font-bold text-charcoal">{activeCategory.title}</span> —{" "}
+            {activeCategory.courses.length} course{activeCategory.courses.length === 1 ? "" : "s"}
+          </p>
+          <button
+            type="button"
+            onClick={() => selectCategory(null)}
+            className="text-sm font-bold text-brand underline decoration-brand/30 underline-offset-4 transition-colors hover:text-brand-dark"
+          >
+            Show all courses
+          </button>
+        </div>
+      )}
+
       {/* category sections */}
       {!results && (
-        <div className="mt-14 space-y-16">
+        <div className={`${activeCategory ? "mt-8" : "mt-14"} space-y-16`}>
           {COURSE_CATEGORIES.filter((c) => !activeCat || c.id === activeCat).map((cat) => (
             <section key={cat.id} id={cat.id} className="scroll-mt-32">
               <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

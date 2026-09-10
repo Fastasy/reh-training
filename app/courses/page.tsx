@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import Image from "next/image";
 import CourseBrowser from "@/components/CourseBrowser";
 import CTABand from "@/components/CTABand";
@@ -76,7 +77,17 @@ export default function CoursesPage() {
       </section>
 
       <div className="bg-cream py-14 lg:py-16">
-        <CourseBrowser />
+        {/* CourseBrowser reads ?category= (the home-page category cards link to it),
+            so it needs a Suspense boundary to keep this route statically rendered. */}
+        <Suspense
+          fallback={
+            <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+              <div className="h-44 rounded-2xl border border-line bg-paper shadow-sm" />
+            </div>
+          }
+        >
+          <CourseBrowser />
+        </Suspense>
       </div>
 
       <CTABand

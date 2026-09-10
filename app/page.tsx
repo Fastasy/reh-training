@@ -239,7 +239,8 @@ export default function Home() {
             {CATEGORY_CARDS.map((cat) => (
               <Link
                 key={cat.id}
-                href="/courses"
+                href={`/courses?category=${cat.id}`}
+                scroll={false}
                 className="group flex flex-col rounded-2xl border border-line bg-paper p-6 transition-all hover:-translate-y-1 hover:border-brand/40 hover:shadow-xl hover:shadow-charcoal/10"
               >
                 <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-charcoal text-cream transition-colors group-hover:bg-brand">
