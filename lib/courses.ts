@@ -1,5 +1,7 @@
 // RSTL Centre — full course catalogue.
-// Sources: client price list PDF (2026-08) + the legacy rehtraining.co.za/courses scrape.
+// Sources: client price list PDF (2026-08), SM Training trades pricelist (2026-09),
+// and the client's Machines & Plant master list (34 courses, 2026-09-10) + the legacy
+// rehtraining.co.za/courses scrape. Prices are per learner; group rates are negotiable.
 // price: "R650" string | null (null = "Request a Quote").
 // popular: true = featured on home page.
 import unitStandardsRaw from "./course-content/unit-standards.json";
@@ -85,22 +87,22 @@ export const COURSE_CATEGORIES: CourseCategory[] = [
     blurb:
       "Operator competence for forklifts, excavators, TLBs, cranes and earthmoving plant, plus safe use of hand and power tools — protecting people and plant.",
     courses: [
-      { name: "Forklift Operator", duration: "To Quote", price: null },
-      { name: "Excavator Operator", duration: "To Quote", price: null },
-      { name: "TLB Operator", duration: "To Quote", price: null },
-      { name: "Grader Operator", duration: "To Quote", price: null },
-      { name: "Bulldozer Operator", duration: "To Quote", price: null },
-      { name: "Tipper Truck Operator", duration: "To Quote", price: null },
-      { name: "Truck Mounted Crane", duration: "To Quote", price: null },
-      { name: "Tower Crane Operator", duration: "To Quote", price: null },
-      { name: "Roller Operator", duration: "To Quote", price: null },
-      { name: "Bobcat (Skid Steer Loader) Operator", duration: "To Quote", price: null },
-      { name: "Operate a Front-End Loader", duration: "To Quote", price: null },
-      { name: "Tractor Operator", duration: "To Quote", price: null },
+      { name: "Forklift Operator", duration: "To Quote", price: "R1500" },
+      { name: "Excavator Operator", duration: "To Quote", price: "R5000" },
+      { name: "TLB Operator", duration: "To Quote", price: "R4500" },
+      { name: "Grader Operator", duration: "To Quote", price: "R5500" },
+      { name: "Bulldozer Operator", duration: "To Quote", price: "R5500" },
+      { name: "Tipper Truck Operator", duration: "To Quote", price: "R4500" },
+      { name: "Truck Mounted Crane", duration: "To Quote", price: "R5000" },
+      { name: "Tower Crane Operator", duration: "To Quote", price: "R5500" },
+      { name: "Roller Operator", duration: "To Quote", price: "R4500" },
+      { name: "Bobcat (Skid Steer Loader) Operator", duration: "To Quote", price: "R3500" },
+      { name: "Operate a Front-End Loader", duration: "To Quote", price: "R5000" },
+      { name: "Tractor Operator", duration: "To Quote", price: "R4000" },
       { name: "Banksman", duration: "To Quote", price: null },
-      { name: "Articulated Dump Truck (ADT)", duration: "To Quote", price: null },
-      { name: "Water Tanker Operator", duration: "To Quote", price: null },
-      { name: "Rigid Body Dump Truck", duration: "To Quote", price: null },
+      { name: "Articulated Dump Truck (ADT)", duration: "To Quote", price: "R5500" },
+      { name: "Water Tanker Operator", duration: "To Quote", price: "R4500" },
+      { name: "Rigid Body Dump Truck", duration: "To Quote", price: "R6500" },
       { name: "Hand & Power Tools Safety", duration: "1 Day", price: "R800", popular: true },
       { name: "Power (Electrical) Tools", duration: "1 Day", price: "R700" },
       { name: "Manual (Hand) Tools", duration: "1 Day", price: "R700" },
@@ -125,13 +127,13 @@ export const COURSE_CATEGORIES: CourseCategory[] = [
       { name: "Scaffolding Inspector", duration: "1 Day", price: "R700", popular: true },
       { name: "Scaffolding Supervisor", duration: "1 Day", price: "R700" },
       { name: "Ladder Inspector", duration: "1 Day", price: "R700" },
-      { name: "Cherry Picker Operator", duration: "1 Day", price: null },
+      { name: "Cherry Picker Operator", duration: "1 Day", price: "R4500" },
       { name: "Basic Rigging & Slinging", duration: "1 Day", price: "R1500" },
       { name: "Advanced Rigging & Slinging", duration: "4 Days", price: "R3500" },
       { name: "Confined Space Entry", duration: "1 Day", price: null },
       { name: "Confined Space Rescue", duration: "1 Day", price: null },
       { name: "Safe Use of Breathing Apparatus", duration: "1 Day", price: "R800" },
-      { name: "Mobile Elevating Work Platform (MEWP)", duration: "1 Day", price: null },
+      { name: "Mobile Elevating Work Platform (MEWP)", duration: "1 Day", price: "R4500" },
     ],
   },
   {
