@@ -3,6 +3,7 @@ import path from "node:path";
 import type { MetadataRoute } from "next";
 import { ALL_COURSES_WITH_SLUG } from "@/lib/slugs";
 import { ALL_COURSES } from "@/lib/courses";
+import { ALL_ARTICLES, articleUrl } from "@/lib/articles";
 
 /**
  * Canonical origin. Every URL here must be the same host the pages declare as their
@@ -100,6 +101,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.7,
     },
+    {
+      // Article pages share one content file, so the index takes the same lastmod as its
+      // pages: publishing an article means both genuinely changed.
+      url: `${BASE}/articles`,
+      lastModified: newestMtime(["lib/articles.ts"]),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
   ];
 
   // 404/500, /_not-found and the /api/reviews route are deliberately absent, as are
@@ -112,5 +121,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: POPULAR.has(c.name) ? 0.8 : 0.7,
   }));
 
-  return [...staticRoutes, ...courseRoutes];
+  const articleRoutes: MetadataRoute.Sitemap = ALL_ARTICLES.map((a) => ({
+    url: `${BASE}${articleUrl(a)}`,
+    lastModified: newestMtime(["lib/articles.ts"]),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  return [...staticRoutes, ...courseRoutes, ...articleRoutes];
 }
