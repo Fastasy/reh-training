@@ -1,7 +1,7 @@
-// Google Tag Manager + conversion-event tracking for REH Safety Training.
+// Google Tag Manager + conversion-event tracking for RSTL Centre.
 //
 // The client's existing GTM container (GTM-T8J7SZQB) is installed on the OLD
-// Zoho site (www.rehtraining.co.za) and holds their Google Ads conversion tags
+// Zoho site (legacy www.rehtraining.co.za) and holds their Google Ads conversion tags
 // + GA4 property. Installing the SAME container here keeps every Ads/GA tag
 // working after the domain flips to the new site — no reconfiguration on the
 // client's side.

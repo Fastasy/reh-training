@@ -10,7 +10,7 @@ import {
   type ReactNode,
 } from "react";
 import CourseSelect from "./CourseSelect";
-import { REH_EMAIL } from "@/lib/courses";
+import { RSTL_EMAIL } from "@/lib/courses";
 import { pushEvent } from "@/lib/analytics";
 
 type BookingContextType = {
@@ -134,7 +134,7 @@ export function BookingProvider({ children }: { children: ReactNode }) {
 
     const subject = `Training Quotation Request - ${company.trim() || courseList || "New enquiry"}`;
     const body = [
-      "Hi REH Safety Training,",
+      "Hi RSTL Centre,",
       "",
       "Please send a quotation for the following training:",
       "",
@@ -158,7 +158,7 @@ export function BookingProvider({ children }: { children: ReactNode }) {
       .filter((l) => l !== "")
       .join("\n");
 
-    const url = `mailto:${REH_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const url = `mailto:${RSTL_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     // Primary conversion event for Google Ads — fire BEFORE navigating so it's
     // never lost. Course list + company let the client segment quote requests
     // by course in GA4/Ads.
@@ -202,7 +202,7 @@ export function BookingProvider({ children }: { children: ReactNode }) {
               <h2 className="font-display text-xl text-charcoal">Request a Booking Quotation</h2>
               <p className="text-xs text-charcoal/60">
                 We&apos;ll open your email app with your details pre-filled to{" "}
-                <span className="font-semibold text-charcoal">{REH_EMAIL}</span>. A training advisor replies fast.
+                <span className="font-semibold text-charcoal">{RSTL_EMAIL}</span>. A training advisor replies fast.
               </p>
             </div>
             <button
@@ -230,11 +230,11 @@ export function BookingProvider({ children }: { children: ReactNode }) {
                 Attach your training matrix if you have one, then hit send. If your email app
                 didn&apos;t open, email{" "}
                 <a
-                  href={`mailto:${REH_EMAIL}?subject=Training%20Quotation%20Request`}
+                  href={`mailto:${RSTL_EMAIL}?subject=Training%20Quotation%20Request`}
                   onClick={(e) => e.stopPropagation()}
                   className="font-semibold text-brand"
                 >
-                  {REH_EMAIL}
+                  {RSTL_EMAIL}
                 </a>{" "}
                 directly with your details.
               </p>

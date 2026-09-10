@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { ALL_COURSES_WITH_SLUG } from "@/lib/slugs";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = "https://www.rehtraining.co.za";
+  const base = "https://www.rstlcentre.co.za";
   const now = new Date();
 
   const staticRoutes: MetadataRoute.Sitemap = [

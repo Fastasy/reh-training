@@ -3,7 +3,8 @@ import Image from "next/image";
 import CTABand from "@/components/CTABand";
 
 export const metadata: Metadata = {
-  title: "Occupational Medicals — Pre-Employment, WAH & Fitness to Work",
+  // 48 chars; template's " | RSTL Centre" brings it to exactly 62 (Google's cut-off).
+  title: "Occupational Medicals — Pre-Employment & Fitness",
   description:
     "Occupational health medicals in South Africa: pre-employment, working at heights, fitness to work, PDP driver, exit and annual medicals — at our Midrand clinic or on-site via mobile units.",
   alternates: { canonical: "/medicals" },
@@ -54,7 +55,7 @@ export default function MedicalsPage() {
         <div className="relative mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8 lg:py-20">
           <div className="grid items-center gap-10 lg:grid-cols-[1.1fr_0.9fr]">
             <div>
-              <p className="text-xs font-bold uppercase tracking-[0.22em] text-brand">REH Medicals</p>
+              <p className="text-xs font-bold uppercase tracking-[0.22em] text-brand">RSTL Medicals</p>
               <h1 className="mt-3 font-display text-4xl leading-tight text-charcoal sm:text-5xl">
                 Occupational Medicals That Keep Your Workforce Fit &amp; Compliant
               </h1>
@@ -77,7 +78,7 @@ export default function MedicalsPage() {
             <div className="overflow-hidden rounded-3xl border border-line shadow-2xl shadow-charcoal/15">
               <Image
                 src="/images/medicals.jpg"
-                alt="Occupational medical assessment at REH Medicals"
+                alt="Occupational medical assessment at RSTL Medicals"
                 width={1600}
                 height={896}
                 priority
@@ -168,7 +169,7 @@ export default function MedicalsPage() {
               </h2>
               <p className="mt-4 leading-relaxed text-cream/75">
                 Working at heights medicals are mandatory for employees exposed to elevated work
-                environments. REH Medicals conducts comprehensive assessments to ensure workers are
+                environments. RSTL Medicals conducts comprehensive assessments to ensure workers are
                 fit and cleared for height work.
               </p>
               <h3 className="mt-8 font-display text-lg text-white">Who Requires This Medical</h3>

@@ -48,7 +48,7 @@ export default function Header() {
           <div className="relative h-11 w-11 overflow-hidden rounded-xl bg-white p-1.5">
             <Image
               src="/images/reh-logo.png"
-              alt="REH Safety Training logo"
+              alt="RSTL Centre logo"
               width={44}
               height={44}
               className="h-full w-full object-contain"
@@ -56,7 +56,7 @@ export default function Header() {
             />
           </div>
           <span className="leading-tight">
-            <span className="block font-display text-lg text-white sm:text-xl">REH Safety Training</span>
+            <span className="block font-display text-lg text-white sm:text-xl">RSTL Centre</span>
             <span className="block text-[11px] uppercase tracking-[0.18em] text-cream/70">
               Accredited Health &amp; Safety
             </span>

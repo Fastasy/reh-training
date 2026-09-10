@@ -23,8 +23,8 @@ const lustria = Lustria({
 });
 
 const site = {
-  name: "REH Safety Training",
-  url: "https://www.rehtraining.co.za",
+  name: "RSTL Centre",
+  url: "https://www.rstlcentre.co.za",
   phone: "+27107466954",
   phoneLink: "tel:+27107466954",
   whatsapp: "27615807967",
@@ -36,8 +36,8 @@ const site = {
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: "Accredited Health & Safety Training | REH Safety Training",
-    template: "%s | REH Safety Training",
+    default: "Accredited Health & Safety Training | RSTL Centre",
+    template: "%s | RSTL Centre",
   },
   description:
     "Accredited health & safety training, soft skills courses and occupational medicals. Online, on-site and centre-based courses in Midrand, Durban & Mthatha — daily classes, no waiting period.",
@@ -50,10 +50,10 @@ export const metadata: Metadata = {
     "forklift training",
     "soft skills training",
     "occupational medicals",
-    "REH Safety Training",
+    "RSTL Centre",
   ],
   openGraph: {
-    title: "Accredited Health & Safety Training | REH Safety Training",
+    title: "Accredited Health & Safety Training | RSTL Centre",
     description:
       "Accredited health & safety courses, soft skills training and occupational medicals. Online, on-site and centre-based — daily classes, no waiting period.",
     url: site.url,
@@ -64,13 +64,13 @@ export const metadata: Metadata = {
         url: "/images/og-image.png",
         width: 1280,
         height: 1280,
-        alt: "REH Safety Training — Accredited Health & Safety Courses",
+        alt: "RSTL Centre — Accredited Health & Safety Courses",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Accredited Health & Safety Training | REH Safety Training",
+    title: "Accredited Health & Safety Training | RSTL Centre",
     description:
       "Accredited health & safety courses, soft skills training and occupational medicals.",
     images: ["/images/og-image.png"],

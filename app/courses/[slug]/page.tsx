@@ -26,10 +26,33 @@ export function generateStaticParams() {
   return ALL_COURSES_WITH_SLUG.map((c) => ({ slug: c.slug }));
 }
 
+const BRAND = "RSTL Centre";
+/** Google truncates around here; keep the templated title under it. */
+const TITLE_MAX = 62;
+
+/** Course name with any bracketed qualifier stripped, e.g. "COIDA (Compensation …)" -> "COIDA". */
+function courseBase(course: CourseWithSlug): string {
+  return course.name.replace(/\s*\([^)]*\)/g, "").trim();
+}
+
+/**
+ * Course title WITHOUT the brand — the root layout title template appends
+ * " | RSTL Centre". (Passing a brand-suffixed string here renders the brand twice,
+ * and `absolute` would drop the template entirely.) Degrades "X Training Course" ->
+ * "X Course" so long course names still fit inside TITLE_MAX.
+ */
 function metaTitle(course: CourseWithSlug): string {
-  const base = course.name.replace(/\s*\([^)]*\)/g, "").trim();
-  const t = `${base} Training Course | REH Safety Training`;
-  return t.length <= 62 ? t : `${base} Course | REH Safety Training`.slice(0, 62);
+  const base = courseBase(course);
+  for (const suffix of [" Training Course", " Course"]) {
+    const candidate = `${base}${suffix}`;
+    if (`${candidate} | ${BRAND}`.length <= TITLE_MAX) return candidate;
+  }
+  return `${base}`.slice(0, TITLE_MAX - BRAND.length - 3).trimEnd();
+}
+
+/** Full title for contexts the root template does NOT touch (Open Graph, JSON-LD). */
+function fullTitle(course: CourseWithSlug): string {
+  return `${metaTitle(course)} | ${BRAND}`;
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
@@ -42,7 +65,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     content?.description
       ?.replace(/[•\s]+/g, " ")
       .slice(0, 155) ||
-    `${course.name} training at REH Safety Training. Accredited, delivered ${deliverySentence(
+    `${course.name} training at RSTL Centre. Accredited, delivered ${deliverySentence(
       modes
     )}. Email us for a quote.`;
   return {
@@ -50,12 +73,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     description: desc,
     alternates: { canonical: courseUrl(course.name) },
     openGraph: {
-      title: metaTitle(course),
+      title: fullTitle(course),
       description: desc,
-      url: `https://www.rehtraining.co.za${courseUrl(course.name)}`,
+      url: `https://www.rstlcentre.co.za${courseUrl(course.name)}`,
       type: "website",
-      siteName: "REH Safety Training",
-      images: [{ url: "/images/og-image.png", width: 1280, height: 1280, alt: "REH Safety Training" }],
+      siteName: "RSTL Centre",
+      images: [{ url: "/images/og-image.png", width: 1280, height: 1280, alt: "RSTL Centre" }],
     },
   };
 }
@@ -70,8 +93,8 @@ function jsonLd(course: CourseWithSlug, content: Awaited<ReturnType<typeof getCo
       description: content?.description ?? `${course.name} training in South Africa.`,
       provider: {
         "@type": "EducationalOrganization",
-        name: "REH Safety Training",
-        url: "https://www.rehtraining.co.za",
+        name: "RSTL Centre",
+        url: "https://www.rstlcentre.co.za",
         telephone: "+27107466954",
         email: "info@rehtraining.co.za",
         address: {
@@ -89,7 +112,7 @@ function jsonLd(course: CourseWithSlug, content: Awaited<ReturnType<typeof getCo
             price,
             priceCurrency: "ZAR",
             availability: "https://schema.org/InStock",
-            url: `https://www.rehtraining.co.za${courseUrl(course.name)}`,
+            url: `https://www.rstlcentre.co.za${courseUrl(course.name)}`,
           }
         : undefined,
       hasCourseInstance: {
@@ -98,17 +121,17 @@ function jsonLd(course: CourseWithSlug, content: Awaited<ReturnType<typeof getCo
         location: [
           {
             "@type": "Place",
-            name: "REH Safety Training Midrand",
+            name: "RSTL Centre Midrand",
             address: "14 Douglas Road, Glen Austin, Midrand, Gauteng, 1685",
           },
           {
             "@type": "Place",
-            name: "REH Safety Training Durban",
+            name: "RSTL Centre Durban",
             address: "62 Lilian Ngoyi Street, Windermere, Durban",
           },
           {
             "@type": "Place",
-            name: "REH Safety Training Mthatha",
+            name: "RSTL Centre Mthatha",
             address: "CNR Leads & York Road, 1st Floor Old Mutual, Mthatha",
           },
         ],
@@ -117,8 +140,8 @@ function jsonLd(course: CourseWithSlug, content: Awaited<ReturnType<typeof getCo
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.rehtraining.co.za/" },
-        { "@type": "ListItem", position: 2, name: "Courses", item: "https://www.rehtraining.co.za/courses" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.rstlcentre.co.za/" },
+        { "@type": "ListItem", position: 2, name: "Courses", item: "https://www.rstlcentre.co.za/courses" },
         { "@type": "ListItem", position: 3, name: course.name },
       ],
     },
@@ -449,7 +472,7 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
               <AllCoursesSidebar current={course.name} />
 
               <div className="rounded-2xl bg-navy p-6 text-cream">
-                <h2 className="font-display text-lg text-white">Why train with REH?</h2>
+                <h2 className="font-display text-lg text-white">Why train with RSTL?</h2>
                 <ul className="mt-4 space-y-2.5 text-sm text-cream/80">
                   {whyBullets.map((t) => (
                     <li key={t} className="flex items-start gap-2.5">

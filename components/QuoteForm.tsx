@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { REH_EMAIL } from "@/lib/courses";
+import { RSTL_EMAIL } from "@/lib/courses";
 
 const COURSE_OPTIONS = [
   "Working at Heights",
@@ -27,7 +27,7 @@ export default function QuoteForm() {
     e.preventDefault();
     const subject = `Training Quotation Request - ${course}`;
     const text = [
-      "Hi REH Safety Training,",
+      "Hi RSTL Centre,",
       "",
       "Please send a quotation for the following training:",
       "",
@@ -38,7 +38,7 @@ export default function QuoteForm() {
     ]
       .filter(Boolean)
       .join("\n");
-    window.location.href = `mailto:${REH_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(text)}`;
+    window.location.href = `mailto:${RSTL_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(text)}`;
     setSent(true);
   };
 
@@ -53,8 +53,8 @@ export default function QuoteForm() {
       <h3 className="mt-4 font-display text-xl text-charcoal">Your email app should be opening now</h3>
         <p className="mt-2 text-sm text-charcoal/70">
           If nothing happened, email us directly at{" "}
-          <a href={`mailto:${REH_EMAIL}?subject=Training%20Quotation%20Request`} className="font-semibold text-brand">
-            {REH_EMAIL}
+          <a href={`mailto:${RSTL_EMAIL}?subject=Training%20Quotation%20Request`} className="font-semibold text-brand">
+            {RSTL_EMAIL}
           </a>{" "}
           — a training advisor will get back to you fast.
         </p>

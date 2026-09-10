@@ -1,4 +1,4 @@
-// Google Reviews card — real Google Business Profile for REH Safety Training.
+// Google Reviews card — real Google Business Profile for RSTL Centre.
 // Branch (Midrand / Durban / Mthatha) is selected via the location switcher on
 // the home page; each branch has its own live Business Profile.
 // NOTE: Google has no free official widget for review cards. The keyless embed below
@@ -63,7 +63,7 @@ export default function GoogleReviewsCard({ location }: Props) {
       <div className="mt-4 overflow-hidden rounded-xl border border-line">
         <iframe
           key={loc.id}
-          title={`REH Safety Training ${loc.label} on Google Maps`}
+          title={`RSTL Centre ${loc.label} on Google Maps`}
           src={embedSrc}
           width="100%"
           height="220"

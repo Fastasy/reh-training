@@ -53,7 +53,7 @@ export const SAMPLE_REVIEWS: (Review & { sample?: boolean })[] = [
     author_name: "Pieter van der Merwe",
     rating: 5,
     comment:
-      "We use REH for all our scaffolding tickets now. Clean site, proper equipment, and they arranged the group rate without any back and forth.",
+      "We use RSTL for all our scaffolding tickets now. Clean site, proper equipment, and they arranged the group rate without any back and forth.",
     course_slug: "scaffolding-erector",
     course_name: "Scaffolding Erector",
     created_at: new Date(Date.now() - 21 * 86400000).toISOString(),

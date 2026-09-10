@@ -21,13 +21,13 @@ export default function Footer() {
               <div className="h-11 w-11 overflow-hidden rounded-xl bg-white p-1.5">
                 <Image
                   src="/images/reh-logo.png"
-                  alt="REH Safety Training logo"
+                  alt="RSTL Centre logo"
                   width={44}
                   height={44}
                   className="h-full w-full object-contain"
                 />
               </div>
-              <span className="font-display text-lg text-white">REH Safety Training</span>
+              <span className="font-display text-lg text-white">RSTL Centre</span>
             </div>
             <p className="mt-4 text-sm leading-relaxed text-cream/70">
               Accredited health &amp; safety training, soft skills courses and occupational medicals —
@@ -38,7 +38,7 @@ export default function Footer() {
                 href="https://www.facebook.com/rehtraining"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="REH Safety Training on Facebook"
+                aria-label="RSTL Centre on Facebook"
                 className="flex h-10 w-10 items-center justify-center rounded-lg bg-white/10 text-cream transition-colors hover:bg-brand"
               >
                 <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
@@ -49,7 +49,7 @@ export default function Footer() {
                 href="https://wa.me/27615807967"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="WhatsApp REH Safety Training"
+                aria-label="WhatsApp RSTL Centre"
                 className="flex h-10 w-10 items-center justify-center rounded-lg bg-white/10 text-cream transition-colors hover:bg-brand"
               >
                 <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
@@ -60,7 +60,7 @@ export default function Footer() {
                 href="https://www.tiktok.com/@rehsafetytraining"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="REH Safety Training on TikTok"
+                aria-label="RSTL Centre on TikTok"
                 className="flex h-10 w-10 items-center justify-center rounded-lg bg-white/10 text-cream transition-colors hover:bg-brand"
               >
                 <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
@@ -120,7 +120,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-6 text-xs text-cream/50 sm:flex-row">
-          <p>© {new Date().getFullYear()} REH Safety Training. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} RSTL Centre. All rights reserved.</p>
           <p>
             Website by{" "}
             <a

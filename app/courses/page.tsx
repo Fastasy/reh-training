@@ -52,7 +52,7 @@ export default function CoursesPage() {
               <div className="relative overflow-hidden rounded-3xl border-2 border-white shadow-2xl shadow-charcoal/15">
                 <Image
                   src="/images/ohs-consulting.jpg"
-                  alt="Occupational health and safety training and consulting with REH Safety Training"
+                  alt="Occupational health and safety training and consulting with RSTL Centre"
                   width={814}
                   height={458}
                   priority

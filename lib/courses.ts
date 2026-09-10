@@ -1,5 +1,5 @@
-// REH Safety Training — full course catalogue.
-// Sources: REH price list PDF (2026-08, client-provided) + rehtraining.co.za/courses scrape.
+// RSTL Centre — full course catalogue.
+// Sources: client price list PDF (2026-08) + the legacy rehtraining.co.za/courses scrape.
 // price: "R650" string | null (null = "Request a Quote").
 // popular: true = featured on home page.
 import unitStandardsRaw from "./course-content/unit-standards.json";
@@ -203,11 +203,11 @@ export const HOME_POPULAR_COURSES = POPULAR_ORDER.map((name) => {
 
 export const COURSE_COUNT = ALL_COURSES.length;
 
-export const REH_EMAIL = "info@rehtraining.co.za";
+export const RSTL_EMAIL = "info@rehtraining.co.za";
 
 export function emailQuoteLink(courseName?: string): string {
   const subject = courseName
     ? `Training Quotation Request - ${courseName}`
     : "Training Quotation Request";
-  return `mailto:${REH_EMAIL}?subject=${encodeURIComponent(subject)}`;
+  return `mailto:${RSTL_EMAIL}?subject=${encodeURIComponent(subject)}`;
 }

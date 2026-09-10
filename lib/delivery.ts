@@ -1,4 +1,4 @@
-// Which delivery modes REH actually offers, per course category (and a few
+// Which delivery modes RSTL actually offers, per course category (and a few
 // per-course overrides). Practical operator/artisan courses (plant, tools,
 // construction, plumbing, heights, fire) cannot be completed online — the theory
 // part may be, but the course as a whole runs on-site or at a centre.

@@ -108,8 +108,8 @@ const STEPS = [
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "EducationalOrganization",
-  name: "REH Safety Training",
-  url: "https://www.rehtraining.co.za",
+  name: "RSTL Centre",
+  url: "https://www.rstlcentre.co.za",
   telephone: "+27107466954",
   email: "info@rehtraining.co.za",
   description:
@@ -155,7 +155,7 @@ export default function Home() {
       <section className="relative isolate overflow-hidden bg-charcoal text-cream">
         <Image
           src="/images/hero-training.jpg"
-          alt="Safety training course in session at REH Safety Training"
+          alt="Safety training course in session at RSTL Centre"
           fill
           priority
           sizes="100vw"
@@ -285,11 +285,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ============ WHY REH ============ */}
+      {/* ============ WHY RSTL ============ */}
       <section className="bg-charcoal py-16 text-cream lg:py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeading
-            eyebrow="Why REH Safety Training"
+            eyebrow="Why RSTL Centre"
             title="Training That Fits Your Business"
             sub="We specialise in industry-recognised health and safety courses designed to empower individuals and organisations — led by experts, with practical outcomes."
             dark
@@ -419,7 +419,7 @@ export default function Home() {
               <div className="overflow-hidden rounded-3xl shadow-xl shadow-charcoal/15">
                 <Image
                   src="/images/medicals.jpg"
-                  alt="Occupational medical assessment at REH Medicals"
+                  alt="Occupational medical assessment at RSTL Medicals"
                   width={1600}
                   height={896}
                   className="h-full w-full object-cover"
@@ -537,14 +537,14 @@ export default function Home() {
                 Our Accreditations &amp; Professional Bodies
               </h2>
               <p className="mt-4 leading-relaxed text-cream/75">
-                REH Safety Training forms part of the SM Safety and Technical Learning Group, one of
+                RSTL Centre forms part of the SM Safety and Technical Learning Group, one of
                 South Africa&apos;s established providers of OHS training and auditing.
               </p>
             </div>
             <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
               <Image
                 src="/images/accreditations.jpg"
-                alt="REH Safety Training accreditation and professional body logos including QCTO"
+                alt="RSTL Centre accreditation and professional body logos including QCTO"
                 width={1264}
                 height={162}
                 className="h-auto w-full object-contain"

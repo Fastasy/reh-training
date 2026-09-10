@@ -3,7 +3,8 @@ import CTABand from "@/components/CTABand";
 import { emailQuoteLink } from "@/lib/courses";
 
 export const metadata: Metadata = {
-  title: "Soft Skills Courses — Excel, Customer Service & Time Management",
+  // 46 chars; the layout template appends " | RSTL Centre" (14) = 60, inside Google's ~62 cut-off.
+  title: "Soft Skills Courses — Excel & Customer Service",
   description:
     "Practical soft skills courses in South Africa: basic Excel, customer service, time management, communication and presentation skills. Online, on-site or at our Midrand, Durban & Mthatha centres.",
   alternates: { canonical: "/soft-skills" },

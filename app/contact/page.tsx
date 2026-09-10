@@ -4,7 +4,7 @@ import QuoteForm from "@/components/QuoteForm";
 export const metadata: Metadata = {
   title: "Contact Us — Request a Quote",
   description:
-    "Contact REH Safety Training for quotes and bookings: email info@rehtraining.co.za, call 010 746 6954, or visit our Midrand, Durban or Mthatha training centres.",
+    "Contact RSTL Centre for quotes and bookings: email info@rehtraining.co.za, call 010 746 6954, or visit our Midrand, Durban or Mthatha training centres.",
   alternates: { canonical: "/contact" },
 };
 

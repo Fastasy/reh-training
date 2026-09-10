@@ -6,7 +6,7 @@ import ReviewsSection from "./ReviewsSection";
 import { GOOGLE_LOCATIONS, getGoogleLocation } from "@/lib/googleLocations";
 
 // Home-page reviews + location section. The three centred buttons at the top let
-// visitors switch between REH's Google Business Profiles (Midrand / Durban /
+// visitors switch between RSTL's Google Business Profiles (Midrand / Durban /
 // Mthatha) — each branch has its own profile, map pin and review link.
 export default function HomeReviewsSection() {
   const [activeId, setActiveId] = useState<string>("midrand");
@@ -92,7 +92,7 @@ export default function HomeReviewsSection() {
           </div>
           <div id="site-reviews" className="scroll-mt-32">
             <ReviewsSection
-              title="What clients say about REH Safety Training"
+              title="What clients say about RSTL Centre"
               limit={9}
               gridClass="sm:grid-cols-2"
             />
