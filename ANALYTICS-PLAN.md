@@ -55,6 +55,31 @@ visible rather than silently inflating the conversion count.
 On a lead-gen site that silently drops a large share of events. Through `/ph` the
 blocker never sees the real host.
 
+## Deployed and verified live (2026-09-10)
+
+Commit `3ef5967` → production. Verified against `https://www.rstlcentre.co.za`, not
+against localhost:
+
+| Check | Result |
+|---|---|
+| Unauthenticated `GET /api/quote` | **401** (route live, fails closed) |
+| `POST /api/quote` valid lead | **201**, real id stored |
+| Authenticated `GET /api/quote` | returned the stored lead (read-back confirmed) |
+| `POST /api/quote` missing phone | **400** (validation live) |
+| `POST /ph/decide?v=3` with the project token | **200 `application/json`**, valid config, `requestId` present |
+| Project token inlined in the live bundle | present in `/_next/static/immutable/chunks/2pll717ja-yei.js` |
+
+Probe leads were deleted afterwards; the live endpoint reports `count: 0`.
+
+**PostHog region is US.** The token returns 200 on `us.i.posthog.com` and **401 on
+`eu.i.posthog.com`**, confirming the `/ph` rewrites point at the right host. Re-check
+this if the project is ever recreated in another region.
+
+**Readiness gotcha when verifying a deploy:** do NOT wait for "a chunk reference appears in
+the HTML" — the old build has those too, so the check passes immediately and you test the
+previous deployment. Wait for `/api/quote` to stop returning **404** (401 = the new route is
+live instead).
+
 ## Outstanding — client's Google account (no code required)
 
 ### 1. Create the GA4 property and add it as a Google tag destination
@@ -92,18 +117,25 @@ and the display name to `rstlcentre.co.za`.
 
 ## Environment variables
 
-Currently unset — PostHog stays off and events reach GTM only (graceful, by design).
+Set in Vercel (Production, Preview **and** Development) as of 2026-09-10.
 
-| Variable | Where | Notes |
-|---|---|---|
-| `NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN` | Vercel (Production + Preview) and `.env.local` | Public by design; `phc_…`. Changing it needs a **redeploy** — `NEXT_PUBLIC_*` is inlined at build time. |
-| `NEXT_PUBLIC_POSTHOG_HOST` | same | `https://us.i.posthog.com` |
-| `QUOTE_ADMIN_TOKEN` | Vercel (Production) | Secret. Unset ⇒ `/api/quote` GET returns 401 to everyone. |
+| Variable | Value / Notes |
+|---|---|
+| `NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN` | `phc_zwA6…` (US project). Public by design; changing it needs a **redeploy** — `NEXT_PUBLIC_*` is inlined at build time. |
+| `NEXT_PUBLIC_POSTHOG_HOST` | `https://us.i.posthog.com` |
+| `QUOTE_ADMIN_TOKEN` | Secret, generated 2026-09-10. Stored in Vercel and in `.env.local` (gitignored). Unset ⇒ `GET /api/quote` returns 401 to everyone. |
+| `BLOB_READ_WRITE_TOKEN` | Pre-existing (also backs `/api/reviews`). |
+
+To read the leads:
 
 ```bash
+curl -H "Authorization: Bearer $QUOTE_ADMIN_TOKEN" https://www.rstlcentre.co.za/api/quote
+```
+
+When adding a var from the CLI, use `printf` — `echo` appends a trailing newline that
+corrupts the value:
 printf '%s' "$VALUE" | vercel env add NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN production
 ```
-Use `printf`, not `echo` — `echo` appends a trailing newline that corrupts the value.
 
 ## Verification
 
