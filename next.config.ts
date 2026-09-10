@@ -44,6 +44,24 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+
+  /**
+   * Same-origin PostHog proxy. PostHog's own hosts sit on every ad-blocker list,
+   * and on a lead-gen site that silently drops a large share of events; routing
+   * through /ph means the blocker never sees the real host.
+   *
+   * Order matters: /ph/static/* is served by a DIFFERENT PostHog host but also
+   * matches the broader /ph rule below, so the static rule has to come first.
+   */
+  async rewrites() {
+    return [
+      {
+        source: "/ph/static/:path*",
+        destination: "https://us-assets.i.posthog.com/static/:path*",
+      },
+      { source: "/ph/:path*", destination: "https://us.i.posthog.com/:path*" },
+    ];
+  },
 };
 
 export default nextConfig;

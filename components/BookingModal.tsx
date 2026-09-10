@@ -122,7 +122,7 @@ export function BookingProvider({ children }: { children: ReactNode }) {
     return Object.keys(e).length === 0;
   };
 
-  const handleSubmit = (ev: React.FormEvent) => {
+  const handleSubmit = async (ev: React.FormEvent) => {
     ev.preventDefault();
     if (submitting || !validate()) return;
     setSubmitting(true);
@@ -159,15 +159,62 @@ export function BookingProvider({ children }: { children: ReactNode }) {
       .join("\n");
 
     const url = `mailto:${RSTL_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    // Primary conversion event for Google Ads — fire BEFORE navigating so it's
-    // never lost. Course list + company let the client segment quote requests
-    // by course in GA4/Ads.
-    pushEvent("quote_request", {
+
+    const conversionProps = {
       company: company.trim(),
       course_count: rows.filter((r) => r.course.trim()).length,
       course_list: courseList,
       training_location: trainingLocation.trim(),
+    };
+
+    // Step 1: store the lead server-side. This is what makes the conversion real
+    // -- previously the only thing "quote_request" proved was that the visitor's
+    // mail client opened, which is not a lead and was never recorded anywhere.
+    // The request is capped at 4s so a slow API can never hold the visitor's email
+    // handoff hostage.
+    let stored = false;
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 4000);
+    try {
+      const res = await fetch("/api/quote", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          source: "booking_modal",
+          contact_name: contactPerson.trim(),
+          contact_person: contactPerson.trim(),
+          first_name: firstName.trim(),
+          last_name: lastName.trim(),
+          phone: phone.trim(),
+          email: email.trim(),
+          company: company.trim(),
+          company_location: companyLocation.trim(),
+          courses: rows
+            .filter((r) => r.course.trim())
+            .map((r) => ({ course: r.course.trim(), count: r.count.trim() })),
+          training_matrix: fileName || null,
+          training_location: trainingLocation.trim(),
+          timeline,
+          landing_page: window.location.pathname,
+        }),
+        signal: controller.signal,
+      });
+      stored = res.ok;
+    } catch {
+      stored = false;
+    } finally {
+      clearTimeout(timer);
+    }
+
+    // Only a stored lead counts as the primary conversion. If the lead could not be
+    // saved the visitor still gets their email handoff, but the failure is reported
+    // as its own event rather than silently inflating the conversion count.
+    pushEvent(stored ? "quote_request" : "quote_request_unconfirmed", {
+      ...conversionProps,
+      stored_server_side: stored,
     });
+
+    // Step 2: the client's email workflow, unchanged -- fires either way.
     window.dispatchEvent(new CustomEvent("reh:quote", { detail: url }));
     window.location.href = url;
     setSent(true);

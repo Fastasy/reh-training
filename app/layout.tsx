@@ -6,6 +6,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import QuoteFloat from "@/components/QuoteFloat";
 import Tracking from "@/components/Tracking";
+import PostHogTracker from "@/components/PostHogTracker";
 import { BookingProvider } from "@/components/BookingModal";
 import { GTM_ID } from "@/lib/analytics";
 import { SITE } from "@/lib/site";
@@ -111,6 +112,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','${GTM_ID}');`}
         </Script>
         <Tracking />
+        <PostHogTracker />
         <BookingProvider>
           <Header />
           <main className="flex-1">{children}</main>

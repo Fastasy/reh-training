@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { RSTL_EMAIL } from "@/lib/courses";
+import { pushEvent } from "@/lib/analytics";
 
 const COURSE_OPTIONS = [
   "Working at Heights",
@@ -22,9 +23,13 @@ export default function QuoteForm() {
   const [course, setCourse] = useState(COURSE_OPTIONS[0]);
   const [message, setMessage] = useState("");
   const [sent, setSent] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    if (submitting) return;
+    setSubmitting(true);
+
     const subject = `Training Quotation Request - ${course}`;
     const text = [
       "Hi RSTL Centre,",
@@ -38,8 +43,43 @@ export default function QuoteForm() {
     ]
       .filter(Boolean)
       .join("\n");
+
+    // This form previously fired no analytics event at all, so every enquiry it
+    // generated was invisible. Same treatment as the booking modal: capture the
+    // lead server-side first, and only count a stored lead as the conversion.
+    let stored = false;
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 4000);
+    try {
+      const res = await fetch("/api/quote", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          source: "contact_form",
+          contact_name: name.trim(),
+          phone: phone.trim(),
+          courses: [{ course, count: "" }],
+          message: message.trim(),
+          landing_page: window.location.pathname,
+        }),
+        signal: controller.signal,
+      });
+      stored = res.ok;
+    } catch {
+      stored = false;
+    } finally {
+      clearTimeout(timer);
+    }
+
+    pushEvent(stored ? "quote_request" : "quote_request_unconfirmed", {
+      source: "contact_form",
+      course,
+      stored_server_side: stored,
+    });
+
     window.location.href = `mailto:${RSTL_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(text)}`;
     setSent(true);
+    setSubmitting(false);
   };
 
   if (sent) {
@@ -136,7 +176,8 @@ export default function QuoteForm() {
 
       <button
         type="submit"
-        className="flex min-h-13 w-full items-center justify-center gap-2 rounded-xl bg-brand px-6 py-3.5 text-base font-bold text-white shadow-lg shadow-brand/25 transition-colors hover:bg-brand-dark"
+        disabled={submitting}
+        className="flex min-h-13 w-full items-center justify-center gap-2 rounded-xl bg-brand px-6 py-3.5 text-base font-bold text-white shadow-lg shadow-brand/25 transition-colors hover:bg-brand-dark disabled:opacity-60"
       >
         <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
           <rect x="3" y="5" width="18" height="14" rx="2" />
