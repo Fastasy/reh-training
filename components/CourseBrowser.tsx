@@ -173,7 +173,9 @@ export default function CourseBrowser() {
               <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 {/* category cover — same photo language as the home-page cards, but the
                     photo keeps its 16:10 crop beside the copy instead of being squeezed
-                    into a wide band (a 7:1 crop decapitates most of these shots). */}
+                    into a wide band (a 7:1 crop decapitates most of these shots).
+                    Client rule (2026-09-09): photos live at category level on this page —
+                    do NOT add imagery to the individual course pages. */}
                 <div className="grid items-center gap-5 rounded-3xl border border-line bg-paper p-4 shadow-sm sm:p-6 lg:grid-cols-[minmax(0,340px)_1fr] lg:gap-8">
                   <div className="relative aspect-[16/10] w-full overflow-hidden rounded-2xl bg-charcoal">
                     <Image
