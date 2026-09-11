@@ -1,8 +1,10 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
+import Image from "next/image";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { COURSE_CATEGORIES, ALL_COURSES } from "@/lib/courses";
+import { categoryImage } from "@/lib/categoryImages";
 import CourseCard from "@/components/CourseCard";
 
 const CATEGORY_IDS = COURSE_CATEGORIES.map((c) => c.id);
@@ -90,28 +92,36 @@ export default function CourseBrowser() {
           <div className="cat-tile-grid mt-5 grid grid-cols-2 gap-2.5 sm:grid-cols-3 lg:grid-cols-6">
             {COURSE_CATEGORIES.map((cat) => {
               const isActive = activeCat === cat.id;
+              const image = categoryImage(cat.id);
               return (
                 <button
                   key={cat.id}
                   type="button"
                   onClick={() => selectCategory(isActive ? null : cat.id)}
                   aria-pressed={isActive}
-                  className={`tile-shine flex min-h-[86px] flex-col items-center justify-between gap-2 rounded-2xl px-3 py-3.5 text-center transition-all ${
-                    isActive
-                      ? "bg-brand text-white shadow-lg shadow-brand/30 ring-2 ring-brand ring-offset-2 ring-offset-paper"
-                      : "bg-charcoal text-white shadow-md shadow-charcoal/20 hover:-translate-y-0.5 hover:bg-brand-dark hover:shadow-lg hover:shadow-brand/25"
+                  className={`tile-shine group relative flex min-h-[118px] flex-col justify-end gap-1.5 rounded-2xl bg-charcoal px-3 py-3.5 text-left shadow-md shadow-charcoal/20 transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-brand/25 ${
+                    isActive ? "ring-2 ring-brand ring-offset-2 ring-offset-paper shadow-lg shadow-brand/30" : ""
                   }`}
                 >
-                  <span className="relative z-[1] text-[13px] font-bold leading-snug sm:text-sm">
+                  <Image
+                    src={image.src}
+                    alt=""
+                    fill
+                    sizes="(min-width: 1024px) 16vw, (min-width: 640px) 33vw, 50vw"
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                  <span
+                    className={`absolute inset-0 ${
+                      isActive
+                        ? "bg-brand/70"
+                        : "bg-gradient-to-t from-charcoal/90 via-charcoal/45 to-charcoal/10 transition-colors group-hover:from-brand-dark/90 group-hover:via-brand-dark/55"
+                    }`}
+                    aria-hidden
+                  />
+                  <span className="relative z-[1] text-[13px] font-bold leading-snug text-white sm:text-sm">
                     {cat.title}
                   </span>
-                  <span
-                    className={`relative z-[1] inline-flex items-center justify-center rounded-full px-2.5 py-1 text-[11px] font-extrabold leading-none tracking-wide uppercase ${
-                      isActive
-                        ? "bg-white/25 text-white"
-                        : "bg-white/10 text-cream/85"
-                    }`}
-                  >
+                  <span className="relative z-[1] inline-flex w-fit items-center justify-center rounded-full bg-white/25 px-2.5 py-1 text-[11px] font-extrabold leading-none tracking-wide text-white uppercase">
                     {cat.courses.length} course{cat.courses.length === 1 ? "" : "s"}
                   </span>
                 </button>
@@ -161,14 +171,26 @@ export default function CourseBrowser() {
           {COURSE_CATEGORIES.filter((c) => !activeCat || c.id === activeCat).map((cat) => (
             <section key={cat.id} id={cat.id} className="scroll-mt-32">
               <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
-                  <div>
-                    <h2 className="font-display text-2xl text-charcoal sm:text-3xl">{cat.title}</h2>
-                    <p className="mt-2 max-w-2xl text-sm leading-relaxed text-charcoal/65">{cat.blurb}</p>
+                {/* category cover — same photo language as the home-page cards, but the
+                    photo keeps its 16:10 crop beside the copy instead of being squeezed
+                    into a wide band (a 7:1 crop decapitates most of these shots). */}
+                <div className="grid items-center gap-5 rounded-3xl border border-line bg-paper p-4 shadow-sm sm:p-6 lg:grid-cols-[minmax(0,340px)_1fr] lg:gap-8">
+                  <div className="relative aspect-[16/10] w-full overflow-hidden rounded-2xl bg-charcoal">
+                    <Image
+                      src={categoryImage(cat.id).src}
+                      alt={categoryImage(cat.id).alt}
+                      fill
+                      sizes="(min-width: 1024px) 340px, (min-width: 640px) 60vw, 100vw"
+                      className="object-cover"
+                    />
                   </div>
-                  <span className="shrink-0 text-sm font-bold text-sand">
-                    {cat.courses.length} courses
-                  </span>
+                  <div className="min-w-0">
+                    <span className="text-xs font-bold uppercase tracking-[0.22em] text-brand">
+                      {cat.courses.length} courses
+                    </span>
+                    <h2 className="mt-2 font-display text-2xl text-charcoal sm:text-3xl">{cat.title}</h2>
+                    <p className="mt-2 text-sm leading-relaxed text-charcoal/65">{cat.blurb}</p>
+                  </div>
                 </div>
                 <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
                   {cat.courses.map((course) => (

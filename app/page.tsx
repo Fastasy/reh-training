@@ -9,6 +9,7 @@ import {
   HOME_POPULAR_COURSES,
 } from "@/lib/courses";
 import HomeReviewsSection from "@/components/HomeReviewsSection";
+import { categoryImage } from "@/lib/categoryImages";
 import { graph, organizationSchema, websiteSchema } from "@/lib/schema";
 
 // Home "Browse by Category" cards derive from COURSE_CATEGORIES so naming stays in
@@ -42,36 +43,6 @@ const CATEGORY_CARD_COPY: Record<string, { desc: string; icon: string }> = {
 
 const FALLBACK_CAT_ICON = "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z";
 
-// Category card photos. Sources are the client's own course images, archived from
-// their legacy lp.rehtraining.co.za landing pages (.firecrawl/lp/*.md) and cropped to
-// 16:10 in public/images/categories/. Swap for real centre photos when the client sends them.
-const CATEGORY_IMAGES: Record<string, { src: string; alt: string }> = {
-  "safety-compliance": {
-    src: "/images/categories/safety-compliance.jpg",
-    alt: "Two site workers in PPE reviewing risk assessment documentation",
-  },
-  "heights-and-access": {
-    src: "/images/categories/heights-and-access.jpg",
-    alt: "Learner in a fall-arrest harness during working at heights training",
-  },
-  "emergency-courses": {
-    src: "/images/categories/emergency-courses.jpg",
-    alt: "Firefighting practical — trainee using a fire extinguisher on a live fire",
-  },
-  "technical-courses": {
-    src: "/images/categories/technical-courses.jpg",
-    alt: "Construction site with tower crane during technical skills training",
-  },
-  "machines-tools": {
-    src: "/images/categories/machines-tools.jpg",
-    alt: "Plant operator in a cherry picker during machine operator training",
-  },
-  "dangerous-goods": {
-    src: "/images/categories/dangerous-goods.jpg",
-    alt: "Hazchem tanker transporting dangerous goods by road",
-  },
-};
-
 // Home card order: Safety first, then Heights & Emergency on row one (client request),
 // followed by Technical, Machines & Tools and Dangerous Goods.
 const HOME_CATEGORY_ORDER = [
@@ -86,8 +57,7 @@ const HOME_CATEGORY_ORDER = [
 const CATEGORY_CARDS = HOME_CATEGORY_ORDER.map((id) => {
   const cat = COURSE_CATEGORIES.find((c) => c.id === id);
   if (!cat) throw new Error(`Missing home category card: ${id}`);
-  const image = CATEGORY_IMAGES[cat.id];
-  if (!image) throw new Error(`Missing home category image: ${id}`);
+  const image = categoryImage(cat.id);
   return {
     id: cat.id,
     title: cat.title,
