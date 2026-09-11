@@ -42,6 +42,36 @@ const CATEGORY_CARD_COPY: Record<string, { desc: string; icon: string }> = {
 
 const FALLBACK_CAT_ICON = "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z";
 
+// Category card photos. Sources are the client's own course images, archived from
+// their legacy lp.rehtraining.co.za landing pages (.firecrawl/lp/*.md) and cropped to
+// 16:10 in public/images/categories/. Swap for real centre photos when the client sends them.
+const CATEGORY_IMAGES: Record<string, { src: string; alt: string }> = {
+  "safety-compliance": {
+    src: "/images/categories/safety-compliance.jpg",
+    alt: "Two site workers in PPE reviewing risk assessment documentation",
+  },
+  "heights-and-access": {
+    src: "/images/categories/heights-and-access.jpg",
+    alt: "Learner in a fall-arrest harness during working at heights training",
+  },
+  "emergency-courses": {
+    src: "/images/categories/emergency-courses.jpg",
+    alt: "Firefighting practical — trainee using a fire extinguisher on a live fire",
+  },
+  "technical-courses": {
+    src: "/images/categories/technical-courses.jpg",
+    alt: "Construction site with tower crane during technical skills training",
+  },
+  "machines-tools": {
+    src: "/images/categories/machines-tools.jpg",
+    alt: "Plant operator in a cherry picker during machine operator training",
+  },
+  "dangerous-goods": {
+    src: "/images/categories/dangerous-goods.jpg",
+    alt: "Hazchem tanker transporting dangerous goods by road",
+  },
+};
+
 // Home card order: Safety first, then Heights & Emergency on row one (client request),
 // followed by Technical, Machines & Tools and Dangerous Goods.
 const HOME_CATEGORY_ORDER = [
@@ -56,11 +86,15 @@ const HOME_CATEGORY_ORDER = [
 const CATEGORY_CARDS = HOME_CATEGORY_ORDER.map((id) => {
   const cat = COURSE_CATEGORIES.find((c) => c.id === id);
   if (!cat) throw new Error(`Missing home category card: ${id}`);
+  const image = CATEGORY_IMAGES[cat.id];
+  if (!image) throw new Error(`Missing home category image: ${id}`);
   return {
     id: cat.id,
     title: cat.title,
     desc: CATEGORY_CARD_COPY[cat.id]?.desc ?? cat.blurb,
     icon: CATEGORY_CARD_COPY[cat.id]?.icon ?? FALLBACK_CAT_ICON,
+    image: image.src,
+    imageAlt: image.alt,
     count: cat.courses.length,
   };
 });
@@ -210,21 +244,36 @@ export default function Home() {
                 key={cat.id}
                 href={`/courses?category=${cat.id}`}
                 scroll={false}
-                className="group flex flex-col rounded-2xl border border-line bg-paper p-6 transition-all hover:-translate-y-1 hover:border-brand/40 hover:shadow-xl hover:shadow-charcoal/10"
+                className="group flex flex-col overflow-hidden rounded-2xl border border-line bg-paper transition-all hover:-translate-y-1 hover:border-brand/40 hover:shadow-xl hover:shadow-charcoal/10"
               >
-                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-charcoal text-cream transition-colors group-hover:bg-brand">
-                  <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-                    <path d={cat.icon} />
-                  </svg>
+                <div className="relative aspect-[16/10] w-full overflow-hidden bg-charcoal">
+                  <Image
+                    src={cat.image}
+                    alt={cat.imageAlt}
+                    fill
+                    sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                    className="object-cover transition-transform duration-500 group-hover:scale-[1.04]"
+                  />
+                  <div
+                    className="absolute inset-0 bg-gradient-to-t from-charcoal/60 via-charcoal/5 to-transparent"
+                    aria-hidden
+                  />
+                  <div className="absolute bottom-3 left-3 flex h-11 w-11 items-center justify-center rounded-xl bg-charcoal/85 text-cream ring-1 ring-white/15 backdrop-blur-sm transition-colors group-hover:bg-brand">
+                    <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                      <path d={cat.icon} />
+                    </svg>
+                  </div>
                 </div>
-                <h3 className="mt-5 font-display text-lg leading-snug text-charcoal">{cat.title}</h3>
-                <p className="mt-2 flex-1 text-sm leading-relaxed text-charcoal/65">{cat.desc}</p>
-                <span className="mt-5 inline-flex items-center gap-1.5 text-sm font-bold text-brand">
-                  {cat.count} courses
-                  <svg className="h-4 w-4 transition-transform group-hover:translate-x-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                    <path d="M5 12h14m-6-6l6 6-6 6" />
-                  </svg>
-                </span>
+                <div className="flex flex-1 flex-col p-6">
+                  <h3 className="font-display text-lg leading-snug text-charcoal">{cat.title}</h3>
+                  <p className="mt-2 flex-1 text-sm leading-relaxed text-charcoal/65">{cat.desc}</p>
+                  <span className="mt-5 inline-flex items-center gap-1.5 text-sm font-bold text-brand">
+                    {cat.count} courses
+                    <svg className="h-4 w-4 transition-transform group-hover:translate-x-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                      <path d="M5 12h14m-6-6l6 6-6 6" />
+                    </svg>
+                  </span>
+                </div>
               </Link>
             ))}
           </div>
