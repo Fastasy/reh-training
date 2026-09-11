@@ -85,10 +85,10 @@ The old Zoho site is **still live** on `www.rehtraining.co.za` (verified 2026-09
 - [x] Favicon + app icons: replaced the create-next-app default (Vercel triangle) and the legacy REH lockup with the interim RSTL tile — `scripts/make-favicon.py` writes `app/favicon.ico` (16/32/48/64/128/256), `app/icon.png` (512), `app/apple-icon.png` (180)
 - [ ] Client sends logo files → replace `public/images/reh-logo.png` (nav + footer; alt text already updated), regenerate `og-image.png` (1200×630 ideally, currently 1280×1280) and the icon set via `scripts/make-favicon.py`; eyeball `accreditations.jpg`
 - [ ] Request favicon refresh in Search Console after the client's real logo lands (Google caches favicons separately from page data)
-- [ ] Register `rstlcentre.co.za` (unregistered as of 2026-09-10; `rstl.co.za` is taken by a third party)
-- [ ] Add `rstlcentre.co.za` + `www.rstlcentre.co.za` as domains in the Vercel project; DNS to Vercel
-- [ ] Keep `rehtraining.co.za` pointed at Vercel too (the 308 in `next.config.ts` only fires once the host resolves here)
-- [ ] Flip the email once Zoho mail is live: `python3 scripts/rebrand-rstl.py --email-flip`
+- [x] Register `rstlcentre.co.za` — **done, live 2026-09-11** (`rstl.co.za` is taken by a third party)
+- [x] Add `rstlcentre.co.za` + `www.rstlcentre.co.za` as domains in the Vercel project; DNS to Vercel — **done 2026-09-11** (apex A → 216.198.79.1, www → `4aeab9cdf1d1e217.vercel-dns-017.com`; apex 308s to www; site served on both). Registrar NS are `tld-ns.com/.net`, so DNS is not managed at Vercel — records are pointed manually.
+- [ ] Keep `rehtraining.co.za` pointed at Vercel too (the 308 in `next.config.ts` only fires once the host resolves here). **Still on GoDaddy NS → Zoho (156.251.50.1/28) as of 2026-09-11, so the legacy 308 has still never fired and the old REH site remains live.** Mail for the old domain is MX `secureserver.net`, so moving only the A/CNAME to Vercel will not break `info@rehtraining.co.za`.
+- [ ] Flip the email once Zoho mail is live: `python3 scripts/rebrand-rstl.py --email-flip`. **`rstlcentre.co.za` has no MX records at all as of 2026-09-11 — the new mailbox does not exist yet, so every `@rstlcentre.co.za` address still bounces. Do not flip before MX is live.**
 - [ ] Rename the Vercel project + repo when convenient (optional)
 
 **Client-side (their accounts, our instructions)**
