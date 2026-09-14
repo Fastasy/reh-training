@@ -383,6 +383,154 @@ export const ALL_ARTICLES: Article[] = [
       { href: "/courses/tlb-operator", label: "TLB Operator course" },
     ],
   },
+  {
+    slug: "first-aid-training-mthatha",
+    title: "First Aid Training in Mthatha: Level 1, 2 or 3 and What Your Team Actually Needs",
+    metaTitle: "First Aid Course Mthatha: Level 1, 2 or 3 Guide",
+    metaDescription: "First aid course Mthatha employers can book: the legal requirement, the difference between Level 1, 2 and 3, and what RSTL Centre charges for each of them.",
+    primaryKeyword: "first aid course mthatha",
+    secondaryKeywords: ["first aid training Mthatha", "first aid level 1 course price south africa", "first aid level 2 Mthatha", "first aid level 3"],
+    category: "Mthatha",
+    date: "2026-09-14",
+    readMinutes: 7,
+    excerpt: "How many first aiders a Mthatha workplace needs, which of Level 1, 2 or 3 to book, and what the law actually says about how long a certificate lasts.",
+    intro: [
+      "A first aid course in Mthatha is a legal requirement for most workplaces, not an optional extra. Once a business passes 10 employees, the General Safety Regulations require a trained first aider to be readily available during normal working hours, and the certificate has to come from an approved body.",
+      "RSTL Centre charges R650 for First Aid Level 1, Level 2 and Level 3, each run as a one day course at the Mthatha branch or on site. The level you book depends on the risk in the workplace and what the employer's risk assessment says, not on the size of the team alone.",
+      "This guide covers the legal trigger, the difference between the three levels, and the question employers get wrong most often, which is how long the certificate lasts.",
+    ],
+    closing: [
+      "Email the branch through the [contact page](/contact) to book First Aid Level 1, 2 or 3 at R650 a delegate, or compare the three on the course pages for [Level 1](/courses/first-aid-level-1), [Level 2](/courses/first-aid-level-2) and [Level 3](/courses/first-aid-level-3). The [full course list](/courses) covers the firefighting and evacuation courses that usually get booked alongside first aid.",
+    ],
+    sections: [
+      {
+        heading: "What the law requires of a Mthatha employer",
+        paragraphs: [
+          "More than 5 employees means a first aid box is required. More than 10 employees means the employer must ensure that for every group of up to 50 employees, or up to 100 in a shop or office, at least one person is readily available during normal working hours with a valid certificate of competency in first aid.",
+          "The certificate must be issued or endorsed by the SA Red Cross Society, St John Ambulance, the SA Noodhulpliga, or an organisation approved by a chief inspector. The first aider's name must appear on the first aid box, and every box location must be clearly signposted.",
+          "Where dangerous or high-risk substances are used, the first aider needs additional training in first aid for acute poisoning and spillage. The box itself has to contain at least the items listed in the Annexure to the regulations.",
+          "Notice what the rule does not say. It sets no stated expiry period, and it says nothing about the level of course. Those two gaps are where most workplace first aid policies go wrong.",
+        ],
+      },
+      {
+        heading: "Level 1, Level 2 and Level 3: what changes",
+        paragraphs: [
+          "Level 1 covers the basics any workplace needs: scene safety, the primary survey, CPR, choking, bleeding, shock, burns and basic fractures. It suits offices, retail, schools, crèches and smaller sites where the risk is low and the first aider is the first link in the chain.",
+          "Level 2 builds on that with broader assessment and more conditions, and it is the level most construction sites, factories, warehouses and larger employers book. Level 3 is the most detailed and suits high risk operations, larger teams, and people who are expected to manage a casualty for longer before help arrives.",
+          "No rule forces a business to buy the highest level. The employer's risk assessment drives the choice, and a well trained Level 1 first aider supported by a solid evacuation plan is often enough in a low risk office. The mistake is booking the cheapest level for a high risk site and calling the duty done.",
+        ],
+        table: {"head": ["", "Level 1", "Level 2", "Level 3"], "rows": [["Typical audience", "Offices, retail, schools, crèches", "Construction sites, factories, warehouses", "High risk sites, large teams, first aid coordinators"], ["Depth", "Core life support and common injuries", "Broader assessment and more conditions", "Most detailed, extended care until help arrives"], ["Duration at RSTL", "1 day", "1 day", "1 day"], ["Price", "R650", "R650", "R650"], ["Best suited to", "Low risk and small teams", "Medium to high risk", "High risk or several trained first aiders"]]},
+      },
+      {
+        heading: "How long a first aid certificate lasts",
+        paragraphs: [
+          "The law sets no expiry period for a first aid certificate. Regulation 3 requires a valid certificate, but it does not say the certificate lapses after a set number of years, so any provider who tells you it expires after three years is describing a convention rather than a legal rule.",
+          "Three years has become the accepted cycle in most industries, largely because issuing bodies and employers work to it. The real driver is the body that issued the certificate and the employer's own risk assessment, and both can set a shorter or longer interval.",
+          "The sensible approach is to know who issued your certificate, follow that body's guidance, and revisit the position at each risk assessment. A booking reminder is not a legal deadline, and a lapsed-looking certificate is not automatically invalid.",
+        ],
+      },
+      {
+        heading: "What a first aid class in Mthatha looks like",
+        paragraphs: [
+          "Classes run Monday to Friday, 08:00 to 16:30, with Saturday sessions by arrangement. RSTL Centre delivers at its Mthatha centre at 1st Floor, Old Mutual Building, Cnr York Road and Leeds Road, on site at the client's premises, or online where the course allows.",
+          "The practical sections are best done in person. For a school, a clinic, a retail floor or a construction team, the on site option keeps the whole group together and lets the trainer build scenarios around the actual workplace rather than a generic classroom.",
+          "Delegates leave with a certificate, and the employer keeps a record for the safety file. Municipal and provincial work often requires those records to be produced, so a copy of each certificate is worth the few minutes it takes.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "How many first aiders does my business need?", a: "The rule starts at more than 10 employees. For every group of up to 50 employees, or up to 100 in a shop or office, at least one person with a valid first aid certificate must be readily available during normal working hours. A 40 person office needs one, a 140 person factory needs three." },
+      { q: "Does a first aid certificate expire?", a: "No expiry period is set in law. Regulation 3 requires a valid certificate but states no time limit. Three years is industry practice rather than a legal rule, and the issuing body and the employer's risk assessment are what drive when a refresher is actually needed." },
+      { q: "Which level should a construction site book?", a: "Most construction sites and factories book Level 2, because the risk is higher and injuries are more varied. Level 1 suits low risk offices, schools and crèches, and Level 3 suits high risk operations or workplaces that need several well trained first aiders." },
+      { q: "What does first aid training cost in Mthatha?", a: "RSTL Centre charges R650 for First Aid Level 1, 2 and 3, each as a one day course. Published prices seen in search results on 10 September 2026 showed St John first aid courses from R239 up to R1,490 and Absolute Health at R975." },
+      { q: "Where can I do first aid training near Mthatha?", a: "RSTL Centre has a Mthatha branch at 1st Floor, Old Mutual Building, Cnr York Road and Leeds Road, on 078 045 2852. Classes also run at the Midrand and Durban centres, on site, or online where the course allows." },
+      { q: "Is the certificate recognised for a tender?", a: "The certificate has to be issued or endorsed by the SA Red Cross Society, St John Ambulance, the SA Noodhulpliga, or an organisation approved by a chief inspector. OR Tambo District Municipality requires accreditation letters as a mandatory condition on its training quotations." },
+      { q: "Can we train the whole team at our premises?", a: "Yes. On site delivery keeps the group together and lets the trainer work with your actual layout and equipment. It suits schools, clinics, retail groups and construction teams, and a full class can usually be arranged quickly because the centre runs daily classes with no waiting period." },
+    ],
+    closingHeading: "Book first aid training in Mthatha",
+    courseLinks: [
+      { href: "/courses/first-aid-level-1", label: "Level 1" },
+      { href: "/courses/first-aid-level-2", label: "Level 2" },
+      { href: "/courses/first-aid-level-3", label: "Level 3" },
+    ],
+  },
+  {
+    slug: "working-at-heights-scaffolding-mthatha",
+    title: "Working at Heights and Scaffolding in Mthatha: What Contractors Must Prove on Site",
+    metaTitle: "Working at Heights Mthatha: Contractor Guide",
+    metaDescription: "Working at heights training in Mthatha, fall protection plans, scaffolding roles and the records contractors must produce on site under the 2014 regulations.",
+    primaryKeyword: "working at heights training mthatha",
+    secondaryKeywords: ["scaffolding training Mthatha", "fall protection plan", "working at heights course", "fall arrest training"],
+    category: "Mthatha",
+    date: "2026-09-14",
+    readMinutes: 8,
+    excerpt: "What the Construction Regulations require of contractors working in Mthatha, from the fall protection plan to scaffold erectors, inspectors and rescue.",
+    intro: [
+      "Working at heights training in Mthatha is not a formality for contractors on the N2 Wild Coast Road or the district water programme. Regulation 10 of the Construction Regulations 2014 requires a fall protection plan, and that single requirement pulls heights training, fall arrest, rescue training and occupational medicals into one package.",
+      "RSTL Centre charges R700 each for Working at Heights, Fall Protection Planning, Scaffolding Erector and Scaffolding Inspector, all one day courses. On a site facing an inspection or a main contractor audit, those are the certificates that get asked for first.",
+      "This guide explains what Regulation 10 and Regulation 16 require, what a fall protection plan must contain, and why the region makes both urgent right now.",
+    ],
+    closing: [
+      "Email the branch through the [contact page](/contact) to book [Working at Heights](/courses/working-at-heights), Fall Protection Planning, Scaffolding Erector or Scaffolding Inspector at R700 each, or arrange the medicals the plan requires through [medicals](/medicals). The [course list](/courses) has everything else.",
+    ],
+    sections: [
+      {
+        heading: "What Regulation 10 requires of a contractor",
+        paragraphs: [
+          "The contractor must designate a competent person to prepare a fall protection plan, then implement, amend, maintain and enforce it. The plan must include a risk assessment for every work location at a fall risk, medical fitness evaluations with records, a training programme with records, an equipment inspection and maintenance procedure, and a rescue plan.",
+          "That list is why one regulation justifies several courses and a medical at the same time. The plan is not a document that sits in a file. It is the reason the employer has to train the right people, medically assess them, inspect the equipment, and prove all of it with records.",
+          "The construction manager must hold the most recently updated version of the plan. An out of date plan with no records behind it is the kind of finding that stops work, and it is also the finding most likely to come up when a main contractor audits a subcontractor.",
+        ],
+      },
+      {
+        heading: "What the fall protection plan must contain",
+        paragraphs: [
+          "A fall protection plan must contain a risk assessment of every fall risk position with a method per location, medical fitness evaluations with records, a training programme with records, an equipment inspection and maintenance procedure, and a rescue plan. Each element is a separate deliverable the contractor must be able to produce on demand.",
+        ],
+        table: {"head": ["Required element", "What it means in practice", "RSTL support"], "rows": [["Risk assessment", "Identify every fall risk position and set out the method for each location", "Fall Protection Planning, R700"], ["Medical fitness evaluation", "Assess everyone working at a fall risk position, and keep the records", "Occupational medicals"], ["Training programme", "Train those workers and keep competence records", "Working at Heights, R700"], ["Equipment procedure", "How fall protection equipment is inspected, tested and maintained", "Working at Heights, R700"], ["Rescue plan", "The procedure, people and equipment to rescue a fallen worker, implemented immediately", "Working at Heights and on site planning"]]},
+      },
+      {
+        heading: "Fall prevention before fall arrest",
+        paragraphs: [
+          "The regulations draw a firm line here. Fall arrest is permitted only where fall prevention is not reasonably practicable, so the employer has to show why prevention was ruled out before reaching for a harness. The default answer to a fall risk is to remove the risk, not to catch the person.",
+          "All unprotected openings in floors, edges, slabs, hatchways and stairways must be adequately guarded, fenced or barricaded. Where work near an edge cannot be guarded, that is where a fall arrest system and a trained, medically fit user come in.",
+          "Work at heights training covers the equipment and the method, but its real value is the discipline behind the choice. Contractors who train teams in [fall protection planning](/courses/fall-protection-planning) as well as [working at heights](/courses/working-at-heights) tend to argue about prevention first, which is the way the regulation is written.",
+        ],
+      },
+      {
+        heading: "Scaffolding: three roles under Regulation 16",
+        paragraphs: [
+          "Regulation 16 requires the contractor to appoint a competent person in writing to supervise all scaffolding work, and to make sure all scaffold erectors, team leaders and inspectors are competent. Access scaffolding must be inspected and maintained, and it must comply with SANS 10085.",
+          "The regulation names three distinct roles: erector, inspector and supervisor. They are not interchangeable. An erector builds the scaffold, an inspector checks and signs it off, and a supervisor controls the work and the persons doing it. A site that treats them as one blanket competency is exposed.",
+          "RSTL Centre runs [Scaffolding Erector](/courses/scaffolding-erector) and [Scaffolding Inspector](/courses/scaffolding-inspector) as separate one day courses at R700 each, so a contractor can put the right people through the right course rather than sending everyone on the same class. The written appointment of the supervisor is a site decision the employer makes and keeps on file.",
+        ],
+      },
+      {
+        heading: "Why the Mthatha region makes this urgent",
+        paragraphs: [
+          "The N2 Wild Coast Road is a roughly R20 billion, 110km project in the region, with Package Four led by the WBHO-Edwin Construction Joint Venture and Package Five by the WBHO-H&I Joint Venture. Work of that scale means local subcontractors on site, and subcontractors carry the same fall protection duties as the main contractor.",
+          "SANRAL ran a contractor development programme session in Mthatha for local contractors, which is a signal that local firms are being brought onto that work. Any firm that moves from smaller jobs to a project of that size needs its fall protection plan and its training records in order before it starts, not after an audit.",
+          "The district water and sanitation programme adds the same pressure closer to town. With about 122 projects running and civil tender documents requiring a quarterly training needs analysis, contractors have to show a training plan that is refreshed through the contract, and heights and scaffolding training sit in that plan.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "What must a fall protection plan contain?", a: "It must include a risk assessment of all work from a fall risk position with methods per location, medical fitness evaluations with records, a training programme with records, a procedure for inspection, testing and maintenance of fall protection equipment, and a rescue plan with the procedure, people and equipment to rescue a fallen worker." },
+      { q: "Is fall arrest always allowed?", a: "No. Fall arrest is permitted only where fall prevention is not reasonably practicable. Prevention comes first, and the employer has to be able to explain why an edge could not be guarded, fenced or barricaded before relying on a harness system." },
+      { q: "What is the difference between a scaffold erector and an inspector?", a: "An erector builds and dismantles the scaffold. An inspector checks it and signs it off as safe for use. Regulation 16 names erector, inspector and supervisor as three distinct roles, and a site should not treat one course as covering all three." },
+      { q: "Which scaffolding standard applies?", a: "Access scaffolding must comply with SANS 10085 and must be inspected and maintained. The contractor must also appoint a competent person in writing to supervise all scaffolding work, and ensure that erectors, team leaders and inspectors are competent." },
+      { q: "How much does heights and scaffolding training cost?", a: "RSTL Centre charges R700 each for Working at Heights, Fall Protection Planning, Scaffolding Erector and Scaffolding Inspector, each a one day course. Occupational medicals for staff working at a fall risk position are arranged separately through the centre." },
+      { q: "Do workers at height need a medical?", a: "Yes. The fall protection plan must include a medical fitness evaluation for anyone working at a fall risk position, and the records have to be kept. That fitness evaluation can be arranged through the centre's occupational medicals service." },
+      { q: "Can this training be done on our site?", a: "Yes. RSTL Centre delivers at its Mthatha branch, on site at the client's premises, or online where the course allows. Heights and scaffolding courses carry practical work, so those sessions are delivered in person." },
+    ],
+    closingHeading: "Book heights and scaffolding training in Mthatha",
+    courseLinks: [
+      { href: "/courses/fall-protection-planning", label: "fall protection planning" },
+      { href: "/courses/working-at-heights", label: "working at heights" },
+      { href: "/courses/scaffolding-erector", label: "Scaffolding Erector" },
+      { href: "/courses/scaffolding-inspector", label: "Scaffolding Inspector" },
+    ],
+  },
 ];
 
 /** Newest first is the publishing order we want on the index, so keep array order. */

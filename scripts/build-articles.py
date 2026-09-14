@@ -49,6 +49,8 @@ PUBLISHED: list[tuple[str, str]] = [
     ("2026-09-rstl-02-she-rep-training-mthatha.md", "2026-09-10"),
     ("2026-09-rstl-10-she-rep-duties-appointment-letter.md", "2026-09-10"),
     ("2026-09-rstl-09-forklift-licence-south-africa-cost.md", "2026-09-10"),
+    ("2026-09-rstl-03-first-aid-training-mthatha.md", "2026-09-14"),
+    ("2026-09-rstl-04-working-at-heights-scaffolding-mthatha.md", "2026-09-14"),
 ]
 
 FAQ_HEADINGS = {"frequently asked questions", "faqs"}
