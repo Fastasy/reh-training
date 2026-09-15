@@ -1,98 +1,73 @@
 #!/usr/bin/env python3
-"""Generate the RSTL Centre favicon / app-icon set.
+"""Generate the RSTL Centre favicon / app-icon set from the client's real mark.
 
-Why this exists: the site shipped the create-next-app default `app/favicon.ico`
-(the black-circle Vercel triangle) and inherited the legacy REH lockup in
-`public/app/icon.png` + `apple-icon.png`. Both are wrong for the RSTL brand, and the
-lockup is illegible at 16px anyway.
+Why this exists: the site shipped the create-next-app default `app/favicon.ico` (the
+black-circle Vercel triangle) and inherited the legacy REH lockup in the app icons. The
+first fix was an interim typographic tile (charcoal, cream serif "R", red base band) built
+because the client's art had not arrived. It has now arrived, so this cuts the tile from
+the real monogram instead.
 
-Interim mark (until the client's real logo art lands) matches the language already
-used on `public/images/og-default.png`: charcoal #252423 tile, cream #f5f0ec serif
-"R", red #e21c14 base band. It also sits on the charcoal `themeColor`, so the
-Android chrome bar and the tile agree.
+Source: `public/images/rstl-mark.png` — the R with its red swoosh, produced by
+`scripts/make-logo-assets.py` from `brand/RSTL-Centre-logo.png`. Run that script first.
 
-Swap to real client art later by replacing `--source` handling with the client's mark:
-crop the mark to its alpha bbox, scale to ~70% of the tile, centre it, and keep the
-tile fill.
+Tile treatment: **white**, because the client's artwork is dark ink (navy #05181f + red)
+presented on white. A light tile keeps the mark exactly as the client drew it and reads on
+both light and dark browser chrome. The mark fills ~82% of the tile so the 16px frame
+still carries some red.
 
 Run from the repo root:  python3 scripts/make-favicon.py
+                         python3 scripts/make-favicon.py --check
 """
 from __future__ import annotations
 
 import argparse
 import os
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 APP_DIR = os.path.join(ROOT, "app")
+MARK = os.path.join(ROOT, "public", "images", "rstl-mark.png")
 
 TILE = 512
-RADIUS = 116          # ~22% -> the iOS/Android squircle feel
-BAND_H = 74           # red base band; survives downscale to 16px (~2.3px)
-GLYPH = "R"
-
-CHARCOAL = (37, 36, 35)     # --color-charcoal
-CREAM = (245, 240, 236)     # --color-cream
-BRAND = (226, 28, 20)       # --color-brand
-
-SERIF_BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"
+RADIUS = 116          # ~23% -> the iOS/Android squircle feel
+FILL = (255, 255, 255)
+MARK_RATIO = 0.82     # share of the tile height the mark occupies
+APPLE = 180
 
 
-def _ink(d: ImageDraw.ImageDraw, text: str, font: ImageFont.FreeTypeFont) -> tuple[int, int, int, int]:
-    """textbbox() is typed as returning a float-or-box union; pin it to an int box."""
-    l, t, r, b = (int(v) for v in d.textbbox((0, 0), text, font=font))  # type: ignore[misc]
-    return l, t, r, b
+def build_mark(height: int) -> Image.Image:
+    with Image.open(MARK) as raw:
+        mark = raw.convert("RGBA")
+    width = max(1, round(mark.size[0] * height / mark.size[1]))
+    return mark.resize((width, height), Image.Resampling.LANCZOS)
 
 
 def build_tile() -> Image.Image:
-    """Transparent canvas + charcoal squircle, red base band, cream serif R."""
+    """Transparent canvas + white squircle + the client's mark centred."""
     img = Image.new("RGBA", (TILE, TILE), (0, 0, 0, 0))
 
-    # charcoal squircle
     squircle = Image.new("L", (TILE, TILE), 0)
     ImageDraw.Draw(squircle).rounded_rectangle([0, 0, TILE - 1, TILE - 1], radius=RADIUS, fill=255)
-    img.paste(Image.new("RGBA", (TILE, TILE), CHARCOAL + (255,)), (0, 0), squircle)
+    img.paste(Image.new("RGBA", (TILE, TILE), FILL + (255,)), (0, 0), squircle)
 
-    # red base band, clipped by the squircle so the bottom corners stay rounded
-    band = Image.new("RGBA", (TILE, TILE), (0, 0, 0, 0))
-    ImageDraw.Draw(band).rectangle([0, TILE - BAND_H, TILE, TILE], fill=BRAND + (255,))
-    img.paste(band, (0, 0), squircle)
+    mark = build_mark(round(TILE * MARK_RATIO))
+    img.paste(mark, ((TILE - mark.size[0]) // 2, (TILE - mark.size[1]) // 2), mark)
     img.putalpha(squircle)
-
-    # cream serif R, optically centred in the area above the band
-    d = ImageDraw.Draw(img)
-    size = 330
-    font = ImageFont.truetype(SERIF_BOLD, size)
-    while _ink(d, GLYPH, font)[3] > (TILE - BAND_H) - 40 and size > 40:
-        size -= 10
-        font = ImageFont.truetype(SERIF_BOLD, size)
-    l, t, r, b = _ink(d, GLYPH, font)
-    x = (TILE - (r - l)) / 2 - l
-    # centre the glyph ink in the plate above the band, then nudge up for optical balance
-    y = ((TILE - BAND_H) - (b - t)) / 2 - t - 12
-    d.text((x, y), GLYPH, font=font, fill=CREAM + (255,))
     return img
 
 
 def build_apple() -> Image.Image:
     """180x180, opaque, full-bleed square: iOS masks its own corners and drops alpha.
 
-    So draw a SQUARE version (no rounded corners, band edge-to-edge) rather than
-    flattening the squircle -- flattening leaves charcoal wedges in the corners of
-    the band.
+    So draw a SQUARE version (no rounded corners, fill edge-to-edge) rather than
+    flattening the squircle -- flattening leaves wedges of transparent canvas in the
+    corners.
     """
-    img = Image.new("RGB", (TILE, TILE), CHARCOAL)
-    d = ImageDraw.Draw(img)
-    d.rectangle([0, TILE - BAND_H, TILE, TILE], fill=BRAND)
-    size = 330
-    font = ImageFont.truetype(SERIF_BOLD, size)
-    while _ink(d, GLYPH, font)[3] > (TILE - BAND_H) - 40 and size > 40:
-        size -= 10
-        font = ImageFont.truetype(SERIF_BOLD, size)
-    l, t, r, b = _ink(d, GLYPH, font)
-    d.text(((TILE - (r - l)) / 2 - l, ((TILE - BAND_H) - (b - t)) / 2 - t - 12), GLYPH, font=font, fill=CREAM)
-    return img.resize((180, 180), Image.Resampling.LANCZOS)
+    img = Image.new("RGB", (TILE, TILE), FILL)
+    mark = build_mark(round(TILE * MARK_RATIO))
+    img.paste(mark, ((TILE - mark.size[0]) // 2, (TILE - mark.size[1]) // 2), mark)
+    return img.resize((APPLE, APPLE), Image.Resampling.LANCZOS)
 
 
 def main() -> None:
@@ -100,16 +75,24 @@ def main() -> None:
     ap.add_argument("--check", action="store_true", help="report current files, write nothing")
     args = ap.parse_args()
 
+    targets = (
+        os.path.join(APP_DIR, "favicon.ico"),
+        os.path.join(APP_DIR, "icon.png"),
+        os.path.join(APP_DIR, "apple-icon.png"),
+    )
+
     if args.check:
-        for p in (
-            os.path.join(APP_DIR, "favicon.ico"),
-            os.path.join(APP_DIR, "icon.png"),
-            os.path.join(APP_DIR, "apple-icon.png"),
-        ):
+        print(f"source: {MARK} ({'found' if os.path.exists(MARK) else 'MISSING'})")
+        for p in targets:
             if os.path.exists(p):
                 with Image.open(p) as im:
-                    print(f"{p}: {im.size} {im.mode} {os.path.getsize(p)} bytes")
+                    print(f"  {os.path.basename(p)}: {im.size} {im.mode} {os.path.getsize(p)} bytes")
+            else:
+                print(f"  {os.path.basename(p)}: MISSING")
         return
+
+    if not os.path.exists(MARK):
+        raise SystemExit(f"mark not found: {MARK} -- run scripts/make-logo-assets.py first")
 
     tile = build_tile()
 

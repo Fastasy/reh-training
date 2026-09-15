@@ -3,9 +3,10 @@
  * organisation node is identical wherever it appears and branch/N.A.P. details come
  * from lib/site.ts rather than being re-typed per page.
  *
- * Deliberately no `logo`: the only logo file on the site is the legacy REH artwork, and
- * feeding a stale-brand image to Google's brand knowledge graph is worse than omitting
- * the field. Add it here once the client supplies the RSTL Centre logo.
+ * The `logo` field points at the client's real RSTL/CENTRE lockup
+ * (`public/images/rstl-logo.png`, cut from their artwork by scripts/make-logo-assets.py).
+ * Before that arrived there was only legacy REH art on the site, and feeding a
+ * stale-brand image to Google's brand knowledge graph is worse than omitting the field.
  */
 import { SITE } from "./site";
 import { getGoogleLocation } from "./googleLocations";
@@ -27,6 +28,7 @@ export function organizationSchema() {
     email: SITE.email,
     telephone: SITE.phone,
     image: abs("/images/og-default.png"),
+    logo: abs("/images/rstl-logo.png"),
     priceRange: SITE.priceRange,
     areaServed: SITE.areaServed.map((name) => ({ "@type": "AdministrativeArea", name })),
     sameAs: [SITE.social.facebook, SITE.social.tiktok],

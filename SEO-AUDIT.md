@@ -100,12 +100,15 @@ Latest run: **0 findings**, sitemap **PASS** (99 URLs, all 200, canonicals match
   `python3 scripts/rebrand-rstl.py --email-flip` (one command, ~40 references).
 - **Domain:** register `rstlcentre.co.za` (unregistered as of 2026-09-10) and point it at
   the Vercel project; the 308 map in `next.config.ts` is already in place.
-- **Logo assets:** real logo → replace `public/images/reh-logo.png`, regenerate
-  `app/icon.png`, `app/apple-icon.png`, `og-default.png` and the course cards.
+- **Logo assets:** done 2026-09-15 — the client's art is cut by
+  `scripts/make-logo-assets.py` into `rstl-logo.png` + `rstl-mark.png`, and
+  `scripts/make-favicon.py` / `scripts/make-og-image.py` regenerate the icon set and
+  `og-default.png` from them. Legacy `reh-logo.png` and the square `og-image.png` deleted.
+  (`course cards` still carry a generic placeholder mark — no RSTL branding needed there.)
 - **Backlinks:** a new domain has zero real ones. On-page work gets you eligible; links
   get you ranked. That is the single biggest remaining constraint.
 
 ### Housekeeping
-- `public/images/og-image.png` (208KB, square, legacy branding) is now unreferenced.
-  Delete it once the new card is confirmed in WhatsApp/Facebook previews — the old URL
-  may still be cached by the platforms messaging it.
+- `public/images/og-image.png` (208KB, square, legacy branding) deleted 2026-09-15 along
+  with `public/images/reh-logo.png`. If WhatsApp/Facebook still show the old card, that is
+  platform cache keyed to the old URL, not the site.

@@ -31,8 +31,11 @@ Verified: `tsc --noEmit` clean, `next build` clean (104 pages), 0 doubled titles
 | `facebook.com/rehtraining`, `tiktok.com/@rehsafetytraining` | Client-owned pages. Changing the URL before they rename the page creates broken social links in the footer. |
 | GTM events `reh:quote`, `reh:review` and the `reh-reviews` blob store | Live interface contracts with the client's GTM container (GTM-T8J7SZQB) / Vercel storage. Renaming them silently breaks conversion tracking. |
 | Vercel project `reh-training` | Renaming changes the preview URL (`reh-training.vercel.app`). Cosmetic; do it when everything else is settled. |
-| `public/images/reh-logo.png` (nav + footer), `public/images/og-image.png`, `accreditations.jpg` | REH branding is baked into the pixels. Awaiting the client's new logo. The favicon/app icons are off this list — see below. |
+| `public/images/accreditations.jpg` | Body logos only (QCTO, CETA, Services SETA, Dept of Labour, Saiosh, mict seta) — no REH branding to replace, inspected 2026-09-15. |
 | `.firecrawl/**` scrape archives | Historical record of the old site's content. |
+
+The logo row that used to sit here (legacy `reh-logo.png` art awaiting the client) is
+closed — see **Client logo applied** below.
 
 ## Favicon / app icons (fixed 2026-09-10)
 
@@ -57,6 +60,57 @@ old URLs 404. Because of that, the explicit `icons` block was removed from
 Verified 2026-09-10: `tsc --noEmit` clean, `next build` clean, served
 `/favicon.ico`, `/icon.png`, `/apple-icon.png` byte-identical to the files on disk,
 `.ico` holds six PNG-compressed frames (16/32/48/64/128/256), old `/app/*` URLs 404.
+
+**Superseded 2026-09-15:** the interim typographic tile is now built from the client's
+real monogram — same script, same output paths, white tile instead of charcoal. See
+*Client logo applied* below.
+
+## Client logo applied (2026-09-15)
+
+The client's RSTL/CENTRE artwork landed: `brand/RSTL-Centre-logo.png`, their original
+1254×1254 RGB file kept verbatim so the assets can be re-cut after a fresh clone.
+`scripts/make-logo-assets.py` derives everything the site serves from it (`--check`
+reports without writing).
+
+| Asset | What it is | Where it goes |
+|---|---|---|
+| `public/images/rstl-logo.png` | full RSTL/CENTRE lockup, background removed, trimmed | footer plate, OG card, JSON-LD `logo` |
+| `public/images/rstl-mark.png` | monogram — the R and its swoosh, cut before the S | navbar tile, favicon + app icons |
+
+Decisions worth keeping:
+
+- **The artwork is dark ink on flat white** (navy `#05181f` + red `#e21c14`), so it needs a
+  light surface. Navbar and footer both put it on a white rounded plate rather than
+  recolouring the client's art — the header is charcoal, and navy-on-charcoal vanishes.
+- **The navbar shows the monogram, not the lockup.** The stack's CENTRE line lands at ~7px
+  at header height. The wordmark beside the tile is real HTML text (better for search and
+  screen readers) and the tagline stays.
+- Background removal is `255 - min(r,g,b)` with the colour channels de-premultiplied back
+  out. A luminance mask would leave the red swoosh half-transparent; a plain threshold
+  would leave a white fringe on every antialiased edge. Confirmed by recompositing the cut
+  assets on white and diffing against the client's original — visually identical.
+- Both `next/image` calls carry `sizes`. Without it the browser treated each logo as
+  `100vw` and pulled the 3840px variant (38KB) for a 69px lockup; the correct variants are
+  ~5.8KB total.
+- `accreditations.jpg` needed no change — body logos only, no REH branding in the pixels.
+- Deleted: `public/images/reh-logo.png` (legacy REH lockup, the last REH-branded asset on
+  the site) and `public/images/og-image.png` (1280×1280 legacy card, unreferenced since
+  `og-default.png` landed).
+
+Icon set: `scripts/make-favicon.py` rebuilt from the monogram — white tile (matching the
+art's own background), mark at 82% of the frame, `app/favicon.ico` (16/32/48/64/128/256),
+`app/icon.png` (512), `app/apple-icon.png` (180, opaque full-bleed for iOS).
+
+OG card: `scripts/make-og-image.py` now pastes the real lockup on a white plate where the
+faux DejaVu-serif "RSTL Centre" title used to be. Card stays 1200×630, matching the
+width/height declared in `app/layout.tsx`.
+
+Verified 2026-09-15: `tsc --noEmit` clean; `next build` clean; served `/icon.png`,
+`/apple-icon.png`, `/favicon.ico` byte-identical to disk; old `/images/reh-logo.png` and
+`/images/og-image.png` both 404; head emits content-hashed icon URLs; JSON-LD carries
+`"logo": "https://www.rstlcentre.co.za/images/rstl-logo.png"`; no live `reh-logo`
+references left (only the notes in these docs);
+header + footer screenshotted at 1440px and 390px and inspected.
 
 ## Legacy URL map (for the 301s)
 
@@ -83,7 +137,7 @@ The old Zoho site is **still live** on `www.rehtraining.co.za` (verified 2026-09
 **Code / deploy**
 - [x] Rebrand committed and pushed (Vercel auto-deploys)
 - [x] Favicon + app icons: replaced the create-next-app default (Vercel triangle) and the legacy REH lockup with the interim RSTL tile — `scripts/make-favicon.py` writes `app/favicon.ico` (16/32/48/64/128/256), `app/icon.png` (512), `app/apple-icon.png` (180)
-- [ ] Client sends logo files → replace `public/images/reh-logo.png` (nav + footer; alt text already updated), regenerate `og-image.png` (1200×630 ideally, currently 1280×1280) and the icon set via `scripts/make-favicon.py`; eyeball `accreditations.jpg`
+- [x] Client sent the logo files (2026-09-15) → cut, wired and verified — see **Client logo applied** below. `reh-logo.png` and the square `og-image.png` are deleted; `accreditations.jpg` inspected and needed no change
 - [ ] Request favicon refresh in Search Console after the client's real logo lands (Google caches favicons separately from page data)
 - [x] Register `rstlcentre.co.za` — **done, live 2026-09-11** (`rstl.co.za` is taken by a third party)
 - [x] Add `rstlcentre.co.za` + `www.rstlcentre.co.za` as domains in the Vercel project; DNS to Vercel — **done 2026-09-11** (apex A → 216.198.79.1, www → `4aeab9cdf1d1e217.vercel-dns-017.com`; apex 308s to www; site served on both). Registrar NS are `tld-ns.com/.net`, so DNS is not managed at Vercel — records are pointed manually.

@@ -17,17 +17,17 @@ export default function Footer() {
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-[1.2fr_0.8fr_1fr_1fr_1fr]">
           {/* brand */}
           <div>
-            <div className="flex items-center gap-3">
-              <div className="h-11 w-11 overflow-hidden rounded-xl bg-white p-1.5">
-                <Image
-                  src="/images/reh-logo.png"
-                  alt="RSTL Centre logo"
-                  width={44}
-                  height={44}
-                  className="h-full w-full object-contain"
-                />
-              </div>
-              <span className="font-display text-lg text-white">RSTL Centre</span>
+            {/* The footer carries the full RSTL/CENTRE lockup, so the name is already
+                spelled out in the client's own artwork — no second text wordmark. */}
+            <div className="inline-flex items-center rounded-xl bg-white px-3.5 py-2.5">
+              <Image
+                src="/images/rstl-logo.png"
+                alt="RSTL Centre"
+                width={1048}
+                height={605}
+                sizes="84px"
+                className="h-12 w-auto"
+              />
             </div>
             <p className="mt-4 text-sm leading-relaxed text-cream/70">
               Accredited health &amp; safety training, soft skills courses and occupational medicals —

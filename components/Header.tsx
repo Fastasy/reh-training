@@ -46,12 +46,16 @@ export default function Header() {
       {/* main nav */}
       <div className="relative mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
-          <div className="relative h-11 w-11 overflow-hidden rounded-xl bg-white p-1.5">
+          {/* The client's mark (the R and its swoosh) in a white tile. The full
+              RSTL/CENTRE lockup is unreadable at this height, so the wordmark beside
+              it is real text, not more artwork. */}
+          <div className="relative h-11 w-11 shrink-0 overflow-hidden rounded-xl bg-white p-1.5">
             <Image
-              src="/images/reh-logo.png"
-              alt="RSTL Centre logo"
-              width={44}
-              height={44}
+              src="/images/rstl-mark.png"
+              alt=""
+              width={370}
+              height={436}
+              sizes="32px"
               className="h-full w-full object-contain"
               priority
             />
