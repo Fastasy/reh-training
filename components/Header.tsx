@@ -46,25 +46,22 @@ export default function Header() {
       {/* main nav */}
       <div className="relative mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
-          {/* The client's mark (the R and its swoosh) in a white tile. The full
-              RSTL/CENTRE lockup is unreadable at this height, so the wordmark beside
-              it is real text, not more artwork. */}
-          <div className="relative h-11 w-11 shrink-0 overflow-hidden rounded-xl bg-white p-1.5">
+          {/* The client's full RSTL/CENTRE lockup, on the light plate its dark ink needs.
+              The mark alone (the R) reads as a cropped logo, so the complete lockup goes
+              here and the name is not repeated in text beside it. */}
+          <div className="inline-flex shrink-0 items-center rounded-xl bg-white px-2.5 py-1.5 sm:px-3 sm:py-2">
             <Image
-              src="/images/rstl-mark.png"
-              alt=""
-              width={370}
-              height={436}
-              sizes="32px"
-              className="h-full w-full object-contain"
+              src="/images/rstl-logo.png"
+              alt="RSTL Centre"
+              width={1048}
+              height={605}
+              sizes="(min-width: 640px) 76px, 62px"
+              className="h-9 w-auto sm:h-11"
               priority
             />
           </div>
-          <span className="leading-tight">
-            <span className="block font-display text-lg text-white sm:text-xl">RSTL Centre</span>
-            <span className="block text-[11px] uppercase tracking-[0.18em] text-cream/70">
-              Accredited Health &amp; Safety
-            </span>
+          <span className="hidden text-[11px] uppercase tracking-[0.18em] text-cream/70 md:block">
+            Accredited Health &amp; Safety
           </span>
         </Link>
 

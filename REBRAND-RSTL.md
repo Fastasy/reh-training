@@ -75,16 +75,23 @@ reports without writing).
 | Asset | What it is | Where it goes |
 |---|---|---|
 | `public/images/rstl-logo.png` | full RSTL/CENTRE lockup, background removed, trimmed | footer plate, OG card, JSON-LD `logo` |
-| `public/images/rstl-mark.png` | monogram — the R and its swoosh, cut before the S | navbar tile, favicon + app icons |
+| `public/images/rstl-mark.png` | monogram — the R and its swoosh, cut before the S | favicon + app icons (input to `make-favicon.py`; not used on the page) |
 
 Decisions worth keeping:
 
 - **The artwork is dark ink on flat white** (navy `#05181f` + red `#e21c14`), so it needs a
   light surface. Navbar and footer both put it on a white rounded plate rather than
   recolouring the client's art — the header is charcoal, and navy-on-charcoal vanishes.
-- **The navbar shows the monogram, not the lockup.** The stack's CENTRE line lands at ~7px
-  at header height. The wordmark beside the tile is real HTML text (better for search and
-  screen readers) and the tagline stays.
+- **Navbar and footer both show the FULL lockup**, on a white plate. First pass put the
+  monogram in the navbar tile and the wordmark as HTML text beside it; the client read the
+  R-on-its-own as a **cropped logo** (feedback 2026-09-15). The lesson is not to argue
+  legibility theory at the client — a fragment of a logo is a fragment, whatever the pixel
+  maths says. Header row height went 68px → 84px (44px lockup + plate padding) to give the
+  three-band stack room; the tagline beside the plate is real HTML text, and the wordmark
+  is no longer duplicated in text. The monogram survives only as the icon-set input.
+- **Icon set still uses the monogram** (favicon, app icons) — at 16px a full lockup is
+  illegible, and a favicon is a different job from a header. No client objection to the tab
+  icon; if that changes, the lockup goes on the tile and the mark retires entirely.
 - Background removal is `255 - min(r,g,b)` with the colour channels de-premultiplied back
   out. A luminance mask would leave the red swoosh half-transparent; a plain threshold
   would leave a white fringe on every antialiased edge. Confirmed by recompositing the cut
