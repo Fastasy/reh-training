@@ -98,8 +98,10 @@ Latest run: **0 findings**, sitemap **PASS** (99 URLs, all 200, canonicals match
 - **Google Ads:** update final URLs, sitelinks and the display name.
 - **Zoho:** mailboxes on the new domain + MX records, then
   `python3 scripts/rebrand-rstl.py --email-flip` (one command, ~40 references).
-- **Domain:** register `rstlcentre.co.za` (unregistered as of 2026-09-10) and point it at
-  the Vercel project; the 308 map in `next.config.ts` is already in place.
+- **Domain:** done 2026-09-11 — `rstlcentre.co.za` registered and pointed at the Vercel
+  project (apex → www). The 308 map in `next.config.ts` has still never fired, because
+  `rehtraining.co.za` is still on Zoho's nameservers: move only its A/CNAME to Vercel to
+  light the redirect up without touching the MX on the old domain.
 - **Logo assets:** done 2026-09-15 — the client's art is cut by
   `scripts/make-logo-assets.py` into `rstl-logo.png` + `rstl-mark.png`, and
   `scripts/make-favicon.py` / `scripts/make-og-image.py` regenerate the icon set and
