@@ -26,8 +26,16 @@ import sys
 from pathlib import Path
 
 VAULT_ARTICLES = Path(
+    "/mnt/c/Users/Administrator/Documents/Hermes Obsidian/Allegro Digital/Clients/REH Training/Articles"
+)
+# The vault was restructured on 2026-09-21 (REH Training/Articles ->
+# Allegro Digital/Clients/REH Training/Articles). Fall back to the legacy path so an
+# old checkout still builds, but always prefer the current one.
+_LEGACY_VAULT_ARTICLES = Path(
     "/mnt/c/Users/Administrator/Documents/Hermes Obsidian/REH Training/Articles"
 )
+if not VAULT_ARTICLES.exists() and _LEGACY_VAULT_ARTICLES.exists():
+    VAULT_ARTICLES = _LEGACY_VAULT_ARTICLES
 # Published articles live in Published/; anything still under review sits in Drafts/.
 # Both are searched so a filename in PUBLISHED resolves wherever it currently lives.
 SOURCE_DIRS = [VAULT_ARTICLES / "Published", VAULT_ARTICLES / "Drafts"]
@@ -51,6 +59,10 @@ PUBLISHED: list[tuple[str, str]] = [
     ("2026-09-rstl-09-forklift-licence-south-africa-cost.md", "2026-09-10"),
     ("2026-09-rstl-03-first-aid-training-mthatha.md", "2026-09-14"),
     ("2026-09-rstl-04-working-at-heights-scaffolding-mthatha.md", "2026-09-14"),
+    ("2026-09-rstl-05-machine-plant-operator-training-mthatha.md", "2026-09-21"),
+    ("2026-09-rstl-06-first-aid-emergency-training-schools-creches.md", "2026-09-21"),
+    ("2026-09-rstl-07-occupational-medicals-mthatha.md", "2026-09-21"),
+    ("2026-09-rstl-08-working-at-heights-certificate-validity-south-africa.md", "2026-09-21"),
 ]
 
 FAQ_HEADINGS = {"frequently asked questions", "faqs"}

@@ -531,6 +531,312 @@ export const ALL_ARTICLES: Article[] = [
       { href: "/courses/scaffolding-inspector", label: "Scaffolding Inspector" },
     ],
   },
+  {
+    slug: "machine-plant-operator-training-mthatha",
+    title: "Machine and Plant Operator Training in Mthatha: Forklift, TLB, Excavator and Grader",
+    metaTitle: "Machine and Plant Operator Training in Mthatha",
+    metaDescription: "Forklift training Mthatha employers can book: 34 machine and plant courses, forklift at R1,500 and TLB at R4,500, run at our centre or on your own site.",
+    primaryKeyword: "forklift training mthatha",
+    secondaryKeywords: ["tlb training mthatha", "excavator training mthatha", "plant operator training mthatha", "forklift licence"],
+    category: "Mthatha",
+    date: "2026-09-21",
+    readMinutes: 7,
+    excerpt: "Machine and plant operator training in Mthatha, covering forklift, TLB, excavator and grader. What the law requires, what the courses cost and where the work is.",
+    intro: [
+      "Forklift training Mthatha employers arrange through RSTL Centre is practical, machine-based work, run from the branch at the Old Mutual Building on the corner of York Road and Leeds Road. The same programme covers TLB, excavator, grader, dump truck and front end loader operators, so one booking can carry a whole plant crew.",
+      "RSTL Centre offers 34 machine and plant courses. Some are lifting machines governed by the Driven Machinery Regulations, and others are earthmoving and plant equipment. The course your operator needs depends on the machine they will actually run, not on the course title that sounds closest.",
+      "Demand in the district is steady. The N2 Wild Coast Road packages around Mthatha keep contractors looking for machine operators, and the district water and sanitation programme of roughly 122 projects keeps plant working across the region. Plant operators are needed on site, in person.",
+      "That last point matters when you plan training. Practical machine training cannot be delivered online. Operators need the machine, a load and a competent assessor watching them work, which is why the machine courses run at a centre or on your premises and never as an online session.",
+    ],
+    closing: [
+      "Send your machine types and delegate numbers through [the contact page](/contact) and RSTL Centre will confirm dates and a quote, whether you want the [Forklift Operator course](/courses/forklift-operator), the [TLB Operator course](/courses/tlb-operator) or any of the other machines in the full [course range](/courses).",
+    ],
+    sections: [
+      {
+        heading: "What the law requires from a machine operator",
+        paragraphs: [
+          "Driven Machinery Regulations 2015 require an operator of a lifting machine to hold a certificate of training from a provider accredited by TETA, the Transport SETA, and approved by the Chief Inspector. The duty sits with the employer. On a Mthatha site, an inspector asks for the certificate, not for a claim of experience.",
+          "That requirement is what turns operator training from a nice-to-have into a compliance item. A certificate from a trainer who is not accredited does not satisfy the regulation, which is why you should check a provider's accreditation before you pay a deposit. RSTL Centre states its accreditation on its course pages.",
+          "Earthmoving machines such as the TLB and the excavator are governed by the OHS Act's general duty to provide a safe workplace and competent operators. In practice, contractors and principal contractors treat an operator certificate as the standard proof of competence, and the civil tenders running across the district ask for exactly that.",
+        ],
+      },
+      {
+        heading: "Which machines employers here actually use",
+        paragraphs: [
+          "The machines in daily use across the OR Tambo district are the forklift, the TLB, the excavator, the grader, the dump truck and the front end loader. Warehouses and distribution operations around the Mall of Mthatha and Vulindlela Heights run forklifts on loading bays all day.",
+          "Road and water contractors run TLBs and excavators almost continuously. The N2 Wild Coast Road packages, led by joint ventures including WBHO, and the district water and sanitation programme both need plant on site for long stretches. SANRAL ran a contractor development session in Mthatha for local contractors, which tells you where the local work is heading.",
+          "Forestry operations at Langeni and Singisi add another layer. Loading and hauling timber needs trained operators on front end loaders and dump trucks, often on uneven ground and in wet weather. Quarry work at Transkei Quarries adds loading cycles that punish an untrained operator quickly.",
+          "Municipal and provincial work brings graders into play. Grading gravel access roads and maintaining district roads is steady work, and it is usually tied to a tender that specifies operator competence.",
+        ],
+      },
+      {
+        heading: "What changed in the operator certification regime",
+        paragraphs: [
+          "The National Code of Practice for Training Providers of Lifting Machine Operators says a carry card is valid for up to 24 months. That is the practical position most sites work to today, and it is why carry cards get checked and renewed as a matter of routine.",
+          "The position changed on 30 January 2026. A Correction Notice from the Chief Inspector replaced re-certification with relicensing, confirmed that certificates are issued only once, and allowed providers to keep issuing carry cards while a licensing body is being set up. That body has a deadline of 29 May 2027.",
+          "Treat this as a regime in transition. Do not treat a fixed validity period as settled law, and do not let a card lapse on the assumption that nothing has changed. If you are unsure what applies to your operators right now, ask the question before you book and get the answer in writing.",
+        ],
+      },
+      {
+        heading: "What the courses cost and how a booking runs",
+        paragraphs: [
+          "RSTL Centre charges R1,500 for the Forklift Operator course and R4,500 for the TLB Operator course, both quoted on request. The final figure depends on whether training runs at a centre or on your site, and on how many delegates you send.",
+          "Training hours are Monday to Friday, 08:00 to 16:30. Saturday sessions can be arranged, classes run daily and there is no waiting period. That matters when a machine is standing idle and a contract milestone is close.",
+          "Published prices from small training academies seen in search results range from about R600 to R4,500 for forklift and machine operator courses, and one Facebook operator advertises R2,300 to R6,800. That spread usually tracks accreditation, the machine, whether assessment is included and whether the provider travels to your site.",
+        ],
+        table: {"head": ["Machine", "Typical worksite use in the district"], "rows": [["Forklift", "Warehouse and retail distribution, loading and offloading delivery vehicles"], ["TLB (tractor loader backhoe)", "Trenching, service connections, road and water reticulation work"], ["Excavator", "Bulk earthworks, foundations and trenching on the N2 corridor and water projects"], ["Grader", "Gravel road shaping and maintenance for municipal and provincial road work"], ["Dump truck", "Hauling spoil, aggregate and timber on construction and forestry sites"], ["Front end loader", "Loading stockpiles, timber handling and general plant support"]]},
+      },
+      {
+        heading: "How public buyers in the district procure this training",
+        paragraphs: [
+          "Public sector buyers in O.R. Tambo District do buy safety training locally, and they buy it against accreditation conditions. The Eastern Cape Department of Public Works and Infrastructure issued quotation ORT5-25/26-0017 for the training of 34 employees on health and safety (SHE Rep) in O.R. Tambo District over three days. That order was placed in Mthatha, not Johannesburg.",
+          "The district municipality also requires accreditation letters from HWSETA and QCTO as a mandatory condition on its training quotations. Machine operator courses sit under TETA rather than those two bodies, but the discipline is identical. If a public buyer or a principal contractor asks for proof of accreditation, you want a provider who can produce it without a delay.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "Do I need a licence to operate a forklift in South Africa?", a: "In everyday language people say licence, but the law refers to a certificate of training. You need one from a provider accredited by TETA and approved by the Chief Inspector. The employer must make sure the operator holds it before the machine is used on site." },
+      { q: "How long does a forklift operator course take?", a: "The Forklift Operator course runs for one day, Monday to Friday, starting at 08:00. RSTL Centre runs classes daily with no waiting period, so you can usually book a delegate at short notice. The practical work is done on a machine, not online." },
+      { q: "Can machine operator training be done online?", a: "No. Practical machine training cannot be delivered online. Operators have to be assessed on the machine they will run, with real loads and a competent assessor watching. Theory may be handled in a blended format, but the practical part is always in person." },
+      { q: "What does TLB operator training cost in Mthatha?", a: "RSTL Centre charges R4,500 for the TLB Operator course, quoted on request depending on venue and delegate numbers. Prices from small training academies seen in search results vary widely, so compare what is included rather than the headline fee alone." },
+      { q: "Which machine operators are in demand on the N2 Wild Coast Road?", a: "The N2 Wild Coast Road packages need excavator, TLB, grader and dump truck operators on an ongoing basis, and the district water programme adds more plant work. Contractors on both run operator competence checks because their tenders and safety files require it." },
+      { q: "Does a forklift certificate expire?", a: "Work through this carefully. The National Code of Practice sets a carry card at up to 24 months, and a Correction Notice dated 30 January 2026 moved the regime to relicensing, with a licensing body due by 29 May 2027. Do not treat a fixed validity period as settled law." },
+      { q: "Can RSTL Centre train operators on my site?", a: "Yes. Machine courses run at any of the three centres or on site at your premises. On-site training suits contractors with a machine and a crew already on a project, and it is quoted on request. Book through the contact page to confirm dates." },
+    ],
+    closingHeading: "Book machine and plant operator training in Mthatha",
+    courseLinks: [
+      { href: "/courses/forklift-operator", label: "Forklift Operator course" },
+      { href: "/courses/tlb-operator", label: "TLB Operator course" },
+    ],
+  },
+  {
+    slug: "first-aid-emergency-training-schools-creches",
+    title: "First Aid and Emergency Training for Schools, Creches and Care Centres in the Mthatha Area",
+    metaTitle: "First Aid Training for Schools and Creches",
+    metaDescription: "First aid training for schools, creches and care centres in the Mthatha area. Level 1, 2 and 3 first aid at R650 each, plus firefighting and evacuation.",
+    primaryKeyword: "first aid training for schools",
+    secondaryKeywords: ["first aid training for creche", "first aid training for daycare", "evacuation training for schools", "first aid training for teachers"],
+    category: "Mthatha",
+    date: "2026-09-21",
+    readMinutes: 7,
+    excerpt: "First aid and emergency training for Mthatha schools, creches and care centres, covering child injuries, fire awareness and evacuating large groups of children.",
+    intro: [
+      "First aid training for schools across the OR Tambo district is a practical need rather than a formality. The district has 652 schools recorded in a district report, along with a large early childhood development sector, and a normal school day produces injuries in fairly predictable ways.",
+      "Principals, creche owners and care centre managers all face the same question: who on the staff can handle an injury in the first ten minutes, before an ambulance arrives? A child who falls off play equipment, chokes on a sweet or reacts to a bee sting needs someone who knows what to do.",
+      "RSTL Centre runs First Aid Levels 1, 2 and 3 at R650 each, Basic Firefighting at R650 and Emergency Evacuation Training at R650. Training can be delivered on site at your school, which avoids taking teachers out of the classroom for a whole day.",
+      "That on-site option matters in a small school or a creche with a tight staff complement. Nobody wants three staff members driving to town while the classes they should be teaching run short.",
+    ],
+    closing: [
+      "Book the relevant first aid level through the [First Aid Level 1 course page](/courses/first-aid-level-1), add [Basic Firefighting](/courses/basic-firefighting) for your kitchen and maintenance staff, and cover the site with [Emergency Evacuation Training](/courses/emergency-evacuation-training). Send your staff numbers and site details through [the contact page](/contact) and RSTL Centre will confirm an on-site date, with the full list on the [course page](/courses).",
+    ],
+    sections: [
+      {
+        heading: "What the law requires from a school as an employer",
+        paragraphs: [
+          "Any employer with more than five employees must provide a first aid box. Once more than 10 employees are employed, at least one person in each group of up to 50 employees, or up to 100 in a shop or office, must be readily available during working hours holding a valid first aid certificate of competency.",
+          "That first aider's certificate must be issued or endorsed by the SA Red Cross Society, St John Ambulance, the SA Noodhulpliga, or an organisation approved by a chief inspector. The first aider's name must appear on the first aid box, and every box location must be clearly signposted.",
+          "Where dangerous or high-risk substances are used, the first aider must also be trained in first aid for acute poisoning and spillage. Science labs, art rooms and kitchen facilities are obvious places to think about that.",
+          "Schools also carry their own departmental requirements on top of the general employer duty. Those requirements are set by the education authorities, not by the OHS Act, and they change. Principals should check the current requirement that applies to their school before deciding how many staff to train.",
+        ],
+      },
+      {
+        heading: "The injuries that actually happen in a school day",
+        paragraphs: [
+          "Falls and playground injuries are the most common. A child comes off the jungle gym, collides with another child on the field or slips on wet steps. The first response is usually the one that determines how the rest of the injury plays out.",
+          "Choking is a real risk in the foundation phase and at lunchtime. Allergic reactions, including to insect stings and food, turn quickly, and staff need to recognise the difference between a mild reaction and one that needs urgent help.",
+          "Burns happen in home economics kitchens and around school events where food is prepared. Cuts, nosebleeds and suspected fractures round out the list. First Aid Level 1 covers the everyday version of all of this, and Levels 2 and 3 extend into more serious emergencies for staff who carry the responsibility.",
+        ],
+      },
+      {
+        heading: "Fire awareness and firefighting for school staff",
+        paragraphs: [
+          "A school needs staff who know how to raise the alarm, choose the correct extinguisher and use it without making the situation worse. Basic Firefighting covers fire awareness and practical extinguisher work, which is the part most staff have never done.",
+          "Fire Equipment Inspector training is also available for the staff member who keeps the extinguishers and hose reels in a serviceable state. Someone has to check them, and in most schools that job lands on an admin or maintenance person who has never been shown what to look for.",
+          "The practical reality is that a small fire contained in the first two minutes rarely becomes a large one. Staff who have actually used an extinguisher on a controlled fire behave very differently from staff who have only watched a video.",
+        ],
+      },
+      {
+        heading: "Getting large groups of children out safely",
+        paragraphs: [
+          "Emergency evacuation training for schools has to deal with a group that includes children who cannot evacuate themselves. Toddlers and Grade R learners cannot read an exit plan, cannot move quickly, and often do not understand that the noise and smoke mean danger.",
+          "Emergency Evacuation Training at RSTL Centre covers evacuation planning for large groups and the roles staff take when the alarm sounds. That includes who sweeps which building, who carries the register, where the assembly point sits and how learners are accounted for once they are out.",
+          "Staff to learner ratios are at the centre of this. A creche with 30 toddlers and two adults has a very different evacuation problem from a high school with 800 learners who can walk out on their own. Training should be built around your ratio, your buildings and your youngest children, not a generic template.",
+        ],
+      },
+      {
+        heading: "First aid for creches and daycare centres",
+        paragraphs: [
+          "First aid training for creche and daycare staff carries its own weight, because the children are younger, the injuries are different and the supervision ratios are tighter. Choking, falls, allergic reactions, burns and febrile convulsions all appear in this setting.",
+          "Care centre managers working with older adults or people with disabilities face another version of the same problem. Staff need to handle falls, medication-related incidents and emergencies where the person cannot tell them what hurts.",
+          "In every case the training answer is similar. Get a proportion of the staff trained, put the trained staff on every shift, and repeat the training as staff turn over. First Aid Level 1 is the starting point, and R650 per delegate keeps it affordable for a small centre.",
+        ],
+        table: {"head": ["Training", "Who at the school or centre should attend"], "rows": [["First Aid Level 1", "Class teachers, front office staff, grounds staff and kitchen staff"], ["First Aid Level 2", "The designated first aiders and staff on sports or outing duty"], ["First Aid Level 3", "Senior staff who manage the first aid function across the site"], ["Basic Firefighting", "Maintenance staff, hostel staff, kitchen staff and fire team members"], ["Emergency Evacuation Training", "The principal or manager, floor wardens and every staff member with an evacuation role"]]},
+      },
+    ],
+    faqs: [
+      { q: "What first aid training do schools need in South Africa?", a: "It depends on your staff numbers and on your departmental requirements. The general employer rule is that with more than 10 employees you need at least one trained first aider available per group of up to 50. First Aid Level 1 is the usual starting point for teachers and support staff." },
+      { q: "How many first aiders does a school need?", a: "Under the general employer rule, at least one person per group of up to 50 employees, or up to 100 in a shop or office. A school with 30 staff therefore needs at least one trained first aider, and most schools train more than the minimum to cover absentees." },
+      { q: "Do first aid certificates expire?", a: "The law sets no expiry period for a first aid certificate of competency. A three year refresh cycle is industry practice rather than a legal rule. The issuing body and your own risk assessment should drive how often your staff retrain, so check both before setting a cycle." },
+      { q: "Can first aid training be done at our school?", a: "Yes. RSTL Centre can deliver training on site at your school, which keeps staff on the premises and avoids a full day away. On-site delivery suits a whole staff complement or a group of creches sharing one venue. Book through the contact page." },
+      { q: "What is the difference between First Aid Level 1, 2 and 3?", a: "Level 1 covers the basic emergencies most staff will meet, including bleeding, burns, choking and fractures. Level 2 goes further into serious emergencies, and Level 3 is aimed at the person managing first aid across a site. Each level runs for one day and costs R650." },
+      { q: "Do creche and daycare centres need the same training?", a: "They need first aid training built for younger children, which is why the creche and daycare version focuses on choking, falls, allergic reactions and burns. Emergency evacuation training also matters more, because toddlers cannot evacuate themselves and staff must carry them out." },
+      { q: "How does a school evacuate young children safely?", a: "Plan around ratios and roles. Staff need to know who collects which group, which children must be carried, who takes the register and where the assembly point is. Emergency Evacuation Training covers all of that, and it can be run on your own site with your own buildings." },
+    ],
+    closingHeading: "Book first aid and emergency training for your school",
+    courseLinks: [
+      { href: "/courses/first-aid-level-1", label: "First Aid Level 1 course page" },
+      { href: "/courses/basic-firefighting", label: "Basic Firefighting" },
+      { href: "/courses/emergency-evacuation-training", label: "Emergency Evacuation Training" },
+    ],
+  },
+  {
+    slug: "occupational-medicals-mthatha",
+    title: "Occupational Medicals in Mthatha: Pre-Employment, Fitness to Work and Mobile Units",
+    metaTitle: "Occupational Medicals in Mthatha: Employer Guide",
+    metaDescription: "Occupational medicals Mthatha employers book: pre-employment, fitness to work and working at heights medicals at our clinic or on site with mobile units.",
+    primaryKeyword: "occupational medicals mthatha",
+    secondaryKeywords: ["pre-employment medical", "working at heights medical examination", "fitness to work certificate", "occupational health medicals"],
+    category: "Medicals",
+    date: "2026-09-21",
+    readMinutes: 7,
+    excerpt: "Occupational medicals in Mthatha, from pre-employment to working at heights. Why the fall protection plan makes the medical compulsory and how mobile units reach your site.",
+    intro: [
+      "Occupational medicals Mthatha employers book through RSTL Centre run from a real clinic in town and from mobile units that travel to a site. The branch sits at 1st Floor, Old Mutual Building, corner of York Road and Leeds Road, Mthatha, and the number is 078 045 2852.",
+      "The medicals fall into four common groups: pre-employment, fitness to work, working at heights, and periodic medical surveillance. Which one your employee needs depends on the job and on the risk assessment behind it, not on a general rule of thumb.",
+      "One of these medicals is not optional paperwork. For any employee working at a fall risk position, Regulation 10 of the Construction Regulations 2014 puts a medical fitness evaluation directly inside the fall protection plan.",
+    ],
+    closing: [
+      "Send your employee numbers, the roles involved and the site location through [the contact page](/contact) and RSTL Centre will confirm a clinic appointment or a mobile unit visit. Add the [Working at Heights course](/courses/working-at-heights) or [Fall Protection Planning](/courses/fall-protection-planning) if your crew needs the training that goes with the medical, and the [full course range](/courses) covers the rest.",
+    ],
+    sections: [
+      {
+        heading: "Why a heights medical sits inside the fall protection plan",
+        paragraphs: [
+          "Construction Regulations 2014 Regulation 10 requires a fall protection plan that includes the processes for evaluating employees' medical fitness to work at a fall risk position, together with the records of that evaluation. A working at heights medical is therefore part of a compliant plan, not a document you add afterwards.",
+          "The same regulation requires the contractor to designate a competent person to prepare the plan, and to implement, amend, maintain and enforce it. The plan must also carry a risk assessment of all work from a fall risk position, a training programme for those workers with records, and a rescue plan with the people and equipment to rescue someone who falls.",
+          "That rescue plan has to be implemented immediately, which is why the training and the medical belong together. A competent person who is medically unfit for the position cannot form part of the rescue arrangement, and a fit worker who has never been trained on the rescue procedure is no better off.",
+          "The construction manager must hold the most recently updated version of the plan. When an inspector or a principal contractor asks for it, the medical records must be in it.",
+        ],
+      },
+      {
+        heading: "The types of medical employers ask for",
+        paragraphs: [
+          "A pre-employment medical is done before somebody starts, and it establishes a baseline. It tells the employer whether the person can do the job they are being hired for, and it gives the clinic a starting point if a health issue is raised later.",
+          "A fitness to work certificate answers a narrower question about a specific role. It is the document that says this person can work in this position, and it is what a contractor produces when a client or a tender asks for proof.",
+          "A working at heights medical examination links the employee to the fall risk position under Regulation 10. Periodic medical surveillance is the ongoing version, done at intervals for employees exposed to particular hazards. Your risk assessment and your appointment of a medical practitioner should set the scope, so ask before you book.",
+        ],
+      },
+      {
+        heading: "Who needs occupational medicals in the district",
+        paragraphs: [
+          "Construction contractors working on the N2 Wild Coast Road corridor need medicals for anyone at a fall risk position, and for site staff whose roles carry health requirements. The district water and sanitation programme, with about 122 projects running, generates the same demand across many smaller contractors.",
+          "Quarry and forestry employers add to it. Transkei Quarries at Mthatha runs heavy plant and haulage work, and the Langeni sawmill and Singisi forestry operations employ people in physically demanding roles. Municipalities are a steady source of pre-employment and fitness to work medicals as well.",
+          "Government, retail, health, education and services employ most of the local workforce, and not every role needs a medical. The roles that do are usually the ones with a physical demand, a height risk, a driver requirement or a client contract that specifies it.",
+        ],
+      },
+      {
+        heading: "A Mthatha clinic rather than a service driving in",
+        paragraphs: [
+          "Occupational medicals in Mthatha are a competitive local market. Several practitioners and practices already offer them, so this is not somewhere a provider wins on novelty. The practical difference is having a physical clinic in town with mobile units that can come to you.",
+          "A clinic in Mthatha means you are not waiting on a team driving in from another province to fill a slot on a route. It also means records and follow-ups stay with a local practice, and a working at heights medical can be booked in the same place as the training that goes with it.",
+          "Mobile units change the maths on a construction site. If you have a crew that cannot leave the site for a day, the unit travels to the site, and your people are seen without the project losing a day of work. Ask about mobile delivery when you book, and give the location and crew numbers.",
+        ],
+      },
+      {
+        heading: "Booking medicals and heights training together",
+        paragraphs: [
+          "Medicals and working at heights training can be booked together, which suits contractors who need both for the same crew. Book the [Working at Heights course](/courses/working-at-heights) and the medicals in one arrangement, and the records arrive in a form you can drop straight into the fall protection pack.",
+          "If you are rebuilding the plan itself, the [Fall Protection Planning course](/courses/fall-protection-planning) covers how the plan is put together, including the medical fitness and training records it has to carry. That is the cleaner route for a contractor preparing for a client audit or a discovery inspection.",
+        ],
+        table: {"head": ["Medical type", "Which employees usually need it"], "rows": [["Pre-employment medical", "New hires in physically demanding, driving or safety-critical roles"], ["Fitness to work certificate", "Employees whose role has a specific health requirement set by contract"], ["Working at heights medical", "Anyone working at a fall risk position under a fall protection plan"], ["Periodic medical surveillance", "Employees exposed to particular hazards, at intervals set by the risk assessment"]]},
+      },
+    ],
+    faqs: [
+      { q: "Why is a working at heights medical required?", a: "Construction Regulations 2014 Regulation 10 requires a fall protection plan to include the processes for evaluating employees' medical fitness to work at a fall risk position, with records. The medical is therefore part of the compliant plan, not an optional extra. A contractor cannot leave it out." },
+      { q: "What is a fitness to work certificate?", a: "It is a document confirming that an employee is medically fit for a specific role. Employers produce it when a client, a principal contractor or a tender requires proof that the person can do the job. The scope should follow the risk assessment for that position." },
+      { q: "Where is the RSTL Centre Mthatha clinic?", a: "The Mthatha branch is at 1st Floor, Old Mutual Building, corner of York Road and Leeds Road, Mthatha. The branch number is 078 045 2852. Training hours are Monday to Friday from 08:00 to 16:30, with Saturday sessions by arrangement." },
+      { q: "Can medicals be done on our site instead of at the clinic?", a: "Yes. RSTL Centre runs mobile units that can travel to a site, which suits a construction crew that cannot leave the project for a day. Give the location and the number of employees when you book so the visit can be planned properly." },
+      { q: "Do you need a pre-employment medical for every new employee?", a: "No. It depends on the role and on what the employer's risk assessment and client contracts require. Roles with physical demands, height risks, driving duties or specific contract conditions are the ones that normally need it before the employee starts work." },
+      { q: "Can medicals and working at heights training be booked together?", a: "Yes, and it is the sensible way to do it. A crew that needs heights training almost always needs the matching medical, and booking both together keeps the records consistent. Use the contact page to arrange both in one request." },
+      { q: "Do medicals have a fixed validity period?", a: "No single period applies across the board. How often a medical is repeated follows from the risk assessment, the role and any requirement set by a client or a tender. Ask the clinic to confirm the interval for your specific positions rather than working from a general assumption." },
+    ],
+    closingHeading: "Book occupational medicals in Mthatha",
+    courseLinks: [
+      { href: "/courses/working-at-heights", label: "Working at Heights course" },
+      { href: "/courses/fall-protection-planning", label: "Fall Protection Planning course" },
+    ],
+  },
+  {
+    slug: "working-at-heights-certificate-validity-south-africa",
+    title: "How Long Is a Working at Heights Certificate Valid in South Africa?",
+    metaTitle: "Working at Heights Certificate Validity in SA",
+    metaDescription: "The Construction Regulations set no expiry date for a working at heights certificate. Here is what actually drives a refresher, and how to keep records ready.",
+    primaryKeyword: "working at heights certificate validity",
+    secondaryKeywords: ["how long does a working at heights certificate last", "working at heights certificate expiry", "fall arrest training validity", "working at heights training"],
+    category: "Compliance",
+    date: "2026-09-21",
+    readMinutes: 7,
+    excerpt: "Search results for working at heights certificate validity in South Africa often answer for Singapore, Australia or the UK. Here is the honest South African position.",
+    intro: [
+      "Search for working at heights certificate validity in South Africa and you land on pages written for Singapore, Australia and the United Kingdom. Singapore runs a Work at Height Course with its own renewal rule. Australia has its own licence regime. The United Kingdom publishes refresher guidance for its own sites. None of it governs a South African workplace.",
+      "The Construction Regulations 2014 do not put a number of years on a working at heights certificate. Regulation 10 sets out what a fall protection plan must contain, and a training programme with records is on that list. It never adds a line saying the certificate lapses after two, three or five years.",
+      "So the useful question is not what the expiry date is. It is who decides when a refresher is due, and on what basis. On a real site that answer sits with the employer's risk assessment and with the safety specification of the client or principal contractor. A decision made without records behind it is a guess. Made with them, it is a position that holds up when a client, an inspector or an insurer asks why a person was working on the edge.",
+    ],
+    closing: [
+      "The course most sites ask for is [Working at Heights](/courses/working-at-heights), one day at R700. Employers who need to build the plan behind the certificate usually pair it with [Fall Protection Planning](/courses/fall-protection-planning), also one day at R700, and book medical fitness evaluations through [occupational medicals](/medicals).",
+      "RSTL Centre trains Monday to Friday, 08:00 to 16:30, with Saturday sessions by arrangement. Classes run daily with no waiting period, at a centre or on site. Browse the full list on the [courses page](/courses), then send your booking request through the [contact page](/contact).",
+    ],
+    sections: [
+      {
+        heading: "What the Construction Regulations Say About a Certificate Expiring",
+        paragraphs: [
+          "The Construction Regulations 2014 set no expiry period for a working at heights certificate. Regulation 10 requires a fall protection plan that includes a training programme for employees who work from a fall risk position, together with the records of that training. Nothing in the regulation names a number of years or a renewal interval.",
+          "That single fact clears up most of the confusion. A certificate is not valid or invalid because of its age. It counts because the person is trained for the work and the equipment in front of them, and because the employer can produce the record when it is asked for.",
+          "Consider what an inspector, a client or a principal contractor actually checks on site. They want to see a fall protection plan, a training programme behind that plan, medical fitness records, and an inspection regime for the equipment. A certificate with no records attached proves very little. A current training record tied to a live plan proves a great deal.",
+        ],
+      },
+      {
+        heading: "What Regulation 10 Requires the Employer to Do",
+        paragraphs: [
+          "Regulation 10 requires the contractor to designate a competent person to prepare a fall protection plan, then implement, amend, maintain and enforce it. The plan must include a risk assessment of all work from a fall risk position, medical fitness evaluations with records, a training programme with records, an equipment inspection and maintenance procedure, and a rescue plan.",
+          "Each item on that list has a purpose. The risk assessment tells you where the fall risk sits and how the work will be done at each position. The medical fitness evaluation keeps a person whose condition makes a fall more likely away from the edge. The training programme builds the competence the work demands, and the records are what you show afterwards. The equipment procedure keeps harnesses, lanyards and anchors fit for use between inspections. The rescue plan is the part most sites leave until too late, and it is the part that matters after a fall arrest has already happened.",
+          "Two rules sit underneath all of this. Fall arrest is permitted only where fall prevention is not reasonably practicable, so prevention is the first answer rather than the fallback. Every unprotected opening in a floor, edge, slab, hatchway or stairway must be adequately guarded, fenced or barricaded.",
+          "The construction manager must also hold the most recently updated version of the plan. If the plan on site is a year out of date, that is a failure before anyone clips a lanyard on.",
+        ],
+      },
+      {
+        heading: "What Actually Drives a Refresher",
+        paragraphs: [
+          "A refresher is driven by the site, not by a calendar. A new site, a new principal contractor's safety specification, a gap in the training records, a change in the fall protection equipment used, or an incident all create a reason to retrain. The employer's own risk assessment sets the cycle, and the client can set a stricter one.",
+          "Practical triggers come up more often than people expect. A new contract usually means a new safety file and a fresh set of expectations about who is competent for what. A change from a work positioning system to a fall arrest system changes the technique and the rescue plan with it. An incident, even a near miss, shows that something in the plan or the training did not hold.",
+          "The table below sets out the triggers and what to do about each one.",
+        ],
+        table: {"head": ["Trigger", "Why it forces a refresh", "Practical action"], "rows": [["New site or project", "Different heights, access routes and hazards", "Re-check the fall protection plan and retrain against the new methods"], ["New principal contractor", "Their safety specification sets its own competency requirements", "Read the specification before mobilising and book training that matches it"], ["Gap in the training records", "You cannot show competence on the day it is asked for", "Rebuild the records and retrain where the gap is real"], ["Change of fall protection equipment", "Work positioning, rope access and fall arrest kit need different technique", "Retrain on the specific system in use"], ["Incident or near miss", "The plan or the training did not hold in practice", "Investigate, amend the plan and retrain the team"], ["Long break from height work", "Skills fade and site conditions change", "Put the person through a refresher before they go back up"]]},
+      },
+      {
+        heading: "Why a Fixed Number of Years Keeps Appearing",
+        paragraphs: [
+          "Any source that states a fixed number of years as a South African legal requirement is not quoting the regulation. Singapore, Australia and the United Kingdom each run their own regime for work at height, and South African pages repeat those numbers because they rank well. A number copied from another country's rule is not law here.",
+          "There is a second reason the figure keeps turning up. Many clients and principal contractors write a refresher interval into their own safety specification. That interval is contractual, not statutory. It is still binding on the contractor who signed up to it. If a mine, a state owned enterprise or a large construction group asks for a refresher every two years, the site must meet that requirement or the crew does not work.",
+          "The difference matters when you quote a client. Saying that the law requires it when the regulation is silent is the kind of claim that gets pulled apart in a hearing. Saying that their specification requires it is accurate and easy to prove.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "How long does a working at heights certificate last in South Africa?", a: "The Construction Regulations 2014 set no expiry period, so a certificate does not lapse after a fixed number of years. How long it stays useful depends on the employer's risk assessment, the equipment used, and the requirements of the client or principal contractor on the site." },
+      { q: "Is there a legal expiry date for working at heights training?", a: "No. Regulation 10 requires a training programme and its records as part of the fall protection plan, but it names no renewal interval. Any figure you see presented as South African law is coming from another country's regime or from a training provider's own recommendation." },
+      { q: "Does a working at heights certificate expire after two years?", a: "Not by law. A two year cycle is common as a contractor or client requirement, and as an industry habit, and it is a reasonable choice for many sites. It is a specification or a policy decision, not something the Construction Regulations impose on an employer." },
+      { q: "Why does my site ask for an annual refresher then?", a: "Because the site can. A principal contractor or client may set a stricter interval than the law requires, and their safety specification governs who works on their property. If you signed the contract, that interval applies to you even though the regulation itself is silent." },
+      { q: "What is fall arrest training validity based on?", a: "It rests on competence and records rather than a date. The person must be trained for the system in use, medically fit for the work, and covered by a current fall protection plan. Add a rescue plan that has actually been rehearsed, and the training is doing its job." },
+      { q: "Do I need a medical to work at heights?", a: "Regulation 10 requires a medical fitness evaluation for anyone working from a fall risk position, with records kept. RSTL Centre runs occupational medicals, including fitness to work assessments, and the evaluation sits alongside the training rather than replacing it." },
+      { q: "Where can I do working at heights training in South Africa?", a: "RSTL Centre delivers working at heights training at its Midrand, Durban and Mthatha centres, and on site at a client's premises anywhere in the country. The course runs one day and costs R700. Book through the contact page." },
+    ],
+    closingHeading: "Book Working at Heights Training With RSTL Centre",
+    courseLinks: [
+      { href: "/courses/working-at-heights", label: "Working at Heights" },
+      { href: "/courses/fall-protection-planning", label: "Fall Protection Planning" },
+    ],
+  },
 ];
 
 /** Newest first is the publishing order we want on the index, so keep array order. */
