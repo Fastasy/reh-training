@@ -378,7 +378,17 @@ export function otherArticles(slug: string, limit = 3): Article[] {
 
 
 def main() -> int:
-    articles = [parse_article(resolve_source(name), date) for name, date in PUBLISHED]
+    # Display order: the hub stays first (it is the page every later article links
+    # back to, per the note above PUBLISHED), then NEWEST FIRST. Previously the list
+    # was chronological ascending, so every newly published article appeared at the
+    # BOTTOM of /articles. Sorting the tail here means a new article surfaces at the
+    # top from now on without anyone having to remember to reorder the list. The
+    # dates in PUBLISHED stay the single source of truth for when each one went live.
+    hub, rest = PUBLISHED[0], PUBLISHED[1:]
+    rest = sorted(rest, key=lambda entry: entry[1], reverse=True)
+    ordered = [hub, *rest]
+
+    articles = [parse_article(resolve_source(name), date) for name, date in ordered]
     out = render(articles)
     if "--check" in sys.argv:
         current = OUT.read_text(encoding="utf-8") if OUT.exists() else ""

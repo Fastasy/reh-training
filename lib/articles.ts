@@ -142,396 +142,6 @@ export const ALL_ARTICLES: Article[] = [
     ],
   },
   {
-    slug: "she-rep-training-mthatha",
-    title: "SHE Rep Training in Mthatha: Who Your Business Must Appoint, and What It Costs",
-    metaTitle: "SHE Rep Course Mthatha: Who to Appoint and Cost",
-    metaDescription: "SHE Rep training in Mthatha: who must be appointed, how many representatives your workplace needs, and what the one day SHE Rep course costs at RSTL Centre.",
-    primaryKeyword: "she rep course mthatha",
-    secondaryKeywords: ["health and safety representative training", "SHE Rep training Mthatha", "she rep appointment", "SHE Rep course price"],
-    category: "Mthatha",
-    date: "2026-09-10",
-    readMinutes: 7,
-    excerpt: "Who must be appointed as a health and safety representative in Mthatha, how many your headcount requires, and what the one day SHE Rep course costs.",
-    intro: [
-      "The Eastern Cape Department of Public Works and Infrastructure issued quotation ORT5-25/26-0017 for the training of 34 employees on health and safety (SHE Rep) in the O.R. Tambo District over three days. Public sector buyers were already booking a SHE Rep course in Mthatha, and private employers in the district carry exactly the same duty.",
-      "A SHE Rep course in Mthatha at RSTL Centre costs R600 a delegate for a one day class. That published price matters, because the closest national alternatives are several times higher once you read their rate cards.",
-      "What follows is the law on who must be appointed, how many representatives a workplace actually needs, and what the course costs against the prices competitors publish.",
-    ],
-    closing: [
-      "Email the branch through the [contact page](/contact) to book the one day SHE Rep course at R600 a delegate, and note your headcount so the team can advise how many seats you need. Full details of the course are on the [SHE Rep page](/courses/health-and-safety-representative), and the [course list](/courses) covers the OHS Act, risk assessment and committee courses that usually follow.",
-      "The Mthatha branch is on 078 045 2852 if you would rather speak to someone about a group booking.",
-    ],
-    sections: [
-      {
-        heading: "Who must appoint a health and safety representative",
-        paragraphs: [
-          "Any employer with more than 20 employees must designate health and safety representatives, and the designation has to be in writing. That duty begins within four months of the business starting, or of the headcount passing 20. Only full-time employees who know the workplace's conditions and activities can be appointed.",
-          "The writing requirement is where many small employers slip. A verbal understanding is not a designation. The employer should keep a signed appointment for each representative, and the representative should hold a copy for the safety file.",
-          "It is worth naming the duties correctly, because they get mixed up. Employees' own duties sit in section 14 of the Act, while section 13 covers the duty to inform. A representative's functions are separate from both, and the appointment letter should reflect the role the person is being given.",
-        ],
-      },
-      {
-        heading: "How many representatives a workplace needs",
-        paragraphs: [
-          "The ratio depends on the type of workplace, not just on headcount. The required minimum is one representative per 100 employees or part thereof in shops and offices, and one representative per 50 employees or part thereof in all other workplaces.",
-          "That difference is large in practice. A distribution warehouse with 120 staff needs three representatives, because 120 falls into the third group of 50. A retail store with 120 staff needs two, because 120 falls into the second group of 100.",
-          "The table below shows the minimum for common headcounts. It sets out the floor, so an employer with a higher risk profile can appoint more, but cannot appoint fewer.",
-        ],
-        table: {"head": ["Employees", "Shop or office (1 per 100)", "Other workplaces (1 per 50)"], "rows": [["20 or fewer", "None required", "None required"], ["21 to 50", "1", "1"], ["51 to 100", "1", "2"], ["101 to 150", "2", "3"], ["151 to 200", "2", "4"], ["201 to 250", "3", "5"]]},
-      },
-      {
-        heading: "What the Act requires once a representative is appointed",
-        paragraphs: [
-          "Section 18(3) places a duty on the employer to provide the facilities, assistance and training a representative may reasonably require. Training is therefore not a favour the employer is granting, and the employer cannot reasonably refuse it where the representative needs it to do the job.",
-          "Representatives carry out their duties during ordinary working hours, and that time counts as work time. Attending the SHE Rep course is covered by the same principle, so an employer cannot expect a representative to train on their own time or on unpaid leave.",
-          "Once a workplace has two or more representatives, section 19 makes a health and safety committee mandatory, and that committee must meet at least once every three months. For most Mthatha employers with more than 20 staff, that means the first appointment quickly leads to a recurring meeting and a written record of it.",
-        ],
-      },
-      {
-        heading: "Which SHE Rep course to book and who should attend",
-        paragraphs: [
-          "The one day [SHE Rep course](/courses/health-and-safety-representative) is built around the representative's functions under the Act: inspecting the workplace, identifying hazards, investigating incidents, and taking part in the committee. It suits anyone about to be designated, and anyone already in the role who has never been formally trained.",
-          "Delegates should be full-time employees who know the workplace, because that is who the Act allows to be designated. Sending a contractor or a part-time staff member to the course tends to create a representative who cannot lawfully hold the appointment.",
-          "RSTL Centre runs the class from Monday to Friday, 08:00 to 16:30, at the Mthatha branch or on site for a group. Larger employers often add the [OHS Act course](/courses/ohs-act) for the people who support the representatives, and pair the appointment with [risk assessment training](/courses/risk-assessment-hira).",
-        ],
-      },
-      {
-        heading: "What SHE Rep training costs in Mthatha",
-        paragraphs: [
-          "RSTL Centre charges R600 for the one day SHE Rep course. Published prices seen in search results on 10 September 2026 showed the same course at R2,950 from NOSA, R800 from Funda Institute, and R1,800 from one Facebook trainer. Those are advertised rates, and they differ for reasons that are not always visible.",
-          "Price on its own does not settle the decision. The certificate has to be worth something when a client, a main contractor or a municipality asks for it, so it is worth checking what the provider's course covers and whether the accreditation is stated on the course page.",
-          "A directory's own estimate at the time put the average for safety training in Mthatha at about R3,250, within a range of R1,500 to R5,000. That figure is the directory's estimate rather than a surveyed average, but it does suggest local buyers are used to paying well above R600 for a day of safety training.",
-        ],
-      },
-    ],
-    faqs: [
-      { q: "When must a Mthatha employer appoint a SHE Rep?", a: "The trigger is more than 20 employees. The appointment must be made in writing within four months of starting the business or of the headcount passing 20. Employers who fall under 20 employees are not required to appoint representatives, though many still do." },
-      { q: "How many health and safety representatives do I need?", a: "At least one per 100 employees or part thereof in shops and offices, and at least one per 50 employees or part thereof in all other workplaces. A 60 person factory needs two representatives, while a 60 person office needs one." },
-      { q: "Can I appoint someone who works part time?", a: "No. Only full-time employees who know the workplace's conditions and activities can be designated as representatives. That rule is why the person who knows the floor is usually a better choice than a manager who is rarely on site." },
-      { q: "Is the training done in work time?", a: "Yes. Representatives carry out their duties during ordinary working hours, and that time counts as work time. Section 18(3) also obliges the employer to provide the training a representative may reasonably require to do the job." },
-      { q: "How much does the SHE Rep course cost?", a: "RSTL Centre charges R600 for the one day SHE Rep course. For comparison, published prices seen in search results on 10 September 2026 showed the course at R2,950 from NOSA, R800 from Funda Institute, and R1,800 from one Facebook trainer." },
-      { q: "Do we need a safety committee as well?", a: "Once two or more representatives are appointed, a health and safety committee is mandatory under section 19, and it must meet at least once every three months. Most workplaces with more than 20 employees will pass that threshold quickly." },
-      { q: "Can the SHE Rep course be run at our premises?", a: "Yes. RSTL Centre delivers the course at its Mthatha branch at 1st Floor, Old Mutual Building, Cnr York Road and Leeds Road, on site, or online where the course allows. On site training keeps a full group together and suits shift work." },
-    ],
-    closingHeading: "Book SHE Rep training in Mthatha",
-    courseLinks: [
-      { href: "/courses/health-and-safety-representative", label: "SHE Rep course" },
-      { href: "/courses/ohs-act", label: "OHS Act course" },
-      { href: "/courses/risk-assessment-hira", label: "risk assessment training" },
-    ],
-  },
-  {
-    slug: "she-rep-duties-appointment-letter",
-    title: "SHE Rep Duties and Responsibilities in South Africa (and How to Appoint One)",
-    metaTitle: "SHE Rep Duties and How to Appoint One",
-    metaDescription: "SHE Rep duties under the OHS Act: who must be appointed, how many are needed, what the employer provides, and what an appointment letter has to contain.",
-    primaryKeyword: "she rep duties",
-    secondaryKeywords: ["she rep duties and responsibilities", "she rep duties in construction", "she rep appointment letter template", "she rep functions"],
-    category: "Compliance",
-    date: "2026-09-10",
-    readMinutes: 7,
-    excerpt: "SHE Rep duties, the ratios that decide how many representatives a workplace needs, and a step by step appointment process, including what an appointment letter must contain.",
-    intro: [
-      "She rep duties are easy to list and harder to carry out, because the representative is a colleague first and a safety role second. The Act does not hand that person a clipboard and a corner office. It gives them a defined set of functions, a right to time and training, and a place in a committee that management has to answer.",
-      "The Occupational Health and Safety Act 85 of 1993 covers the whole arrangement. It sets out when an employer must designate a representative, how many are needed, what the employer must provide, and when a health and safety committee becomes compulsory. Getting the appointment right takes an afternoon. Getting it wrong shows up the first time an inspector or a client audits the safety file.",
-      "Most workplaces get the duties roughly right and the appointment wrong, or the other way around. Both need to be on paper, and both are simple to check.",
-    ],
-    closing: [
-      "The [SHE Rep course](/courses/health-and-safety-representative) runs one day and costs R600. Most employers pair it with the [OHS Act course](/courses/ohs-act) at R650, and many add [Risk Assessment HIRA](/courses/risk-assessment-hira) at R700 so the representative can read the risk assessment they will be working from.",
-      "RSTL Centre trains at its Midrand, Durban and Mthatha centres and on site at a client's premises nationally. Classes run daily, Monday to Friday, 08:00 to 16:30, with Saturday by arrangement. See the full list on the [courses page](/courses), then book through the [contact page](/contact).",
-    ],
-    sections: [
-      {
-        heading: "What Are the Duties of a SHE Rep?",
-        paragraphs: [
-          "A health and safety representative represents employees on health and safety matters. The work is to identify hazards, inspect the workplace, report unsafe conditions and unsafe practices, take part in investigations, and put the employees' view to the employer during ordinary working hours. That time counts as work time.",
-          "In practice the representative is the eyes of the workforce. They walk the workplace rather than wait to be told what changed. They keep a note of what they find. They raise it with the person who can fix it, and they follow up when the answer is slow. Where an incident happens, they are part of the investigation rather than a spectator to it.",
-          "One limit is worth stating. The representative does not carry the legal duty to fix the hazard. That duty stays with the employer. The representative's job is to see the problem, put it on the record, and push until it is dealt with.",
-        ],
-      },
-      {
-        heading: "Who Must Be Appointed, and When",
-        paragraphs: [
-          "An employer with more than 20 employees must designate health and safety representatives in writing within four months of starting business or of the headcount passing 20. The number required is at least one per 100 employees or part thereof in shops and offices, and at least one per 50 employees or part thereof in all other workplaces.",
-          "The ratios decide the headcount for you. A shop with 250 employees needs at least three representatives, because the count runs one per 100 employees or part thereof. A workshop, plant or construction operation with 250 employees needs at least five, because the count there runs one per 50.",
-          "Eligibility is narrow in one respect. Only full-time employees who know the workplace's conditions and activities can be designated. That rules out a contractor's casual hand who has never walked the site, and it points you towards the people who understand how the work actually runs.",
-        ],
-      },
-      {
-        heading: "What the Employer Must Provide",
-        paragraphs: [
-          "Section 18(3) requires the employer to provide the facilities, assistance and training that a representative may reasonably require. Duties and any training happen during ordinary working hours and count as work time. Section 19 makes a health and safety committee mandatory once there are two or more representatives, and that committee must meet at least once every three months.",
-          "The facilities clause covers simple things: somewhere to keep records, access to the areas being represented, and the information needed to do the job. Assistance can mean admin support or an hour with a manager. Training is the piece most employers underestimate, and it is the reason a representative ends up unsure whether they are allowed to stop a job.",
-          "Once there are two or more representatives, the committee becomes part of the structure. It is where individual findings turn into decisions that management has to answer. A representative who raises a hazard and gets no response has a next step: the committee item, minuted and dated.",
-        ],
-      },
-      {
-        heading: "Section 13, 14 and 18 Are Not the Same Duty",
-        paragraphs: [
-          "Section 13 is the duty to inform, section 14 holds the employees' own duties, and section 18 deals with health and safety representatives. A representative carries the section 18 functions. Every employee, representative or not, still carries the section 14 duty to take reasonable care of their own safety and that of others.",
-          "The confusion matters in a dispute. An employer who says the representative should have stopped the job is mixing the two roles together. An employee who thinks the representative is responsible for compliance has the wrong end of the arrangement. Keeping the sections apart makes the whole conversation clearer.",
-        ],
-      },
-      {
-        heading: "What a SHE Rep Does Week to Week",
-        paragraphs: [
-          "The weekly work depends on the setting. A construction representative walks the site, checks fall protection and access equipment and records what is unsafe. A retail representative checks aisles, storerooms and fire exits. An office representative checks walkways, electrical equipment and housekeeping. All three feed their findings into the same committee structure.",
-        ],
-        table: {"head": ["Setting", "Common duties", "What gets reported", "Typical rhythm"], "rows": [["Construction site", "Walk work areas, check fall protection, access equipment and the first aid box, watch for unsafe acts", "Hazards, near misses, repeated unsafe practices, equipment defects", "Daily walk, weekly inspection record, monthly report to the committee"], ["Retail", "Check aisles, storerooms, fire exits, stacking and slip risks", "Blocked exits, damaged shelving, poor housekeeping, wet floors", "Weekly floor walk, report to the manager, monthly committee item"], ["Office", "Check walkways, electrical leads, kitchen areas and the first aid box", "Trailing cables, blocked fire doors, faulty equipment", "Weekly walk, monthly committee item"]]},
-      },
-      {
-        heading: "How to Appoint a Health and Safety Representative",
-        paragraphs: [
-          "Appointment runs in a sequence. Work out how many representatives the ratios require, consult the employees, let them nominate or elect a candidate, designate the person in writing, give them the time and the training, and set up a committee if two or more representatives exist. Skipping the consultation step is the most common mistake.",
-          "Consultation is not decoration. Employees who choose their own representative use that person, and a representative imposed from above gets ignored. Where the workforce is large, divide the workplace into areas and let each area choose.",
-          "The written designation is the part an auditor will ask for. It should be a single page, signed and dated. Keep a copy in the safety file and give the representative one.",
-          "The last step is the committee. Two representatives mean a committee, and a committee means minuted meetings at least every three months. From there the representative has a channel, and management has a record that the hazards were raised.",
-        ],
-      },
-      {
-        heading: "What a SHE Rep Appointment Letter Must Contain",
-        paragraphs: [
-          "An appointment letter must name the employer and the workplace, name the representative, state the legal basis under the OHS Act, describe the area or section represented, give the number of employees and the date the appointment takes effect, and carry the signatures of both parties.",
-          "The rest of the letter does the useful work. It should confirm that duties and training happen during ordinary working hours and count as work time, set out the facilities and assistance available, and point to the health and safety committee if one exists. Each signature needs a date beside it.",
-          "Write it on the employer's letterhead and keep it to one page. There is no official prescribed wording, so what matters is that every field above appears and that the document is signed and dated. RSTL Centre's SHE Rep course runs one day at R600 and covers these duties in full.",
-        ],
-      },
-    ],
-    faqs: [
-      { q: "What are the duties of a SHE rep?", a: "A representative identifies hazards, inspects the workplace, reports unsafe conditions and practices, takes part in incident investigations and puts the employees' view to management. The work is done during ordinary working hours and counts as work time. The duty to fix a hazard stays with the employer." },
-      { q: "How many SHE reps does a workplace need?", a: "It depends on the ratio. Shops and offices need at least one per 100 employees or part thereof. All other workplaces need at least one per 50 employees or part thereof. An employer with more than 20 employees must make those designations, in writing, within four months." },
-      { q: "Must a SHE rep be appointed in writing?", a: "Yes. Where there are more than 20 employees, the employer must designate representatives in writing within four months of starting business or of the headcount passing 20. The written designation is what an inspector or a client will ask for, so keep a signed, dated copy in the safety file." },
-      { q: "Does a SHE rep need training?", a: "The employer must provide the training a representative may reasonably require, under section 18(3) of the Act, and that training happens in ordinary working hours and counts as work time. RSTL Centre's SHE Rep course runs one day and costs R600." },
-      { q: "Is a health and safety committee compulsory?", a: "It becomes compulsory once there are two or more health and safety representatives, under section 19 of the Act. A single representative does not trigger the committee, but two do. The committee is where individual findings turn into decisions that management must answer." },
-      { q: "How often must the committee meet?", a: "A health and safety committee must meet at least once every three months. Some workplaces meet monthly, which is usually easier to keep on top of. Minutes of every meeting should be kept, because they show what hazards were raised and how they were answered." },
-      { q: "Does a SHE rep do the work in their own time?", a: "No. Representatives' duties and any training happen during ordinary working hours and count as work time. An employer cannot shift the role onto a lunch break or expect it after hours. The time is part of the job, not a favour." },
-    ],
-    closingHeading: "Book SHE Rep Training With RSTL Centre",
-    courseLinks: [
-      { href: "/courses/health-and-safety-representative", label: "SHE Rep course" },
-      { href: "/courses/ohs-act", label: "OHS Act course" },
-      { href: "/courses/risk-assessment-hira", label: "Risk Assessment HIRA" },
-    ],
-  },
-  {
-    slug: "forklift-licence-south-africa-cost",
-    title: "How Much Does a Forklift Licence Cost in South Africa? (2026 Guide)",
-    metaTitle: "Forklift Licence Cost in South Africa 2026",
-    metaDescription: "How much does a forklift licence cost in South Africa in 2026? RSTL Centre charges R1,500 for the one day course, with published prices from about R600.",
-    primaryKeyword: "how much does a forklift licence cost in south africa",
-    secondaryKeywords: ["forklift licence training", "forklift operator course fees", "forklift licence south africa", "forklift operator course"],
-    category: "Machine & Plant",
-    date: "2026-09-10",
-    readMinutes: 7,
-    excerpt: "A straight answer on forklift licence costs in South Africa in 2026, what a course price normally includes, and what the word licence actually means in law.",
-    intro: [
-      "How much does a forklift licence cost in South Africa? RSTL Centre charges R1,500 for its one day Forklift Operator course. Published prices from small training academies that appeared in search results on 10 September 2026 range from about R600 to R4,500, and one Facebook operator advertises R2,300 to R6,800.",
-      "That spread is wide because the quotes are not all for the same thing. Some are for a short course with assessment included, some are for a refresher, and some are for a group rate or a site visit. Two prices that look comparable often are not.",
-      "This guide sets out what a forklift course price normally covers, what pushes the number up or down, and what the everyday word licence actually refers to in South African law. If you are budgeting for a crew, the last part matters more than the first.",
-      "The figures below are for the forklift operator course specifically. Machine operator training for a TLB, excavator or grader sits in a different price band, and RSTL Centre quotes those on request.",
-    ],
-    closing: [
-      "Send your delegate numbers and the machine types you run through [the contact page](/contact) and RSTL Centre will confirm a date and a quote. The [Forklift Operator course](/courses/forklift-operator) runs daily with no waiting period, and the [full machine and plant range](/courses) covers TLB, excavator, grader and the rest of the fleet.",
-    ],
-    sections: [
-      {
-        heading: "What a forklift operator course price normally includes",
-        paragraphs: [
-          "A forklift operator course price normally covers a day of training, the practical assessment on a machine, and the issuing of a certificate of training. At RSTL Centre that is one day, Monday to Friday, 08:00 to 16:30, at a centre or on your site.",
-          "Some providers quote the training only and add the assessment as a separate charge. Others roll everything into one figure but limit how many delegates can share a machine in a day. Ask what the fee covers before you compare it with a lower quote, because the cheapest headline often grows once the extras are added.",
-          "A few things sit outside most course prices. Travel to a remote site, machine hire, and re-assessment after a failed practical are the usual extras. If your crew is working on the N2 corridor or a district water project, ask about travel before you confirm.",
-        ],
-      },
-      {
-        heading: "What drives the price up or down",
-        paragraphs: [
-          "Accreditation is the first factor. A provider accredited by TETA and approved by the Chief Inspector carries the cost of maintaining that status, and its price reflects it. A cheaper trainer without that standing may not issue a certificate that satisfies the regulation, which makes the saving worthless.",
-          "The machine type is the second factor. A forklift course and a TLB course are not priced the same, because the machine, the fuel, the load and the risk differ. RSTL Centre charges R1,500 for the [Forklift Operator course](/courses/forklift-operator) and R4,500 for the [TLB Operator course](/courses/tlb-operator), quoted on request.",
-          "Travel, group size and whether assessment is included make up the rest. On-site training saves a fleet of vehicles a trip to town, and a group booking spreads the trainer's day across more delegates. Ask for both figures, the centre price and the on-site price.",
-        ],
-      },
-      {
-        heading: "What a forklift licence actually means in South African law",
-        paragraphs: [
-          "In South African law the everyday word licence refers to a certificate of training. The Driven Machinery Regulations 2015 require an operator of a lifting machine to hold a certificate of training from a provider accredited by TETA, the Transport SETA, and approved by the Chief Inspector.",
-          "The duty falls on the employer. Before a forklift is used, the employer must be satisfied that the operator holds the certificate, and an inspector who arrives on site will ask for it. Experience alone does not answer the question.",
-          "That is why a certificate from an unaccredited trainer is not a bargain at any price. If it does not come from an accredited provider, it does not satisfy the regulation, and the employer carries the consequence. Check a provider's accreditation before you pay, and keep the certificate on file.",
-        ],
-      },
-      {
-        heading: "What changed on 30 January 2026",
-        paragraphs: [
-          "The National Code of Practice for Training Providers of Lifting Machine Operators says a carry card is valid for up to 24 months. That is the practical position most workplaces work to today, and it is why carry cards get checked and renewed as a routine.",
-          "The position changed on 30 January 2026. A Correction Notice from the Chief Inspector replaced re-certification with relicensing, confirmed that certificates are issued only once, and allowed providers to keep issuing carry cards while a licensing body is being set up. That body has a deadline of 29 May 2027.",
-          "Treat this as a regime in transition. Do not treat a fixed validity period as settled law, and do not assume a card that looks current will still be current once the licensing body begins its work. Ask before you book, and get the answer in writing.",
-        ],
-        table: {"head": ["Price element", "What it usually covers"], "rows": [["Training day", "Theory and machine time with a competent assessor, normally one day"], ["Practical assessment", "Observation of the operator on the machine, with real loads"], ["Certificate issuing", "The certificate of training from the accredited provider"], ["Course material", "Workbook or notes, where the provider supplies them"], ["Travel to site", "The provider's trip to your premises, often quoted separately"], ["Re-assessment", "A second practical assessment after a failed attempt, usually charged again"]]},
-      },
-    ],
-    faqs: [
-      { q: "How much does a forklift licence cost in South Africa?", a: "RSTL Centre charges R1,500 for the one day Forklift Operator course. Published prices from small training academies seen in search results on 10 September 2026 run from about R600 to R4,500, and one Facebook operator advertises R2,300 to R6,800. Compare what each fee includes." },
-      { q: "How long does the forklift operator course take?", a: "One day. Training at RSTL Centre runs Monday to Friday from 08:00 to 16:30, with Saturday sessions by arrangement and no waiting period between classes. The day includes theory and practical assessment on the machine, so the delegate must be present in person." },
-      { q: "Is a forklift licence the same as a certificate of training?", a: "In everyday language people say licence. In law, the Driven Machinery Regulations 2015 refer to a certificate of training from a provider accredited by TETA and approved by the Chief Inspector. Employers should ask for the certificate, not for a licence card." },
-      { q: "Does a forklift certificate expire?", a: "Be careful here. The National Code of Practice sets a carry card at up to 24 months, and a Correction Notice dated 30 January 2026 moved the regime to relicensing with a licensing body due by 29 May 2027. Do not treat a fixed validity period as settled law." },
-      { q: "Can I do forklift training online?", a: "No. Forklift training is practical and cannot be delivered online. The operator has to be assessed on a machine with real loads and a competent assessor watching. Theory may be handled in a blended format, but the practical assessment is always in person." },
-      { q: "What is included in the R1,500 forklift course fee?", a: "It covers the one day operator course, the practical assessment on the machine and the issuing of the certificate of training. Training can run at a centre or on your site, and the final price is quoted on request once RSTL Centre knows your venue and delegate numbers." },
-      { q: "Does RSTL Centre also train TLB and other machine operators?", a: "Yes. RSTL Centre runs 34 machine and plant courses, including TLB, excavator, grader, dump truck and front end loader operators. The TLB Operator course costs R4,500 and is quoted on request. The full range is listed on the course page." },
-    ],
-    closingHeading: "Book a forklift operator course",
-    courseLinks: [
-      { href: "/courses/forklift-operator", label: "Forklift Operator course" },
-      { href: "/courses/tlb-operator", label: "TLB Operator course" },
-    ],
-  },
-  {
-    slug: "first-aid-training-mthatha",
-    title: "First Aid Training in Mthatha: Level 1, 2 or 3 and What Your Team Actually Needs",
-    metaTitle: "First Aid Course Mthatha: Level 1, 2 or 3 Guide",
-    metaDescription: "First aid course Mthatha employers can book: the legal requirement, the difference between Level 1, 2 and 3, and what RSTL Centre charges for each of them.",
-    primaryKeyword: "first aid course mthatha",
-    secondaryKeywords: ["first aid training Mthatha", "first aid level 1 course price south africa", "first aid level 2 Mthatha", "first aid level 3"],
-    category: "Mthatha",
-    date: "2026-09-14",
-    readMinutes: 7,
-    excerpt: "How many first aiders a Mthatha workplace needs, which of Level 1, 2 or 3 to book, and what the law actually says about how long a certificate lasts.",
-    intro: [
-      "A first aid course in Mthatha is a legal requirement for most workplaces, not an optional extra. Once a business passes 10 employees, the General Safety Regulations require a trained first aider to be readily available during normal working hours, and the certificate has to come from an approved body.",
-      "RSTL Centre charges R650 for First Aid Level 1, Level 2 and Level 3, each run as a one day course at the Mthatha branch or on site. The level you book depends on the risk in the workplace and what the employer's risk assessment says, not on the size of the team alone.",
-      "This guide covers the legal trigger, the difference between the three levels, and the question employers get wrong most often, which is how long the certificate lasts.",
-    ],
-    closing: [
-      "Email the branch through the [contact page](/contact) to book First Aid Level 1, 2 or 3 at R650 a delegate, or compare the three on the course pages for [Level 1](/courses/first-aid-level-1), [Level 2](/courses/first-aid-level-2) and [Level 3](/courses/first-aid-level-3). The [full course list](/courses) covers the firefighting and evacuation courses that usually get booked alongside first aid.",
-    ],
-    sections: [
-      {
-        heading: "What the law requires of a Mthatha employer",
-        paragraphs: [
-          "More than 5 employees means a first aid box is required. More than 10 employees means the employer must ensure that for every group of up to 50 employees, or up to 100 in a shop or office, at least one person is readily available during normal working hours with a valid certificate of competency in first aid.",
-          "The certificate must be issued or endorsed by the SA Red Cross Society, St John Ambulance, the SA Noodhulpliga, or an organisation approved by a chief inspector. The first aider's name must appear on the first aid box, and every box location must be clearly signposted.",
-          "Where dangerous or high-risk substances are used, the first aider needs additional training in first aid for acute poisoning and spillage. The box itself has to contain at least the items listed in the Annexure to the regulations.",
-          "Notice what the rule does not say. It sets no stated expiry period, and it says nothing about the level of course. Those two gaps are where most workplace first aid policies go wrong.",
-        ],
-      },
-      {
-        heading: "Level 1, Level 2 and Level 3: what changes",
-        paragraphs: [
-          "Level 1 covers the basics any workplace needs: scene safety, the primary survey, CPR, choking, bleeding, shock, burns and basic fractures. It suits offices, retail, schools, crèches and smaller sites where the risk is low and the first aider is the first link in the chain.",
-          "Level 2 builds on that with broader assessment and more conditions, and it is the level most construction sites, factories, warehouses and larger employers book. Level 3 is the most detailed and suits high risk operations, larger teams, and people who are expected to manage a casualty for longer before help arrives.",
-          "No rule forces a business to buy the highest level. The employer's risk assessment drives the choice, and a well trained Level 1 first aider supported by a solid evacuation plan is often enough in a low risk office. The mistake is booking the cheapest level for a high risk site and calling the duty done.",
-        ],
-        table: {"head": ["", "Level 1", "Level 2", "Level 3"], "rows": [["Typical audience", "Offices, retail, schools, crèches", "Construction sites, factories, warehouses", "High risk sites, large teams, first aid coordinators"], ["Depth", "Core life support and common injuries", "Broader assessment and more conditions", "Most detailed, extended care until help arrives"], ["Duration at RSTL", "1 day", "1 day", "1 day"], ["Price", "R650", "R650", "R650"], ["Best suited to", "Low risk and small teams", "Medium to high risk", "High risk or several trained first aiders"]]},
-      },
-      {
-        heading: "How long a first aid certificate lasts",
-        paragraphs: [
-          "The law sets no expiry period for a first aid certificate. Regulation 3 requires a valid certificate, but it does not say the certificate lapses after a set number of years, so any provider who tells you it expires after three years is describing a convention rather than a legal rule.",
-          "Three years has become the accepted cycle in most industries, largely because issuing bodies and employers work to it. The real driver is the body that issued the certificate and the employer's own risk assessment, and both can set a shorter or longer interval.",
-          "The sensible approach is to know who issued your certificate, follow that body's guidance, and revisit the position at each risk assessment. A booking reminder is not a legal deadline, and a lapsed-looking certificate is not automatically invalid.",
-        ],
-      },
-      {
-        heading: "What a first aid class in Mthatha looks like",
-        paragraphs: [
-          "Classes run Monday to Friday, 08:00 to 16:30, with Saturday sessions by arrangement. RSTL Centre delivers at its Mthatha centre at 1st Floor, Old Mutual Building, Cnr York Road and Leeds Road, on site at the client's premises, or online where the course allows.",
-          "The practical sections are best done in person. For a school, a clinic, a retail floor or a construction team, the on site option keeps the whole group together and lets the trainer build scenarios around the actual workplace rather than a generic classroom.",
-          "Delegates leave with a certificate, and the employer keeps a record for the safety file. Municipal and provincial work often requires those records to be produced, so a copy of each certificate is worth the few minutes it takes.",
-        ],
-      },
-    ],
-    faqs: [
-      { q: "How many first aiders does my business need?", a: "The rule starts at more than 10 employees. For every group of up to 50 employees, or up to 100 in a shop or office, at least one person with a valid first aid certificate must be readily available during normal working hours. A 40 person office needs one, a 140 person factory needs three." },
-      { q: "Does a first aid certificate expire?", a: "No expiry period is set in law. Regulation 3 requires a valid certificate but states no time limit. Three years is industry practice rather than a legal rule, and the issuing body and the employer's risk assessment are what drive when a refresher is actually needed." },
-      { q: "Which level should a construction site book?", a: "Most construction sites and factories book Level 2, because the risk is higher and injuries are more varied. Level 1 suits low risk offices, schools and crèches, and Level 3 suits high risk operations or workplaces that need several well trained first aiders." },
-      { q: "What does first aid training cost in Mthatha?", a: "RSTL Centre charges R650 for First Aid Level 1, 2 and 3, each as a one day course. Published prices seen in search results on 10 September 2026 showed St John first aid courses from R239 up to R1,490 and Absolute Health at R975." },
-      { q: "Where can I do first aid training near Mthatha?", a: "RSTL Centre has a Mthatha branch at 1st Floor, Old Mutual Building, Cnr York Road and Leeds Road, on 078 045 2852. Classes also run at the Midrand and Durban centres, on site, or online where the course allows." },
-      { q: "Is the certificate recognised for a tender?", a: "The certificate has to be issued or endorsed by the SA Red Cross Society, St John Ambulance, the SA Noodhulpliga, or an organisation approved by a chief inspector. OR Tambo District Municipality requires accreditation letters as a mandatory condition on its training quotations." },
-      { q: "Can we train the whole team at our premises?", a: "Yes. On site delivery keeps the group together and lets the trainer work with your actual layout and equipment. It suits schools, clinics, retail groups and construction teams, and a full class can usually be arranged quickly because the centre runs daily classes with no waiting period." },
-    ],
-    closingHeading: "Book first aid training in Mthatha",
-    courseLinks: [
-      { href: "/courses/first-aid-level-1", label: "Level 1" },
-      { href: "/courses/first-aid-level-2", label: "Level 2" },
-      { href: "/courses/first-aid-level-3", label: "Level 3" },
-    ],
-  },
-  {
-    slug: "working-at-heights-scaffolding-mthatha",
-    title: "Working at Heights and Scaffolding in Mthatha: What Contractors Must Prove on Site",
-    metaTitle: "Working at Heights Mthatha: Contractor Guide",
-    metaDescription: "Working at heights training in Mthatha, fall protection plans, scaffolding roles and the records contractors must produce on site under the 2014 regulations.",
-    primaryKeyword: "working at heights training mthatha",
-    secondaryKeywords: ["scaffolding training Mthatha", "fall protection plan", "working at heights course", "fall arrest training"],
-    category: "Mthatha",
-    date: "2026-09-14",
-    readMinutes: 8,
-    excerpt: "What the Construction Regulations require of contractors working in Mthatha, from the fall protection plan to scaffold erectors, inspectors and rescue.",
-    intro: [
-      "Working at heights training in Mthatha is not a formality for contractors on the N2 Wild Coast Road or the district water programme. Regulation 10 of the Construction Regulations 2014 requires a fall protection plan, and that single requirement pulls heights training, fall arrest, rescue training and occupational medicals into one package.",
-      "RSTL Centre charges R700 each for Working at Heights, Fall Protection Planning, Scaffolding Erector and Scaffolding Inspector, all one day courses. On a site facing an inspection or a main contractor audit, those are the certificates that get asked for first.",
-      "This guide explains what Regulation 10 and Regulation 16 require, what a fall protection plan must contain, and why the region makes both urgent right now.",
-    ],
-    closing: [
-      "Email the branch through the [contact page](/contact) to book [Working at Heights](/courses/working-at-heights), Fall Protection Planning, Scaffolding Erector or Scaffolding Inspector at R700 each, or arrange the medicals the plan requires through [medicals](/medicals). The [course list](/courses) has everything else.",
-    ],
-    sections: [
-      {
-        heading: "What Regulation 10 requires of a contractor",
-        paragraphs: [
-          "The contractor must designate a competent person to prepare a fall protection plan, then implement, amend, maintain and enforce it. The plan must include a risk assessment for every work location at a fall risk, medical fitness evaluations with records, a training programme with records, an equipment inspection and maintenance procedure, and a rescue plan.",
-          "That list is why one regulation justifies several courses and a medical at the same time. The plan is not a document that sits in a file. It is the reason the employer has to train the right people, medically assess them, inspect the equipment, and prove all of it with records.",
-          "The construction manager must hold the most recently updated version of the plan. An out of date plan with no records behind it is the kind of finding that stops work, and it is also the finding most likely to come up when a main contractor audits a subcontractor.",
-        ],
-      },
-      {
-        heading: "What the fall protection plan must contain",
-        paragraphs: [
-          "A fall protection plan must contain a risk assessment of every fall risk position with a method per location, medical fitness evaluations with records, a training programme with records, an equipment inspection and maintenance procedure, and a rescue plan. Each element is a separate deliverable the contractor must be able to produce on demand.",
-        ],
-        table: {"head": ["Required element", "What it means in practice", "RSTL support"], "rows": [["Risk assessment", "Identify every fall risk position and set out the method for each location", "Fall Protection Planning, R700"], ["Medical fitness evaluation", "Assess everyone working at a fall risk position, and keep the records", "Occupational medicals"], ["Training programme", "Train those workers and keep competence records", "Working at Heights, R700"], ["Equipment procedure", "How fall protection equipment is inspected, tested and maintained", "Working at Heights, R700"], ["Rescue plan", "The procedure, people and equipment to rescue a fallen worker, implemented immediately", "Working at Heights and on site planning"]]},
-      },
-      {
-        heading: "Fall prevention before fall arrest",
-        paragraphs: [
-          "The regulations draw a firm line here. Fall arrest is permitted only where fall prevention is not reasonably practicable, so the employer has to show why prevention was ruled out before reaching for a harness. The default answer to a fall risk is to remove the risk, not to catch the person.",
-          "All unprotected openings in floors, edges, slabs, hatchways and stairways must be adequately guarded, fenced or barricaded. Where work near an edge cannot be guarded, that is where a fall arrest system and a trained, medically fit user come in.",
-          "Work at heights training covers the equipment and the method, but its real value is the discipline behind the choice. Contractors who train teams in [fall protection planning](/courses/fall-protection-planning) as well as [working at heights](/courses/working-at-heights) tend to argue about prevention first, which is the way the regulation is written.",
-        ],
-      },
-      {
-        heading: "Scaffolding: three roles under Regulation 16",
-        paragraphs: [
-          "Regulation 16 requires the contractor to appoint a competent person in writing to supervise all scaffolding work, and to make sure all scaffold erectors, team leaders and inspectors are competent. Access scaffolding must be inspected and maintained, and it must comply with SANS 10085.",
-          "The regulation names three distinct roles: erector, inspector and supervisor. They are not interchangeable. An erector builds the scaffold, an inspector checks and signs it off, and a supervisor controls the work and the persons doing it. A site that treats them as one blanket competency is exposed.",
-          "RSTL Centre runs [Scaffolding Erector](/courses/scaffolding-erector) and [Scaffolding Inspector](/courses/scaffolding-inspector) as separate one day courses at R700 each, so a contractor can put the right people through the right course rather than sending everyone on the same class. The written appointment of the supervisor is a site decision the employer makes and keeps on file.",
-        ],
-      },
-      {
-        heading: "Why the Mthatha region makes this urgent",
-        paragraphs: [
-          "The N2 Wild Coast Road is a roughly R20 billion, 110km project in the region, with Package Four led by the WBHO-Edwin Construction Joint Venture and Package Five by the WBHO-H&I Joint Venture. Work of that scale means local subcontractors on site, and subcontractors carry the same fall protection duties as the main contractor.",
-          "SANRAL ran a contractor development programme session in Mthatha for local contractors, which is a signal that local firms are being brought onto that work. Any firm that moves from smaller jobs to a project of that size needs its fall protection plan and its training records in order before it starts, not after an audit.",
-          "The district water and sanitation programme adds the same pressure closer to town. With about 122 projects running and civil tender documents requiring a quarterly training needs analysis, contractors have to show a training plan that is refreshed through the contract, and heights and scaffolding training sit in that plan.",
-        ],
-      },
-    ],
-    faqs: [
-      { q: "What must a fall protection plan contain?", a: "It must include a risk assessment of all work from a fall risk position with methods per location, medical fitness evaluations with records, a training programme with records, a procedure for inspection, testing and maintenance of fall protection equipment, and a rescue plan with the procedure, people and equipment to rescue a fallen worker." },
-      { q: "Is fall arrest always allowed?", a: "No. Fall arrest is permitted only where fall prevention is not reasonably practicable. Prevention comes first, and the employer has to be able to explain why an edge could not be guarded, fenced or barricaded before relying on a harness system." },
-      { q: "What is the difference between a scaffold erector and an inspector?", a: "An erector builds and dismantles the scaffold. An inspector checks it and signs it off as safe for use. Regulation 16 names erector, inspector and supervisor as three distinct roles, and a site should not treat one course as covering all three." },
-      { q: "Which scaffolding standard applies?", a: "Access scaffolding must comply with SANS 10085 and must be inspected and maintained. The contractor must also appoint a competent person in writing to supervise all scaffolding work, and ensure that erectors, team leaders and inspectors are competent." },
-      { q: "How much does heights and scaffolding training cost?", a: "RSTL Centre charges R700 each for Working at Heights, Fall Protection Planning, Scaffolding Erector and Scaffolding Inspector, each a one day course. Occupational medicals for staff working at a fall risk position are arranged separately through the centre." },
-      { q: "Do workers at height need a medical?", a: "Yes. The fall protection plan must include a medical fitness evaluation for anyone working at a fall risk position, and the records have to be kept. That fitness evaluation can be arranged through the centre's occupational medicals service." },
-      { q: "Can this training be done on our site?", a: "Yes. RSTL Centre delivers at its Mthatha branch, on site at the client's premises, or online where the course allows. Heights and scaffolding courses carry practical work, so those sessions are delivered in person." },
-    ],
-    closingHeading: "Book heights and scaffolding training in Mthatha",
-    courseLinks: [
-      { href: "/courses/fall-protection-planning", label: "fall protection planning" },
-      { href: "/courses/working-at-heights", label: "working at heights" },
-      { href: "/courses/scaffolding-erector", label: "Scaffolding Erector" },
-      { href: "/courses/scaffolding-inspector", label: "Scaffolding Inspector" },
-    ],
-  },
-  {
     slug: "machine-plant-operator-training-mthatha",
     title: "Machine and Plant Operator Training in Mthatha: Forklift, TLB, Excavator and Grader",
     metaTitle: "Machine and Plant Operator Training in Mthatha",
@@ -835,6 +445,396 @@ export const ALL_ARTICLES: Article[] = [
     courseLinks: [
       { href: "/courses/working-at-heights", label: "Working at Heights" },
       { href: "/courses/fall-protection-planning", label: "Fall Protection Planning" },
+    ],
+  },
+  {
+    slug: "first-aid-training-mthatha",
+    title: "First Aid Training in Mthatha: Level 1, 2 or 3 and What Your Team Actually Needs",
+    metaTitle: "First Aid Course Mthatha: Level 1, 2 or 3 Guide",
+    metaDescription: "First aid course Mthatha employers can book: the legal requirement, the difference between Level 1, 2 and 3, and what RSTL Centre charges for each of them.",
+    primaryKeyword: "first aid course mthatha",
+    secondaryKeywords: ["first aid training Mthatha", "first aid level 1 course price south africa", "first aid level 2 Mthatha", "first aid level 3"],
+    category: "Mthatha",
+    date: "2026-09-14",
+    readMinutes: 7,
+    excerpt: "How many first aiders a Mthatha workplace needs, which of Level 1, 2 or 3 to book, and what the law actually says about how long a certificate lasts.",
+    intro: [
+      "A first aid course in Mthatha is a legal requirement for most workplaces, not an optional extra. Once a business passes 10 employees, the General Safety Regulations require a trained first aider to be readily available during normal working hours, and the certificate has to come from an approved body.",
+      "RSTL Centre charges R650 for First Aid Level 1, Level 2 and Level 3, each run as a one day course at the Mthatha branch or on site. The level you book depends on the risk in the workplace and what the employer's risk assessment says, not on the size of the team alone.",
+      "This guide covers the legal trigger, the difference between the three levels, and the question employers get wrong most often, which is how long the certificate lasts.",
+    ],
+    closing: [
+      "Email the branch through the [contact page](/contact) to book First Aid Level 1, 2 or 3 at R650 a delegate, or compare the three on the course pages for [Level 1](/courses/first-aid-level-1), [Level 2](/courses/first-aid-level-2) and [Level 3](/courses/first-aid-level-3). The [full course list](/courses) covers the firefighting and evacuation courses that usually get booked alongside first aid.",
+    ],
+    sections: [
+      {
+        heading: "What the law requires of a Mthatha employer",
+        paragraphs: [
+          "More than 5 employees means a first aid box is required. More than 10 employees means the employer must ensure that for every group of up to 50 employees, or up to 100 in a shop or office, at least one person is readily available during normal working hours with a valid certificate of competency in first aid.",
+          "The certificate must be issued or endorsed by the SA Red Cross Society, St John Ambulance, the SA Noodhulpliga, or an organisation approved by a chief inspector. The first aider's name must appear on the first aid box, and every box location must be clearly signposted.",
+          "Where dangerous or high-risk substances are used, the first aider needs additional training in first aid for acute poisoning and spillage. The box itself has to contain at least the items listed in the Annexure to the regulations.",
+          "Notice what the rule does not say. It sets no stated expiry period, and it says nothing about the level of course. Those two gaps are where most workplace first aid policies go wrong.",
+        ],
+      },
+      {
+        heading: "Level 1, Level 2 and Level 3: what changes",
+        paragraphs: [
+          "Level 1 covers the basics any workplace needs: scene safety, the primary survey, CPR, choking, bleeding, shock, burns and basic fractures. It suits offices, retail, schools, crèches and smaller sites where the risk is low and the first aider is the first link in the chain.",
+          "Level 2 builds on that with broader assessment and more conditions, and it is the level most construction sites, factories, warehouses and larger employers book. Level 3 is the most detailed and suits high risk operations, larger teams, and people who are expected to manage a casualty for longer before help arrives.",
+          "No rule forces a business to buy the highest level. The employer's risk assessment drives the choice, and a well trained Level 1 first aider supported by a solid evacuation plan is often enough in a low risk office. The mistake is booking the cheapest level for a high risk site and calling the duty done.",
+        ],
+        table: {"head": ["", "Level 1", "Level 2", "Level 3"], "rows": [["Typical audience", "Offices, retail, schools, crèches", "Construction sites, factories, warehouses", "High risk sites, large teams, first aid coordinators"], ["Depth", "Core life support and common injuries", "Broader assessment and more conditions", "Most detailed, extended care until help arrives"], ["Duration at RSTL", "1 day", "1 day", "1 day"], ["Price", "R650", "R650", "R650"], ["Best suited to", "Low risk and small teams", "Medium to high risk", "High risk or several trained first aiders"]]},
+      },
+      {
+        heading: "How long a first aid certificate lasts",
+        paragraphs: [
+          "The law sets no expiry period for a first aid certificate. Regulation 3 requires a valid certificate, but it does not say the certificate lapses after a set number of years, so any provider who tells you it expires after three years is describing a convention rather than a legal rule.",
+          "Three years has become the accepted cycle in most industries, largely because issuing bodies and employers work to it. The real driver is the body that issued the certificate and the employer's own risk assessment, and both can set a shorter or longer interval.",
+          "The sensible approach is to know who issued your certificate, follow that body's guidance, and revisit the position at each risk assessment. A booking reminder is not a legal deadline, and a lapsed-looking certificate is not automatically invalid.",
+        ],
+      },
+      {
+        heading: "What a first aid class in Mthatha looks like",
+        paragraphs: [
+          "Classes run Monday to Friday, 08:00 to 16:30, with Saturday sessions by arrangement. RSTL Centre delivers at its Mthatha centre at 1st Floor, Old Mutual Building, Cnr York Road and Leeds Road, on site at the client's premises, or online where the course allows.",
+          "The practical sections are best done in person. For a school, a clinic, a retail floor or a construction team, the on site option keeps the whole group together and lets the trainer build scenarios around the actual workplace rather than a generic classroom.",
+          "Delegates leave with a certificate, and the employer keeps a record for the safety file. Municipal and provincial work often requires those records to be produced, so a copy of each certificate is worth the few minutes it takes.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "How many first aiders does my business need?", a: "The rule starts at more than 10 employees. For every group of up to 50 employees, or up to 100 in a shop or office, at least one person with a valid first aid certificate must be readily available during normal working hours. A 40 person office needs one, a 140 person factory needs three." },
+      { q: "Does a first aid certificate expire?", a: "No expiry period is set in law. Regulation 3 requires a valid certificate but states no time limit. Three years is industry practice rather than a legal rule, and the issuing body and the employer's risk assessment are what drive when a refresher is actually needed." },
+      { q: "Which level should a construction site book?", a: "Most construction sites and factories book Level 2, because the risk is higher and injuries are more varied. Level 1 suits low risk offices, schools and crèches, and Level 3 suits high risk operations or workplaces that need several well trained first aiders." },
+      { q: "What does first aid training cost in Mthatha?", a: "RSTL Centre charges R650 for First Aid Level 1, 2 and 3, each as a one day course. Published prices seen in search results on 10 September 2026 showed St John first aid courses from R239 up to R1,490 and Absolute Health at R975." },
+      { q: "Where can I do first aid training near Mthatha?", a: "RSTL Centre has a Mthatha branch at 1st Floor, Old Mutual Building, Cnr York Road and Leeds Road, on 078 045 2852. Classes also run at the Midrand and Durban centres, on site, or online where the course allows." },
+      { q: "Is the certificate recognised for a tender?", a: "The certificate has to be issued or endorsed by the SA Red Cross Society, St John Ambulance, the SA Noodhulpliga, or an organisation approved by a chief inspector. OR Tambo District Municipality requires accreditation letters as a mandatory condition on its training quotations." },
+      { q: "Can we train the whole team at our premises?", a: "Yes. On site delivery keeps the group together and lets the trainer work with your actual layout and equipment. It suits schools, clinics, retail groups and construction teams, and a full class can usually be arranged quickly because the centre runs daily classes with no waiting period." },
+    ],
+    closingHeading: "Book first aid training in Mthatha",
+    courseLinks: [
+      { href: "/courses/first-aid-level-1", label: "Level 1" },
+      { href: "/courses/first-aid-level-2", label: "Level 2" },
+      { href: "/courses/first-aid-level-3", label: "Level 3" },
+    ],
+  },
+  {
+    slug: "working-at-heights-scaffolding-mthatha",
+    title: "Working at Heights and Scaffolding in Mthatha: What Contractors Must Prove on Site",
+    metaTitle: "Working at Heights Mthatha: Contractor Guide",
+    metaDescription: "Working at heights training in Mthatha, fall protection plans, scaffolding roles and the records contractors must produce on site under the 2014 regulations.",
+    primaryKeyword: "working at heights training mthatha",
+    secondaryKeywords: ["scaffolding training Mthatha", "fall protection plan", "working at heights course", "fall arrest training"],
+    category: "Mthatha",
+    date: "2026-09-14",
+    readMinutes: 8,
+    excerpt: "What the Construction Regulations require of contractors working in Mthatha, from the fall protection plan to scaffold erectors, inspectors and rescue.",
+    intro: [
+      "Working at heights training in Mthatha is not a formality for contractors on the N2 Wild Coast Road or the district water programme. Regulation 10 of the Construction Regulations 2014 requires a fall protection plan, and that single requirement pulls heights training, fall arrest, rescue training and occupational medicals into one package.",
+      "RSTL Centre charges R700 each for Working at Heights, Fall Protection Planning, Scaffolding Erector and Scaffolding Inspector, all one day courses. On a site facing an inspection or a main contractor audit, those are the certificates that get asked for first.",
+      "This guide explains what Regulation 10 and Regulation 16 require, what a fall protection plan must contain, and why the region makes both urgent right now.",
+    ],
+    closing: [
+      "Email the branch through the [contact page](/contact) to book [Working at Heights](/courses/working-at-heights), Fall Protection Planning, Scaffolding Erector or Scaffolding Inspector at R700 each, or arrange the medicals the plan requires through [medicals](/medicals). The [course list](/courses) has everything else.",
+    ],
+    sections: [
+      {
+        heading: "What Regulation 10 requires of a contractor",
+        paragraphs: [
+          "The contractor must designate a competent person to prepare a fall protection plan, then implement, amend, maintain and enforce it. The plan must include a risk assessment for every work location at a fall risk, medical fitness evaluations with records, a training programme with records, an equipment inspection and maintenance procedure, and a rescue plan.",
+          "That list is why one regulation justifies several courses and a medical at the same time. The plan is not a document that sits in a file. It is the reason the employer has to train the right people, medically assess them, inspect the equipment, and prove all of it with records.",
+          "The construction manager must hold the most recently updated version of the plan. An out of date plan with no records behind it is the kind of finding that stops work, and it is also the finding most likely to come up when a main contractor audits a subcontractor.",
+        ],
+      },
+      {
+        heading: "What the fall protection plan must contain",
+        paragraphs: [
+          "A fall protection plan must contain a risk assessment of every fall risk position with a method per location, medical fitness evaluations with records, a training programme with records, an equipment inspection and maintenance procedure, and a rescue plan. Each element is a separate deliverable the contractor must be able to produce on demand.",
+        ],
+        table: {"head": ["Required element", "What it means in practice", "RSTL support"], "rows": [["Risk assessment", "Identify every fall risk position and set out the method for each location", "Fall Protection Planning, R700"], ["Medical fitness evaluation", "Assess everyone working at a fall risk position, and keep the records", "Occupational medicals"], ["Training programme", "Train those workers and keep competence records", "Working at Heights, R700"], ["Equipment procedure", "How fall protection equipment is inspected, tested and maintained", "Working at Heights, R700"], ["Rescue plan", "The procedure, people and equipment to rescue a fallen worker, implemented immediately", "Working at Heights and on site planning"]]},
+      },
+      {
+        heading: "Fall prevention before fall arrest",
+        paragraphs: [
+          "The regulations draw a firm line here. Fall arrest is permitted only where fall prevention is not reasonably practicable, so the employer has to show why prevention was ruled out before reaching for a harness. The default answer to a fall risk is to remove the risk, not to catch the person.",
+          "All unprotected openings in floors, edges, slabs, hatchways and stairways must be adequately guarded, fenced or barricaded. Where work near an edge cannot be guarded, that is where a fall arrest system and a trained, medically fit user come in.",
+          "Work at heights training covers the equipment and the method, but its real value is the discipline behind the choice. Contractors who train teams in [fall protection planning](/courses/fall-protection-planning) as well as [working at heights](/courses/working-at-heights) tend to argue about prevention first, which is the way the regulation is written.",
+        ],
+      },
+      {
+        heading: "Scaffolding: three roles under Regulation 16",
+        paragraphs: [
+          "Regulation 16 requires the contractor to appoint a competent person in writing to supervise all scaffolding work, and to make sure all scaffold erectors, team leaders and inspectors are competent. Access scaffolding must be inspected and maintained, and it must comply with SANS 10085.",
+          "The regulation names three distinct roles: erector, inspector and supervisor. They are not interchangeable. An erector builds the scaffold, an inspector checks and signs it off, and a supervisor controls the work and the persons doing it. A site that treats them as one blanket competency is exposed.",
+          "RSTL Centre runs [Scaffolding Erector](/courses/scaffolding-erector) and [Scaffolding Inspector](/courses/scaffolding-inspector) as separate one day courses at R700 each, so a contractor can put the right people through the right course rather than sending everyone on the same class. The written appointment of the supervisor is a site decision the employer makes and keeps on file.",
+        ],
+      },
+      {
+        heading: "Why the Mthatha region makes this urgent",
+        paragraphs: [
+          "The N2 Wild Coast Road is a roughly R20 billion, 110km project in the region, with Package Four led by the WBHO-Edwin Construction Joint Venture and Package Five by the WBHO-H&I Joint Venture. Work of that scale means local subcontractors on site, and subcontractors carry the same fall protection duties as the main contractor.",
+          "SANRAL ran a contractor development programme session in Mthatha for local contractors, which is a signal that local firms are being brought onto that work. Any firm that moves from smaller jobs to a project of that size needs its fall protection plan and its training records in order before it starts, not after an audit.",
+          "The district water and sanitation programme adds the same pressure closer to town. With about 122 projects running and civil tender documents requiring a quarterly training needs analysis, contractors have to show a training plan that is refreshed through the contract, and heights and scaffolding training sit in that plan.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "What must a fall protection plan contain?", a: "It must include a risk assessment of all work from a fall risk position with methods per location, medical fitness evaluations with records, a training programme with records, a procedure for inspection, testing and maintenance of fall protection equipment, and a rescue plan with the procedure, people and equipment to rescue a fallen worker." },
+      { q: "Is fall arrest always allowed?", a: "No. Fall arrest is permitted only where fall prevention is not reasonably practicable. Prevention comes first, and the employer has to be able to explain why an edge could not be guarded, fenced or barricaded before relying on a harness system." },
+      { q: "What is the difference between a scaffold erector and an inspector?", a: "An erector builds and dismantles the scaffold. An inspector checks it and signs it off as safe for use. Regulation 16 names erector, inspector and supervisor as three distinct roles, and a site should not treat one course as covering all three." },
+      { q: "Which scaffolding standard applies?", a: "Access scaffolding must comply with SANS 10085 and must be inspected and maintained. The contractor must also appoint a competent person in writing to supervise all scaffolding work, and ensure that erectors, team leaders and inspectors are competent." },
+      { q: "How much does heights and scaffolding training cost?", a: "RSTL Centre charges R700 each for Working at Heights, Fall Protection Planning, Scaffolding Erector and Scaffolding Inspector, each a one day course. Occupational medicals for staff working at a fall risk position are arranged separately through the centre." },
+      { q: "Do workers at height need a medical?", a: "Yes. The fall protection plan must include a medical fitness evaluation for anyone working at a fall risk position, and the records have to be kept. That fitness evaluation can be arranged through the centre's occupational medicals service." },
+      { q: "Can this training be done on our site?", a: "Yes. RSTL Centre delivers at its Mthatha branch, on site at the client's premises, or online where the course allows. Heights and scaffolding courses carry practical work, so those sessions are delivered in person." },
+    ],
+    closingHeading: "Book heights and scaffolding training in Mthatha",
+    courseLinks: [
+      { href: "/courses/fall-protection-planning", label: "fall protection planning" },
+      { href: "/courses/working-at-heights", label: "working at heights" },
+      { href: "/courses/scaffolding-erector", label: "Scaffolding Erector" },
+      { href: "/courses/scaffolding-inspector", label: "Scaffolding Inspector" },
+    ],
+  },
+  {
+    slug: "she-rep-training-mthatha",
+    title: "SHE Rep Training in Mthatha: Who Your Business Must Appoint, and What It Costs",
+    metaTitle: "SHE Rep Course Mthatha: Who to Appoint and Cost",
+    metaDescription: "SHE Rep training in Mthatha: who must be appointed, how many representatives your workplace needs, and what the one day SHE Rep course costs at RSTL Centre.",
+    primaryKeyword: "she rep course mthatha",
+    secondaryKeywords: ["health and safety representative training", "SHE Rep training Mthatha", "she rep appointment", "SHE Rep course price"],
+    category: "Mthatha",
+    date: "2026-09-10",
+    readMinutes: 7,
+    excerpt: "Who must be appointed as a health and safety representative in Mthatha, how many your headcount requires, and what the one day SHE Rep course costs.",
+    intro: [
+      "The Eastern Cape Department of Public Works and Infrastructure issued quotation ORT5-25/26-0017 for the training of 34 employees on health and safety (SHE Rep) in the O.R. Tambo District over three days. Public sector buyers were already booking a SHE Rep course in Mthatha, and private employers in the district carry exactly the same duty.",
+      "A SHE Rep course in Mthatha at RSTL Centre costs R600 a delegate for a one day class. That published price matters, because the closest national alternatives are several times higher once you read their rate cards.",
+      "What follows is the law on who must be appointed, how many representatives a workplace actually needs, and what the course costs against the prices competitors publish.",
+    ],
+    closing: [
+      "Email the branch through the [contact page](/contact) to book the one day SHE Rep course at R600 a delegate, and note your headcount so the team can advise how many seats you need. Full details of the course are on the [SHE Rep page](/courses/health-and-safety-representative), and the [course list](/courses) covers the OHS Act, risk assessment and committee courses that usually follow.",
+      "The Mthatha branch is on 078 045 2852 if you would rather speak to someone about a group booking.",
+    ],
+    sections: [
+      {
+        heading: "Who must appoint a health and safety representative",
+        paragraphs: [
+          "Any employer with more than 20 employees must designate health and safety representatives, and the designation has to be in writing. That duty begins within four months of the business starting, or of the headcount passing 20. Only full-time employees who know the workplace's conditions and activities can be appointed.",
+          "The writing requirement is where many small employers slip. A verbal understanding is not a designation. The employer should keep a signed appointment for each representative, and the representative should hold a copy for the safety file.",
+          "It is worth naming the duties correctly, because they get mixed up. Employees' own duties sit in section 14 of the Act, while section 13 covers the duty to inform. A representative's functions are separate from both, and the appointment letter should reflect the role the person is being given.",
+        ],
+      },
+      {
+        heading: "How many representatives a workplace needs",
+        paragraphs: [
+          "The ratio depends on the type of workplace, not just on headcount. The required minimum is one representative per 100 employees or part thereof in shops and offices, and one representative per 50 employees or part thereof in all other workplaces.",
+          "That difference is large in practice. A distribution warehouse with 120 staff needs three representatives, because 120 falls into the third group of 50. A retail store with 120 staff needs two, because 120 falls into the second group of 100.",
+          "The table below shows the minimum for common headcounts. It sets out the floor, so an employer with a higher risk profile can appoint more, but cannot appoint fewer.",
+        ],
+        table: {"head": ["Employees", "Shop or office (1 per 100)", "Other workplaces (1 per 50)"], "rows": [["20 or fewer", "None required", "None required"], ["21 to 50", "1", "1"], ["51 to 100", "1", "2"], ["101 to 150", "2", "3"], ["151 to 200", "2", "4"], ["201 to 250", "3", "5"]]},
+      },
+      {
+        heading: "What the Act requires once a representative is appointed",
+        paragraphs: [
+          "Section 18(3) places a duty on the employer to provide the facilities, assistance and training a representative may reasonably require. Training is therefore not a favour the employer is granting, and the employer cannot reasonably refuse it where the representative needs it to do the job.",
+          "Representatives carry out their duties during ordinary working hours, and that time counts as work time. Attending the SHE Rep course is covered by the same principle, so an employer cannot expect a representative to train on their own time or on unpaid leave.",
+          "Once a workplace has two or more representatives, section 19 makes a health and safety committee mandatory, and that committee must meet at least once every three months. For most Mthatha employers with more than 20 staff, that means the first appointment quickly leads to a recurring meeting and a written record of it.",
+        ],
+      },
+      {
+        heading: "Which SHE Rep course to book and who should attend",
+        paragraphs: [
+          "The one day [SHE Rep course](/courses/health-and-safety-representative) is built around the representative's functions under the Act: inspecting the workplace, identifying hazards, investigating incidents, and taking part in the committee. It suits anyone about to be designated, and anyone already in the role who has never been formally trained.",
+          "Delegates should be full-time employees who know the workplace, because that is who the Act allows to be designated. Sending a contractor or a part-time staff member to the course tends to create a representative who cannot lawfully hold the appointment.",
+          "RSTL Centre runs the class from Monday to Friday, 08:00 to 16:30, at the Mthatha branch or on site for a group. Larger employers often add the [OHS Act course](/courses/ohs-act) for the people who support the representatives, and pair the appointment with [risk assessment training](/courses/risk-assessment-hira).",
+        ],
+      },
+      {
+        heading: "What SHE Rep training costs in Mthatha",
+        paragraphs: [
+          "RSTL Centre charges R600 for the one day SHE Rep course. Published prices seen in search results on 10 September 2026 showed the same course at R2,950 from NOSA, R800 from Funda Institute, and R1,800 from one Facebook trainer. Those are advertised rates, and they differ for reasons that are not always visible.",
+          "Price on its own does not settle the decision. The certificate has to be worth something when a client, a main contractor or a municipality asks for it, so it is worth checking what the provider's course covers and whether the accreditation is stated on the course page.",
+          "A directory's own estimate at the time put the average for safety training in Mthatha at about R3,250, within a range of R1,500 to R5,000. That figure is the directory's estimate rather than a surveyed average, but it does suggest local buyers are used to paying well above R600 for a day of safety training.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "When must a Mthatha employer appoint a SHE Rep?", a: "The trigger is more than 20 employees. The appointment must be made in writing within four months of starting the business or of the headcount passing 20. Employers who fall under 20 employees are not required to appoint representatives, though many still do." },
+      { q: "How many health and safety representatives do I need?", a: "At least one per 100 employees or part thereof in shops and offices, and at least one per 50 employees or part thereof in all other workplaces. A 60 person factory needs two representatives, while a 60 person office needs one." },
+      { q: "Can I appoint someone who works part time?", a: "No. Only full-time employees who know the workplace's conditions and activities can be designated as representatives. That rule is why the person who knows the floor is usually a better choice than a manager who is rarely on site." },
+      { q: "Is the training done in work time?", a: "Yes. Representatives carry out their duties during ordinary working hours, and that time counts as work time. Section 18(3) also obliges the employer to provide the training a representative may reasonably require to do the job." },
+      { q: "How much does the SHE Rep course cost?", a: "RSTL Centre charges R600 for the one day SHE Rep course. For comparison, published prices seen in search results on 10 September 2026 showed the course at R2,950 from NOSA, R800 from Funda Institute, and R1,800 from one Facebook trainer." },
+      { q: "Do we need a safety committee as well?", a: "Once two or more representatives are appointed, a health and safety committee is mandatory under section 19, and it must meet at least once every three months. Most workplaces with more than 20 employees will pass that threshold quickly." },
+      { q: "Can the SHE Rep course be run at our premises?", a: "Yes. RSTL Centre delivers the course at its Mthatha branch at 1st Floor, Old Mutual Building, Cnr York Road and Leeds Road, on site, or online where the course allows. On site training keeps a full group together and suits shift work." },
+    ],
+    closingHeading: "Book SHE Rep training in Mthatha",
+    courseLinks: [
+      { href: "/courses/health-and-safety-representative", label: "SHE Rep course" },
+      { href: "/courses/ohs-act", label: "OHS Act course" },
+      { href: "/courses/risk-assessment-hira", label: "risk assessment training" },
+    ],
+  },
+  {
+    slug: "she-rep-duties-appointment-letter",
+    title: "SHE Rep Duties and Responsibilities in South Africa (and How to Appoint One)",
+    metaTitle: "SHE Rep Duties and How to Appoint One",
+    metaDescription: "SHE Rep duties under the OHS Act: who must be appointed, how many are needed, what the employer provides, and what an appointment letter has to contain.",
+    primaryKeyword: "she rep duties",
+    secondaryKeywords: ["she rep duties and responsibilities", "she rep duties in construction", "she rep appointment letter template", "she rep functions"],
+    category: "Compliance",
+    date: "2026-09-10",
+    readMinutes: 7,
+    excerpt: "SHE Rep duties, the ratios that decide how many representatives a workplace needs, and a step by step appointment process, including what an appointment letter must contain.",
+    intro: [
+      "She rep duties are easy to list and harder to carry out, because the representative is a colleague first and a safety role second. The Act does not hand that person a clipboard and a corner office. It gives them a defined set of functions, a right to time and training, and a place in a committee that management has to answer.",
+      "The Occupational Health and Safety Act 85 of 1993 covers the whole arrangement. It sets out when an employer must designate a representative, how many are needed, what the employer must provide, and when a health and safety committee becomes compulsory. Getting the appointment right takes an afternoon. Getting it wrong shows up the first time an inspector or a client audits the safety file.",
+      "Most workplaces get the duties roughly right and the appointment wrong, or the other way around. Both need to be on paper, and both are simple to check.",
+    ],
+    closing: [
+      "The [SHE Rep course](/courses/health-and-safety-representative) runs one day and costs R600. Most employers pair it with the [OHS Act course](/courses/ohs-act) at R650, and many add [Risk Assessment HIRA](/courses/risk-assessment-hira) at R700 so the representative can read the risk assessment they will be working from.",
+      "RSTL Centre trains at its Midrand, Durban and Mthatha centres and on site at a client's premises nationally. Classes run daily, Monday to Friday, 08:00 to 16:30, with Saturday by arrangement. See the full list on the [courses page](/courses), then book through the [contact page](/contact).",
+    ],
+    sections: [
+      {
+        heading: "What Are the Duties of a SHE Rep?",
+        paragraphs: [
+          "A health and safety representative represents employees on health and safety matters. The work is to identify hazards, inspect the workplace, report unsafe conditions and unsafe practices, take part in investigations, and put the employees' view to the employer during ordinary working hours. That time counts as work time.",
+          "In practice the representative is the eyes of the workforce. They walk the workplace rather than wait to be told what changed. They keep a note of what they find. They raise it with the person who can fix it, and they follow up when the answer is slow. Where an incident happens, they are part of the investigation rather than a spectator to it.",
+          "One limit is worth stating. The representative does not carry the legal duty to fix the hazard. That duty stays with the employer. The representative's job is to see the problem, put it on the record, and push until it is dealt with.",
+        ],
+      },
+      {
+        heading: "Who Must Be Appointed, and When",
+        paragraphs: [
+          "An employer with more than 20 employees must designate health and safety representatives in writing within four months of starting business or of the headcount passing 20. The number required is at least one per 100 employees or part thereof in shops and offices, and at least one per 50 employees or part thereof in all other workplaces.",
+          "The ratios decide the headcount for you. A shop with 250 employees needs at least three representatives, because the count runs one per 100 employees or part thereof. A workshop, plant or construction operation with 250 employees needs at least five, because the count there runs one per 50.",
+          "Eligibility is narrow in one respect. Only full-time employees who know the workplace's conditions and activities can be designated. That rules out a contractor's casual hand who has never walked the site, and it points you towards the people who understand how the work actually runs.",
+        ],
+      },
+      {
+        heading: "What the Employer Must Provide",
+        paragraphs: [
+          "Section 18(3) requires the employer to provide the facilities, assistance and training that a representative may reasonably require. Duties and any training happen during ordinary working hours and count as work time. Section 19 makes a health and safety committee mandatory once there are two or more representatives, and that committee must meet at least once every three months.",
+          "The facilities clause covers simple things: somewhere to keep records, access to the areas being represented, and the information needed to do the job. Assistance can mean admin support or an hour with a manager. Training is the piece most employers underestimate, and it is the reason a representative ends up unsure whether they are allowed to stop a job.",
+          "Once there are two or more representatives, the committee becomes part of the structure. It is where individual findings turn into decisions that management has to answer. A representative who raises a hazard and gets no response has a next step: the committee item, minuted and dated.",
+        ],
+      },
+      {
+        heading: "Section 13, 14 and 18 Are Not the Same Duty",
+        paragraphs: [
+          "Section 13 is the duty to inform, section 14 holds the employees' own duties, and section 18 deals with health and safety representatives. A representative carries the section 18 functions. Every employee, representative or not, still carries the section 14 duty to take reasonable care of their own safety and that of others.",
+          "The confusion matters in a dispute. An employer who says the representative should have stopped the job is mixing the two roles together. An employee who thinks the representative is responsible for compliance has the wrong end of the arrangement. Keeping the sections apart makes the whole conversation clearer.",
+        ],
+      },
+      {
+        heading: "What a SHE Rep Does Week to Week",
+        paragraphs: [
+          "The weekly work depends on the setting. A construction representative walks the site, checks fall protection and access equipment and records what is unsafe. A retail representative checks aisles, storerooms and fire exits. An office representative checks walkways, electrical equipment and housekeeping. All three feed their findings into the same committee structure.",
+        ],
+        table: {"head": ["Setting", "Common duties", "What gets reported", "Typical rhythm"], "rows": [["Construction site", "Walk work areas, check fall protection, access equipment and the first aid box, watch for unsafe acts", "Hazards, near misses, repeated unsafe practices, equipment defects", "Daily walk, weekly inspection record, monthly report to the committee"], ["Retail", "Check aisles, storerooms, fire exits, stacking and slip risks", "Blocked exits, damaged shelving, poor housekeeping, wet floors", "Weekly floor walk, report to the manager, monthly committee item"], ["Office", "Check walkways, electrical leads, kitchen areas and the first aid box", "Trailing cables, blocked fire doors, faulty equipment", "Weekly walk, monthly committee item"]]},
+      },
+      {
+        heading: "How to Appoint a Health and Safety Representative",
+        paragraphs: [
+          "Appointment runs in a sequence. Work out how many representatives the ratios require, consult the employees, let them nominate or elect a candidate, designate the person in writing, give them the time and the training, and set up a committee if two or more representatives exist. Skipping the consultation step is the most common mistake.",
+          "Consultation is not decoration. Employees who choose their own representative use that person, and a representative imposed from above gets ignored. Where the workforce is large, divide the workplace into areas and let each area choose.",
+          "The written designation is the part an auditor will ask for. It should be a single page, signed and dated. Keep a copy in the safety file and give the representative one.",
+          "The last step is the committee. Two representatives mean a committee, and a committee means minuted meetings at least every three months. From there the representative has a channel, and management has a record that the hazards were raised.",
+        ],
+      },
+      {
+        heading: "What a SHE Rep Appointment Letter Must Contain",
+        paragraphs: [
+          "An appointment letter must name the employer and the workplace, name the representative, state the legal basis under the OHS Act, describe the area or section represented, give the number of employees and the date the appointment takes effect, and carry the signatures of both parties.",
+          "The rest of the letter does the useful work. It should confirm that duties and training happen during ordinary working hours and count as work time, set out the facilities and assistance available, and point to the health and safety committee if one exists. Each signature needs a date beside it.",
+          "Write it on the employer's letterhead and keep it to one page. There is no official prescribed wording, so what matters is that every field above appears and that the document is signed and dated. RSTL Centre's SHE Rep course runs one day at R600 and covers these duties in full.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "What are the duties of a SHE rep?", a: "A representative identifies hazards, inspects the workplace, reports unsafe conditions and practices, takes part in incident investigations and puts the employees' view to management. The work is done during ordinary working hours and counts as work time. The duty to fix a hazard stays with the employer." },
+      { q: "How many SHE reps does a workplace need?", a: "It depends on the ratio. Shops and offices need at least one per 100 employees or part thereof. All other workplaces need at least one per 50 employees or part thereof. An employer with more than 20 employees must make those designations, in writing, within four months." },
+      { q: "Must a SHE rep be appointed in writing?", a: "Yes. Where there are more than 20 employees, the employer must designate representatives in writing within four months of starting business or of the headcount passing 20. The written designation is what an inspector or a client will ask for, so keep a signed, dated copy in the safety file." },
+      { q: "Does a SHE rep need training?", a: "The employer must provide the training a representative may reasonably require, under section 18(3) of the Act, and that training happens in ordinary working hours and counts as work time. RSTL Centre's SHE Rep course runs one day and costs R600." },
+      { q: "Is a health and safety committee compulsory?", a: "It becomes compulsory once there are two or more health and safety representatives, under section 19 of the Act. A single representative does not trigger the committee, but two do. The committee is where individual findings turn into decisions that management must answer." },
+      { q: "How often must the committee meet?", a: "A health and safety committee must meet at least once every three months. Some workplaces meet monthly, which is usually easier to keep on top of. Minutes of every meeting should be kept, because they show what hazards were raised and how they were answered." },
+      { q: "Does a SHE rep do the work in their own time?", a: "No. Representatives' duties and any training happen during ordinary working hours and count as work time. An employer cannot shift the role onto a lunch break or expect it after hours. The time is part of the job, not a favour." },
+    ],
+    closingHeading: "Book SHE Rep Training With RSTL Centre",
+    courseLinks: [
+      { href: "/courses/health-and-safety-representative", label: "SHE Rep course" },
+      { href: "/courses/ohs-act", label: "OHS Act course" },
+      { href: "/courses/risk-assessment-hira", label: "Risk Assessment HIRA" },
+    ],
+  },
+  {
+    slug: "forklift-licence-south-africa-cost",
+    title: "How Much Does a Forklift Licence Cost in South Africa? (2026 Guide)",
+    metaTitle: "Forklift Licence Cost in South Africa 2026",
+    metaDescription: "How much does a forklift licence cost in South Africa in 2026? RSTL Centre charges R1,500 for the one day course, with published prices from about R600.",
+    primaryKeyword: "how much does a forklift licence cost in south africa",
+    secondaryKeywords: ["forklift licence training", "forklift operator course fees", "forklift licence south africa", "forklift operator course"],
+    category: "Machine & Plant",
+    date: "2026-09-10",
+    readMinutes: 7,
+    excerpt: "A straight answer on forklift licence costs in South Africa in 2026, what a course price normally includes, and what the word licence actually means in law.",
+    intro: [
+      "How much does a forklift licence cost in South Africa? RSTL Centre charges R1,500 for its one day Forklift Operator course. Published prices from small training academies that appeared in search results on 10 September 2026 range from about R600 to R4,500, and one Facebook operator advertises R2,300 to R6,800.",
+      "That spread is wide because the quotes are not all for the same thing. Some are for a short course with assessment included, some are for a refresher, and some are for a group rate or a site visit. Two prices that look comparable often are not.",
+      "This guide sets out what a forklift course price normally covers, what pushes the number up or down, and what the everyday word licence actually refers to in South African law. If you are budgeting for a crew, the last part matters more than the first.",
+      "The figures below are for the forklift operator course specifically. Machine operator training for a TLB, excavator or grader sits in a different price band, and RSTL Centre quotes those on request.",
+    ],
+    closing: [
+      "Send your delegate numbers and the machine types you run through [the contact page](/contact) and RSTL Centre will confirm a date and a quote. The [Forklift Operator course](/courses/forklift-operator) runs daily with no waiting period, and the [full machine and plant range](/courses) covers TLB, excavator, grader and the rest of the fleet.",
+    ],
+    sections: [
+      {
+        heading: "What a forklift operator course price normally includes",
+        paragraphs: [
+          "A forklift operator course price normally covers a day of training, the practical assessment on a machine, and the issuing of a certificate of training. At RSTL Centre that is one day, Monday to Friday, 08:00 to 16:30, at a centre or on your site.",
+          "Some providers quote the training only and add the assessment as a separate charge. Others roll everything into one figure but limit how many delegates can share a machine in a day. Ask what the fee covers before you compare it with a lower quote, because the cheapest headline often grows once the extras are added.",
+          "A few things sit outside most course prices. Travel to a remote site, machine hire, and re-assessment after a failed practical are the usual extras. If your crew is working on the N2 corridor or a district water project, ask about travel before you confirm.",
+        ],
+      },
+      {
+        heading: "What drives the price up or down",
+        paragraphs: [
+          "Accreditation is the first factor. A provider accredited by TETA and approved by the Chief Inspector carries the cost of maintaining that status, and its price reflects it. A cheaper trainer without that standing may not issue a certificate that satisfies the regulation, which makes the saving worthless.",
+          "The machine type is the second factor. A forklift course and a TLB course are not priced the same, because the machine, the fuel, the load and the risk differ. RSTL Centre charges R1,500 for the [Forklift Operator course](/courses/forklift-operator) and R4,500 for the [TLB Operator course](/courses/tlb-operator), quoted on request.",
+          "Travel, group size and whether assessment is included make up the rest. On-site training saves a fleet of vehicles a trip to town, and a group booking spreads the trainer's day across more delegates. Ask for both figures, the centre price and the on-site price.",
+        ],
+      },
+      {
+        heading: "What a forklift licence actually means in South African law",
+        paragraphs: [
+          "In South African law the everyday word licence refers to a certificate of training. The Driven Machinery Regulations 2015 require an operator of a lifting machine to hold a certificate of training from a provider accredited by TETA, the Transport SETA, and approved by the Chief Inspector.",
+          "The duty falls on the employer. Before a forklift is used, the employer must be satisfied that the operator holds the certificate, and an inspector who arrives on site will ask for it. Experience alone does not answer the question.",
+          "That is why a certificate from an unaccredited trainer is not a bargain at any price. If it does not come from an accredited provider, it does not satisfy the regulation, and the employer carries the consequence. Check a provider's accreditation before you pay, and keep the certificate on file.",
+        ],
+      },
+      {
+        heading: "What changed on 30 January 2026",
+        paragraphs: [
+          "The National Code of Practice for Training Providers of Lifting Machine Operators says a carry card is valid for up to 24 months. That is the practical position most workplaces work to today, and it is why carry cards get checked and renewed as a routine.",
+          "The position changed on 30 January 2026. A Correction Notice from the Chief Inspector replaced re-certification with relicensing, confirmed that certificates are issued only once, and allowed providers to keep issuing carry cards while a licensing body is being set up. That body has a deadline of 29 May 2027.",
+          "Treat this as a regime in transition. Do not treat a fixed validity period as settled law, and do not assume a card that looks current will still be current once the licensing body begins its work. Ask before you book, and get the answer in writing.",
+        ],
+        table: {"head": ["Price element", "What it usually covers"], "rows": [["Training day", "Theory and machine time with a competent assessor, normally one day"], ["Practical assessment", "Observation of the operator on the machine, with real loads"], ["Certificate issuing", "The certificate of training from the accredited provider"], ["Course material", "Workbook or notes, where the provider supplies them"], ["Travel to site", "The provider's trip to your premises, often quoted separately"], ["Re-assessment", "A second practical assessment after a failed attempt, usually charged again"]]},
+      },
+    ],
+    faqs: [
+      { q: "How much does a forklift licence cost in South Africa?", a: "RSTL Centre charges R1,500 for the one day Forklift Operator course. Published prices from small training academies seen in search results on 10 September 2026 run from about R600 to R4,500, and one Facebook operator advertises R2,300 to R6,800. Compare what each fee includes." },
+      { q: "How long does the forklift operator course take?", a: "One day. Training at RSTL Centre runs Monday to Friday from 08:00 to 16:30, with Saturday sessions by arrangement and no waiting period between classes. The day includes theory and practical assessment on the machine, so the delegate must be present in person." },
+      { q: "Is a forklift licence the same as a certificate of training?", a: "In everyday language people say licence. In law, the Driven Machinery Regulations 2015 refer to a certificate of training from a provider accredited by TETA and approved by the Chief Inspector. Employers should ask for the certificate, not for a licence card." },
+      { q: "Does a forklift certificate expire?", a: "Be careful here. The National Code of Practice sets a carry card at up to 24 months, and a Correction Notice dated 30 January 2026 moved the regime to relicensing with a licensing body due by 29 May 2027. Do not treat a fixed validity period as settled law." },
+      { q: "Can I do forklift training online?", a: "No. Forklift training is practical and cannot be delivered online. The operator has to be assessed on a machine with real loads and a competent assessor watching. Theory may be handled in a blended format, but the practical assessment is always in person." },
+      { q: "What is included in the R1,500 forklift course fee?", a: "It covers the one day operator course, the practical assessment on the machine and the issuing of the certificate of training. Training can run at a centre or on your site, and the final price is quoted on request once RSTL Centre knows your venue and delegate numbers." },
+      { q: "Does RSTL Centre also train TLB and other machine operators?", a: "Yes. RSTL Centre runs 34 machine and plant courses, including TLB, excavator, grader, dump truck and front end loader operators. The TLB Operator course costs R4,500 and is quoted on request. The full range is listed on the course page." },
+    ],
+    closingHeading: "Book a forklift operator course",
+    courseLinks: [
+      { href: "/courses/forklift-operator", label: "Forklift Operator course" },
+      { href: "/courses/tlb-operator", label: "TLB Operator course" },
     ],
   },
 ];
