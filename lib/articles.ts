@@ -142,6 +142,357 @@ export const ALL_ARTICLES: Article[] = [
     ],
   },
   {
+    slug: "incident-investigation-report-template-south-africa",
+    title: "Incident Investigation Report Template: What a South African Report Must Contain",
+    metaTitle: "Incident Investigation Report: SA Requirements",
+    metaDescription: "A South African incident investigation report, from the first hour on scene to signed findings, plus COIDA's 7 day and 14 day duties for employers in SA.",
+    primaryKeyword: "incident investigation report template south africa",
+    secondaryKeywords: ["incident investigation report example", "incident investigation report format", "accident investigation report", "incident investigation course"],
+    category: "Compliance",
+    date: "2026-09-28",
+    readMinutes: 7,
+    excerpt: "What a South African incident investigation report must contain, from the first hour on scene to signed findings, plus COIDA's 7 day and 14 day reporting duties.",
+    intro: [
+      "Search for an incident investigation report template south africa and most of what comes back was written for another country. American and Canadian formats dominate the results, and their forms, duties and deadlines belong to their own regulators. A South African investigation answers to South African law, and the report has to reflect that.",
+      "An investigation is not a hunt for somebody to blame. It is how a workplace finds out what actually caused an incident, stops the same thing happening again, protects its legal position, and gives a Compensation Fund claim the evidence it needs.",
+      "The difference between a report that holds up and one that falls apart is usually the first hour on scene and the way the causes are separated at the end.",
+    ],
+    closing: [
+      "The [Accident and Incident Investigation course](/courses/accident-and-incident-investigation) runs one day and costs R700. The [COIDA course](/courses/coida) runs one day at R650 and covers the reporting duties and the Compensation Fund process. [Risk Assessment HIRA](/courses/risk-assessment-hira) at R700 shows how to find the hazards the report will measure the site against.",
+      "RSTL Centre runs these courses at its Midrand, Durban and Mthatha centres and on site nationally, Monday to Friday, 08:00 to 16:30, with Saturday sessions by arrangement. See the full list on the [courses page](/courses) and send your booking through the [contact page](/contact).",
+    ],
+    sections: [
+      {
+        heading: "Why Investigate an Incident at All",
+        paragraphs: [
+          "An investigation has four jobs. It finds the cause of the incident, it prevents a repeat, it protects the employer's legal position, and it supports a COIDA claim for the injured person. A report that does all four is a working document. A report written to look good in a file does none of them.",
+          "Finding the cause comes first, because everything else follows from it. A workplace that knows the immediate cause and the root cause can fix both. One that stops at the immediate cause will meet the same problem again on another shift, in another area, with another person.",
+          "The legal position matters more than most employers realise. A complete, dated and signed report is evidence that the employer ran a proper system. The COIDA link is practical too: the claim for an injury on duty needs the facts recorded while they are still fresh.",
+        ],
+      },
+      {
+        heading: "What to Do in the First Hour",
+        paragraphs: [
+          "In the first hour, make the area safe and get the injured person medical care. Then secure the scene, note who was there, photograph the position of equipment and people before anything is moved, and record the conditions at the time. Notify the people who need to know, and do not start working out whose fault it was.",
+          "Equipment often has to be moved to reach someone, and that is fine. Photograph and mark the position first, then move it. Write down the time of the incident and the time help arrived.",
+          "Check the reporting clock as well. An injury on duty must be reported to the Compensation Fund within 7 days of the employer receiving notice of it, so the report starts from the moment the employer is told.",
+        ],
+      },
+      {
+        heading: "How to Gather Evidence and Interview Witnesses",
+        paragraphs: [
+          "Evidence gathering should be broad and careful. Take photographs and sketches, keep the equipment involved, and collect the documents that describe the task: the risk assessment, training records, medical records, maintenance records and inspection logs. Interview witnesses separately and soon, ask open questions, and write their answers in their own words. Never put the answer inside the question.",
+          "Leading a witness is the easiest mistake to make. Asking whether the guard was missing tells the witness what you expect to hear. Asking them to describe what they saw lets them tell you. The two questions produce very different statements, and only one of them survives scrutiny.",
+          "Keep witnesses apart until each has given an account, so their memory does not merge with someone else's. Where accounts contradict each other, record the contradiction rather than smoothing it over. A written statement should be dated and signed by the witness, in their words, not yours.",
+        ],
+      },
+      {
+        heading: "Immediate Cause and Root Cause",
+        paragraphs: [
+          "The immediate cause is the event that produced the injury: the fall, the contact, the release, the slip. The root cause is the condition that allowed that event to happen: an unguarded opening, a task with no risk assessment, training that did not cover the method, a maintenance failure, or supervision that was not there. The report needs both.",
+          "A worker falls through an open floor hatch. The immediate cause is the fall through an unguarded opening. The root cause is that the opening was never barricaded, nobody checked, and the risk assessment had not identified the hatch as a fall risk at all. Fixing the barricade addresses the immediate cause. Fixing the inspection routine and the risk assessment addresses the root cause.",
+          "A report that lists only the immediate cause will produce the same incident again at the next opening. That is the reason the root cause section carries the most weight when an inspector, a client or a compensation forum reads the file.",
+        ],
+      },
+      {
+        heading: "Writing Findings That Will Stand Up",
+        paragraphs: [
+          "Findings stand up when they are factual, dated, attributable and free of blame. State what was observed, who observed it and when. Keep evidence separate from conclusions, and label anything that is an opinion. Name conditions and systems rather than a person as the cause, then attach the corrective actions that follow.",
+          "Keep the report in the safety file, and add an addendum rather than editing the original if new information arrives. A version history is easier to defend than a document that quietly changed.",
+        ],
+      },
+      {
+        heading: "The Section by Section Structure of a South African Report",
+        paragraphs: [
+          "A South African report follows a fixed order. It opens with the incident details and the people involved, sets out what happened, records the evidence and the witness statements, separates the immediate cause from the root cause, reviews the risk assessment that was in place, then lists corrective actions with owners and dates, and closes with signatures.",
+          "There is no single prescribed South African form for every workplace, so the structure below is a model you can build in a word processor or a spreadsheet. What matters is that each section appears and that the report is signed.",
+        ],
+        table: {"head": ["Section", "What belongs in it"], "rows": [["Incident details", "Date, time, location, site or department, reporter, incident number"], ["People involved", "Injured person, witnesses, supervisor, first aider, treatment given"], ["What happened", "A factual sequence in plain language, with no blame"], ["Scene and conditions", "Weather, lighting, surfaces, housekeeping, guarding, equipment state"], ["Evidence gathered", "Photographs, sketches, the equipment involved, documents and records"], ["Witness statements", "Each witness's account, in their own words, dated and signed"], ["Immediate cause", "The event that produced the injury"], ["Root cause", "The condition or system failure that allowed it"], ["Risk assessment in place", "What the risk assessment said about the task, and whether it was followed"], ["Corrective actions", "Action, owner, due date, and how completion was verified"], ["Notifications and reporting", "Who was notified, when, and any Compensation Fund report"], ["Sign off", "Investigator, health and safety representative, employer, date"]]},
+      },
+      {
+        heading: "COIDA Reporting and the Penalties That Apply",
+        paragraphs: [
+          "An injury on duty must be reported to the Compensation Fund within 7 days of the employer receiving notice of it, and an occupational disease within 14 days of receiving notice. Claims go through the Compensation Fund's online claim system, and the claim number is generated once the injury is reported and the information uploaded.",
+          "Failing to report carries legal risk. Under section 38 of the OHS Act, a general offence carries a maximum fine of R50 000 or imprisonment of up to 1 year, or both. An act causing injury or death, judged on the culpable homicide standard, carries a maximum fine of R100 000 or imprisonment of up to 2 years, or both. These are the maximums under the 1993 principal Act, and the OHS Amendment Bill proposes increases but is not yet law.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "What must a South African incident investigation report contain?", a: "It must cover the incident details, the people involved, a factual account of what happened, the scene and conditions, the evidence gathered, the witness statements, the immediate cause, the root cause, the risk assessment that was in place, corrective actions with owners and dates, and a signed sign off." },
+      { q: "How soon must an injury on duty be reported?", a: "An injury on duty must be reported to the Compensation Fund within 7 days of the employer receiving notice of it. The claim is submitted through the Compensation Fund's online claim system, and the claim number is generated once the injury is reported and the information uploaded." },
+      { q: "How soon must an occupational disease be reported?", a: "An occupational disease must be reported within 14 days of the employer receiving notice. That is a longer window than an injury on duty, which is 7 days. Both are employer duties, so the clock starts when the employer is told, not when the condition itself began." },
+      { q: "What is the difference between immediate cause and root cause?", a: "The immediate cause is the event that produced the injury, such as a fall or contact with machinery. The root cause is the condition that allowed it, such as an unguarded opening, missing training or an inspection that never happened. A useful report names both." },
+      { q: "Who should carry out the investigation?", a: "The person leading it needs to know the work and be able to question it without protecting a supervisor. Many workplaces use a small team: a supervisor from the area, a health and safety representative, and someone from outside the department. That mix reduces the risk of a narrow conclusion." },
+      { q: "What are the penalties for an OHS Act offence?", a: "Under section 38 of the 1993 principal Act, a general offence carries a maximum fine of R50 000 or up to one year in prison, or both. An act causing injury or death carries a maximum fine of R100 000 or up to two years, or both. The OHS Amendment Bill proposes increases but is not yet law." },
+      { q: "Should witness statements be signed?", a: "Yes. A statement should be in the witness's own words, dated, and signed by them. Read it back to confirm it is accurate, and never ask a witness to sign a version you rewrote. Signed statements carry far more weight if the matter is later challenged." },
+    ],
+    closingHeading: "Book Incident Investigation Training With RSTL Centre",
+    courseLinks: [
+      { href: "/courses/accident-and-incident-investigation", label: "Accident and Incident Investigation course" },
+      { href: "/courses/coida", label: "COIDA course" },
+      { href: "/courses/risk-assessment-hira", label: "Risk Assessment HIRA" },
+    ],
+  },
+  {
+    slug: "how-to-become-a-safety-officer-south-africa",
+    title: "How to Become a Safety Officer in South Africa: Routes, Cost and Time (2026)",
+    metaTitle: "How to Become a Safety Officer in South Africa",
+    metaDescription: "Compare the short course route and the formal qualification route to a safety officer career in South Africa, with costs, timeframes and what employers want.",
+    primaryKeyword: "how to become a safety officer in south africa",
+    secondaryKeywords: ["requirements to become a safety officer", "how long does it take to be a safety officer", "safety officer course", "safety officer skills programme"],
+    category: "Careers",
+    date: "2026-09-28",
+    readMinutes: 8,
+    excerpt: "The short course route and the formal qualification route to becoming a safety officer in South Africa, compared on time, cost, entry requirements and who each one suits.",
+    intro: [
+      "How to become a safety officer in South Africa depends on where you are starting. One person arrives after ten years on site and needs to formalise what they already do. Another is a school leaver choosing a career from scratch. Those two people need different routes, and honest advice says so rather than pushing whichever option the adviser happens to sell.",
+      "There are two real routes. One is a set of short courses you build up over successive weeks. The other is a multi year qualification at a university or a TVET college. Both lead to safety work, and they suit different jobs and different people.",
+      "Choosing between them is mostly a question of time, money and where you are starting from.",
+    ],
+    closing: [
+      "The [Safety Officer Skills Programme](/courses/safety-officer-skills-programme) runs 10 days at R7,900 and is the natural starting point for anyone moving into the role. Most learners begin with the [OHS Act course](/courses/ohs-act) at R650 and [SHE Rep](/courses/health-and-safety-representative) at R600, then build from there. See the full list on the [courses page](/courses) and send your enquiry through the [contact page](/contact).",
+      "RSTL Centre trains at its Midrand, Durban and Mthatha centres and on site nationally, Monday to Friday, 08:00 to 16:30, with Saturday sessions by arrangement.",
+    ],
+    sections: [
+      {
+        heading: "The Two Routes Into Health and Safety Work",
+        paragraphs: [
+          "The short course route builds competence one topic at a time, and it suits someone already working who wants to formalise their role or move into a safety position. The formal route is a multi year qualification at a university or a TVET college, and it suits school leavers and people aiming at senior or specialist roles.",
+          "Both routes are legitimate, and neither is a shortcut around the other. The short route gets you useful on day one, because the topics map directly onto the tasks a safety officer handles in a normal week. The formal route gives you depth, theory and a qualification that opens doors in larger organisations and specialist fields.",
+          "An employer mixing a night shift, a construction site and a retail floor will take a capable person with practical short course training. A mining house or a large state enterprise may insist on a full qualification for the same title. Know which of those employers you are aiming at before you spend the money.",
+        ],
+      },
+      {
+        heading: "Route One: The Short Course Route",
+        paragraphs: [
+          "The short course route starts with the OHS Act, one day at R650, then SHE Rep, one day at R600, Risk Assessment HIRA, one day at R700, Accident and Incident Investigation, one day at R700, and COIDA, one day at R650. The final step is the Safety Officer Skills Programme, which runs 10 days at R7,900.",
+          "Each course is one day, which is the point. You can build the set over successive weeks without leaving your job, and each one has value on its own. The OHS Act gives you the framework, SHE Rep shows you how the workplace structure works, HIRA teaches you to assess risk, and the investigation and COIDA courses cover what happens after something goes wrong.",
+          "The Safety Officer Skills Programme pulls those pieces together across 10 days. It suits a working person who is already carrying safety duties informally, or who wants to move into a safety role from a supervisory or maintenance background.",
+        ],
+      },
+      {
+        heading: "Route Two: The Formal Qualification Route",
+        paragraphs: [
+          "The formal route is a multi year qualification at a university or a TVET college. Study runs over years rather than days, and the entrance requirements are set by the institution, usually starting with a school leaving qualification. It suits a school leaver, and it suits someone aiming at a senior or specialist role.",
+          "Published prices seen in search results on 10 September 2026 give a rough picture of the market. Unisa lists R7,200, iQ Academy lists R9,900, and SafetyCloud lists R4,140 for a programme. These are published prices from the providers at that date, not a survey and not an average, and they change.",
+          "The formal route takes longer before you are working in the field, and it costs more overall. What it buys is a credential that carries weight in sectors where a qualification is a hiring condition rather than a preference.",
+        ],
+      },
+      {
+        heading: "Comparing the Two Routes",
+        paragraphs: [
+          "The table below compares the two routes on the four things people ask about first: time, cost, entry requirements and who each one suits. Read it against your own situation, because the honest answer for a working parent is often different from the answer for a school leaver.",
+          "Costs and durations change, so confirm current figures with the provider or institution before you commit.",
+        ],
+        table: {"head": ["Route", "Time", "Cost", "Entry requirements", "Who it suits"], "rows": [["Short course route", "One day per course; the Safety Officer Skills Programme runs 10 days", "OHS Act R650, SHE Rep R600, Risk Assessment HIRA R700, Accident and Incident Investigation R700, COIDA R650, and the Safety Officer Skills Programme R7,900", "Basic literacy and numeracy, with no prior qualification needed", "People already working who want to formalise their role or move into a safety position"], ["Formal qualification route", "A multi year programme at a university or TVET college", "Published prices seen in search results on 10 September 2026 include Unisa at R7,200, iQ Academy at R9,900 and SafetyCloud at R4,140 for a programme", "A school leaving qualification, plus the institution's own admission rules", "School leavers, and people aiming at senior or specialist roles"]]},
+      },
+      {
+        heading: "What Employers Actually Look For",
+        paragraphs: [
+          "Employers look for someone who can read the OHS Act and apply it on a real site, run a risk assessment, investigate an incident properly, keep records that survive an audit, and communicate with both a crew and a manager. A certificate earns the interview. The ability to do those five things earns the job.",
+          "Practical extras carry weight too. Valid first aid training helps, because the officer is often the first trained person on the floor. Basic computer literacy matters, because safety files, registers and reports now live in files rather than filing cabinets. Experience in the sector the employer operates in, even from an unrelated role, is often worth more than an extra certificate.",
+          "Softer skills are not soft in this job. A safety officer who cannot get a supervisor to change a habit will fail at it no matter how good the paperwork is. Being able to explain why a fix matters, without turning it into a fight, is a real requirement.",
+        ],
+      },
+      {
+        heading: "What Your First Year Actually Looks Like",
+        paragraphs: [
+          "The first year is mostly records, inspections and follow up. You keep the safety file current, do routine inspections, arrange medicals and training, sit in on investigations, and chase corrective actions that other people own. You will spend more time on paperwork than on stopping dramatic hazards on the floor.",
+          "That is not a disappointment, it is the foundation. Once you know the records and the workplace, you get pulled into risk assessments, planning and contractor checks. The officers who last are the ones who treated the first year as learning the site rather than waiting for a title.",
+        ],
+      },
+      {
+        heading: "Check the Cost and Duration Before You Commit",
+        paragraphs: [
+          "Costs and durations change, so confirm current figures with the provider before you commit. The RSTL Centre course prices above are its published prices, and the formal route figures are published prices seen in search results on 10 September 2026. Treat both as a starting point and ask for a current quote or an updated fee schedule.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "How do I become a safety officer in South Africa?", a: "You can take the short course route, starting with the OHS Act, SHE Rep, Risk Assessment HIRA, Accident and Incident Investigation and COIDA, then the Safety Officer Skills Programme. Or you can complete a multi year qualification at a university or TVET college. The right route depends on your situation." },
+      { q: "Do I need matric to become a safety officer?", a: "Not for the short course route, which asks only for basic literacy and numeracy. A formal qualification at a university or TVET college does expect a school leaving qualification and applies its own admission rules. Check the specific institution before you apply." },
+      { q: "How long does it take to become a safety officer?", a: "On the short course route, each course is one day, and the Safety Officer Skills Programme runs 10 days, so a working person can build the set over successive weeks. The formal route runs over multiple years. How quickly you can start working depends on the route and the jobs you apply for." },
+      { q: "Can I become a safety officer without experience?", a: "You can start training without it, and many people move into safety from supervisory, maintenance or plant roles. What hiring managers weigh is your practical ability to do the work, so short course training plus any site experience is a stronger combination than training alone." },
+      { q: "What is the Safety Officer Skills Programme?", a: "It is RSTL Centre's 10 day programme at R7,900. It builds on the individual short courses, including the OHS Act, SHE Rep, Risk Assessment HIRA, Accident and Incident Investigation and COIDA, and pulls them into a single programme for people moving into a safety role." },
+      { q: "Is a short course enough, or do I need a diploma?", a: "It depends on the employer. Short course training is enough for many workplaces, especially smaller operations and contractor roles. A formal qualification carries more weight in large organisations and specialist fields where a diploma is a hiring condition rather than a preference." },
+      { q: "Will the course get me a job?", a: "No course can promise a job, and anyone who does is overselling. Training gives you the knowledge and the certificate that employers ask about. Getting hired also depends on experience, the sector, your communication skills and the market at the time." },
+    ],
+    closingHeading: "Book Safety Officer Training With RSTL Centre",
+    courseLinks: [
+      { href: "/courses/safety-officer-skills-programme", label: "Safety Officer Skills Programme" },
+      { href: "/courses/ohs-act", label: "OHS Act course" },
+      { href: "/courses/health-and-safety-representative", label: "SHE Rep" },
+    ],
+  },
+  {
+    slug: "coida-claim-process-employers",
+    title: "COIDA Claim Process for Employers: What to Do After a Workplace Injury",
+    metaTitle: "COIDA Claim Process for Employers: Step by Step",
+    metaDescription: "The COIDA claim process for employers, step by step: the 7 day injury reporting deadline, the claim number, the records to keep and the W.As.8 deadline.",
+    primaryKeyword: "coida claim process",
+    secondaryKeywords: ["how to claim from coida", "report injury on duty", "coida claim", "compensation fund"],
+    category: "Compliance",
+    date: "2026-09-28",
+    readMinutes: 7,
+    excerpt: "An employer must report an injury on duty to the Compensation Fund within 7 days, and an occupational disease within 14 days. Here is the process and the deadlines that matter.",
+    intro: [
+      "The COIDA claim process begins with a deadline almost no employer hears about until it has passed. An employer must report an injury on duty to the Compensation Fund within 7 days of receiving notice of it. An occupational disease must be reported within 14 days.",
+      "That rule sits inside a 53 page government booklet, which is why it stays hidden. Most employers only find it when an employee is already at a clinic and someone is asking for paperwork.",
+      "This guide walks through the process from the employer side. It covers the day of the injury, the medical care, the online report, the claim number, the records to keep, and the annual paperwork that keeps the account in good standing.",
+    ],
+    closing: [
+      "If your team handles injuries without a clear process, the fix is training rather than paperwork. RSTL Centre runs [COIDA](/courses/coida) for one day at R650 and [Accident and Incident Investigation](/courses/accident-and-incident-investigation) for one day at R700. We train at our centres in Midrand, Durban and Mthatha, or on site at your premises anywhere in the country, so a whole team can be brought up to the same standard in one visit. See the full [course list](/courses) or [contact us](/contact) to book, and if your supervisors need the wider legal framework first, the [OHS Act course](/courses/ohs-act) is the natural starting point.",
+    ],
+    sections: [
+      {
+        heading: "What to do on the day of an injury",
+        paragraphs: [
+          "Your first duty on the day of an injury is the safety of the person, not the paperwork. Get the employee to the right medical care, make the scene safe, and record what happened and when. Then start the clock, because the 7 day reporting period runs from the moment you receive notice.",
+          "Notice arrives in several ways. The employee tells a supervisor, a colleague reports it, or a clinic phones the site. All of them count. The moment someone with authority in your business knows about the injury, the deadline is live.",
+          "Write down the basics immediately while they are fresh. Take the employee name and job, the time and place, the task being performed, who witnessed it, and which part of the body was injured. This becomes the raw material for both the report to the Fund and your own investigation.",
+          "Do not wait for the full picture before you act. Treat the employee first, then assemble the facts in the order they arrive.",
+        ],
+      },
+      {
+        heading: "Reporting the injury to the Compensation Fund",
+        paragraphs: [
+          "Claims are reported through the Compensation Fund online claim system. The claim number is generated once the injury is reported and the information uploaded. Keep that number safe, because every medical account, follow up and query ties back to it.",
+          "The system needs your registration details, the employee particulars, the date and nature of the injury, and the medical information that follows. If the business is not registered, the report cannot be processed. That is the second reason registration matters from day one.",
+          "An employer must register with the Compensation Fund within 7 days of employing a first employee. Small businesses often treat registration as something to do later. It is not. Until you are registered, there is no account for a claim to land on.",
+          "The same discipline applies to an occupational disease, where the period is 14 days from receiving notice. Conditions that develop over time, such as hearing loss or a respiratory illness linked to the workplace, fall into this category.",
+        ],
+      },
+      {
+        heading: "The deadlines that matter",
+        paragraphs: [
+        ],
+        table: {"head": ["What must happen", "Deadline"], "rows": [["Register with the Compensation Fund", "Within 7 days of employing a first employee"], ["Report an injury on duty", "Within 7 days of receiving notice"], ["Report an occupational disease", "Within 14 days of receiving notice"], ["Submit the Return of Earnings (W.As.8)", "Not later than 31 March"], ["Pay the assessment", "Within 30 days of invoice"], ["Penalty if the account is not settled", "10%"]]},
+      },
+      {
+        heading: "What the employee is entitled to",
+        paragraphs: [
+          "COIDA exists to compensate employees who are injured on duty or who contract an occupational disease because of their work. The claim is assessed and paid by the Fund rather than by the employer directly, which is exactly why the reporting duties sit with you.",
+          "What an individual claim is worth is set by the Act and determined by the Fund. Do not guess at a figure in front of an employee, and do not promise an amount. Tell the employee that a claim has been lodged, give them the claim number, and let the Fund process it.",
+          "Your job is to make the claim easy to work through. A clean report, correct details and prompt medical paperwork do far more for the employee than any estimate you could offer on the day.",
+        ],
+      },
+      {
+        heading: "The Return of Earnings and the assessment",
+        paragraphs: [
+          "The Return of Earnings form, W.As.8, is due not later than 31 March. It declares your payroll so the Fund can calculate what you owe for the year, and it has to be filed even in a year with no injuries at all.",
+          "Once the assessment is issued, payment is due within 30 days of invoice. If the account is not settled, a 10% penalty applies. That penalty is avoidable, and the businesses that pay it are usually the ones that filed late and then let the invoice sit.",
+          "Treat the Return of Earnings as a diary item rather than a January surprise. Reconcile your payroll figures before the deadline and file early enough that a query can still be answered.",
+        ],
+      },
+      {
+        heading: "Why the incident investigation report makes the claim simple",
+        paragraphs: [
+          "A competent incident investigation is what turns a messy event into a claim that moves. The report explains what happened, why it happened and what changed afterwards, in a form that still reads clearly months later. It is the record the Fund, the insurer and your own safety file all lean on.",
+          "Where no investigation exists, the report to the Fund leans on memory and assumption. Details drift, witnesses move on, and the claim gets queried. Where a proper investigation was done, the facts are already written down and dated.",
+          "Accident and Incident Investigation is a one day course at R700. Employers who send a supervisor or safety officer on it usually find the COIDA side becomes routine, because the same report serves the Fund, the insurer and the internal record.",
+        ],
+      },
+      {
+        heading: "What happens if reporting is late",
+        paragraphs: [
+          "Late reporting does not make the injury disappear, but it makes everything harder. The employee waits longer, the medical accounts pile up, and the Fund has more reason to query an event it hears about weeks after it happened. It also puts a strain on the relationship with the employee who was hurt.",
+          "The practical fix is a simple internal rule. Any injury that needs more than basic first aid goes to the employer nominated person the same day, and that person starts the report immediately rather than waiting for the week to end.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "How long does an employer have to report an injury on duty?", a: "Seven days from receiving notice of the injury. The clock starts when someone in the business learns about it, not when the injury occurred. Report through the Compensation Fund online claim system and keep the confirmation." },
+      { q: "How long does an employer have to report an occupational disease?", a: "Fourteen days from receiving notice. Occupational diseases develop over time, so the trigger is the point at which the employer becomes aware of the condition link to work, not the first day of exposure." },
+      { q: "When must a business register with the Compensation Fund?", a: "Within 7 days of employing a first employee. Registration creates the account that any future claim attaches to, so it should be done before the first person starts work rather than at the first injury." },
+      { q: "What is a claim number and when is it generated?", a: "The claim number is the reference the Fund creates for the claim. It is generated once the injury is reported and the information uploaded on the online claim system. Every medical account and query is tied to it." },
+      { q: "When is the Return of Earnings due and what is the penalty?", a: "The Return of Earnings form, W.As.8, is due not later than 31 March. The assessment is payable within 30 days of invoice. A 10% penalty applies if the account is not settled." },
+      { q: "What happens if the report is late?", a: "The claim is delayed and more likely to be queried, and the employee waits longer for the Fund to process it. Late reporting also leaves an obvious weakness in your records if the matter is examined later." },
+      { q: "What records should an employer keep for a COIDA claim?", a: "Keep the notice of injury, the investigation report, medical reports, the uploaded claim details, the claim number correspondence, the Return of Earnings, and proof of assessment payment. Store them together so the file can be produced in one place." },
+    ],
+    closingHeading: "Book COIDA and incident investigation training",
+    courseLinks: [
+      { href: "/courses/coida", label: "COIDA" },
+      { href: "/courses/accident-and-incident-investigation", label: "Accident and Incident Investigation" },
+      { href: "/courses/ohs-act", label: "OHS Act course" },
+    ],
+  },
+  {
+    slug: "health-and-safety-training-cost-south-africa",
+    title: "How Much Does Health and Safety Training Cost in South Africa? (2026 Guide)",
+    metaTitle: "What Health and Safety Training Costs in SA",
+    metaDescription: "How much does safety training cost in South Africa in 2026? Real published prices, what makes quotes differ, and how to read a training quote properly.",
+    primaryKeyword: "how much does safety training cost",
+    secondaryKeywords: ["health and safety course prices south africa", "safety officer course price", "first aid course price", "safety training prices"],
+    category: "Cost",
+    date: "2026-09-28",
+    readMinutes: 8,
+    excerpt: "Real published South African safety training prices for 2026, from R600 for a one day short course to R7,900 for a ten day programme, plus how to compare quotes honestly.",
+    intro: [
+      "If you are asking how much does safety training cost in South Africa, the short answer is that it runs from a few hundred rand for a one day short course to several thousand for a programme or a machine operator certificate.",
+      "That range is wide because the courses are not the same product. A one day awareness course and a ten day skills programme do different things, and a price comparison only makes sense once you know what each one contains.",
+      "Below are our published prices in one table, what makes prices move between providers, the prices other providers publish, and how to read a quote so you compare on substance rather than on the headline number.",
+    ],
+    closing: [
+      "If you want a number for your own team, start with the full [course list](/courses) and then [contact us](/contact) with the course, the group size and the location. For the two courses most employers book first, see the [Health and Safety Representative course](/courses/health-and-safety-representative) at R600 and the [Safety Officer Skills Programme](/courses/safety-officer-skills-programme) at R7,900 for ten days. One booking email is all it takes to get a quote.",
+    ],
+    sections: [
+      {
+        heading: "Our published prices for 2026",
+        paragraphs: [
+          "Our one day short courses run from R600 to R800. Machine operator courses run from R1,250 up to R4,500 depending on the machine and the time it needs. The Traffic Safety Officer course is R2,800 for three days, and the Safety Officer Skills Programme is R7,900 for ten days.",
+          "Courses marked to quote are priced after we know the machine, the site and the group size. Where we do not publish a price for a course, ask for a quote rather than assuming a number.",
+        ],
+        table: {"head": ["Course", "Duration", "Price"], "rows": [["Health and Safety Representative (SHE Rep)", "1 day", "R600"], ["Occupational Health and Safety (OHS) Act", "1 day", "R650"], ["First Aid Level 1", "1 day", "R650"], ["First Aid Level 2", "1 day", "R650"], ["First Aid Level 3", "1 day", "R650"], ["Basic Firefighting", "1 day", "R650"], ["Fire Marshal", "1 day", "R650"], ["Fire Equipment Inspector", "1 day", "R650"], ["COIDA", "1 day", "R650"], ["Emergency Evacuation Training", "1 day", "R650"], ["Risk Assessment (HIRA)", "1 day", "R700"], ["Accident and Incident Investigation", "1 day", "R700"], ["Working at Heights", "1 day", "R700"], ["Fall Protection Planning", "1 day", "R700"], ["Scaffolding Erector", "1 day", "R700"], ["Scaffolding Inspector", "1 day", "R700"], ["Flagman (Stop and Go)", "1 day", "R700"], ["Chemical Hazards (HAZCHEM)", "1 day", "R800"], ["Convey Dangerous Goods by Road", "1 day", "R800"], ["Hand and Power Tools Safety", "1 day", "R800"], ["Chain Saw Operator", "1 day", "R1,250"], ["Forklift Operator", "To quote", "R1,500"], ["Traffic Safety Officer", "3 days", "R2,800"], ["TLB Operator", "To quote", "R4,500"], ["Safety Officer Skills Programme", "10 days", "R7,900"]]},
+      },
+      {
+        heading: "What makes prices differ between providers",
+        paragraphs: [
+          "Five things move the price of the same course name: accreditation, class size, whether assessment and certification are included, whether the trainer travels to your site, and machine time. Two providers can advertise the same title at very different prices because they are not selling the same thing.",
+          "Accreditation costs a provider money, and a buyer doing municipal or provincial work usually needs accreditation letters as a mandatory condition. Class size matters too. A small group gets more facilitator time than a hall of forty.",
+          "Assessment and certification are sometimes extras rather than part of the quoted fee. Machine courses carry real costs that classroom courses do not, because a forklift or a TLB has to be available, fuelled and maintained for practical time.",
+        ],
+      },
+      {
+        heading: "What other providers publish",
+        paragraphs: [
+          "Published prices vary widely by course. In search results seen on 10 September 2026, SHE Rep training was advertised by NOSA at R2,950 and Funda Institute at R800. Basic Firefighting was listed by St John at R295, and St John First Aid from R239 up to R1,490, while Absolute Health listed First Aid at R975.",
+          "On the safety officer side, published prices included SafetyCloud at R4,140 for a programme, Unisa at R7,200 and iQ Academy at R9,900. Machine operator training was advertised by small academies across a range from R600 to R4,500.",
+          "These are published prices seen in search results, not a survey, and they are not an average. They are worth reading as a spread rather than a benchmark, because each one is attached to different content, duration and delivery.",
+        ],
+      },
+      {
+        heading: "How to read a training quote",
+        paragraphs: [
+          "Read a quote by asking five questions. Which unit standards are covered, what assessment and certification cost on top, who the facilitator and assessor are, whether the price is per person or per group, and what the learner receives at the end.",
+          "The headline number alone tells you very little. A low price that excludes assessment, certification and learning material is often more expensive than a higher price that includes them. Ask for the total cost per learner, not the advertised course fee.",
+          "Ask whether the quote is per person or per group as well. For a small team, a group rate can move the number more than haggling over the course fee, and it is the question most buyers forget to ask.",
+        ],
+      },
+      {
+        heading: "Group bookings and on site delivery",
+        paragraphs: [
+          "Group bookings are negotiable, and training can be delivered on site at your premises. For a team, on site delivery removes travel and accommodation cost for every delegate, which often matters more than the per head course fee. That is the figure worth testing first when you are costing a group.",
+          "When a whole team travels to a centre, the invoice includes more than the course. There are travel days, accommodation and lost working time. Training on your own site keeps the team in one place and lets the trainer work with your actual equipment and layout.",
+          "The same logic applies anywhere in the country. RSTL Centre has training centres in Midrand, Durban and Mthatha, and can deliver on site nationally. For a group booking, tell us the team size, the site and the dates, and we will quote on that basis.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "How much does a SHE Rep course cost?", a: "RSTL Centre charges R600 for the one day Health and Safety Representative course. Other providers publish different prices for the same course, including NOSA at R2,950 and Funda Institute at R800 in search results seen on 10 September 2026." },
+      { q: "How much does a first aid course cost?", a: "RSTL Centre charges R650 for each of First Aid Level 1, Level 2 and Level 3, per learner, for one day. St John listed First Aid from R239 up to R1,490 in published search results seen on 10 September 2026, and Absolute Health listed R975." },
+      { q: "Why does a safety officer course cost more than a short course?", a: "The Safety Officer Skills Programme runs for ten days at R7,900, so it is priced for far more contact time and content than a one day course. Programmes published by other providers included SafetyCloud at R4,140, Unisa at R7,200 and iQ Academy at R9,900." },
+      { q: "Why are machine operator courses more expensive?", a: "Machine courses need the machine, fuel, maintenance and practical time, not just a classroom. Our Forklift Operator course is R1,500 and the TLB Operator course is R4,500, with the final price confirmed by quote once the machine and site are clear." },
+      { q: "Can you train my whole team on site?", a: "Yes. Training can be delivered at your premises, which removes travel and accommodation cost for every delegate. Group bookings are negotiable. RSTL Centre trains at Midrand, Durban and Mthatha and can deliver on site nationally." },
+      { q: "How do I compare quotes from different providers?", a: "Compare on what is included, not on the headline number. Check whether assessment, certification and learning material are in the price, the class size, whether the quote is per person or per group, and the accreditation behind the certificate." },
+      { q: "How do I check that a provider is accredited?", a: "Ask for the accreditation and verify it before you book. Municipal and provincial tenders for this training commonly require accreditation letters as a mandatory condition. RSTL Centre states its accreditation on its course pages, and it is fair to ask any provider to do the same." },
+    ],
+    closingHeading: "Get a course price and a quote",
+    courseLinks: [
+      { href: "/courses/health-and-safety-representative", label: "Health and Safety Representative course" },
+      { href: "/courses/safety-officer-skills-programme", label: "Safety Officer Skills Programme" },
+    ],
+  },
+  {
     slug: "machine-plant-operator-training-mthatha",
     title: "Machine and Plant Operator Training in Mthatha: Forklift, TLB, Excavator and Grader",
     metaTitle: "Machine and Plant Operator Training in Mthatha",

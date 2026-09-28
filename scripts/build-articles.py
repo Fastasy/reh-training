@@ -63,6 +63,10 @@ PUBLISHED: list[tuple[str, str]] = [
     ("2026-09-rstl-06-first-aid-emergency-training-schools-creches.md", "2026-09-21"),
     ("2026-09-rstl-07-occupational-medicals-mthatha.md", "2026-09-21"),
     ("2026-09-rstl-08-working-at-heights-certificate-validity-south-africa.md", "2026-09-21"),
+    ("2026-09-rstl-11-incident-investigation-report-template-south-africa.md", "2026-09-28"),
+    ("2026-09-rstl-12-how-to-become-a-safety-officer-south-africa.md", "2026-09-28"),
+    ("2026-09-rstl-13-coida-claim-process-employers.md", "2026-09-28"),
+    ("2026-09-rstl-14-health-and-safety-training-cost-south-africa.md", "2026-09-28"),
 ]
 
 FAQ_HEADINGS = {"frequently asked questions", "faqs"}
