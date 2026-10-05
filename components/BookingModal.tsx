@@ -55,13 +55,16 @@ export function BookingProvider({ children }: { children: ReactNode }) {
   const [timeline, setTimeline] = useState(TIMELINE_OPTIONS[0]);
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [sent, setSent] = useState(false);
+  const [stored, setStored] = useState(false);
   const [submitting, setSubmitting] = useState(false);
+  const [website, setWebsite] = useState(""); // honeypot: stays empty for people
 
   const panelRef = useRef<HTMLDivElement>(null);
 
   const openBooking = useCallback((course?: string) => {
     setRows(course ? [{ course, count: "" }] : [{ ...EMPTY_ROW }]);
     setSent(false);
+    setStored(false);
     setErrors({});
     setOpen(true);
   }, []);
@@ -170,11 +173,12 @@ export function BookingProvider({ children }: { children: ReactNode }) {
     // Step 1: store the lead server-side. This is what makes the conversion real
     // -- previously the only thing "quote_request" proved was that the visitor's
     // mail client opened, which is not a lead and was never recorded anywhere.
-    // The request is capped at 4s so a slow API can never hold the visitor's email
-    // handoff hostage.
-    let stored = false;
+    // The request is capped at 8s so a slow API can never hold the visitor's
+    // confirmation hostage, while still leaving room for a slow Blob write.
+    let saved = false;
+    let emailed = false;
     const controller = new AbortController();
-    const timer = setTimeout(() => controller.abort(), 4000);
+    const timer = setTimeout(() => controller.abort(), 8000);
     try {
       const res = await fetch("/api/quote", {
         method: "POST",
@@ -195,28 +199,42 @@ export function BookingProvider({ children }: { children: ReactNode }) {
           training_matrix: fileName || null,
           training_location: trainingLocation.trim(),
           timeline,
+          website,
           landing_page: window.location.pathname,
         }),
         signal: controller.signal,
       });
-      stored = res.ok;
+      if (res.ok) {
+        saved = true;
+        const data = (await res.json().catch(() => ({}))) as { email?: string };
+        emailed = data.email === "queued";
+      }
     } catch {
-      stored = false;
+      saved = false;
     } finally {
       clearTimeout(timer);
     }
 
     // Only a stored lead counts as the primary conversion. If the lead could not be
-    // saved the visitor still gets their email handoff, but the failure is reported
-    // as its own event rather than silently inflating the conversion count.
-    pushEvent(stored ? "quote_request" : "quote_request_unconfirmed", {
+    // saved the failure is reported as its own event rather than silently inflating
+    // the conversion count.
+    pushEvent(saved ? "quote_request" : "quote_request_unconfirmed", {
       ...conversionProps,
-      stored_server_side: stored,
+      stored_server_side: saved,
+      office_emailed: emailed,
     });
 
-    // Step 2: the client's email workflow, unchanged -- fires either way.
-    window.dispatchEvent(new CustomEvent("reh:quote", { detail: url }));
-    window.location.href = url;
+    // Step 2: only if the server did not send the notification itself. The server emails
+    // the office now, so opening the visitor's mail client on success would deliver the
+    // same enquiry twice. Until RESEND_API_KEY is configured the server reports
+    // "not_configured" and we keep the old handoff, so this change can ship safely
+    // before the key exists and flips over on its own once it does.
+    if (!saved || !emailed) {
+      window.dispatchEvent(new CustomEvent("reh:quote", { detail: url }));
+      window.location.href = url;
+    }
+
+    setStored(saved && emailed);
     setSent(true);
     setSubmitting(false);
   };
@@ -248,8 +266,8 @@ export function BookingProvider({ children }: { children: ReactNode }) {
             <div>
               <h2 className="font-display text-xl text-charcoal">Request a Booking Quotation</h2>
               <p className="text-xs text-charcoal/60">
-                We&apos;ll open your email app with your details pre-filled to{" "}
-                <span className="font-semibold text-charcoal">{RSTL_EMAIL}</span>. A training advisor replies fast.
+                We&apos;ll email your details straight to our training advisors at{" "}
+                <span className="font-semibold text-charcoal">{RSTL_EMAIL}</span>. A quotation follows fast.
               </p>
             </div>
             <button
@@ -272,18 +290,33 @@ export function BookingProvider({ children }: { children: ReactNode }) {
                   <path d="M20 6L9 17l-5-5" />
                 </svg>
               </div>
-              <h3 className="mt-4 font-display text-xl text-charcoal">Your email app should be opening now</h3>
+              <h3 className="mt-4 font-display text-xl text-charcoal">
+                {stored ? "Request received" : "Your email app should be opening now"}
+              </h3>
               <p className="mt-2 text-sm text-charcoal/70">
-                Attach your training matrix if you have one, then hit send. If your email app
-                didn&apos;t open, email{" "}
-                <a
-                  href={`mailto:${RSTL_EMAIL}?subject=Training%20Quotation%20Request`}
-                  onClick={(e) => e.stopPropagation()}
-                  className="font-semibold text-brand"
-                >
-                  {RSTL_EMAIL}
-                </a>{" "}
-                directly with your details.
+                {stored ? (
+                  <>
+                    Your details are with our training advisors and a quotation is on its
+                    way. If it&apos;s urgent, call{" "}
+                    <a href="tel:+271****6954" onClick={(e) => e.stopPropagation()} className="font-semibold text-brand">
+                      010 746 6954
+                    </a>
+                    .
+                  </>
+                ) : (
+                  <>
+                    Attach your training matrix if you have one, then hit send. If your
+                    email app didn&apos;t open, email{" "}
+                    <a
+                      href={`mailto:${RSTL_EMAIL}?subject=Training%20Quotation%20Request`}
+                      onClick={(e) => e.stopPropagation()}
+                      className="font-semibold text-brand"
+                    >
+                      {RSTL_EMAIL}
+                    </a>{" "}
+                    directly with your details.
+                  </>
+                )}
               </p>
               <button
                 type="button"
@@ -295,6 +328,25 @@ export function BookingProvider({ children }: { children: ReactNode }) {
             </div>
           ) : (
             <form onSubmit={handleSubmit} noValidate className="space-y-5 px-6 py-6">
+              {/* Honeypot. Invisible to people, filled by naive bots. The API stores
+                  nothing and answers 201 when it has a value, so junk never reaches
+                  the inbox the office now gets emailed into. */}
+              <div
+                className="pointer-events-none absolute left-[-9999px] top-0 h-0 w-0 overflow-hidden opacity-0"
+                aria-hidden="true"
+              >
+                <label htmlFor="bm-website">Website</label>
+                <input
+                  id="bm-website"
+                  name="website"
+                  type="text"
+                  tabIndex={-1}
+                  autoComplete="off"
+                  value={website}
+                  onChange={(e) => setWebsite(e.target.value)}
+                />
+              </div>
+
               {/* contact person */}
               <Field label="Contact Person" required error={errors.contactPerson}>
                 <input
@@ -481,7 +533,7 @@ export function BookingProvider({ children }: { children: ReactNode }) {
                   <rect x="3" y="5" width="18" height="14" rx="2" />
                   <path d="M3 7l9 6 9-6" />
                 </svg>
-                Send Quotation Request via Email
+                Send Quotation Request
               </button>
               <p className="text-center text-xs text-charcoal/50">
                 Prefer to talk? Call{" "}

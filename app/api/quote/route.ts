@@ -1,43 +1,29 @@
-import { NextResponse } from "next/server";
+import { NextResponse, after } from "next/server";
 import { list, get, put } from "@vercel/blob";
+import { isEmailConfigured, sendLeadEmail } from "@/lib/email";
+import type { LeadRecord } from "@/lib/leads";
 
-// Quote API -- server-side lead capture (added 2026-09-10).
+// Quote API -- server-side lead capture + office notification.
 //
-// Before this route existed the booking modal and the contact-page form only opened
-// a mailto: link. That made "a conversion" mean "the visitor's mail client opened",
-// which is not a lead: nothing was recorded anywhere, and if their mail app failed
-// the enquiry was lost with no trace. Now the form POSTs here first, the lead is
-// stored in Vercel Blob, and only a 201 response fires the quote_request conversion
-// that Google Ads bids on.
+// Two problems this solves, in order of severity.
 //
-// POST /api/quote -> store a lead (honeypot + validation)
-// GET  /api/quote -> list stored leads; requires Authorization: Bearer $QUOTE_ADMIN_TOKEN
+// 1. (2026-09-10) Before this route existed the booking modal and the contact-page form
+//    only opened a mailto: link. That made "a conversion" mean "the visitor's mail
+//    client opened", which is not a lead: nothing was recorded anywhere, and if their
+//    mail app failed the enquiry was lost with no trace. Now the form POSTs here first,
+//    the lead is stored in Vercel Blob, and only a 201 response fires the quote_request
+//    conversion that Google Ads bids on.
 //
-// The client's email workflow is deliberately unchanged: the browser still opens
-// the mailto: handoff after posting, so nothing about how the office works moves.
-// This route is the safety net, not a replacement.
+// 2. (2026-10-05) Storing the lead was not the same as telling anyone about it. The
+//    client still depended entirely on the visitor's device having a mail app and
+//    pressing send, so his enquiries arrived by luck. Now the office is emailed
+//    directly from the server (via after(), so the visitor never waits on it) and the
+//    mailto: handoff in the browser is only a fallback for a failed store.
+//
+// POST /api/quote -> store a lead (honeypot + validation) and email the office
+// GET  /api/quote -> list stored leads; requires Authorization: Bearer $QUOTE...OKEN
 
-type CourseRow = { course: string; count: string };
-
-type QuoteRecord = {
-  id: string;
-  source: string;
-  contact_name: string;
-  contact_person: string | null;
-  first_name: string | null;
-  last_name: string | null;
-  phone: string;
-  email: string | null;
-  company: string | null;
-  company_location: string | null;
-  courses: CourseRow[];
-  training_matrix: string | null;
-  training_location: string | null;
-  timeline: string | null;
-  message: string | null;
-  landing_page: string | null;
-  created_at: string;
-};
+type QuoteRecord = LeadRecord;
 
 function str(v: unknown, max: number): string {
   return String(v ?? "").trim().slice(0, max);
@@ -125,7 +111,7 @@ export async function POST(req: Request) {
   // Normalise the course rows. The booking modal sends a list of {course, count};
   // the contact-page form sends a single course string.
   const rawCourses = Array.isArray(body.courses) ? body.courses : [];
-  const courses: CourseRow[] = rawCourses
+  const courses: LeadRecord["courses"] = rawCourses
     .map((r) => {
       const row = (r ?? {}) as Record<string, unknown>;
       return { course: str(row.course, 120), count: str(row.count, 10) };
@@ -168,7 +154,6 @@ export async function POST(req: Request) {
       contentType: "application/json",
       addRandomSuffix: false,
     });
-    return NextResponse.json({ ok: true, id: rec.id }, { status: 201 });
   } catch (e) {
     // 502 tells the client to fire quote_request_unconfirmed instead of a
     // conversion: the visitor still gets their email handoff, but we must not
@@ -176,4 +161,23 @@ export async function POST(req: Request) {
     console.error("quote POST failed", e);
     return NextResponse.json({ error: "failed to save lead" }, { status: 502 });
   }
+
+  // The lead is safe on disk. Now tell the office -- but after the response, so a slow
+  // or failing mail provider can never delay the visitor's confirmation screen or turn
+  // a stored lead into an error. Failures are logged; the record is in Blob either way.
+  if (isEmailConfigured()) {
+    after(() => sendLeadEmail(rec));
+  } else {
+    console.warn(
+      `lead ${rec.id}: stored, but RESEND_API_KEY is unset so the office was not emailed`
+    );
+  }
+
+  // `email` reports whether a notification is wired up at all, which is what the client
+  // needs to decide what to say. The send itself is not awaited, so its outcome cannot
+  // be reported here -- Vercel logs carry it.
+  return NextResponse.json(
+    { ok: true, id: rec.id, email: isEmailConfigured() ? "queued" : "not_configured" },
+    { status: 201 }
+  );
 }

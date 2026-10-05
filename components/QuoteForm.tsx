@@ -22,7 +22,9 @@ export default function QuoteForm() {
   const [phone, setPhone] = useState("");
   const [course, setCourse] = useState(COURSE_OPTIONS[0]);
   const [message, setMessage] = useState("");
+  const [website, setWebsite] = useState(""); // honeypot: stays empty for people
   const [sent, setSent] = useState(false);
+  const [stored, setStored] = useState(false);
   const [submitting, setSubmitting] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -30,6 +32,9 @@ export default function QuoteForm() {
     if (submitting) return;
     setSubmitting(true);
 
+    // Only used on the fallback path: if the API is unreachable we hand this to the
+    // visitor's mail client. When the API works the server sends the email itself, so
+    // the office no longer depends on the visitor having a mail app at all.
     const subject = `Training Quotation Request - ${course}`;
     const text = [
       "Hi RSTL Centre,",
@@ -47,9 +52,13 @@ export default function QuoteForm() {
     // This form previously fired no analytics event at all, so every enquiry it
     // generated was invisible. Same treatment as the booking modal: capture the
     // lead server-side first, and only count a stored lead as the conversion.
-    let stored = false;
+    let saved = false;
+    let emailed = false;
     const controller = new AbortController();
-    const timer = setTimeout(() => controller.abort(), 4000);
+    // 8s rather than the original 4s: the server no longer sends the email inline (it
+    // runs in after()), so waiting a little longer costs the visitor nothing and makes
+    // a slow Blob write less likely to be misreported as a lost lead.
+    const timer = setTimeout(() => controller.abort(), 8000);
     try {
       const res = await fetch("/api/quote", {
         method: "POST",
@@ -60,24 +69,40 @@ export default function QuoteForm() {
           phone: phone.trim(),
           courses: [{ course, count: "" }],
           message: message.trim(),
+          website,
           landing_page: window.location.pathname,
         }),
         signal: controller.signal,
       });
-      stored = res.ok;
+      if (res.ok) {
+        saved = true;
+        const data = (await res.json().catch(() => ({}))) as { email?: string };
+        emailed = data.email === "queued";
+      }
     } catch {
-      stored = false;
+      saved = false;
     } finally {
       clearTimeout(timer);
     }
 
-    pushEvent(stored ? "quote_request" : "quote_request_unconfirmed", {
+    pushEvent(saved ? "quote_request" : "quote_request_unconfirmed", {
       source: "contact_form",
       course,
-      stored_server_side: stored,
+      stored_server_side: saved,
+      office_emailed: emailed,
     });
 
-    window.location.href = `mailto:${RSTL_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(text)}`;
+    if (!saved) {
+      // Nothing was stored, so the visitor's own mail client is the only route left.
+      window.location.href = `mailto:${RSTL_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(text)}`;
+    } else if (!emailed) {
+      // Stored, but the server has no mail credentials yet, so the office still relies on
+      // the visitor's email app. Keep the old handoff until the key is configured, rather
+      // than silently dropping the last delivery path we have.
+      window.location.href = `mailto:${RSTL_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(text)}`;
+    }
+
+    setStored(saved && emailed);
     setSent(true);
     setSubmitting(false);
   };
@@ -90,13 +115,28 @@ export default function QuoteForm() {
             <path d="M20 6L9 17l-5-5" />
           </svg>
         </div>
-      <h3 className="mt-4 font-display text-xl text-charcoal">Your email app should be opening now</h3>
+        <h3 className="mt-4 font-display text-xl text-charcoal">
+          {stored ? "Request received" : "Your email app should be opening now"}
+        </h3>
         <p className="mt-2 text-sm text-charcoal/70">
-          If nothing happened, email us directly at{" "}
-          <a href={`mailto:${RSTL_EMAIL}?subject=Training%20Quotation%20Request`} className="font-semibold text-brand">
-            {RSTL_EMAIL}
-          </a>{" "}
-          — a training advisor will get back to you fast.
+          {stored ? (
+            <>
+              Your details are with our training advisors and a quotation is on its way.
+              If it is urgent, call{" "}
+              <a href="tel:+271****6954" className="font-semibold text-brand">
+                010 746 6954
+              </a>
+              .
+            </>
+          ) : (
+            <>
+              If nothing happened, email us directly at{" "}
+              <a href={`mailto:${RSTL_EMAIL}?subject=Training%20Quotation%20Request`} className="font-semibold text-brand">
+                {RSTL_EMAIL}
+              </a>{" "}
+              — a training advisor will get back to you fast.
+            </>
+          )}
         </p>
       </div>
     );
@@ -105,8 +145,27 @@ export default function QuoteForm() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="space-y-4 rounded-2xl border border-line bg-paper p-6 shadow-lg shadow-charcoal/5 sm:p-8"
+      className="relative space-y-4 rounded-2xl border border-line bg-paper p-6 shadow-lg shadow-charcoal/5 sm:p-8"
     >
+      {/* Honeypot. People never see it; naive bots fill every input they find. The API
+          answers 201 and stores nothing when this has a value, so junk submissions never
+          reach the client's inbox now that the server sends the notification. */}
+      <div
+        className="pointer-events-none absolute left-[-9999px] top-0 h-0 w-0 overflow-hidden opacity-0"
+        aria-hidden="true"
+      >
+        <label htmlFor="q-website">Website</label>
+        <input
+          id="q-website"
+          name="website"
+          type="text"
+          tabIndex={-1}
+          autoComplete="off"
+          value={website}
+          onChange={(e) => setWebsite(e.target.value)}
+        />
+      </div>
+
       <h3 className="font-display text-xl text-charcoal">Request a Quote</h3>
       <p className="text-sm text-charcoal/70">
         Send your details and one of our training advisors will respond with pricing and available dates.
@@ -183,7 +242,7 @@ export default function QuoteForm() {
           <rect x="3" y="5" width="18" height="14" rx="2" />
           <path d="M3 7l9 6 9-6" />
         </svg>
-        Send via Email
+        Send Request
       </button>
       <p className="text-center text-xs text-charcoal/50">
         Prefer to call? <a href="tel:+27107466954" className="font-semibold text-charcoal/80">010 746 6954</a> (Midrand) ·{" "}
