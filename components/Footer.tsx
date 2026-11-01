@@ -124,12 +124,12 @@ export default function Footer() {
           <p>
             Website by{" "}
             <a
-              href="https://www.allegrodigital.co.za"
+              href="https://www.loadlinestudio.com"
               target="_blank"
               rel="noopener noreferrer"
               className="font-semibold text-cream/70 underline decoration-cream/30 underline-offset-2 transition-colors hover:text-white"
             >
-              Allegro Digital
+              Loadline Studio
             </a>
           </p>
         </div>
