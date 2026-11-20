@@ -7,8 +7,9 @@ import Footer from "@/components/Footer";
 import QuoteFloat from "@/components/QuoteFloat";
 import Tracking from "@/components/Tracking";
 import PostHogTracker from "@/components/PostHogTracker";
+import PageViewTracker from "@/components/PageViewTracker";
 import { BookingProvider } from "@/components/BookingModal";
-import { GTM_ID } from "@/lib/analytics";
+import { GTM_ID, GA_MEASUREMENT_ID } from "@/lib/analytics";
 import { SITE } from "@/lib/site";
 
 const workSans = Work_Sans({
@@ -111,8 +112,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','${GTM_ID}');`}
         </Script>
+        <Script id="ga4" strategy="afterInteractive"
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+        />
+        <Script id="ga4-init" strategy="afterInteractive">
+          {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());gtag('config','${GA_MEASUREMENT_ID}');`}
+        </Script>
         <Tracking />
         <PostHogTracker />
+        <PageViewTracker />
         <BookingProvider>
           <Header />
           <main className="flex-1">{children}</main>

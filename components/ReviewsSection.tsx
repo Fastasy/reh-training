@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { StarRating, StarInput } from "./StarRating";
 import { SAMPLE_REVIEWS } from "@/lib/sampleReviews";
+import { pushEvent, EVENTS } from "@/lib/analytics";
 
 export type Review = {
   id: number;
@@ -144,6 +145,11 @@ export default function ReviewsSection({
         setRating(0);
         setComment("");
         window.dispatchEvent(new CustomEvent("reh:review", { detail: { course: courseSlug || null, rating } }));
+        pushEvent(EVENTS.REVIEW_SUBMITTED, {
+          course: courseSlug || null,
+          rating,
+          stored: true,
+        });
       } else {
         // backend not live yet (pre-launch preview) -> add locally as a marked sample
         const local: Review = {
@@ -164,6 +170,11 @@ export default function ReviewsSection({
         setRating(0);
         setComment("");
         window.dispatchEvent(new CustomEvent("reh:review", { detail: { course: courseSlug || null, rating } }));
+        pushEvent(EVENTS.REVIEW_SUBMITTED, {
+          course: courseSlug || null,
+          rating,
+          stored: false,
+        });
       }
     } catch {
       setFormError("Something went wrong. Please try again.");

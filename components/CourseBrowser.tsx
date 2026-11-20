@@ -6,6 +6,7 @@ import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { COURSE_CATEGORIES, ALL_COURSES } from "@/lib/courses";
 import { categoryImage } from "@/lib/categoryImages";
 import CourseCard from "@/components/CourseCard";
+import { pushEvent, EVENTS } from "@/lib/analytics";
 
 const CATEGORY_IDS = COURSE_CATEGORIES.map((c) => c.id);
 
@@ -48,6 +49,9 @@ export default function CourseBrowser() {
     setActiveCat(id);
     setQuery("");
     router.replace(id ? `${pathname}?category=${id}` : pathname, { scroll: false });
+    pushEvent(EVENTS.COURSE_CATEGORY_FILTER, {
+      category: id || "all",
+    });
   };
 
   const results = useMemo(() => {
@@ -61,6 +65,20 @@ export default function CourseBrowser() {
         (c.duration.toLowerCase().includes(q) && q.length > 2)
     );
   }, [query]);
+
+  // Track course searches
+  const prevQuery = useRef(query);
+  useEffect(() => {
+    const trimmed = query.trim();
+    if (trimmed && trimmed !== prevQuery.current.trim()) {
+      const resultCount = results?.length ?? 0;
+      pushEvent(EVENTS.COURSE_SEARCH, {
+        query: trimmed.slice(0, 100),
+        result_count: resultCount,
+      });
+    }
+    prevQuery.current = query;
+  }, [query, results]);
 
   const activeCategory = COURSE_CATEGORIES.find((c) => c.id === activeCat) ?? null;
 
